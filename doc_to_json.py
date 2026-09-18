@@ -16,10 +16,18 @@ than guessed silently.
 """
 
 import json
+import os
 import re
 import sys
 import zipfile
 from pathlib import Path
+
+from dotenv import load_dotenv
+
+try:
+    import requests
+except ImportError:
+    requests = None
 
 try:
     from docx2python import docx2python
@@ -38,6 +46,13 @@ except ImportError:
 INPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\test"
 OUTPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\test"
 # ============================================================================
+
+load_dotenv()
+BEARER_TOKEN = os.getenv("BEARER_TOKEN")
+UPLOAD_IMAGES_URL = os.getenv(
+    "UPLOAD_IMAGES_URL",
+    "https://campus.psgtech.ac.in/dote/api/QuestionBank/UploadQuestionImages",
+)
 
 
 CATEGORY_HEADER_RE = re.compile(
@@ -68,7 +83,7 @@ def extract_subj_code(stem: str) -> str:
     return stem.split(" ", 1)[0]
 # docx2python inserts a placeholder like "----media/image1.emf----" (or .png,
 # .jpg, etc.) into extracted text wherever an embedded image sits in a cell.
-IMAGE_MARKER_RE = re.compile(r'----media/image\d+\.\w+----')
+IMAGE_MARKER_RE = re.compile(r'----media/(image\d+\.\w+)----')
 # A single-letter sub-answer label ("A.", "B)", etc.) as a whole table cell.
 LETTER_LABEL_RE = re.compile(r'^[A-Ea-e]\)?\.?$')
 # The marks-allocation grid's header row always starts with this cell,
@@ -153,6 +168,85 @@ def extract_embedded_media(docx_path: Path, out_dir: Path):
         return None, []
 
     return media_dir.name, extracted
+
+
+def upload_images_to_s3(image_paths):
+    """
+    POSTs local image files to UploadQuestionImages and returns
+    {local_filename: {"filePath": s3_key, "imageUrl": base_url}}.
+
+    ASSUMPTIONS (please verify / correct if wrong):
+    - Auth is the same BEARER_TOKEN used for SaveQuestion in json_to_db.py.
+    - The endpoint takes files as multipart/form-data under field name
+      "files" (array), confirmed via Swagger -- one part per file.
+    - The response's "images" list is in the SAME ORDER the files were
+      sent -- the server assigns each upload a new random filename (a
+      UUID-based S3 key), not the original filename, so there's no name
+      to match results back by; order is the only correlation available.
+    - The API's own imageUrl is a PRESIGNED URL valid for only ~900
+      seconds (15 min) -- caching that exact string in a JSON file meant
+      for later use would produce a dead link almost immediately. This
+      strips the "?X-Amz-..." query string and stores the durable base
+      S3 URL instead, on the assumption the bucket/object is otherwise
+      readable at that path without a fresh signature. VERIFY this by
+      opening one stored base URL (no query string) in a browser after
+      a real run -- if it 403s, the object is private and this approach
+      needs to change (e.g. re-requesting a signed URL at point of use
+      instead of caching one here).
+    """
+    if not image_paths or requests is None:
+        return {}
+
+    headers = {}
+    if BEARER_TOKEN:
+        headers["Authorization"] = f"Bearer {BEARER_TOKEN}"
+
+    files = [("files", (p.name, open(p, "rb"))) for p in image_paths]
+    try:
+        resp = requests.post(UPLOAD_IMAGES_URL, files=files, headers=headers, timeout=120)
+        if not resp.ok:
+            try:
+                err_data = resp.json()
+                msg = err_data.get("message", resp.text[:200])
+            except Exception:
+                msg = resp.text[:200]
+            if "token" in str(msg).lower():
+                print(f"    [INFO] S3 image upload skipped: server reported '{msg}' "
+                      f"(campus server's AWS credentials/token issue). "
+                      f"Images will be preserved locally and inlined as Base64 in json_to_db.py.")
+            else:
+                print(f"    [WARN] image upload failed: {resp.status_code} {resp.reason} -- {msg}")
+            return {}
+        result = resp.json()
+    except Exception as e:
+        print(f"    [WARN] image upload failed: {e}")
+        return {}
+    finally:
+        for _, (_, fh) in files:
+            fh.close()
+
+    if result.get("isError"):
+        msg = result.get("message", "")
+        if "token" in msg.lower():
+            print(f"    [WARN] image upload failed: campus server reported '{msg}' "
+                  f"(server-side AWS S3 credentials issue on campus backend). "
+                  f"Images will be preserved locally and inlined via json_to_db.py.")
+        else:
+            print(f"    [WARN] image upload reported error: {msg}")
+        return {}
+
+    returned = result.get("images", [])
+    if len(returned) != len(image_paths):
+        print(f"    [WARN] sent {len(image_paths)} image(s), got back {len(returned)} "
+              f"result(s) -- can't safely match them up, skipping URL attachment")
+        return {}
+
+    mapping = {}
+    for local_path, img in zip(image_paths, returned):
+        raw_url = img.get("imageUrl", "")
+        base_url = raw_url.split("?", 1)[0]
+        mapping[local_path.name] = {"filePath": img.get("filePath", ""), "imageUrl": base_url}
+    return mapping
 
 
 def get_body_entries(docx_path: Path):
@@ -482,6 +576,35 @@ def has_embedded_images(docx_path: Path) -> bool:
         return False
 
 
+def substitute_image_placeholders(questions, url_by_filename):
+    """
+    Recursively walks every Description across Questions/SubDivisions/
+    SubQuestions and replaces each "----media/imageN.ext----" placeholder
+    in-place with a real <img> tag pointing at the uploaded S3 URL, so the
+    raw placeholder text never reaches the database. A placeholder whose
+    image failed to upload (not in url_by_filename) is left as-is rather
+    than silently deleted, so the missing image stays visible for review
+    instead of vanishing without a trace.
+    """
+    def repl(m):
+        fname = m.group(1)
+        url = url_by_filename.get(fname)
+        if not url:
+            return m.group(0)
+        return f'<img src="{url}" alt="{fname}" />'
+
+    def process_node(node):
+        if node.get("Description") is not None:
+            node["Description"] = IMAGE_MARKER_RE.sub(repl, node["Description"])
+        for child in node.get("SubDivisions", []) or []:
+            process_node(child)
+        for child in node.get("SubQuestions", []) or []:
+            process_node(child)
+
+    for q in questions:
+        process_node(q)
+
+
 def process_file(docx_path: Path, out_dir: Path):
     has_equations = has_omml_equations(docx_path)
 
@@ -500,6 +623,24 @@ def process_file(docx_path: Path, out_dir: Path):
     if has_embedded_images(docx_path) or IMAGE_MARKER_RE.search(full_text):
         media_dir_name, embedded_media = extract_embedded_media(docx_path, out_dir)
 
+    uploaded_media = []
+    if embedded_media and media_dir_name:
+        media_dir = out_dir / media_dir_name
+        image_paths = [media_dir / fname for fname in embedded_media]
+        url_map = upload_images_to_s3(image_paths)
+        for fname in embedded_media:
+            entry = {"fileName": fname}
+            if fname in url_map:
+                entry.update(url_map[fname])
+            uploaded_media.append(entry)
+
+        # Bake the real uploaded URLs into each question's Description in
+        # place of the raw "----media/imageN.ext----" placeholder, so the
+        # placeholder text never lands in the database.
+        url_by_filename = {fname: info["imageUrl"] for fname, info in url_map.items() if info.get("imageUrl")}
+        if url_by_filename:
+            substitute_image_placeholders(questions, url_by_filename)
+
     subj_code = extract_subj_code(docx_path.stem)
     output = {"subj_code": subj_code, "questions": questions}
     if flags:
@@ -511,7 +652,9 @@ def process_file(docx_path: Path, out_dir: Path):
         }]
     if media_dir_name:
         output["_media_dir"] = media_dir_name
-    if embedded_media:
+    if uploaded_media:
+        output["_embedded_media"] = uploaded_media
+    elif embedded_media:
         output["_embedded_media"] = embedded_media
 
     out_path = out_dir / (docx_path.stem + ".json")
