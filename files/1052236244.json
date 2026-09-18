@@ -1,0 +1,25 @@
+{
+  "subj_code": "1052236244",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Consider the SQL query\nselect * from employee, department where employee. Dept _id department. dept_id What evaluation plan would a query optimizer likely choose to get the least estimated cost?\nB) Write a DTD for XML documents with student data: name, address and a student_id, one or  more subjects (computer science, Mechanical,  Electrical, Civil  etc ). Write an XML document containing student data conforming to the DTD, and check it for validity.\na)  Write a X Query which returns The name so fall students in ascending order.\nb)  The students who study the same subjects.\nc) The subjects which are studied by more than10 students."
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Write SQL queries to\na)  Retrieve details of all books in the library -id, title, name of publisher, authors, number of copies in each branch, etc.\nb)   Get the particulars of borrowers who have borrowed\nmore than 3books,but from Jan 2017 to Jun 2017.\nc)  Delete a book in BOOK table.\nd)  Update the contents of other tables to reflect this data manipulation operation\nB) Consider a student database consisting of (Register_no, Fname, Lname, Address (Street, City, Pincode), Mobile Nos, Total Marks). as data. Design the database using MongoDB and perform the following operations:\ni)  Create the above student database.\nii)  Insert values into the above database.\niii)  Find the Students who have got Total Marks greater than 450.\niv)  Update the Pincode of the students who belong to a particular City.\nv)  Delete a particular student given the Register No."
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Consider a schema that contains the following table with the key underlined: Employee  (Eno, Ename, Desg, Dno). Assume that we horizontally fragment the table as follows: Employee1(Eno, Ename, Desg, Dno), where 1 <= Dno<=10, Employee2 (Eno, Ename, Desg, Dno), where11<=Dno<=20, Employee3 (Eno, Ename, Desg, Dno),where21<=Dno<=30.In addition, assume we have 4 sites that contain the following fragments:\nSite1 has Employee1, Site2 has Employee2, Site3 has Employee2 and Employee3, Site4 has Employee1. Add relations to the database as per your requirements. Perform the following operations:\na)  Create the above database.\nb)  Insert values into the database.\nc)  Create the specified fragments. Implement at least five suitable queries on Employee fragments.\nB) Perform the above operations using Cassandra followed by the following operations:\nvi Insert additional mobile numbers for a particular student.\nvii Delete the street name in the address given a particular city."
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Create a spatial database of Tamilnadu and form the following queries\na)  Show a list of all the names of places adjoining your location..\nb)  List the unique town names in your region.\nc)  Find the restaurants close to your location..\nd)  Find the distance between any two places in Tamilnadu.\nB) Provision a cloud database using AWSRD S service. Configure and setup the common  management tasks."
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Create the employee stable and form the following <a href=\"https://www.timestored.com/data/mysql-time-series-sql#group-by-time\">SQL</a>queries:\na)  Find the number of employees hired each year.\nb)  Find the number of employees hired each month.\nc)  Find the number of employees hired each week.\nFind the 3 most recently hired employees and what department they work in.\nB) Integrate an application with the cloud database. Establish a connection, perform database operations, and handle responses in your application."
+    }
+  ]
+}

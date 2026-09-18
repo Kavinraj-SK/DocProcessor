@@ -1,0 +1,45 @@
+{
+  "subj_code": "1079234440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determine the Thermal Conductivity of metal bar"
+    },
+    {
+      "Qno": "2",
+      "Description": "Determine the overall heat transfer coefficient and LMTD OF Double pipe heat exchanger"
+    },
+    {
+      "Qno": "3",
+      "Description": "Determine the overall heat transfer coefficient and  steady state temperature Forced convection heat transfer"
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine of Emissivity of a grey body"
+    },
+    {
+      "Qno": "5",
+      "Description": "Verify Stefan Boltzmann constant with suitable setup."
+    },
+    {
+      "Qno": "6",
+      "Description": "Separate the given two liquids by Simple Distillation and find the boiling point difference."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determine the overall heat transfer coefficient and amount of steam required to one ekg of solution using Steam Distillation method."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determine the percentage recovery in valuable Liquid  in liquid– Liquid Extraction"
+    },
+    {
+      "Qno": "9",
+      "Description": "Determine Drying Characteristics given solid."
+    },
+    {
+      "Qno": "10",
+      "Description": "Determine the heat or cooling required to Crystallize the solute from mother solution"
+    }
+  ]
+}

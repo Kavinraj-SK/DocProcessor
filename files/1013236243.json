@@ -1,0 +1,65 @@
+{
+  "subj_code": "1013236243",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Detailing and drafting of double cover butt joint with packing plate and bolt arranged in diamond pattern."
+    },
+    {
+      "Qno": "2",
+      "Description": "Detailing and drafting of end connection of ISA tie member with gusset plate by fillet weld."
+    },
+    {
+      "Qno": "3",
+      "Description": "Detailing and drafting of end connection of Channel tie member with gusset plate by slot weld and plug weld."
+    },
+    {
+      "Qno": "4",
+      "Description": "Draw the block shear failure of angle tie member connected to gusset plate by\na)  Single bolted connection.\nb) Double bolted connection."
+    },
+    {
+      "Qno": "5",
+      "Description": "Detailing and drafting of Channel tension member connected to gusset plate using lug angle by bolted connection."
+    },
+    {
+      "Qno": "6",
+      "Description": "Detailing and drafting of tension member consisting of two angles placed back-to-back connected to gusset plate using lug angle by bolted connection."
+    },
+    {
+      "Qno": "7",
+      "Description": "Detailing and drafting of built-up column of two channels face-to- face connected by single lacing"
+    },
+    {
+      "Qno": "8",
+      "Description": "Detailing and drafting of built-up column of two channels back-to- back connected by double lacing."
+    },
+    {
+      "Qno": "9",
+      "Description": "Detailing and drafting of built-up column of two channels face-to-face connected by battens."
+    },
+    {
+      "Qno": "10",
+      "Description": "Detailing and drafting of laterally unsupported beam."
+    },
+    {
+      "Qno": "11",
+      "Description": "Detailing and drafting of laterally supported beam."
+    },
+    {
+      "Qno": "12",
+      "Description": "Detailing and drafting of plate girder."
+    },
+    {
+      "Qno": "13",
+      "Description": "Detailing and drafting of Pratt truss"
+    },
+    {
+      "Qno": "14",
+      "Description": "Detailing and drafting of Fink truss"
+    },
+    {
+      "Qno": "15",
+      "Description": "Detailing and drafting of North light roof truss"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "subj_code": "1143233240",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Prepare the green sand  Moulding  using Solid Pattern – STEPPED  PULLEY"
+    },
+    {
+      "Qno": "2",
+      "Description": "Prepare the greensand  Moulding  using Split Pattern–BENTPIPE WITH COREPRINT"
+    },
+    {
+      "Qno": "3",
+      "Description": "Prepare the greensand  Moulding using Loose piece Pattern–DOVETAIL"
+    },
+    {
+      "Qno": "4",
+      "Description": "Prepare the specimen and make the Lap Joint by Arc Welding (Both side welded)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Prepare the specimen and make the T Joint by Gas Welding"
+    },
+    {
+      "Qno": "6",
+      "Description": "Prepare the specimen and make the Joint by Spot Welding"
+    },
+    {
+      "Qno": "7",
+      "Description": "Prepare the specimen and make the Stepturning, Facing &Chamfering as shown in figure using Lathe.\n----media/image1.png----"
+    },
+    {
+      "Qno": "8",
+      "Description": "Prepare the specimen and make the Groove cutting &Taper turning as shown in figure using Lathe.\n----Image alt text---->C:\\Users\\Admin\\Desktop\\WhatsApp Image 2024-04-16 at 18.41.47.jpeg<----media/image2.jpeg----"
+    },
+    {
+      "Qno": "9",
+      "Description": "----media/image3.png----Prepare the specimen and make the Step turning, Knurling as shown in figure using Lathe."
+    },
+    {
+      "Qno": "10",
+      "Description": "Prepare the specimen and make the Drilling & Tapping as shown in figure using Drilling Machine.\n----media/image4.png----"
+    }
+  ],
+  "_media_dir": "1143233240_media",
+  "_embedded_media": [
+    "image4.png",
+    "image1.png",
+    "image2.jpeg",
+    "image3.png"
+  ]
+}

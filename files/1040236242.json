@@ -1,0 +1,65 @@
+{
+  "subj_code": "1040236242",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Simulation of Verilog code for logic gates AND gate, OR gate. (Develop code for logic gates AND gate, OR gate. Simulate the code in the software)"
+    },
+    {
+      "Qno": "2",
+      "Description": "Simulation of Verilog code for half adder.\n(Develop code for half adder. Simulate the code in the software)"
+    },
+    {
+      "Qno": "3",
+      "Description": "Simulation of Verilog code for Full adder.\n(Develop code for Full adder. Simulate the code in the software)"
+    },
+    {
+      "Qno": "4",
+      "Description": "Simulation of Verilog code for half Subtractor.\n(Develop code for half Subtractor. Simulate the code in the software)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Simulation of Verilog code for Full Subtractor.\n(Develop code for Full Subtractor. Simulate the code in the software)"
+    },
+    {
+      "Qno": "6",
+      "Description": "Simulation of Verilog code for 4 to 1 Mux and implement it in FPGA Kit."
+    },
+    {
+      "Qno": "7",
+      "Description": "Simulation of Verilog code for 1 to 4 Demux and implement it in FPGA Kit."
+    },
+    {
+      "Qno": "8",
+      "Description": "Simulation of Verilog code for 4 to 2 Encoder and implement it in FPGA Kit."
+    },
+    {
+      "Qno": "9",
+      "Description": "Simulation of Verilog code for 2 to 4 Decoder and implement it in FPGA Kit."
+    },
+    {
+      "Qno": "10",
+      "Description": "Write Verilog code for D Flip Flop and T Flip Flop and implement it in FPGA kit."
+    },
+    {
+      "Qno": "11",
+      "Description": "Write Verilog code for JK Flip Flop and implement it in FPGA kit."
+    },
+    {
+      "Qno": "12",
+      "Description": "Write Verilog code for 3 bit Shift Register and implement it in FPGA kit."
+    },
+    {
+      "Qno": "13",
+      "Description": "Write Verilog code for 3 bit up counter and implement it in FPGA kit."
+    },
+    {
+      "Qno": "14",
+      "Description": "Write Verilog code for 3 bit down counter and implement it in FPGA kit."
+    },
+    {
+      "Qno": "15",
+      "Description": "Write Verilog code for RAM / ROM"
+    }
+  ]
+}

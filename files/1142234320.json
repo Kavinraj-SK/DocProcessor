@@ -1,0 +1,77 @@
+{
+  "subj_code": "1142234320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Construct and test inverting amplifier with D.C gain 10 and observe output voltages for given positive and negative DC input Voltages and draw the voltage transfer characteristics."
+    },
+    {
+      "Qno": "2",
+      "Description": "Construct and test Non-inverting amplifier with D.C gain 10 and observe output voltages for given positive and negative DC input Voltages and draw the voltage transfer characteristics."
+    },
+    {
+      "Qno": "3",
+      "Description": "Construct the practical test Integrator using operational amplifier with DC gain and corner frequency. Observe the input and output wave forms and frequency response."
+    },
+    {
+      "Qno": "4",
+      "Description": "Construct the practical test differentiator using operational amplifier with DC gain and corner frequency. Observe the input and output wave forms and frequency response."
+    },
+    {
+      "Qno": "5",
+      "Description": "Experimentally obtain the output of IC voltage regulator power supplies using IC 7805"
+    },
+    {
+      "Qno": "6",
+      "Description": "Experimentally obtain the output of IC voltage regulator power supplies using IC7912"
+    },
+    {
+      "Qno": "7",
+      "Description": "Experimentally verify the Truth table of OR, AND, NOT, NOR, NAND, AND, XOR, gate using 7432, 7408, 7404, 7402 and 7486"
+    },
+    {
+      "Qno": "8",
+      "Description": "Experimentally verify the universal property of NAND gate."
+    },
+    {
+      "Qno": "9",
+      "Description": "Experimentally verify the universal property of NOR gate."
+    },
+    {
+      "Qno": "10",
+      "Description": "Design, Construct and test Half adder using gates."
+    },
+    {
+      "Qno": "11",
+      "Description": "Design, Construct and test Full adder using gates."
+    },
+    {
+      "Qno": "12",
+      "Description": "Design, Construct and test Half Subtractor using discrete IC’s."
+    },
+    {
+      "Qno": "13",
+      "Description": "Design, Construct and test full Subtractor using discrete IC’s."
+    },
+    {
+      "Qno": "14",
+      "Description": "Experimentally verify the truth table of D and T flip – flops."
+    },
+    {
+      "Qno": "15",
+      "Description": "Experimentally verify the truth table of D and JK flip – flops."
+    },
+    {
+      "Qno": "16",
+      "Description": "Experimentally verify the truth table of T and JK flip – flops."
+    },
+    {
+      "Qno": "17",
+      "Description": "Construct and verify R-2 R ladder Digital to Analog converter using operational amplifier"
+    },
+    {
+      "Qno": "18",
+      "Description": "Construct and verify A/D converter using ADC 0808 IC."
+    }
+  ]
+}

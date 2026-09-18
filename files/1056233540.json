@@ -1,0 +1,25 @@
+{
+  "subj_code": "1056233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Install, configure and connect to MySQL  server and MySQL work bench in Windows.\nb) Create a table named student with sequences."
+    },
+    {
+      "Qno": "3",
+      "Description": "a) Create a database named college and create a table for student and employee with the\nfields as you like.\nb) Create two tables and perform union and union all on these tables."
+    },
+    {
+      "Qno": "4",
+      "Description": "a) Create a table student with marks field for 10 students. Apply built in functions to do\ncalculations.\nb) Create a stored procedure to get employee details from employee table."
+    },
+    {
+      "Qno": "5",
+      "Description": "a) Create a table bank and select the accounts having balance greater that Rs.1,00,000 and\nsort them in ascending order.\nb) Create a program using function."
+    },
+    {
+      "Qno": "6",
+      "Description": "a) Create a table library with proper fields and create another table libíaíy1 and inset rows\nfrom library using views.\nb) Create a program to illustrate triggers."
+    }
+  ]
+}

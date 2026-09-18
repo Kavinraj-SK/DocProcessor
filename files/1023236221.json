@@ -1,0 +1,49 @@
+{
+  "subj_code": "1023236221",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Organoleptic test of in cow and buffalo milk."
+    },
+    {
+      "Qno": "2",
+      "Description": "Clot on boiling test of in cow and buffalo milk."
+    },
+    {
+      "Qno": "3",
+      "Description": "Lactometer test of in cow and buffalo milk."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of starch present in milk using iodine tests."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of fat content in cow and buffalo milks."
+    },
+    {
+      "Qno": "6",
+      "Description": "Separation of Butter from cow or buffalo milk."
+    },
+    {
+      "Qno": "7",
+      "Description": "Cream separation using manual cream separator."
+    },
+    {
+      "Qno": "8",
+      "Description": "Cream separation using manual cream separator."
+    },
+    {
+      "Qno": "9",
+      "Description": "Cream separation using manual cream separator."
+    },
+    {
+      "Qno": "10",
+      "Description": "Cream separation using manual cream separator."
+    },
+    {
+      "Qno": "11",
+      "Description": "Cream separation using manual cream separator."
+    }
+  ]
+}

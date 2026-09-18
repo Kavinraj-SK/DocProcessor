@@ -1,0 +1,85 @@
+{
+  "subj_code": "1059235320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Create variables of different data types (int, float, string). Perform basic operations like addition, subtraction, and concatenation.\nB) Build a program that uses a dictionary to store information about students (name, age, grade). Practice adding, updating, and accessing dictionary elements."
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Write a program that checks if a number is even or odd. Use conditional statements (if-else) to achieve this.\nB) Create a program that handles exceptions gracefully. For example, take user input for division and handle the case where the user attempts to divide by zero."
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Implement a program that prints the multiplication table for a given number using a for loop.\nB) Design a simple class representing a car. Include attributes like make, model, and methods like start_engine and stop_engine."
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Create a function that calculates the factorial of a number. Test the function with different input values.\nB) Build a basic GUI application using a library like Tkinter. Create a simple form with entry fields and buttons."
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Explore lists and tuples by creating a program that manipulates a list of numbers. Perform operations like sorting, appending, and slicing.\nB) Implement a sorting program using the sorted() function and a lambda function to sort a list of tuples based on a specific element."
+    },
+    {
+      "Qno": "6",
+      "Description": "A) Create variables of different data types (int, float, string). Perform basic operations like addition, subtraction, and concatenation.\nB) Use the Beautiful Soup library to scrape data from a website. For example, extract and print the headlines from a news website"
+    },
+    {
+      "Qno": "7",
+      "Description": "A) Write a program that checks if a number is even or odd. Use conditional statements (if-else) to achieve this.\nB) Use the Matplotlib library to create a simple line chart or bar chart. Plot some sample data and customize the appearance of the plot."
+    },
+    {
+      "Qno": "8",
+      "Description": "A) Implement a program that prints the multiplication table for a given number using a for loop.\nB) Build a program that uses a dictionary to store information about students (name, age, grade). Practice adding, updating, and accessing dictionary elements."
+    },
+    {
+      "Qno": "9",
+      "Description": "A) Create a function that calculates the factorial of a number. Test the function with different input values.\nB) Create a program that handles exceptions gracefully. For example, take user input for division and handle the case where the user attempts to divide by zero."
+    },
+    {
+      "Qno": "10",
+      "Description": "A) Explore lists and tuples by creating a program that manipulates a list of numbers. Perform operations like sorting, appending, and slicing.\nB) Design a simple class representing a car. Include attributes like make, model, and methods like start_engine and stop_engine."
+    },
+    {
+      "Qno": "11",
+      "Description": "A) Create variables of different data types (int, float, string). Perform basic operations like addition, subtraction, and concatenation.\nB) Build a basic GUI application using a library like Tkinter. Create a simple form with entry fields and buttons."
+    },
+    {
+      "Qno": "12",
+      "Description": "A) Write a program that checks if a number is even or odd. Use conditional statements (if-else) to achieve this.\nB) Implement a sorting program using the sorted() function and a lambda function to sort a list of tuples based on a specific element."
+    },
+    {
+      "Qno": "13",
+      "Description": "A) Implement a program that prints the multiplication table for a given number using a for loop.\nB) Use the BeautifulSoup library to scrape data from a website. For example, extract and print the headlines from a news website."
+    },
+    {
+      "Qno": "14",
+      "Description": "A) Create a function that calculates the factorial of a number. Test the function with different input values.\nB) Use the Matplotlib library to create a simple line chart or bar chart. Plot some sample data and customize the appearance of the plot."
+    },
+    {
+      "Qno": "15",
+      "Description": "A) Explore lists and tuples by creating a program that manipulates a list of numbers. Perform operations like sorting, appending, and slicing.\nB) Build a program that uses a dictionary to store information about students (name, age, grade). Practice adding, updating, and accessing dictionary elements."
+    },
+    {
+      "Qno": "16",
+      "Description": "A) Create variables of different data types (int, float, string). Perform basic operations like addition, subtraction, and concatenation.\nB) Create a program that handles exceptions gracefully. For example, take user input for division and handle the case where the user attempts to divide by zero."
+    },
+    {
+      "Qno": "17",
+      "Description": "A) Write a program that checks if a number is even or odd. Use conditional statements (if-else) to achieve this.\nB) Design a simple class representing a car. Include attributes like make, model, and methods like start_engine and stop_engine."
+    },
+    {
+      "Qno": "18",
+      "Description": "A) Implement a program that prints the multiplication table for a given number using a for loop.\nB) Build a basic GUI application using a library like Tkinter. Create a simple form with entry fields and buttons."
+    },
+    {
+      "Qno": "19",
+      "Description": "A) Create a function that calculates the factorial of a number. Test the function with different input values.\nB) Implement a sorting program using the sorted() function and a lambda function to sort a list of tuples based on a specific element."
+    },
+    {
+      "Qno": "20",
+      "Description": "A) Explore lists and tuples by creating a program that manipulates a list of numbers. Perform operations like sorting, appending, and slicing.\nB) Use the Beautiful Soup library to scrape data from a website. For example, extract and print the headlines from a news website."
+    }
+  ]
+}

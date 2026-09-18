@@ -1,0 +1,49 @@
+{
+  "subj_code": "1078236622",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Preparation of Sample"
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of Nitrite"
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of extract release volume"
+    },
+    {
+      "Qno": "4",
+      "Description": "Estimation of total meat pigments"
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of meat pH"
+    },
+    {
+      "Qno": "6",
+      "Description": "Estimation of total meat pigments"
+    },
+    {
+      "Qno": "7",
+      "Description": "Determination of metmyoglobin content of meat"
+    },
+    {
+      "Qno": "8",
+      "Description": "Preparation of meat products"
+    },
+    {
+      "Qno": "9",
+      "Description": "Composition and structure of egg"
+    },
+    {
+      "Qno": "10",
+      "Description": "Determination of egg quality by Haugh unit"
+    },
+    {
+      "Qno": "11",
+      "Description": "Preparation of fish protein concentrate (FPC)"
+    }
+  ]
+}

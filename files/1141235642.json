@@ -1,0 +1,65 @@
+{
+  "subj_code": "1141235642",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Write a VHDL code for logic gates (AND gate, OR gate, NAND gate, NOR gate, XOR gate and NOT gate) and simulate the code."
+    },
+    {
+      "Qno": "2",
+      "Description": "Simplify the function f=(0,1,4,5,8,9,12). Write aVHDL code for the simpliﬁed function and simulate it."
+    },
+    {
+      "Qno": "3",
+      "Description": "Write a VHDL code for half adder and full adder and simulate the code."
+    },
+    {
+      "Qno": "4",
+      "Description": "Write VHDL code for half subtractor and full subtractor and simulate the code"
+    },
+    {
+      "Qno": "5",
+      "Description": "Write a VHDL code for a single bit digital comparator and simulate the code."
+    },
+    {
+      "Qno": "6",
+      "Description": "Write a VHDL code for 4 to 1 multiplexer & 1 to 4 Demultiplexer and implement it in an FPGA kit."
+    },
+    {
+      "Qno": "7",
+      "Description": "Write a VHDL code for 4 to 2 Encoder & 2 to 4 Decoder and implement it in an FPGA kit."
+    },
+    {
+      "Qno": "8",
+      "Description": "Write a VHDL code for 7 segment decoder – Boolean expression and implement it in FPGA kit."
+    },
+    {
+      "Qno": "9",
+      "Description": "Write a VHDL code for JK ﬂip ﬂop and simulate using software or implement it in an FPGA kit."
+    },
+    {
+      "Qno": "10",
+      "Description": "Write a VHDL code for a 3 bit up counter and simulate using software or implement it in an FPGA kit."
+    },
+    {
+      "Qno": "11",
+      "Description": "Write a VHDL code for a Ring counter and simulate using software or implement it in an FPGA kit."
+    },
+    {
+      "Qno": "12",
+      "Description": "Write a VHDL code for 7 segment display - with a counter and implement it in an FPGA kit."
+    },
+    {
+      "Qno": "13",
+      "Description": "Write a VHDL code for blinking a LED and implement it in FPGA kit"
+    },
+    {
+      "Qno": "14",
+      "Description": "Write a VHDL code for blinking an array of LEDs and implement it in an FPGA kit."
+    },
+    {
+      "Qno": "15",
+      "Description": "Write a VHDL code for speller with an array of LEDs and implement it in an FPGA kit"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "subj_code": "1057233420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Design a single page web site for your polytechnic containing a description of the courses offered. It should also contain some general information about the college such as its history, the campus, and its unique features and soon. The site should be colored and each section should have a different color.\nb) Design a responsive navigation menu that varies in design on different screen sizes using Media queries."
+    },
+    {
+      "Qno": "2",
+      "Description": "a) Design a HTML page about computer languages. List the language. Each Language’s name is a link. Prepare separate HTML documents for each language and call them in the appropriate link.\nb) Design a web page to demonstrate different types of gradients using CSS"
+    },
+    {
+      "Qno": "3",
+      "Description": "a) Develop a webpage using CSS to create a timetable for the class Using different border style.\nb) Create a webpage to demonstrate responsive pagination using CSS."
+    },
+    {
+      "Qno": "4",
+      "Description": "a) Design a Webpage with the transform property, by rotating the<div> Element 150 deg around its X-axis.\nb) Design a webpage to demonstrate automatic numbering using CSS counters."
+    },
+    {
+      "Qno": "5",
+      "Description": "a) Design a HTML Page by adding Media elements\nb) Design a responsive image gallery using media queries suitable for Desktops and smart phones."
+    }
+  ]
+}

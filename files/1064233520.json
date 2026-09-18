@@ -1,0 +1,53 @@
+{
+  "subj_code": "1064233520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Draw Male and Female figure using eight head theory."
+    },
+    {
+      "Qno": "2",
+      "Description": "Prepare12 colour wheel charts."
+    },
+    {
+      "Qno": "3",
+      "Description": "Prepare chart for Primary, Secondary & Intermediate colours"
+    },
+    {
+      "Qno": "4",
+      "Description": "Prepare chart for Tint and Shade."
+    },
+    {
+      "Qno": "5",
+      "Description": "Prepare colour board for Mono chromatic Colour Scheme"
+    },
+    {
+      "Qno": "6",
+      "Description": "Prepare colour board for Analogous Colour Scheme."
+    },
+    {
+      "Qno": "7",
+      "Description": "Prepare colour board for Complimentary Colour Scheme"
+    },
+    {
+      "Qno": "8",
+      "Description": "Prepare colour board for Simple Contrast Colour Scheme"
+    },
+    {
+      "Qno": "9",
+      "Description": "Prepare colour board for Split Contrast Colour Scheme."
+    },
+    {
+      "Qno": "10",
+      "Description": "Prepare colour board for Warm and cool colours."
+    },
+    {
+      "Qno": "11",
+      "Description": "Design a garment for Men based on your own taste."
+    },
+    {
+      "Qno": "12",
+      "Description": "Design a garment for Women based on your own taste"
+    }
+  ]
+}

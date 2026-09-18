@@ -1,0 +1,45 @@
+{
+  "subj_code": "1026235542",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Conduct an experiment to study various sampling methods used in mineral processing and demonstrate the procedure of obtaining a representative sample."
+    },
+    {
+      "Qno": "2",
+      "Description": "Study the petrological microscope, identify its parts, and understand its working principle and used in mineral identification."
+    },
+    {
+      "Qno": "3",
+      "Description": "Identify and study two metallic minerals using a petrological microscope and record their optical properties."
+    },
+    {
+      "Qno": "4",
+      "Description": "Study the operation of a jaw crusher / gyratory crusher and determine the reduction ratio."
+    },
+    {
+      "Qno": "5",
+      "Description": "Perform secondary crushing using a cone crusher and determine the size reduction ratio"
+    },
+    {
+      "Qno": "6",
+      "Description": "Perform size reduction using a ball mill / hammer mill and determine the particle size distribution."
+    },
+    {
+      "Qno": "7",
+      "Description": "Verify Stokes’ Law for particle settling through a fluid by using sedimentation decantation method."
+    },
+    {
+      "Qno": "8",
+      "Description": "Separate ore particles by jigging and study the effect of pulsation on concentration efficiency."
+    },
+    {
+      "Qno": "9",
+      "Description": "Perform gravity separation using a Wilfley table and study the separation of minerals based on specific gravity."
+    },
+    {
+      "Qno": "10",
+      "Description": "Study the working of a spiral concentrator and perform separation of minerals by specific gravity difference."
+    }
+  ]
+}

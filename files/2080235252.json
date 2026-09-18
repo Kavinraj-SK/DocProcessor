@@ -1,0 +1,45 @@
+{
+  "subj_code": "2080235252",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Preparation of Casting Slip"
+    },
+    {
+      "Qno": "2",
+      "Description": "Effect of Na2CO3 in Casting body"
+    },
+    {
+      "Qno": "3",
+      "Description": "Effect of Na2SiO3 in Casting body"
+    },
+    {
+      "Qno": "4",
+      "Description": "Effect of Na2CO3 Solution in Casting body"
+    },
+    {
+      "Qno": "5",
+      "Description": "Effect of Na2SiO3 Solution in Casting body"
+    },
+    {
+      "Qno": "6",
+      "Description": "Fluidity ratio 1:1 (Na2CO3: Na2SiO3)"
+    },
+    {
+      "Qno": "7",
+      "Description": "Specific gravity determination by bottle method"
+    },
+    {
+      "Qno": "8",
+      "Description": "Specific gravity determination by evaporation method"
+    },
+    {
+      "Qno": "9",
+      "Description": "Dry content for 1 cc & 1000 cc"
+    },
+    {
+      "Qno": "10",
+      "Description": "Brongniarts Formula"
+    }
+  ]
+}

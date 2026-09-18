@@ -1,0 +1,53 @@
+{
+  "subj_code": "1064236242",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Prepare a cost sheet"
+    },
+    {
+      "Qno": "2",
+      "Description": "Find the closing stock value under FIFO method"
+    },
+    {
+      "Qno": "3",
+      "Description": "Find the closing stock value under LIFO method"
+    },
+    {
+      "Qno": "4",
+      "Description": "Find the closing stock value under HIFO method"
+    },
+    {
+      "Qno": "5",
+      "Description": "Calculate Labour Turnover Ratio value Separation & Replacement method"
+    },
+    {
+      "Qno": "6",
+      "Description": "Calculate the revenue and overtime wages to a workman."
+    },
+    {
+      "Qno": "7",
+      "Description": "Calculate the amount required for cash payment of wages in a company"
+    },
+    {
+      "Qno": "8",
+      "Description": "Calculate the earnings of workers using Straight & Taylors piece rate system"
+    },
+    {
+      "Qno": "9",
+      "Description": "Calculate workers total earnings under Rowans & Halsey Premium plan"
+    },
+    {
+      "Qno": "10",
+      "Description": "Calculate Marginal costing & Break Even Point"
+    },
+    {
+      "Qno": "11",
+      "Description": "Calculate P/V Ratio & Margin of Safety"
+    },
+    {
+      "Qno": "12",
+      "Description": "Apportion the costs to the various departments"
+    }
+  ]
+}

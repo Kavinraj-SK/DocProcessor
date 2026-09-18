@@ -1,0 +1,49 @@
+{
+  "subj_code": "1026235541",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Conduct a Rockwell Hardness Test on ferrous samples and determine the hardness value."
+    },
+    {
+      "Qno": "2",
+      "Description": "Conduct a Rockwell Hardness Test on non-ferrous samples and determine the hardness value."
+    },
+    {
+      "Qno": "3",
+      "Description": "Conduct a Brinell Hardness Test on ferrous samples and determine the Brinell hardness number."
+    },
+    {
+      "Qno": "4",
+      "Description": "Conduct a Brinell Hardness Test on non-ferrous samples and determine the Brinell hardness number."
+    },
+    {
+      "Qno": "5",
+      "Description": "Perform a Tensile Test on steel and determine the ultimate tensile strength, yield strength, and percentage elongation."
+    },
+    {
+      "Qno": "6",
+      "Description": "Perform a Torsion Test on beams and determine the modulus of rigidity and torsional strength."
+    },
+    {
+      "Qno": "7",
+      "Description": "Conduct a Poldi Hardness Test on the given metallic specimen and determine its hardness value."
+    },
+    {
+      "Qno": "8",
+      "Description": "Perform an Izod Impact Test on the given specimen and determine its impact strength."
+    },
+    {
+      "Qno": "9",
+      "Description": "Perform a Charpy Impact Test on the given specimen and determine its impact strength."
+    },
+    {
+      "Qno": "10",
+      "Description": "Conduct a Cupping Test on a sheet metal specimen and determine its formability."
+    },
+    {
+      "Qno": "11",
+      "Description": "Perform a Deflection Test on beams and determine the modulus of elasticity."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1202235541",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Measuring solid print density using process colour control bar and compare CMYK with Line chart."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determining the trapping tendency of the given print samples with graph."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determining the print contrast of the given sample with graph."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determining the dot gain of the given sample with graph."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determining the print characteristics curve of the given sample."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determining CIE Lab values of the given print samples with graph."
+    },
+    {
+      "Qno": "7",
+      "Description": "Finding Delta E of the given print samples with graph."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determining the solid ink density and plotted X bar chart."
+    },
+    {
+      "Qno": "9",
+      "Description": "Determining the solid ink density and plotted R chart."
+    },
+    {
+      "Qno": "10",
+      "Description": "Finding the pH and conductivity of the dampening solution and plotted graph for different samples."
+    }
+  ]
+}

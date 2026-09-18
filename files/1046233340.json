@@ -1,0 +1,25 @@
+{
+  "subj_code": "1046233340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A)  Convert number system to another (Binary, Decimal, Octal, Hexadecimal)\nB)  Simplify and design Boolean expression using basic logic gates"
+    },
+    {
+      "Qno": "2",
+      "Description": "A)  Calculate 1’s and 2’s complements\nB)  Simplify and design Boolean expression using Universal gates"
+    },
+    {
+      "Qno": "3",
+      "Description": "A)  Implement the basic logic gates.\nB)  Design and implement Half Adder and full adder circuit."
+    },
+    {
+      "Qno": "4",
+      "Description": "A)  Implement the NAND gate as a universal building block.\nB)  Design and implement Half Subtractor and full Subtractor circuit."
+    },
+    {
+      "Qno": "5",
+      "Description": "A)  Implement the NOR gate as a universal building block.\nB)  Realize Multiplexer and Demultipxer circuit."
+    }
+  ]
+}

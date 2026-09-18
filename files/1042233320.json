@@ -1,0 +1,53 @@
+{
+  "subj_code": "1042233320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Experimentally obtain the V-I characteristics of Potentiometer and observe its linearity"
+    },
+    {
+      "Qno": "2",
+      "Description": "Experimentally obtain the characteristics of strain gauge"
+    },
+    {
+      "Qno": "3",
+      "Description": "Experimentally obtain the characteristics of LVDT"
+    },
+    {
+      "Qno": "4",
+      "Description": "Experimentally obtain the characteristics of Thermistor"
+    },
+    {
+      "Qno": "5",
+      "Description": "Experimentally obtain the characteristics of Resistance Temperature Detector (RTD)"
+    },
+    {
+      "Qno": "6",
+      "Description": "Experimentally obtain the characteristics of Thermocouple"
+    },
+    {
+      "Qno": "7",
+      "Description": "Experimentally obtain the characteristics of LDR"
+    },
+    {
+      "Qno": "8",
+      "Description": "Experimentally calibrate the Load cell with known weights"
+    },
+    {
+      "Qno": "9",
+      "Description": "Experimentally verify the function of Hall Effect Transducer"
+    },
+    {
+      "Qno": "10",
+      "Description": "Experimentally verify the function of piezoelectric transducer"
+    },
+    {
+      "Qno": "11",
+      "Description": "Construct and test Instrumentation amplifier circuit"
+    },
+    {
+      "Qno": "12",
+      "Description": "Test the following sensors by giving suitable Input with desirable output device:\n(i) IC temperature Sensor (ii) Soil Moisture sensor (iii) IR sensor and\n(iv) Inductive proximity sensor"
+    }
+  ]
+}

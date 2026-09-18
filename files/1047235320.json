@@ -1,0 +1,45 @@
+{
+  "subj_code": "1047235320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Writing program off-line/online,\na. Homing operation\nb. Recording position.(Cartesian co-ordinate system & Polar co-ordinate system)"
+    },
+    {
+      "Qno": "2",
+      "Description": "Teach a simple off-line/online program using motion comm. Ands to draw a Rectangle in the world frame(in the air).Observe and record the positions of the corner points of the rectangle in the world frame"
+    },
+    {
+      "Qno": "3",
+      "Description": "Teach an off-line/online program to write an alphabet using JOINT interpolation and LINEAR interpolation motion commands. (B) Stepper Motor Control with various step modes and torque measurements."
+    },
+    {
+      "Qno": "4",
+      "Description": "Generate a program to teach the robot to draw a circle (orarc) using CIRCULAR motion command."
+    },
+    {
+      "Qno": "5",
+      "Description": "Generate a program to trace a hexagon."
+    },
+    {
+      "Qno": "6",
+      "Description": "Write a Looping program using off line/online method."
+    },
+    {
+      "Qno": "7",
+      "Description": "Program for pick and place the object using online/offline."
+    },
+    {
+      "Qno": "8",
+      "Description": "Program for stacking the object using off line/online."
+    },
+    {
+      "Qno": "9",
+      "Description": "Write a program using wait, speed commands."
+    },
+    {
+      "Qno": "10",
+      "Description": "Generate a program to teach the robot to pick and place the objects based on color"
+    }
+  ]
+}

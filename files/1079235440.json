@@ -1,0 +1,45 @@
+{
+  "subj_code": "1079235440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Basis weight, thickness, density and bulk"
+    },
+    {
+      "Qno": "2",
+      "Description": "Bursting strength and burst factor"
+    },
+    {
+      "Qno": "3",
+      "Description": "Tearing strength and tear factor"
+    },
+    {
+      "Qno": "4",
+      "Description": "Tensile strength and breaking length"
+    },
+    {
+      "Qno": "5",
+      "Description": "Brightness and Opacity of paper"
+    },
+    {
+      "Qno": "6",
+      "Description": "Surface strength of paper(Wax pick)"
+    },
+    {
+      "Qno": "7",
+      "Description": "Water absorbency - Cobb's method"
+    },
+    {
+      "Qno": "8",
+      "Description": "Smoothness, softness and porosity"
+    },
+    {
+      "Qno": "9",
+      "Description": "Degree of sizing"
+    },
+    {
+      "Qno": "10",
+      "Description": "Determination of ply bond."
+    }
+  ]
+}

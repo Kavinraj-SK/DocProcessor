@@ -1,0 +1,45 @@
+{
+  "subj_code": "7020236246",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Battery Testing – Speciﬁc Gravity Test, Open volt testing, Cell voltage tester."
+    },
+    {
+      "Qno": "2",
+      "Description": "Test the Lead acid Battery using voltage Load tester and test the battery pack supply to glow the Head lamp."
+    },
+    {
+      "Qno": "3",
+      "Description": "Test the battery charging (Series and Parallel) and note the various charging parameters."
+    },
+    {
+      "Qno": "4",
+      "Description": "Identify and test EV components. (Controller, Throttle, EV motor, Power ON Key, brake, indicator, horn and headlight)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Construct and testing of BLDC Motor with throttle control."
+    },
+    {
+      "Qno": "6",
+      "Description": "Test the Inverter circuit and buck converter circuit."
+    },
+    {
+      "Qno": "7",
+      "Description": "Assemble and test E-bicycle with wiring harness."
+    },
+    {
+      "Qno": "8",
+      "Description": "Assemble and test E-Bike with a central drive mechanism (Chain drive) with wiring harness."
+    },
+    {
+      "Qno": "9",
+      "Description": "Assemble and test E-Auto rickshaw with differential and wiring harness."
+    },
+    {
+      "Qno": "10",
+      "Description": "Plan maintenance and servicing schedule of electric two-wheeler."
+    }
+  ]
+}

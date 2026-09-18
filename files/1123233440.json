@@ -1,0 +1,25 @@
+{
+  "subj_code": "1123233440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A.  Measure the dimensions of ground MS flat/cylindrical bush using Vernier Caliper\ncompare with Digital/Dial Vernier Caliper\nB. Measure the angle of a V-block / Taper Shank of Drill / Dovetail using universal bevel\nprotractor"
+    },
+    {
+      "Qno": "2",
+      "Description": "A.  Measure the diameter of a wire using micrometer and compare the result with digital\nmicrometer\nB.  Measure the angle of the machined surface using sine bar with slip gauges"
+    },
+    {
+      "Qno": "3",
+      "Description": "A.  Measure the thickness of ground M S plates using slip gauges\nB.  Measure the geometrical dimensions of V-Thread using thread micrometer."
+    },
+    {
+      "Qno": "4",
+      "Description": "A.  Measure the inside diameter of the bore of a bush cylindricalComponent using inside\nmicrometer compare the result with digital micrometer.\nB.  Measure the geometrical dimensions of spur gear."
+    },
+    {
+      "Qno": "5",
+      "Description": "A.  Measure the height of gauge blocks or parallel bars using vernier height gauge.\nB.  Find out the measurement of given component and compare with a standard component\nusing mechanical comparator and slip gauge"
+    }
+  ]
+}

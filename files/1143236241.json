@@ -1,0 +1,53 @@
+{
+  "subj_code": "1143236241",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "MT testing-Equipment, accessories."
+    },
+    {
+      "Qno": "2",
+      "Description": "MT testing–Permanent Magnet and Yoke type techniques."
+    },
+    {
+      "Qno": "3",
+      "Description": "MT testing–Prod type technique."
+    },
+    {
+      "Qno": "4",
+      "Description": "MT testing–Head Shot and Central Conductor techniques."
+    },
+    {
+      "Qno": "5",
+      "Description": "Preparation of test report–MT testing."
+    },
+    {
+      "Qno": "6",
+      "Description": "ET testing–Equipment and accessories familiarization."
+    },
+    {
+      "Qno": "7",
+      "Description": "ET testing–Material Sorting/Mix up segregation."
+    },
+    {
+      "Qno": "8",
+      "Description": "ET testing–Crack detection."
+    },
+    {
+      "Qno": "9",
+      "Description": "ET testing–Conductivity measurement and report preparation."
+    },
+    {
+      "Qno": "10",
+      "Description": "VT testing–Equipment accessories familiarization."
+    },
+    {
+      "Qno": "11",
+      "Description": "VT testing–Bevel angle verification, root gap measurement, root face measurement and Fit up measurement"
+    },
+    {
+      "Qno": "12",
+      "Description": "Visual inspection after welding and report preparation."
+    }
+  ]
+}

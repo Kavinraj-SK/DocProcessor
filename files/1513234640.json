@@ -1,0 +1,45 @@
+{
+  "subj_code": "1513234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A: Write a python program to demonstrate the string slicing, concatenation, replication and\n( len() method.\nB: Write a python program to create one dimensional array and convert into a 2D\ndimensional array using reshape (), print the first two columns alone using slicing."
+    },
+    {
+      "Qno": "2",
+      "Description": "A: Write a program that takes three numbers as input and prints the largest number.\nB: Create a tuple and a set. Demonstrate how to access elements in a tuple and add/remove\nelements in a set."
+    },
+    {
+      "Qno": "3",
+      "Description": "A: Create a dictionary that stores information about students (name, age, grade) of 3 studetns\nB: Create a base class called Shape with an area() method and Create subclasses Circle and\nRectangle that inherit from Shape and override the area() method."
+    },
+    {
+      "Qno": "4",
+      "Description": "A: Write a script that determines the length of an audio file in seconds.\nB: Create a tuple and a set. Demonstrate how to access elements in a tuple and add/remove\nelements in a set"
+    },
+    {
+      "Qno": "5",
+      "Description": "A: Write a program that takes three numbers as input and prints the largest number.\nB: Write a Python script that allows the user to adjust the volume of an audio file by a\nspecified decibel value"
+    },
+    {
+      "Qno": "6",
+      "Description": "A: Write a python program to demonstrate the string slicing, concatenation, replication and\nlen() method.\nB: Use pydub to convert a WAV file to an MP3 file."
+    },
+    {
+      "Qno": "7",
+      "Description": "A: Write a program that takes three numbers as input and prints the largest number.\nB: Create a base class called Shape with an area() method and Create subclasses Circle and\nRectangle that inherit from Shape and override the area() method."
+    },
+    {
+      "Qno": "8",
+      "Description": "A: Create a dictionary that stores information about students (name, age, grade).\nB: Use pydub to convert a WAV file to an MP3 file. Convert an MP3 file to a WAV file."
+    },
+    {
+      "Qno": "9",
+      "Description": "A: Write a script that determines the length of an audio file in seconds.\nB: Write a Python script that allows the user to adjust the volume of an audio file by a\nspecified decibel value."
+    },
+    {
+      "Qno": "10",
+      "Description": "A:Write a Python script that reverses an audio file using pydub\nB:Write a python program to create one dimensional array and convert into a 2D\ndimensional array using reshape (), print the first two columns alone using slicing"
+    }
+  ]
+}

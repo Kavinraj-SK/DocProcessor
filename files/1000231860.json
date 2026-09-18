@@ -1,0 +1,106 @@
+{
+  "subj_code": "1000231860",
+  "questions": [
+    {
+      "Qno": "1",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "1",
+          "Description": "| Eat | an orange\nWe | Went | to the market\nShe | Writes | letters\nHe | Plays | games\nThey | run | fast",
+          "SubQuestions": [
+            {
+              "Qno": "7",
+              "ParentQuestionId": "I",
+              "Description": "You are suffering from viral fever, write an E-mail to your manger requesting him to grant your medical leave."
+            },
+            {
+              "Qno": "8",
+              "ParentQuestionId": "I",
+              "Description": "Develop the following hints into a paragraph and give a suitable title.\nBooks-the best companions- enrich knowledge-reading good books- help you change-perspective-looking at the world-also help-to improve logical thinking- increase our vocabulary-get to learn about the different places-from the books-help people-grow mentally-by teaching-new and intriguing knowledge about the world-people learn-good and bad deeds-positive and negative things-from books-various types of books-of which novels-short stories-drama-poetry and autobiographies.\n9 . Imagine you are Rahul of first year diploma student. Write a letter to\nYour principal Requesting for a Bona-fide certificate.\nD. Reading skills (20 Marks)\n1.Read out the Tongue twisters.\n1.I scream, you scream, we all scream for ice cream."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "I",
+              "Description": "Four furious friends fought for the phone."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "I",
+              "Description": "Red lorry, yellow lorry, blue lorry."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "I",
+              "Description": "Nine night nurses nursing nicely."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "I",
+              "Description": "A big black bug bit a big black bear.\n2.Read the given news with proper tone."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "I",
+              "Description": "Read the given paragraph with proper intonation.5 marks\nThe Western Ghats are as important to the ecological and cultural life of the Nation as the Himalayas. Running from Maharashtra right down to Kerala, they are  a staggeringly rich reservoir of biodiversity. They give rise to many important rivers and are home to many significant places of Pilgrimage. Their forests ,fields and rivers sustain tens of millions of farmers, herders, fisher folk, pastoralists and artisans.\nOver the past few decades, however, the ecological integrity of the Western Ghats has been subjected to sharp and sometimes savage attack. Unregulated logging, open-cast mining, large dams, and the diversion of land to real-estate barons have led to environmental degradation as well as social discount.\n4, Read / announce the given advertisement proper intonation:\nPLOT FOR SALE\n(DTCP Approved)\nNatural surrounding, Pollution-free,\nPure underground water\nFrequent Transport Facility\nNear by Airport\nA few steps to Railway station\nRs.620/ sq.ft\nContact:88779-94420"
+            }
+          ]
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "1",
+          "Description": "Say the appropriate expressions for the given situations.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "II",
+              "Description": "Request your teacher for a book."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "II",
+              "Description": "Apologize for coming late to the class."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "II",
+              "Description": "Thank your friend for his/her timely help."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "II",
+              "Description": "Ask permission for entering into the class."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "II",
+              "Description": "Greet your friend on his birthday."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "II",
+              "Description": "Introduce yourself before an Interview Committee."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "II",
+              "Description": "Give a small talk for one minute on “TEAM WORK”"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "II",
+              "Description": "Group discussion about 5G Technology."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_review_flags": [
+    {
+      "digit": "1",
+      "line": "1. Say the appropriate expressions for the given situations.",
+      "reason": "Section heading used Arabic numeral '1' instead of a Roman numeral in the source document - normalized to 'II' since it directly follows a category header. Verify this is correct."
+    }
+  ]
+}

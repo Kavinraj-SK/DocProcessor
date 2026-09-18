@@ -1,0 +1,45 @@
+{
+  "subj_code": "1202233320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Creating a Duotone image."
+    },
+    {
+      "Qno": "2",
+      "Description": "Design a multicolor invitation using image editing software."
+    },
+    {
+      "Qno": "3",
+      "Description": "Apply UCR, GCR and color separate the scanned Image using image editing software."
+    },
+    {
+      "Qno": "4",
+      "Description": "Draw a tray style cartoon using vector drawing software."
+    },
+    {
+      "Qno": "5",
+      "Description": "Draw a tube style carton using vector drawing software."
+    },
+    {
+      "Qno": "6",
+      "Description": "Design a Pantone Color certificate using image editing software"
+    },
+    {
+      "Qno": "7",
+      "Description": "Perform imposition for printing the job using imposing software."
+    },
+    {
+      "Qno": "8",
+      "Description": "Perform Preflight operation and Proof Reading for the given file."
+    },
+    {
+      "Qno": "9",
+      "Description": "Create a 4-page folder."
+    },
+    {
+      "Qno": "10",
+      "Description": "Change the color of clothing using image editing software."
+    }
+  ]
+}

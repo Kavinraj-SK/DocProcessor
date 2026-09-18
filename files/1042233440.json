@@ -1,0 +1,53 @@
+{
+  "subj_code": "1042233440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Verify the Thevenin’s Theorem, by Constructing the two loop DC resistive circuit and measure the current through Load resistance and construct the single loop Thevenin equivalent of that circuit and measure the current through Load resistor"
+    },
+    {
+      "Qno": "2",
+      "Description": "Verify the Norton’s Theorem, by Constructing the two loop DC resistive circuit and measure the current through Load resistance and construct the single loop Thevenin equivalent of that circuit and measure the current through Load resistor"
+    },
+    {
+      "Qno": "3",
+      "Description": "Verify Maximum power transfer theorem for the two loop DC resistive circuit"
+    },
+    {
+      "Qno": "4",
+      "Description": "Construct the two loop Multi DC source Resistive circuit and Verify the Super position theorem."
+    },
+    {
+      "Qno": "5",
+      "Description": "Measure 3ф power by two wattmeter method by conducting an experiment."
+    },
+    {
+      "Qno": "6",
+      "Description": "Construct the RLC series resonance circuit and Obtain the Frequency response curve experimentally"
+    },
+    {
+      "Qno": "7",
+      "Description": "Conduct a load test on DC Shunt Generator"
+    },
+    {
+      "Qno": "8",
+      "Description": "Speed control of DC shunt motor using (a) Armature control (b) Field control"
+    },
+    {
+      "Qno": "9",
+      "Description": "Conduct a load test on 1ф induction motor."
+    },
+    {
+      "Qno": "10",
+      "Description": "Conduct a load test on 3ф induction motor"
+    },
+    {
+      "Qno": "11",
+      "Description": "Conduct a load test on Single phase transformer."
+    },
+    {
+      "Qno": "12",
+      "Description": "Open circuit and short circuit test on single phase transformer"
+    }
+  ]
+}

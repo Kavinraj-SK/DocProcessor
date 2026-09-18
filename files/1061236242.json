@@ -1,0 +1,53 @@
+{
+  "subj_code": "1061236242",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Estimate the absorbency of desized fabric using wicking height method."
+    },
+    {
+      "Qno": "2",
+      "Description": "Estimate the absorbency of scoured fabric using Drop test."
+    },
+    {
+      "Qno": "3",
+      "Description": "Identification of various dyes by trial dyeing"
+    },
+    {
+      "Qno": "4",
+      "Description": "Reactive dyeing of cotton fabric"
+    },
+    {
+      "Qno": "5",
+      "Description": "Print the fabric using digital printing machines"
+    },
+    {
+      "Qno": "6",
+      "Description": "Finish the fabric to get stone wash effect"
+    },
+    {
+      "Qno": "7",
+      "Description": "Finish the fabric using acid wash method"
+    },
+    {
+      "Qno": "8",
+      "Description": "Finish the fabric with Flame retardant effect."
+    },
+    {
+      "Qno": "9",
+      "Description": "Finish the given fabric with antibacterial resistance"
+    },
+    {
+      "Qno": "10",
+      "Description": "Finish the given fabric with stain repellent finish"
+    },
+    {
+      "Qno": "11",
+      "Description": "Modify the surface of the polyester fabric using alkali hydrolysis"
+    },
+    {
+      "Qno": "12",
+      "Description": "Estimate the wettability of plasma treated fabrics"
+    }
+  ]
+}

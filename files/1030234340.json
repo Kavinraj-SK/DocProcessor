@@ -1,0 +1,53 @@
+{
+  "subj_code": "1030234340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Write an Assembly Language Program for 16-bit addition and execute the same in the 8051 microcontroller kit."
+    },
+    {
+      "Qno": "2",
+      "Description": "Write an Assembly Language Program for 16-bit subtraction and execute the same in the 8051 microcontroller kit."
+    },
+    {
+      "Qno": "3",
+      "Description": "Write an Assembly Language Program for 8 bit multiplication and execute the same in the 8051 microcontroller Kit."
+    },
+    {
+      "Qno": "4",
+      "Description": "Write an Assembly Language Program for 8 bit division and execute the same in the 8051 microcontroller Kit."
+    },
+    {
+      "Qno": "5",
+      "Description": "Write and execute an Assembly Language Program for blinking LED with a time delay using time delay subroutine."
+    },
+    {
+      "Qno": "6",
+      "Description": "Write and execute an Assembly Language Program for transferring the status of input switches to the output LEDs after the counter counting 5number of pulses by using Counter 0 in Mode 1."
+    },
+    {
+      "Qno": "7",
+      "Description": "Interface a 4x4 matrix keypad with the 8051 microcontroller. Write an Assembly Language Program to detect key presses and display the pressed key on an LCD."
+    },
+    {
+      "Qno": "8",
+      "Description": "Interface a seven-segment LED display with the 8051 microcontroller. Write an Assembly Language Program to display digits from 0 to 9."
+    },
+    {
+      "Qno": "9",
+      "Description": "Interface a stepper motor with the 8051 microcontroller. Write an Assembly Language Program to rotate the motor in both clockwise and counterclockwise directions with a specified delay."
+    },
+    {
+      "Qno": "10",
+      "Description": "Interface a DC motor with the 8051 microcontroller. Write an Assembly Language Program to control a DC motor’s speed."
+    },
+    {
+      "Qno": "11",
+      "Description": "Interface an ADC with the 8051 microcontroller. Write an Assembly Language Program to convert an analog voltage input and display the digital equivalent on an LCD."
+    },
+    {
+      "Qno": "12",
+      "Description": "Write an Assembly Language Program to generate a PWM signal using the 8051 microcontroller. Execute the program and verify the waveform using an oscilloscope."
+    }
+  ]
+}

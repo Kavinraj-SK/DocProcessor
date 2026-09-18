@@ -1,0 +1,233 @@
+{
+  "subj_code": "EN232480",
+  "questions": [
+    {
+      "Qno": "1",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "1",
+          "Description": "Describe your friend’s Character traits."
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "1",
+          "Description": "a) Frame questions using (WH / Yes or No) for the given situations.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "II",
+              "Description": "Ask your father to know where he is."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "II",
+              "Description": "Ask your teacher to know your mark."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "II",
+              "Description": "Ask your mother to know the lunch."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "II",
+              "Description": "Ask your friend about his mark."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "II",
+              "Description": "Ask your brother about the arrangements for a trip.\nOR\nb)  Give the meanings for the following sets of Homophones."
+            },
+            {
+              "Qno": "1",
+              "ParentQuestionId": "II",
+              "Description": "Cell  - Sell"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "II",
+              "Description": "Break - Brake"
+            }
+          ]
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "1",
+          "Description": "Frame sentences using any 5 words in the Word Cloud.\n----Image alt text---->30,200+ Word Cloud Stock Photos, Pictures & Royalty-Free ...<----media/image1.jpeg----"
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "1",
+          "Description": "Discuss ‘Plastic Waste Management’ with your friends\nTest on Reading Skills - 20 marks"
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "1",
+          "Description": "Interpret the given Graphics into Verbal.\n----Image alt text---->Data - BBC Bitesize<----media/image2.png----"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "1",
+          "Description": "Match the Idiomatic expressions with their corresponding meanings.\n1 | Fish out of water | Last moment\n2 | Look before you leap | Not feeling well\n3 | At the 11th hour | Confused\n4 | Under the weather | Careful and analyze\n5 | At sea | Inconvenient situation"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "1",
+          "Description": "Read the following sentences with the proper intonation.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VII",
+              "Description": "This is my book."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VII",
+              "Description": "What a beautiful flower!"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VII",
+              "Description": "Oh!  I am correct."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VII",
+              "Description": "Where are you going now?"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VII",
+              "Description": "Are you ready?\n________________________________________________________________________\nWRITTEN SKILLS - 50 MARKS\nTest on Theory Part - 10 Marks\nI.  Read the poetry lines and answer the following questions.    “Bangle sellers are we who bear\nOur shining loads to the temple fair…\nWho will buy these delicate, bright\nRainbow-tinted circles of light?\nLustrous tokens of radiant lives,\nFor happy daughters and happy wives.”\na)  Who is the speaker in this poem?\nb)  Who are these bangles for?\nc)  What are the shining loads?\nd)  Rainbow -tinted circles refer Bangles - True/False"
+            }
+          ]
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "1",
+          "Description": "Answer the following questions in one or two sentences.\na) Why did the young lift-man throw the passenger out from the lift?\nb)  What does the law say with regard to ‘discourtesy’?\nc)  What are the significances of the phrases “PLEASE” and “THANK YOU”?\n----------------------------------------------------------------------------------------------------------------\nTest on Listening Skills - 20 Marks"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "1",
+          "Description": "Listen to the speech and take down notes."
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "1",
+          "Description": "Listen to the scientific passage and answer the following questions.\nThe solar system is the Sun and the objects that travel around it. The Earth is part of the solar system because it also travels around the sun. The Sun is mostly a big ball of gases composed mainly of hydrogen and helium.\nThe planet Earth takes 365 days or one year to orbit the Sun. The other planets take more or less time to orbit the Sun. It takes Mercury less than two months or 88 days to travel around the Sun. It is the shortest time compared to the other planets. The planet taking the longest time to go around the Sun is Neptune. It takes Neptune almost 165 years to travel around the Sun.\nThe four inner planets, Mercury, Venus, Earth, and Mars are made of rock containing many different minerals. The four outer planets, Jupiter, Saturn, Uranus, and Neptune are mostly made up of different gases.\nThe asteroid belt is another object in the solar system. The asteroid belt is approximately located between the orbits of the planets Mars and Jupiter. It contains irregularly shaped bodies called asteroids which are believed to be left over from the beginning of the solar system 4.6 billion years ago.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "The Sun and the objects that travel around it is called\na) Planets  b) solar system  c) moon"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "Which takes the shortest time to go around the Sun?\na) Venus  b) Mars  c) Mercury"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "What are the outer planets made up of?\na) Minerals   b) gases c) None"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "What is asteroid belt?"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "The four inner planets are made up of minerals. TRUE OR FALSE?\nTest on Writing Skills - 20 Marks - ANSWER ANY FOUR OF THE FOLLOWING"
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "1",
+          "Description": "Fill in the blanks with suitable Adjectives.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "V",
+              "Description": "The --------- tree in the forest was a pine (taller / tallest)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "V",
+              "Description": "Witches and wizards have ---------- powers. (magic / magical)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "V",
+              "Description": "Mt Everest is the --------- (high/highest) mountain in the world"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "V",
+              "Description": "This house is old and _____ (fat / large)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "V",
+              "Description": "His son is very _____ (beautiful / handsome)"
+            }
+          ]
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "1",
+          "Description": "Frame sentences using Phrasal Verbs.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "Give up 2.  Turn on 3. Break down 4.  Go on     5. Put down"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "1",
+          "Description": "Write an E-mail application for the post of Junior Technician in Tata Motors, Chennai."
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "1",
+          "Description": "Write a paragraph of about 50 words using the given infographics/picture.\n----Image alt text---->Data Interpretation Pie Chart/ Graph - Examples - Questions ...<----media/image3.png----"
+        },
+        {
+          "Qno": "IX",
+          "ParentQuestionId": "1",
+          "Description": "Match the technical words and form collocations.\nTechnical | Technology\nNetwork | Data\nAdvance | Problem\nArtificial | Error\nMobile | Intelligence"
+        },
+        {
+          "Qno": "X",
+          "ParentQuestionId": "1",
+          "Description": "Write suitable Caption for the news reports given.\nREPORT 1:   Google CEO Sundar Pichai, speaking at the India AI Summit on Friday (February 20, 2026), said the U.S.-India partnership has a critical role to play to “make benefit of AI available to everyone”.\nREPORT 2:   The strengthening of the relationship is also likely to complement ties envisioned in the recently signed India-EU trade deal."
+        }
+      ]
+    }
+  ],
+  "_review_flags": [
+    {
+      "digit": "1",
+      "line": "I.  Read the poetry lines and answer the following questions.    “Bangle sellers are we who bear",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "1",
+      "line": "II. Answer the following questions in one or two sentences.",
+      "reason": "Roman numeral 'II' found where 'VIII' was expected next - possible typo in the source document's own numbering (not a parsing ambiguity). Verify the sequence is correct."
+    }
+  ],
+  "_media_dir": "EN232480_media",
+  "_embedded_media": [
+    "image3.png",
+    "image1.jpeg",
+    "image2.png"
+  ]
+}

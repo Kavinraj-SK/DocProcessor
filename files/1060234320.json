@@ -1,0 +1,41 @@
+{
+  "subj_code": "1060234320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Analysis of Construction details of given plain weave cloth."
+    },
+    {
+      "Qno": "2",
+      "Description": "Analysis of Construction details of the given voile cloth"
+    },
+    {
+      "Qno": "3",
+      "Description": "Analysis of Construction details of the given poplin cloth"
+    },
+    {
+      "Qno": "4",
+      "Description": "Analysis of Construction details of the given denim cloth"
+    },
+    {
+      "Qno": "5",
+      "Description": "Analysis of Construction details of the given satin/sateen cloth"
+    },
+    {
+      "Qno": "6",
+      "Description": "Analysis of Construction details of the given honey comb cloth"
+    },
+    {
+      "Qno": "7",
+      "Description": "Analysis of Construction details of the given Huck a back cloth"
+    },
+    {
+      "Qno": "8",
+      "Description": "Analysis of Construction details of the given mock leno cloth"
+    },
+    {
+      "Qno": "9",
+      "Description": "Analysis of Construction details of the given extra warp/extra weft figure cloth"
+    }
+  ]
+}

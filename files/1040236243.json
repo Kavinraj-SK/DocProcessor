@@ -1,0 +1,65 @@
+{
+  "subj_code": "1040236243",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Introduction to Lab VIEW software (Study Experiment)"
+    },
+    {
+      "Qno": "2",
+      "Description": "Basic arithmetic operations"
+    },
+    {
+      "Qno": "3",
+      "Description": "Boolean operations."
+    },
+    {
+      "Qno": "4",
+      "Description": "Sum of ‘n’ numbers using ‘for’ loop"
+    },
+    {
+      "Qno": "5",
+      "Description": "Factorial of a given number using ‘for’ loop"
+    },
+    {
+      "Qno": "6",
+      "Description": "Sum of n natural numbers using ‘while’ loop"
+    },
+    {
+      "Qno": "7",
+      "Description": "Sorting even numbers using while loop in an array"
+    },
+    {
+      "Qno": "8",
+      "Description": "Find the maximum and minimum in an array"
+    },
+    {
+      "Qno": "9",
+      "Description": "Flat and stacked sequence"
+    },
+    {
+      "Qno": "10",
+      "Description": "Create a sine wave using formula node."
+    },
+    {
+      "Qno": "11",
+      "Description": "Find the Convolution of two signals"
+    },
+    {
+      "Qno": "12",
+      "Description": "Apply Median Filter technique for a given input signal"
+    },
+    {
+      "Qno": "13",
+      "Description": "Apply filtering technique for a given input signal"
+    },
+    {
+      "Qno": "14",
+      "Description": "Apply different windowing technique on the given input signal"
+    },
+    {
+      "Qno": "15",
+      "Description": "Apply FFT on the given input signal"
+    }
+  ]
+}

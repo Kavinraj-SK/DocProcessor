@@ -1,0 +1,51 @@
+{
+  "subj_code": "1021234340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Perform Arc welding to make a Butt Joint with the given Mild Steel. (Raw Material: 25 mm x 6 mm MS flat – 2 Nos.)"
+    },
+    {
+      "Qno": "3",
+      "Description": "Make the model as per the given sketch by Step turning and Taper turning operations in a Lathe. (Raw Material: Ø32mm M.S rod)\n----media/image1.jpeg----"
+    },
+    {
+      "Qno": "4",
+      "Description": "----media/image2.jpeg----Make the model as per the given sketch by Knurling and BSW Thread cutting operations in a Lathe. (Raw Material: Ø32 mm M.S rod)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Make a spur gear by differential indexing method as per the Figure using Milling Machine.\n----media/image3.jpeg----"
+    },
+    {
+      "Qno": "6",
+      "Description": "----media/image4.jpeg----Make a Helical gear by differential indexing method as per the Figure using Milling Machine"
+    },
+    {
+      "Qno": "7",
+      "Description": "Make a progressive type plug gauge as per the Figure using Cylindrical Grinding Machine"
+    },
+    {
+      "Qno": "8",
+      "Description": "Make a turning tool as per Figure using Tool and Cutter Grinder\n----media/image5.png----"
+    },
+    {
+      "Qno": "9",
+      "Description": "Make the component in the CNC Turning Centre.\n----media/image6.jpeg----"
+    },
+    {
+      "Qno": "10",
+      "Description": "Make the component in the CNC Milling Centre.\n----media/image7.jpeg----"
+    }
+  ],
+  "_media_dir": "1021234340_media",
+  "_embedded_media": [
+    "image7.jpeg",
+    "image5.png",
+    "image6.jpeg",
+    "image3.jpeg",
+    "image2.jpeg",
+    "image1.jpeg",
+    "image4.jpeg"
+  ]
+}

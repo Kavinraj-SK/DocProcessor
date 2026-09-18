@@ -1,0 +1,45 @@
+{
+  "subj_code": "1122233440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Identify the equipment used in safety engineering"
+    },
+    {
+      "Qno": "2",
+      "Description": "Prepare the flow charts for reporting of accidents."
+    },
+    {
+      "Qno": "3",
+      "Description": "Identify the industrial accidents"
+    },
+    {
+      "Qno": "4",
+      "Description": "Identification of unsafe Acts, Unsafe condition."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of accident rate and severity rate of an accident."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of Cost and Man-hour Losses in an accident."
+    },
+    {
+      "Qno": "7",
+      "Description": "Performing evidence- based Accident Investigation for a mock  accident."
+    },
+    {
+      "Qno": "8",
+      "Description": "Performing incident recall technique for an event."
+    },
+    {
+      "Qno": "9",
+      "Description": "Performing why-Why Analysis for a work/Task."
+    },
+    {
+      "Qno": "10",
+      "Description": "Write   two   Personal Protective Equipments and explain."
+    }
+  ]
+}

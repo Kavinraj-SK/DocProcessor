@@ -1,0 +1,25 @@
+{
+  "subj_code": "1221234340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Draw any 3 R&A/C components symbols using CAD given within the bracket -(FCU,AHU,chiller,pump,fan,coolingcoil,compressor,silencer,muffler,airfilter, drier, condenser, thermostat, dx unit, cooling tower, gate valve, globe valve, solenoid valve, butterfly valve, check valve)\nB) Draw any 3 basic R&A/C components symbols using CAD given within the bracket.\n(HVAC duct work symbols : - straight duct, bend, branch duct, junction, y junction, 3-way junction, beveled junction, miter bend, transition, offset transition, diffuser supply & return, duct heater, flexible connection, flexible connector, damper, VAV box, linear diffuser supply & return, floor register, louver opening, air grill)\nC) Draw any 2 of the following connection drawing using CAD\ni) Compressor connection drawing\nii) Condenser connection drawing\niii) Evaporator connection drawing\nD) Process drawing - Split ac"
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Draw any 3 R&A/C components symbols using CAD given within the bracket -(FCU,AHU,chiller,pump,fan,coolingcoil,compressor,silencer,muffler,airfilter, drier, condenser, thermostat, dx unit, cooling tower, gate valve, globe valve, solenoid valve, butterfly valve, check valve)\nB) Draw any 3 basic R&A/C components symbols using CAD given within the bracket .\n(HVAC duct work symbols : - straight duct, bend, branch duct, junction, y junction, 3-way junction, beveled junction, miter bend, transition, offset transition, diffuser supply & return, duct heater, flexible connection, flexible connector, damper, VAV box, linear diffuser supply & return, floor register, louver opening, air grill)\nC) Draw any 2 of the following connection drawing using CAD\ni) Compressor connection drawing\nii) Condenser connection drawing\niii) Evaporator connection drawing\nD) Process drawing - Typical duct drawing for a hall"
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Draw any 3 R&A/C components symbols using CAD given within the bracket -(FCU,AHU,chiller,pump,fan,coolingcoil,compressor,silencer,muffler,airfilter, drier, condenser, thermostat, dx unit, cooling tower, gate valve, globe valve, solenoid valve, butterfly valve, check valve)\nB) Draw any 3 basic R&A/C components symbols using CAD given within the bracket .\n(HVAC duct work symbols : - straight duct, bend, branch duct, junction, y junction, 3-way junction, beveled junction, miter bend, transition, offset transition, diffuser supply & return, duct heater, flexible connection, flexible connector, damper, VAV box, linear diffuser supply & return, floor register, louver opening, air grill)\nC) Draw any 2 of the following connection drawing using CAD\ni) Compressor connection drawing\nii) Condenser connection drawing\niii) Evaporator connection drawing\nD) Process drawing - Chillers"
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Draw any 3 R&A/C components symbols using CAD given within the bracket -(FCU,AHU,chiller,pump,fan,coolingcoil,compressor,silencer,muffler,airfilter, drier, condenser, thermostat, dx unit, cooling tower, gate valve, globe valve, solenoid valve, butterfly valve, check valve)\nB) Draw any 3 basic R&A/C components symbols using CAD given within the bracket .\n(HVAC duct work symbols : - straight duct, bend, branch duct, junction, y junction, 3-way junction, beveled junction, miter bend, transition, offset transition, diffuser supply & return, duct heater, flexible connection, flexible connector, damper, VAV box, linear diffuser supply & return, floor register, louver opening, air grill)\nC) Draw any 2 of the following connection drawing using CAD\ni) Compressor connection drawing\nii) Condenser connection drawing\niii) Evaporator connection drawing\nD) Process drawing - Cooling tower"
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Draw any 3 R&A/C components symbols using CAD given within the bracket -(FCU,AHU,chiller,pump,fan,coolingcoil,compressor,silencer,muffler,airfilter, drier, condenser, thermostat, dx unit, cooling tower, gate valve, globe valve, solenoid valve, butterfly valve, check valve)\nB) Draw any 3 basic R&A/C components symbols using CAD given within the bracket .\n(HVAC duct work symbols : - straight duct, bend, branch duct, junction, y junction, 3-way junction, beveled junction, miter bend, transition, offset transition, diffuser supply & return, duct heater, flexible connection, flexible connector, damper, VAV box, linear diffuser supply & return, floor register, louver opening, air grill)\nC) Draw any 2 of the following connection drawing using CAD\ni) Compressor connection drawing\nii) Condenser connection drawing\niii) Evaporator connection drawing\nD) Process drawing - Typical central ac plant"
+    }
+  ]
+}

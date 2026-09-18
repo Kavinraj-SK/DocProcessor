@@ -1,0 +1,45 @@
+{
+  "subj_code": "1064235543",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Design an appropriate layout for a textile spinning unit."
+    },
+    {
+      "Qno": "2",
+      "Description": "Design an appropriate layout for a textile weaving unit."
+    },
+    {
+      "Qno": "3",
+      "Description": "Design an appropriate layout for a textile processing unit."
+    },
+    {
+      "Qno": "4",
+      "Description": "Design an appropriate layout for a garment manufacturing unit."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determine the normal and standard time required to make a T-shirt"
+    },
+    {
+      "Qno": "6",
+      "Description": "Determine the normal and standard time required to make a Polo shirt"
+    },
+    {
+      "Qno": "7",
+      "Description": "Set the export price for the product employing a selected pricing method."
+    },
+    {
+      "Qno": "8",
+      "Description": "Calculate the breakeven point based on the given data."
+    },
+    {
+      "Qno": "9",
+      "Description": "Examine the industrial safety equipment used in textile manufacturing."
+    },
+    {
+      "Qno": "10",
+      "Description": "Study the 5S principles and evaluate their effectiveness in the workplace."
+    }
+  ]
+}

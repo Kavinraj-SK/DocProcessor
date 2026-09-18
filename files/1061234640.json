@@ -1,0 +1,53 @@
+{
+  "subj_code": "1061234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Draw the passage of material in carding machine with diagram and write function of cylinder, doffer, licker in and flats."
+    },
+    {
+      "Qno": "2",
+      "Description": "Study the passage of material in drawing machine with neat diagram and write function of drafting system."
+    },
+    {
+      "Qno": "3",
+      "Description": "Draw the passage of material in roving machine. Write the function creel, flyer, drafting system and building mechanism."
+    },
+    {
+      "Qno": "4",
+      "Description": "Draw the passage of material in Ring frame machine with neat diagram. Write the function traveller, ring and drafting system."
+    },
+    {
+      "Qno": "5",
+      "Description": "Study the passage of material in TFO"
+    },
+    {
+      "Qno": "6",
+      "Description": "Draw the passage of material in cone winding machine with sketch. Write the function tensioner, slub catcher, winding drum and balloon breaker."
+    },
+    {
+      "Qno": "7",
+      "Description": "Study the passage of material in Plain loom with diagram."
+    },
+    {
+      "Qno": "8",
+      "Description": "Study the passage of material in Plain knitting machine. Write the function needle, sinker, cylinder and tensioner."
+    },
+    {
+      "Qno": "9",
+      "Description": "Analyze the design and cloth particular EPI, PPI, Cover factor, GSM, Warp count and weft count of given woven cloth."
+    },
+    {
+      "Qno": "10",
+      "Description": "Analyze the design and cloth particular EPI, PPI, Cover factor, GSM, Warp count and weft count of given fabric."
+    },
+    {
+      "Qno": "11",
+      "Description": "Draw the design, draft and peg plan of given cloth. Find the EPI, PPI, Cover factor, GSM, Warp count and weft count  of given woven fabric"
+    },
+    {
+      "Qno": "12",
+      "Description": "Draw the structure and needle notation of given knitted fabric. Find course per inch, wale per inch, yarn count and GSM of given fabric."
+    }
+  ]
+}

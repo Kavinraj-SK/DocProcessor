@@ -1,0 +1,25 @@
+{
+  "subj_code": "1052235541",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Write a python program to double the elements in list using map function.\nb) Load a dataset into a data frame, drop the non- numeric columns and list out thebasicstaticanalysis of eachcolumn."
+    },
+    {
+      "Qno": "2",
+      "Description": "a) Write a python program to filter only even numbers in the list using filter function.\nb) Load a dataset into a data frame, find correlation matrix and plot the heatmaptofindhighly correlated featureofthetargetfeature."
+    },
+    {
+      "Qno": "3",
+      "Description": "a) Load a CSV file in to a Pandas data frame and print the first five rows, shape of the data set, and column names and their types.\nb) Load a pre-cleaned dataset into a data frame, plot the values of feature and targetvariablesusingscatterplottovisualize their relation."
+    },
+    {
+      "Qno": "4",
+      "Description": "a)Load a data into a Pandas data frame, list out number of missing values in each column and fill the null values with suitable default value.\nb) Visualize a pre-cleaned data set to detect an out liner and filter out them."
+    },
+    {
+      "Qno": "5",
+      "Description": "a)Load a data set into a Pandas data frame, find and remove duplicate rows and rename indexes(Column name).\nb)Train the sklearn linear model with a pre-cleaned data set using fit function and predict the target variable."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subj_code": "1141234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "What are the key components on an 8051 microcontroller development board and what are their function."
+    },
+    {
+      "Qno": "2",
+      "Description": "Can you provide an assembly language program (ALP) for8bit addition and 16 bit addition of two numbers on 8051 micro controller."
+    },
+    {
+      "Qno": "3",
+      "Description": "Write an assembly language program8051for 8bit   multiplication and division which operands stored in external memory."
+    },
+    {
+      "Qno": "4",
+      "Description": "Can you provide an 8051 assembly language program to sort a given set of numbers in ascending or descending order?"
+    },
+    {
+      "Qno": "5",
+      "Description": "Write an 8051 assembly language program to blink an LED connected to a specific pin using SFR manipulation and delay routines."
+    },
+    {
+      "Qno": "6",
+      "Description": "Write an assembly language program 8051 for subtraction two numbers (8bit and 16bit) using different addressing modes."
+    },
+    {
+      "Qno": "7",
+      "Description": "Write and execute an 8051 assembly language program to configure the timer for a\n0.5-second delay and set the counter to count external pulses."
+    },
+    {
+      "Qno": "8",
+      "Description": "Write an assembly language for 8051 program to transmit data through the serial port between two microcontroller kits."
+    },
+    {
+      "Qno": "9",
+      "Description": "Write an assembly code to display numbers characters on a seven segment LED/LCD\nDisplay connected to 8051 microcontroller pins."
+    },
+    {
+      "Qno": "10",
+      "Description": "Write an assembly language program 8051 to interface an 8bit DAC or  ADC for converting digital data to analog signal."
+    },
+    {
+      "Qno": "11",
+      "Description": "Write an assembly language program 8051 to interface and control a stepper motor."
+    },
+    {
+      "Qno": "12",
+      "Description": "Write an assembly language program 8051 to interface a multi digit 7segment LED display using the 8255PPI chip and display a specific word or number."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "subj_code": "1012233420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Draw and render of your own imaginary drawing with an appropriate finishing materials.\nB) Draw a One-point perspective view of a Bedroom using colour rendering\n----Image alt text---->IMG_256<----media/image1.jpeg----"
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Draw and render of your own imaginary drawing with pencil or pen and ink ?  including trees, cars and human figures.\nB) Draw a One-point perspective view of a Kitchen using colour rendering.\n----Image alt text---->IMG_256<----media/image2.jpeg----"
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Draw a Two-point perspectives of Residence using pencil rendering\n----Image alt text---->IMG_256<----media/image3.jpeg----\nB) Draw the sciography in view of Steps given plan\n----media/image4.png----"
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Draw a Two-point perspectives of Residence using pencil rendering.\n----Image alt text---->IMG_256<----media/image5.jpeg----\nB) Draw the sciography of Steps (or), Fins, (or) columns (or) curved objects\n----media/image4.png----"
+    },
+    {
+      "Qno": "6",
+      "Description": "A) Draw and render of your own imaginary drawing with an appropriate finishing materials.\nB) Draw a One-point perspective view of a Living room using colour rendering\n----Image alt text---->IMG_256<----media/image7.jpeg----"
+    },
+    {
+      "Qno": "7",
+      "Description": "A) Draw and render of your own imaginary drawing with an appropriate finishing materials.\nB) Draw the sciography view of  Fins,(or) colum"
+    }
+  ],
+  "_media_dir": "1012233420_media",
+  "_embedded_media": [
+    "image7.jpeg",
+    "image5.jpeg",
+    "image6.png",
+    "image3.jpeg",
+    "image2.jpeg",
+    "image1.jpeg",
+    "image4.png"
+  ]
+}

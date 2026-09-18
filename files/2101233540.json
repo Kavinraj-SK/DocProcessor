@@ -1,0 +1,33 @@
+{
+  "subj_code": "2101233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Manufacture of Vegetable Tanned Sole Leathers by pit method"
+    },
+    {
+      "Qno": "2",
+      "Description": "Manufacture of Vegetable Tanned Sole Leathers by rapid tanning method."
+    },
+    {
+      "Qno": "3",
+      "Description": "Manufacture of Chrome & Waxed Chrome Sole Leathers."
+    },
+    {
+      "Qno": "4",
+      "Description": "Manufacture of Parchment Leathers."
+    },
+    {
+      "Qno": "5",
+      "Description": "Manufacture of Harness and Saddlery Leathers."
+    },
+    {
+      "Qno": "6",
+      "Description": "Manufacture of Sports Goods Leathers"
+    },
+    {
+      "Qno": "7",
+      "Description": "Industrial Gloving Leathers"
+    }
+  ]
+}

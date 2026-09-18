@@ -1,0 +1,37 @@
+{
+  "subj_code": "2080234440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "To Prepare Tea cup by casting technique"
+    },
+    {
+      "Qno": "2",
+      "Description": "To Prepare Jar by Throwing technique"
+    },
+    {
+      "Qno": "3",
+      "Description": "To Prepare Saucer by Jiggering and Jolleying technique."
+    },
+    {
+      "Qno": "4",
+      "Description": "To Prepare standard brick by Hand Moulding technique"
+    },
+    {
+      "Qno": "5",
+      "Description": "To Prepare Sagger Box by Hand Moulding technique"
+    },
+    {
+      "Qno": "6",
+      "Description": "To Prepare Crucible by Hand Moulding technique"
+    },
+    {
+      "Qno": "7",
+      "Description": "To Prepare Setter by Hand Moulding technique"
+    },
+    {
+      "Qno": "8",
+      "Description": "To Prepare Tiles by Pressing Technique."
+    }
+  ]
+}

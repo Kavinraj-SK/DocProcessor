@@ -1,0 +1,37 @@
+{
+  "subj_code": "1076234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determine the temperature measurement accuracy and response time of a thermo couple module."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determine the temperature sensitivity and linearity of an RTD module."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determine the liquid level in a tank using a Differential Pressure (DP) Transmitter"
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine the pressure measurement accuracy and calibration curve of a Bourdon Pressure Transducer."
+    },
+    {
+      "Qno": "5",
+      "Description": "Study of ON- OFF controller using Temperature controller Trainer kit by monitoring the process in SCADA mode or Analog mode"
+    },
+    {
+      "Qno": "6",
+      "Description": "Study of characteristics of control valve (Linear, Equal% and Quick opening)."
+    },
+    {
+      "Qno": "7",
+      "Description": "Study the linearity of P/I and I/P converter."
+    },
+    {
+      "Qno": "8",
+      "Description": "Study of P, PI, PD and PID controller using Pressure controller Trainer kit by monitoring the process in SCADA mode or Analog mode"
+    }
+  ]
+}

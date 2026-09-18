@@ -1,0 +1,53 @@
+{
+  "subj_code": "1012235520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) i) Explain the various menus of Revit Architecture/ sketch-up package.\nii) Describe the setting units & selection of toolbars of sketch up.\nB) Create a five different geometrical 3D forms & apply with different colors, materials &\ntextures."
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Create a three-seater sofa & apply material with proper dimension\nB) render by using V-ray settings."
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Create a rectangular table & apply material with proper dimension\nB) render by using V-ray settings."
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Create a dining table with chairs & apply material with proper dimension\nB) render by using V-ray settings."
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Create a cot with side table & apply material with proper dimension\nB) Render by using V-ray settings."
+    },
+    {
+      "Qno": "6",
+      "Description": "A) Create a wardrobe & apply material with proper dimension\nB) Render by using V-ray settings."
+    },
+    {
+      "Qno": "7",
+      "Description": "A) Create a false celling design for a size of 14’x10’ bedroom (minimum 2 options)\napply material with proper dimension\nB)  Render by using V-ray settings."
+    },
+    {
+      "Qno": "8",
+      "Description": "A) Create kitchen cabinets & apply material with proper dimension\nB) Render by using V-ray settings."
+    },
+    {
+      "Qno": "9",
+      "Description": "A) Import a file from CAD and create a 3D exterior model apply suitable material\nB) Render by using V-ray settings."
+    },
+    {
+      "Qno": "10",
+      "Description": "A) Create a master bedroom interior with all details, apply suitable material\nB)  render the bedroom interior by using V-ray settings."
+    },
+    {
+      "Qno": "11",
+      "Description": "A) Create a master bedroom interior with all details, apply suitable material\nB) Render the Living interior by using V-ray setting"
+    },
+    {
+      "Qno": "12",
+      "Description": "A) Create a kitchen interior apply suitable material\nB) i) Render the kitchen by using V-ray setting as day time render.\nii) Render the kitchen by using V-ray setting as night time render."
+    }
+  ]
+}

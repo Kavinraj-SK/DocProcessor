@@ -1,0 +1,50 @@
+{
+  "subj_code": "2021235342",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "M.S / Aluminium / Acrylic fibre / Plastic\nUsing Linear interpolation - Create a part program and produce component in the Machine\n----media/image1.png----"
+    },
+    {
+      "Qno": "2",
+      "Description": "----Image alt text---->Description: CNC Lathe Program Exercise for ...<----media/image2.jpeg----Using Linear and Circular interpolation - Create a part program and produce component in the Machine"
+    },
+    {
+      "Qno": "3",
+      "Description": "Using Stock removal cycle – Create a part program for multiple turning operations and produce component in the Machine\n----media/image3.jpeg----"
+    },
+    {
+      "Qno": "4",
+      "Description": "Using canned cycle - create part program for thread cutting, grooving and produce component.\n----media/image4.jpeg----"
+    },
+    {
+      "Qno": "5",
+      "Description": "Using Linear interpolation and cutter radius compensation – Create a part program and produce component in the Machine.\n----media/image5.jpeg--------media/image6.jpeg----"
+    },
+    {
+      "Qno": "6",
+      "Description": "Using Linear interpolation and Circular interpolation and cutter radius compensation – Create a part program and produce component in the Machine.\n----media/image7.jpeg----\n----media/image8.jpeg----"
+    },
+    {
+      "Qno": "7",
+      "Description": "Using peck drilling cycle - Create a part program and produce component in the Machine\n----media/image9.jpeg----"
+    },
+    {
+      "Qno": "8",
+      "Description": "Using subprogram - Create a part program and produce component in the machine.\n----media/image10.jpeg----"
+    }
+  ],
+  "_media_dir": "2021235342_media",
+  "_embedded_media": [
+    "image8.jpeg",
+    "image10.jpeg",
+    "image7.jpeg",
+    "image9.jpeg",
+    "image4.jpeg",
+    "image5.jpeg",
+    "image3.jpeg",
+    "image2.jpeg",
+    "image1.png",
+    "image6.jpeg"
+  ]
+}

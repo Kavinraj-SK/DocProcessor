@@ -1,0 +1,41 @@
+{
+  "subj_code": "1010235320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Prepare the Estimate and Abstract sheet with given data (provide all the measurement details) and calculate the quantity and Total Amount using formula bar"
+    },
+    {
+      "Qno": "3",
+      "Description": "Finding centre of gravity; Ixx and IYY of I, L, T and channel sections"
+    },
+    {
+      "Qno": "4",
+      "Description": "Calculate Area and Elongation using formula bar"
+    },
+    {
+      "Qno": "5",
+      "Description": "Carryout the analysis of Continuous Beam with given size"
+    },
+    {
+      "Qno": "6",
+      "Description": "Carryout the analysis of Portal Frame structure with given size"
+    },
+    {
+      "Qno": "7",
+      "Description": "Carryout the analysis of king post roof truss"
+    },
+    {
+      "Qno": "8",
+      "Description": "Carry out the analysis and design of 1 BHK residential house with given structure"
+    },
+    {
+      "Qno": "9",
+      "Description": "Preparation of plan, section and elevation of a House with single bed room and attached bathroom with R.C.C. flat roof(Framed structure)"
+    },
+    {
+      "Qno": "10",
+      "Description": "Preparation of plan, section and elevation of a Single storied School building with R.C.C flat roof (Framed structure)"
+    }
+  ]
+}

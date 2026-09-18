@@ -1,0 +1,45 @@
+{
+  "subj_code": "1202234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Measure paper weight (gsm) and thickness (caliper) for given sample."
+    },
+    {
+      "Qno": "2",
+      "Description": "Measure paper grain direction for given sample."
+    },
+    {
+      "Qno": "3",
+      "Description": "Test the adhesion of printed ink to a substrate (paper, plastic) using a rub test."
+    },
+    {
+      "Qno": "4",
+      "Description": "Test the water resistance of printed materials using Cobb Test."
+    },
+    {
+      "Qno": "5",
+      "Description": "Measuring bursting strength for given sample."
+    },
+    {
+      "Qno": "6",
+      "Description": "Measuring tearing strength for given sample."
+    },
+    {
+      "Qno": "7",
+      "Description": "Measuring edge crush resistance for given sample."
+    },
+    {
+      "Qno": "8",
+      "Description": "Measuring adhesion/peel strength for given sample."
+    },
+    {
+      "Qno": "9",
+      "Description": "Measure drying time with different inks and substrates."
+    },
+    {
+      "Qno": "10",
+      "Description": "Do ink draw down test for given sample."
+    }
+  ]
+}

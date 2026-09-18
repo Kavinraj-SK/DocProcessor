@@ -1,0 +1,53 @@
+{
+  "subj_code": "1030234440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Draw the following symbols using AutoCAD: Relay, Fluorescent Lamp, Ceiling Fan, Exhaust Fan, One Way Switch, 5A Socket Outlet with Switch, Energy Meter, Star Delta Starter, DC Shunt Motor, Step Down Transformer, PN Junction Diode, BJT, AND Gate and OR Gate."
+    },
+    {
+      "Qno": "2",
+      "Description": "Draw the single line diagram of Three phase MCB Distribution Board using AutoCAD."
+    },
+    {
+      "Qno": "3",
+      "Description": "Draw the panel wiring diagram of Horizontal busbar with Incoming and Outgoing Switch\nboards using AutoCAD."
+    },
+    {
+      "Qno": "4",
+      "Description": "Draw the single line diagram of typical Medium Voltage with following feeders using AutoCAD.\nIncoming: One from EB and Another from DG with Interlock.\nOutgoing: 12 Outgoing feeders with various loads."
+    },
+    {
+      "Qno": "5",
+      "Description": "Estimate the quantity of Materials and Cost required for a single Bedroom residential\nbuilding (1 BHK)."
+    },
+    {
+      "Qno": "6",
+      "Description": "Estimate the quantity of Materials and Cost required for Irrigation Pump wiring 5 hp\nInduction Motor."
+    },
+    {
+      "Qno": "7",
+      "Description": "Estimate the quantity of Materials and Cost required for Industrial power wiring having\nfour machines."
+    },
+    {
+      "Qno": "8",
+      "Description": "Estimate the quantity of Materials and Cost required for street light service having 12\nLamps light fittings."
+    },
+    {
+      "Qno": "9",
+      "Description": "Draw the Mush Winding Diagram of a Three Phase Induction Motor using AutoCAD."
+    },
+    {
+      "Qno": "10",
+      "Description": "Draw the Winding Diagram of Lap Connected DC Armature with Commutator\nConnections and Brush Positions using AutoCAD."
+    },
+    {
+      "Qno": "11",
+      "Description": "Draw the single line diagram of 110 KV / 11 KV Receiving Substation using AutoCAD."
+    },
+    {
+      "Qno": "12",
+      "Description": "Draw the Single Line Diagram of Fire Alarm Riser Arrangement in typical Multi-Storey\nBuilding using AutoCAD."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subj_code": "2021235440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Annealing of Low Carbon Steel"
+    },
+    {
+      "Qno": "2",
+      "Description": "Annealing of Medium carbon Steel"
+    },
+    {
+      "Qno": "3",
+      "Description": "Annealing of High carbon Steel"
+    },
+    {
+      "Qno": "4",
+      "Description": "Annealing of Grey Cast Iron"
+    },
+    {
+      "Qno": "5",
+      "Description": "Normalizing of Low Carbon Steel"
+    },
+    {
+      "Qno": "6",
+      "Description": "Normalizing of Medium Carbon Steel"
+    },
+    {
+      "Qno": "7",
+      "Description": "Normalizing of High Carbon Steel"
+    },
+    {
+      "Qno": "8",
+      "Description": "Normalizing of Grey Cast Iron"
+    },
+    {
+      "Qno": "9",
+      "Description": "Hardening of Medium carbon Steel"
+    },
+    {
+      "Qno": "10",
+      "Description": "Hardening of High carbon Steel"
+    },
+    {
+      "Qno": "11",
+      "Description": "Tempering of Medium carbon Steel"
+    },
+    {
+      "Qno": "12",
+      "Description": "Tempering of High carbon Steel"
+    }
+  ]
+}

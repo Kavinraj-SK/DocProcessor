@@ -1,0 +1,53 @@
+{
+  "subj_code": "1143235721",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "To verify the Congruence of optical and radiation field"
+    },
+    {
+      "Qno": "2",
+      "Description": "To check the alignment of Central x- ray beam alignment test."
+    },
+    {
+      "Qno": "3",
+      "Description": "To determine the Effective focal spot size test."
+    },
+    {
+      "Qno": "4",
+      "Description": "To verify the accuracy of Exposure timer check."
+    },
+    {
+      "Qno": "5",
+      "Description": "Total filtration test."
+    },
+    {
+      "Qno": "6",
+      "Description": "Table top dose rate test."
+    },
+    {
+      "Qno": "7",
+      "Description": "Test for radiation leakage through tube housing and collimator."
+    },
+    {
+      "Qno": "8",
+      "Description": "Preparation of CT contrast"
+    },
+    {
+      "Qno": "9",
+      "Description": "Preparation of CT injector"
+    },
+    {
+      "Qno": "10",
+      "Description": "Demonstration  of CR cassette reader procedure"
+    },
+    {
+      "Qno": "11",
+      "Description": "Demonstration  of mammogram positioning views"
+    },
+    {
+      "Qno": "12",
+      "Description": "To Understand the operations of various radiological equipment through the\nillustration video"
+    }
+  ]
+}

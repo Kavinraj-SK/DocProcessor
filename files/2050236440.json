@@ -1,0 +1,45 @@
+{
+  "subj_code": "2050236440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Write a program to implement anyone python data structure with the following operations\na) Create  b) Add elements  c)  Access elements  d)Remove elements"
+    },
+    {
+      "Qno": "2",
+      "Description": "Write a python program to implement a singly linked list\na)  Create a singly linked list\nb)  Add element to singly linked list\nc)  Remove element from singly linked list"
+    },
+    {
+      "Qno": "3",
+      "Description": "Write a python program to implement stack"
+    },
+    {
+      "Qno": "4",
+      "Description": "Write a python program to implement queue"
+    },
+    {
+      "Qno": "5",
+      "Description": "Write the python program for pre-order traversal of a binary tree"
+    },
+    {
+      "Qno": "6",
+      "Description": "Write a python program for Hash table."
+    },
+    {
+      "Qno": "7",
+      "Description": "Write a python program in heap."
+    },
+    {
+      "Qno": "8",
+      "Description": "Write a python program to implement bubble sort"
+    },
+    {
+      "Qno": "9",
+      "Description": "Write a python program to implement linear search"
+    },
+    {
+      "Qno": "10",
+      "Description": "Write a python program to implement binary search"
+    }
+  ]
+}

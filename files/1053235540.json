@@ -1,0 +1,41 @@
+{
+  "subj_code": "1053235540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Practice basic Linux terminal commands (ls,cd,pwd,mkdir,rm) and perform file and directory manipulation exercises"
+    },
+    {
+      "Qno": "3",
+      "Description": "Use basic command-line tools like to p and psto monitor system performance."
+    },
+    {
+      "Qno": "4",
+      "Description": "Explore basic network monitor in using commands like net stat and if config."
+    },
+    {
+      "Qno": "5",
+      "Description": "Implement shell scripts for file handling (read/write) and use text processing tools for data manipulation."
+    },
+    {
+      "Qno": "6",
+      "Description": "Develop shell scripts to process and analyze text data with tools like grep,sed,awk, and extract relevant information."
+    },
+    {
+      "Qno": "7",
+      "Description": "Automate system administration tasks with shell scripts for process monitoring, service management, network interface configuration, and trouble shooting."
+    },
+    {
+      "Qno": "8",
+      "Description": "Develop shell scripts to automate network configuration tasks and\nTroubleshoot network issues for implementing solutions."
+    },
+    {
+      "Qno": "9",
+      "Description": "Write shell scripts to automate common system administration tasks and\nDemonstrate script development and execution.."
+    },
+    {
+      "Qno": "10",
+      "Description": "Develop complex shell scripts to automate advanced system tasks with\nError handling , logging, and  scheduling  implemented."
+    }
+  ]
+}

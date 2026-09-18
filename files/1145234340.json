@@ -1,0 +1,57 @@
+{
+  "subj_code": "1145234340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Finding the Speed of Red Light in Acrylic Medium"
+    },
+    {
+      "Qno": "2",
+      "Description": "Determining the Wavelength of Red Light"
+    },
+    {
+      "Qno": "3",
+      "Description": "Demonstrate the composition of coloured light"
+    },
+    {
+      "Qno": "4",
+      "Description": "Understand the functions and uses of various optical components"
+    },
+    {
+      "Qno": "5",
+      "Description": "Maintain Care and Cleaning of High Grade Optical Component"
+    },
+    {
+      "Qno": "6",
+      "Description": "Study of Building an Inexpensive Spectrometer"
+    },
+    {
+      "Qno": "7",
+      "Description": "Study of Optical Filters"
+    },
+    {
+      "Qno": "8",
+      "Description": "Study of Optical Photometer Use and Stability"
+    },
+    {
+      "Qno": "9",
+      "Description": "Study of Optical Alignment Techniques"
+    },
+    {
+      "Qno": "10",
+      "Description": "Study of Laser Eye Protection Equipment"
+    },
+    {
+      "Qno": "11",
+      "Description": "Diffraction Grating Using a Laser Source"
+    },
+    {
+      "Qno": "12",
+      "Description": "Study of laser tissue interaction via PDT."
+    },
+    {
+      "Qno": "13",
+      "Description": "Removal of hair using Laser"
+    }
+  ]
+}

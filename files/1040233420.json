@@ -1,0 +1,65 @@
+{
+  "subj_code": "1040233420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Verification of truth table of OR, AND, NOT, NOR, NAND, EX-OR gates."
+    },
+    {
+      "Qno": "2",
+      "Description": "Realization of Logic Gates using NAND gates."
+    },
+    {
+      "Qno": "3",
+      "Description": "Verification of Demorgan’s theorems."
+    },
+    {
+      "Qno": "4",
+      "Description": "Full adder using Logic Gates."
+    },
+    {
+      "Qno": "5",
+      "Description": "Full Subtractor using Logic Gates"
+    },
+    {
+      "Qno": "6",
+      "Description": "Construction and Verification of Truth Table for Multiplexer."
+    },
+    {
+      "Qno": "7",
+      "Description": "Construction and Verification of truth Table for De-multiplexer."
+    },
+    {
+      "Qno": "8",
+      "Description": "Construction and Verification of truth table one digit digital comparator."
+    },
+    {
+      "Qno": "9",
+      "Description": "Construction and Verification of truth table for SR Latch using NAND gates."
+    },
+    {
+      "Qno": "10",
+      "Description": "Construct and test the performance of Parity Generator."
+    },
+    {
+      "Qno": "11",
+      "Description": "Construction and verification of Truth Table for JK and T Flip-Flops."
+    },
+    {
+      "Qno": "12",
+      "Description": "Construct and test the performance of a 4-bit Asynchronous up counter."
+    },
+    {
+      "Qno": "13",
+      "Description": "Construct and test the performance of a Decade Counter."
+    },
+    {
+      "Qno": "14",
+      "Description": "Construct and test Shift Register in SIPO using D flip-flops."
+    },
+    {
+      "Qno": "15",
+      "Description": "Construct and test Shift Register in PISO using D flip-flops."
+    }
+  ]
+}

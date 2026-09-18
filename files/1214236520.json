@@ -1,0 +1,41 @@
+{
+  "subj_code": "1214236520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Fixing of Average Room rate(ARR) using Hubbart formula Forecasting skills to determine the room availability."
+    },
+    {
+      "Qno": "2",
+      "Description": "Calculation of occupancy rate\na) Percentage of arrivals\nb) Percentage of walk-ins\nc) Percentage of stay- overs\nd) Percentage of no-shows\ne) Percentage of over stays"
+    },
+    {
+      "Qno": "3",
+      "Description": "Forecasting room revenue, occupancy"
+    },
+    {
+      "Qno": "4",
+      "Description": "Estimating expenses"
+    },
+    {
+      "Qno": "5",
+      "Description": "Preparation of daily operations report"
+    },
+    {
+      "Qno": "6",
+      "Description": "Calculation of occupancy percentage, multiple occupancy rooms, Average Daily Rate\n(ADR)"
+    },
+    {
+      "Qno": "7",
+      "Description": "Preparation of monthly rooms division income statement, rooms division budget report"
+    },
+    {
+      "Qno": "8",
+      "Description": "Measuring yield– potential average single rate, potential average double rate, Rate spread\nPotential average rate, Room achievement factor, yield, identical yields."
+    },
+    {
+      "Qno": "9",
+      "Description": "Case studies related to the above mentioned topics"
+    }
+  ]
+}

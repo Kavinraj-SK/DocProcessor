@@ -1,0 +1,45 @@
+{
+  "subj_code": "1042234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Construct the inverting amplifier and Non inverting amplifier and observe output voltages for the given positive and negative DC input voltages, and Draw the Voltage transfer characteristic curve."
+    },
+    {
+      "Qno": "2",
+      "Description": "Construct the Integrator and Differentiator circuit using operational amplifier. Observe the input and output wave forms"
+    },
+    {
+      "Qno": "3",
+      "Description": "Construct and test the IC voltage regulator circuit using IC7812 and IC7912"
+    },
+    {
+      "Qno": "4",
+      "Description": "(i) Construct the circuit configuring 555 timer in mono stable mode and test the output using LED. Observe the LED is glowing for the set time.\n(ii) Construct and test the circuit configuring 555 timer in as table mode and test the circuit output using CRO. Observe the output waveform"
+    },
+    {
+      "Qno": "5",
+      "Description": "Verify the Truth table of OR, AND, NOT, NOR, NAND, EX-OR and EX-NOR using gate ICs."
+    },
+    {
+      "Qno": "6",
+      "Description": "Construct and test Half adder, half subtractor using Gate IC"
+    },
+    {
+      "Qno": "7",
+      "Description": "Verify the truth table of D, T, JKMS Flip-Flop"
+    },
+    {
+      "Qno": "8",
+      "Description": "Construct 3 bit ripple up counter using T Flip Flops and observe the counting sequence Using LED’s"
+    },
+    {
+      "Qno": "9",
+      "Description": "Construct and verify R-2R ladder Digital to Analog converter using operational amplifier."
+    },
+    {
+      "Qno": "10",
+      "Description": "Construct and verify A/D convertor using ADC0808IC."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1021236246",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Measure the capacity and efficiency of different types of Batteries (Li-ion, NiMH, etc.)."
+    },
+    {
+      "Qno": "2",
+      "Description": "Design and simulate a simple BMS to monitor battery voltage, temperature, and current."
+    },
+    {
+      "Qno": "3",
+      "Description": "Measure to rque, speed, and efficiency of a DC motor."
+    },
+    {
+      "Qno": "4",
+      "Description": "Control an AC motor using an inverter and study the impact Of frequency and voltage on motor performance."
+    },
+    {
+      "Qno": "5",
+      "Description": "Design and implement a simple BLDC motor controller."
+    },
+    {
+      "Qno": "6",
+      "Description": "Build and test a basic buck or boost converter."
+    },
+    {
+      "Qno": "7",
+      "Description": "Design and simulate a basic regenerative braking system."
+    },
+    {
+      "Qno": "8",
+      "Description": "Program a microcontroller to control motor speed and direction."
+    },
+    {
+      "Qno": "9",
+      "Description": "Develop a system to monitor EV parameters remotely using IoTdevices."
+    },
+    {
+      "Qno": "10",
+      "Description": "Conduct experiments with different cooling techniques for Batteries and power electronics."
+    }
+  ]
+}

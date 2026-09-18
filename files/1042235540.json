@@ -1,0 +1,53 @@
+{
+  "subj_code": "1042235540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Design and Develop Ladder Logic Program to switch ON the pilot lamp when START Push button is pressed and lamp will be continuously ON even after the push button is released. Pilot lamp will be switched OFF when STOP button is pressed"
+    },
+    {
+      "Qno": "2",
+      "Description": "Design and Develop Ladder Logic Program to simulate the following Logic functions: NOT,   AND, OR, NAND, NOR, XOR, XOR Logic."
+    },
+    {
+      "Qno": "3",
+      "Description": "Design and Develop Ladder Logic Program to meet the  following requirements When Switch 1 OR Switch 2ON,Lamp ON WhenSwitch3ANDSwitch4ON,LampOFF"
+    },
+    {
+      "Qno": "4",
+      "Description": "DesignandDevelopLadderLogicprogramtomeetthefollowingrequirements When Switch 1 ON, Lamp 1 and Lamp 2 ON When Switch1OFF,Lamp1OFF and Lamp2 ON When Switch2 ON , Lamp2 OFF,Lamp3 ON and Lamp4 ON  When Switch 2 OFF, Lamp 2 ON, Lamp 3 ON, Lamp 5 ON"
+    },
+    {
+      "Qno": "5",
+      "Description": "(i)Develop and Implement Ladder Logic Diagram to switch ON the pilot lamp 10 second after the toggle switch is pressed.\nii)  Develop and Implement Ladder Logic Diagram to switch OFF the pilot lamp 10 seconds after the toggle switch is pressed.\niii)  Develop and Implement Ladder logic Diagram for cyclic ON & OFF                        of a Pilot Lamp"
+    },
+    {
+      "Qno": "6",
+      "Description": "Design and Develop Ladder Logic Diagram to count the event of toggling the Switch And pilot lamp should be switched ON when the count valueis15"
+    },
+    {
+      "Qno": "7",
+      "Description": "Develop and implement a Ladder logic program for the sequence control of four outputs repetitively."
+    },
+    {
+      "Qno": "8",
+      "Description": "Develop and implement a Ladder Logic program to run the motor in the forward direction when START_FORWARD switch is pressed and to run the motor in Reverse Direction When the START_REVERSE switch is pressed"
+    },
+    {
+      "Qno": "9",
+      "Description": "Develop and Implement Ladder Logic Diagram for the On/Off Level Control"
+    },
+    {
+      "Qno": "10",
+      "Description": "Develop and implement a Ladder logic Diagram for convey or control"
+    },
+    {
+      "Qno": "11",
+      "Description": "Develop and Implement a Ladder logic Diagram for Car parking."
+    },
+    {
+      "Qno": "12",
+      "Description": "Develop and Implement a Ladder Logic Diagram for Lift control"
+    }
+  ]
+}

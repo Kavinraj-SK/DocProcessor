@@ -1,0 +1,85 @@
+{
+  "subj_code": "1052235440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Hard Disk/SSD (a) Partition and Format, (b) Scan Disk, Disk Cleanup, Disk De-Fragmentation\nB) Installation and Configuration of any one of Service (Telnet, FTP Server, Web Server)"
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Hard Disk/SSD (a) Partition and Format, (b) Scan Disk, Disk Cleanup, Disk De-Fragmentation\nB) Practice cabling works in a network (a) Cable Crimping, (b) Standard Cabling, (c) Cross Cabling, (d) Testing the Crimped cable using a Cable tester"
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Hard Disk/SSD (a) Partition and Format, (b) Scan Disk, Disk Cleanup, Disk De-Fragmentation\nB) Create a Network topology using any network simulation software."
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Hard Disk/SSD (a) Partition and Format, (b) Scan Disk, Disk Cleanup, Disk De-Fragmentation\nB) IP Configuration & Testing (a) Configure Host IP, Subnet Mask, Default Gateway, (b) Configure Internet connection and debug with IPCONFIG, PING, Tracert, Netstat)"
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Hard Disk/SSD (a) Partition and Format, (b) Scan Disk, Disk Cleanup, Disk De-Fragmentation\nB) Data Backup & Network Security (a) Create user accounts, (b) Automated backups, (c) Firewall rules)"
+    },
+    {
+      "Qno": "6",
+      "Description": "A) Install and configure any one device (Printer, Scanner, Webcam, Bio-metric device) with system and troubleshoot the problems.\nB) Installation and Configuration of any one of Service (Telnet, FTP Server, Web Server)"
+    },
+    {
+      "Qno": "7",
+      "Description": "A)  Install and configure any one device (Printer, Scanner, Webcam, Bio-metric device) with system and troubleshoot the problems.\nB)  Practice cabling works in a network (a) Cable Crimping, (b) Standard Cabling, (c) Cross Cabling, (d) Testing the Crimped cable using a Cable tester"
+    },
+    {
+      "Qno": "8",
+      "Description": "A)  Install and configure any one device (Printer, Scanner, Webcam, Bio-metric device) with system and troubleshoot the problems.\nB)  Create a Network topology using any network simulation software."
+    },
+    {
+      "Qno": "9",
+      "Description": "A) Install and configure any one device (Printer, Scanner, Webcam, Bio-metric device) with system and troubleshoot the problems.\nB) IP Configuration & Testing (a) Configure Host IP, Subnet Mask, Default Gateway, (b) Configure Internet connection and debug with IPCONFIG, PING, Tracert, Netstat)"
+    },
+    {
+      "Qno": "10",
+      "Description": "A)  Install and configure any one device (Printer, Scanner, Webcam, Bio-metric device) with system and troubleshoot the problems.\nB)  Data Backup & Network Security (a) Create user accounts, (b) Automated backups, (c) Firewall rules)"
+    },
+    {
+      "Qno": "11",
+      "Description": "A) Server OS installation\nB) Installation and Configuration of any one of Service (Telnet, FTP Server, Web Server)"
+    },
+    {
+      "Qno": "12",
+      "Description": "A) Server OS installation\nB) Practice cabling works in a network (a) Cable Crimping, (b) Standard Cabling, (c) Cross Cabling, (d) Testing the Crimped cable using a Cable tester"
+    },
+    {
+      "Qno": "13",
+      "Description": "A) Server OS installation\nB) Create a Network topology using any network simulation software."
+    },
+    {
+      "Qno": "14",
+      "Description": "A) Server OS installation\nB) IP Configuration & Testing (a) Configure Host IP, Subnet Mask, Default Gateway, (b) Configure Internet connection and debug with IPCONFIG, PING, Tracert, Netstat)"
+    },
+    {
+      "Qno": "15",
+      "Description": "A) Server OS installation\nB) Data Backup & Network Security (a) Create user accounts, (b) Automated backups, (c) Firewall rules)"
+    },
+    {
+      "Qno": "16",
+      "Description": "A) Installation and configuration of DNS Server\nB) Installation and Configuration of any one of Service (Telnet, FTP Server, Web Server)"
+    },
+    {
+      "Qno": "17",
+      "Description": "A) Installation and configuration of DNS Server\nB) Practice cabling works in a network (a) Cable Crimping, (b) Standard Cabling, (c) Cross Cabling, (d) Testing the Crimped cable using a Cable tester"
+    },
+    {
+      "Qno": "18",
+      "Description": "A) Installation and configuration of DNS Server\nB) Create a Network topology using any network simulation software."
+    },
+    {
+      "Qno": "19",
+      "Description": "A) Installation and configuration of DNS Server\nB) IP Configuration & Testing (a) Configure Host IP, Subnet Mask, Default Gateway, (b) Configure Internet connection and debug with IPCONFIG, PING, Tracert, Netstat)"
+    },
+    {
+      "Qno": "20",
+      "Description": "A) Installation and configuration of DNS Server\nB) Data Backup & Network Security (a) Create user accounts, (b) Automated backups, (c) Firewall rules)"
+    }
+  ]
+}

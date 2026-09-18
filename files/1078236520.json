@@ -1,0 +1,45 @@
+{
+  "subj_code": "1078236520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Introduction to Bakery And Confectionery Equipments"
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of gluten content"
+    },
+    {
+      "Qno": "3",
+      "Description": "Preparation of Bread"
+    },
+    {
+      "Qno": "4",
+      "Description": "Preparation of Biscuit"
+    },
+    {
+      "Qno": "5",
+      "Description": "Preparation of Cookies"
+    },
+    {
+      "Qno": "6",
+      "Description": "Preparation of Cake"
+    },
+    {
+      "Qno": "7",
+      "Description": "Preparation of Barfi"
+    },
+    {
+      "Qno": "8",
+      "Description": "Preparation of Chikki"
+    },
+    {
+      "Qno": "9",
+      "Description": "Preparation of Chocolate"
+    },
+    {
+      "Qno": "10",
+      "Description": "Preparation of Boiled candy"
+    }
+  ]
+}

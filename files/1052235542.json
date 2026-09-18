@@ -1,0 +1,25 @@
+{
+  "subj_code": "1052235542",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Installation of  Network Simulator(Eg.NS2)\nb) Simulate the Distance Vector Routing Algorithm and Analyze the performance metrics such as through put, packet drop rate etc."
+    },
+    {
+      "Qno": "2",
+      "Description": "a) Implementation of Blue tooth network (transfer a file from one device to another).\nb) Simulate AODV Protocol."
+    },
+    {
+      "Qno": "3",
+      "Description": "a) Implement a basic function of Code Division Multiple Access (CDMA).\nb) Create a mobile hatting application using TCP with a mobile client."
+    },
+    {
+      "Qno": "4",
+      "Description": "a) Simulate authentication and encryption techniques used in GSM and analyze their performance.\nb) Setup a simple mobile network topology using a network simulator. Configure and manage mobile devices with in a simulated network environment."
+    },
+    {
+      "Qno": "5",
+      "Description": "a) Illustration of Hidden Terminal Problem using Network Simulator.\nb)Setup & configure Wireless Access Point(AP) using Network Simulator.\nAnalyze the Wi-Fi communication range in the presence of the access point (AP)\nAnd the base station (BS)."
+    }
+  ]
+}

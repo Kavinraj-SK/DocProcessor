@@ -1,0 +1,53 @@
+{
+  "subj_code": "1064236243",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study the Progressive bundle production system followed in Garment industry"
+    },
+    {
+      "Qno": "2",
+      "Description": "Study the Individual finishing production system followed in Garment industry."
+    },
+    {
+      "Qno": "3",
+      "Description": "Study the Group production system followed in Garment industry."
+    },
+    {
+      "Qno": "4",
+      "Description": "Study the Ergonomics for a sewing machine operator."
+    },
+    {
+      "Qno": "5",
+      "Description": "Study the Ergonomics of a Quality checker"
+    },
+    {
+      "Qno": "6",
+      "Description": "Calculate the EOQ for a Garment industry."
+    },
+    {
+      "Qno": "7",
+      "Description": "Study the operational breakdown for Men’s T shirt."
+    },
+    {
+      "Qno": "8",
+      "Description": "Study the operational breakdown for Men’s full sleeve shirt"
+    },
+    {
+      "Qno": "9",
+      "Description": "Study the basic time and standard time calculation."
+    },
+    {
+      "Qno": "10",
+      "Description": "Study the SAM calculation"
+    },
+    {
+      "Qno": "11",
+      "Description": "Study the allocation of machine for each operation involved in shirt production."
+    },
+    {
+      "Qno": "12",
+      "Description": "Study the balancing of sewing machine for shirt production."
+    }
+  ]
+}

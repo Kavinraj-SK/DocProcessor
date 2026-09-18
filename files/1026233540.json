@@ -1,0 +1,45 @@
+{
+  "subj_code": "1026233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Arc welding of Square Butt Joint in down hand position"
+    },
+    {
+      "Qno": "2",
+      "Description": "Arc welding of Lap Joint in down hand position"
+    },
+    {
+      "Qno": "3",
+      "Description": "Arc welding of T joint in down hand position"
+    },
+    {
+      "Qno": "4",
+      "Description": "Arc welding of Corner Joint in down hand position"
+    },
+    {
+      "Qno": "5",
+      "Description": "Arc welding of Butt joint in Horizontal position"
+    },
+    {
+      "Qno": "6",
+      "Description": "Arc welding of Corner Joint in Horizontal position"
+    },
+    {
+      "Qno": "7",
+      "Description": "Oxy-Acetylene Gas welding of Butt joint"
+    },
+    {
+      "Qno": "8",
+      "Description": "Spot welding"
+    },
+    {
+      "Qno": "9",
+      "Description": "Brazing"
+    },
+    {
+      "Qno": "10",
+      "Description": "Soldering"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subj_code": "1123234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Verify the Ohm’s Law"
+    },
+    {
+      "Qno": "2",
+      "Description": "Conduct a Load test on DC shunt motor"
+    },
+    {
+      "Qno": "3",
+      "Description": "Conduct a Load test on single phase induction motor"
+    },
+    {
+      "Qno": "4",
+      "Description": "Conduct a Load test on three phase squirrel cage motor"
+    },
+    {
+      "Qno": "5",
+      "Description": "Conduct a test on Stepper motor drive."
+    },
+    {
+      "Qno": "6",
+      "Description": "Conduct a test on Servo motor drive"
+    },
+    {
+      "Qno": "7",
+      "Description": "Construct and test the Half wave and Full wave rectifier."
+    },
+    {
+      "Qno": "8",
+      "Description": "Verify the truth ables for logic gates."
+    },
+    {
+      "Qno": "9",
+      "Description": "Verify the universal gates."
+    },
+    {
+      "Qno": "10",
+      "Description": "Develop and execute the Ladder Logic Diagram in PLC for 3 Stage Lift Operation."
+    },
+    {
+      "Qno": "11",
+      "Description": "Wire and Test the Sequential Operation of Solenoid Valve and a Motor for Tank Filling Operation using PLC."
+    },
+    {
+      "Qno": "12",
+      "Description": "Develop and execute the Ladder Logic to Interface PLC with Convey or Model for counting the object moving in the Conveyer."
+    }
+  ]
+}

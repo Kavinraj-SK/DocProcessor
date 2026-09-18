@@ -1,0 +1,29 @@
+{
+  "subj_code": "1092233520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Testing of metal / non-metals materials for\na)      Tensile\nb)      Compression\nc)      Hardness\nd)     Bending"
+    },
+    {
+      "Qno": "2",
+      "Description": "Fabrication of Composite materials –\na)        Make 300x300mm Glass fabric with epoxy resin system with room\ntemperature curing  system.\nb)        Thickness min 2mm and above"
+    },
+    {
+      "Qno": "3",
+      "Description": "Testing Composite laminates\na)      Tension\nb)       Inter laminar shear stress (ILSS)\nc)        Flexure Test"
+    },
+    {
+      "Qno": "4",
+      "Description": "Single Lap Shear Strength Test.\na)    Single Lap shear strength  using  aluminium  adherents  and  room\ntemperature  urable\nb)     adhesives ( like AV 130 + HV 998 or any commercially available\nadhesives)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Sheet Metal Shop\na)         Single row riveting exercises\nb)       Double row riveting practice"
+    },
+    {
+      "Qno": "6",
+      "Description": "Riveting repair by insertion\na)  Cutting and bending exercises on Aluminium sheets\nb)   Pneumatic Riveting Exercise"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1079236245",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Conduct a time study for a simple manufacturing operation and calculate standard time."
+    },
+    {
+      "Qno": "2",
+      "Description": "Prepare a flow process chart for a selected production process in a paper mill."
+    },
+    {
+      "Qno": "3",
+      "Description": "Draw a Gantt chart for scheduling 5 jobs in a flow shop."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine the capacity of a production system using given data."
+    },
+    {
+      "Qno": "5",
+      "Description": "Perform ABC analysis for a given inventory dataset."
+    },
+    {
+      "Qno": "6",
+      "Description": "Calculate Economic Order Quantity (EOQ) using given demand, ordering cost and holding cost."
+    },
+    {
+      "Qno": "7",
+      "Description": "Develop and interpret a control chart (X̄ chart) for quality monitoring."
+    },
+    {
+      "Qno": "8",
+      "Description": "Design a simple plant layout and justify the type of layout selected."
+    },
+    {
+      "Qno": "9",
+      "Description": "Apply Lean manufacturing principles to reduce waste in a paper production line."
+    },
+    {
+      "Qno": "10",
+      "Description": "Conduct an ergonomic evaluation of a workstation and suggest improvements."
+    }
+  ]
+}

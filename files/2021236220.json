@@ -1,0 +1,58 @@
+{
+  "subj_code": "2021236220",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Drilling and tapping\n----media/image1.png----"
+    },
+    {
+      "Qno": "2",
+      "Description": "Drilling and counter boring\n----media/image2.png----"
+    },
+    {
+      "Qno": "3",
+      "Description": "Make Dove tail using Shaper\n----media/image3.png----"
+    },
+    {
+      "Qno": "4",
+      "Description": "Make Round to Square in Milling Machine\n----media/image4.png----"
+    },
+    {
+      "Qno": "5",
+      "Description": "Make Spur Gear using milling machine by simple Indexing\n----media/image5.png----"
+    },
+    {
+      "Qno": "6",
+      "Description": "Make helical gear using milling machine\n----media/image6.png----"
+    },
+    {
+      "Qno": "7",
+      "Description": "Make a Slot\n----media/image7.png----"
+    },
+    {
+      "Qno": "8",
+      "Description": "Grind a plain surface using surface Grinder\n----media/image8.png----"
+    },
+    {
+      "Qno": "9",
+      "Description": "Make progressive type plug gauge using cylindrical grinding machine\n----media/image9.png----"
+    },
+    {
+      "Qno": "10",
+      "Description": "Make a turning tool / milling cutter using tool and cutter grinder.\n----media/image10.png----"
+    }
+  ],
+  "_media_dir": "2021236220_media",
+  "_embedded_media": [
+    "image9.png",
+    "image10.png",
+    "image7.png",
+    "image6.png",
+    "image1.png",
+    "image2.png",
+    "image3.png",
+    "image4.png",
+    "image5.png",
+    "image8.png"
+  ]
+}

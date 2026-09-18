@@ -1,0 +1,45 @@
+{
+  "subj_code": "1060233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Draw gear diagram of mixing bale opener and calculate the speed of various parts of mixing bale opener"
+    },
+    {
+      "Qno": "2",
+      "Description": "Draw gear diagram of step cleaner and calculate the speed of various parts of the step cleaner"
+    },
+    {
+      "Qno": "3",
+      "Description": "Calculate the production of Scutcher per 8 hours using gearing diagram of the Scutcher"
+    },
+    {
+      "Qno": "4",
+      "Description": "Draw the gearing diagram of carding machine and calculate the speed of licker-in, Cylinder, doffer and calendar roller"
+    },
+    {
+      "Qno": "5",
+      "Description": "Studying of the various card settings and set the Licker-in, Doffer Zones & Flat region of the card to process short staple cotton"
+    },
+    {
+      "Qno": "6",
+      "Description": "Calculate the mechanical draft and actual draft using gearing diagram and      given data."
+    },
+    {
+      "Qno": "7",
+      "Description": "Calculate the draft change wheel for given lap hank to produce the required hank of sliver using gear diagram and given data."
+    },
+    {
+      "Qno": "8",
+      "Description": "Draw the gearing diagram of draw frame and calculation of draft of intermediate rollers, creel draft, tension draft, draft constant and total draft."
+    },
+    {
+      "Qno": "9",
+      "Description": "Calculate the production of draw frame per 8 hours using gearing diagram and given data."
+    },
+    {
+      "Qno": "10",
+      "Description": "Calculate the draft change wheel for a given sliver hank to produce the required hank of sliver in a draw frame."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "subj_code": "1078235621",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Physical Examination of milk"
+    },
+    {
+      "Qno": "2",
+      "Description": "Platform tests of milk"
+    },
+    {
+      "Qno": "3",
+      "Description": "Chemical examination of Milk – PH, acidity"
+    },
+    {
+      "Qno": "4",
+      "Description": "Adulteration test of milk"
+    },
+    {
+      "Qno": "5",
+      "Description": "Preparation of Curd"
+    },
+    {
+      "Qno": "6",
+      "Description": "Preparation of Shrikhand"
+    },
+    {
+      "Qno": "7",
+      "Description": "Preparation of Gulabjamun"
+    },
+    {
+      "Qno": "8",
+      "Description": "Preparation of Paneer"
+    },
+    {
+      "Qno": "9",
+      "Description": ".\nPreparation of Rasgulla"
+    },
+    {
+      "Qno": "10",
+      "Description": "Visit to Dairy unit/Milk processing unit"
+    },
+    {
+      "Qno": "11",
+      "Description": "Preparation of flavoured milk/. Pasteurization of milk"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1225234320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Identify the given fibers by using the burning tests with suitable instrument."
+    },
+    {
+      "Qno": "2",
+      "Description": "Draw the longitudinal views of given fibres by using microscope and identify the fibre name of given sample."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of the mean linear density of the given monofilament synthetic yarns."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of the Tex of the given multifilament synthetic yarns"
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of the mean linear density of the given texturised yarns"
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of the mean cut-length of the given fibre by using the oiled plate technique."
+    },
+    {
+      "Qno": "7",
+      "Description": "Analyze the solubility of the given fibres using suitable solvents and identify name of fibre."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determine the blend proportions of the given P/C fabric using suitable method."
+    },
+    {
+      "Qno": "9",
+      "Description": "Determination of the blend proportions of the given P/V fabric using solubility test."
+    },
+    {
+      "Qno": "10",
+      "Description": "Determination of the blend proportions of the given P/W fabric using suitable solvents."
+    }
+  ]
+}

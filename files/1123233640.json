@@ -1,0 +1,45 @@
+{
+  "subj_code": "1123233640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determine flash and fire point of the given oil using open cup and closed cup apparatus."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determine the absolute viscosity of the given lubricating oil using Redwood viscometer."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determine the absolute viscosity of the given lubricating oil using Say bolt viscometer"
+    },
+    {
+      "Qno": "4",
+      "Description": "Port timing diagram of two stroke Petrol Engine."
+    },
+    {
+      "Qno": "5",
+      "Description": "Valve time diagram for four stroke Petrol Engine."
+    },
+    {
+      "Qno": "6",
+      "Description": "Valve time diagram for four stroke Diesel Engine"
+    },
+    {
+      "Qno": "7",
+      "Description": "Load test (Performance test) on Four Stroke Petrol/Diesel Engine."
+    },
+    {
+      "Qno": "8",
+      "Description": "Morse test on Multi-cylinder petrol engine."
+    },
+    {
+      "Qno": "9",
+      "Description": "Find the percentage of CO,CO2,O2 and amount of HC ,N Ox using exhaust gas analyzer"
+    },
+    {
+      "Qno": "10",
+      "Description": "Determination of COP of Refrigeration System"
+    }
+  ]
+}

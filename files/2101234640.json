@@ -1,0 +1,33 @@
+{
+  "subj_code": "2101234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Write a detailed procedure to make gents leather garments and prepare the patterns for the same."
+    },
+    {
+      "Qno": "2",
+      "Description": "Write a detailed procedure to make ladies leather garments and prepare the patterns for the same."
+    },
+    {
+      "Qno": "3",
+      "Description": "Write a detailed procedure to manufacture key case and fabricate the key case by using given materials."
+    },
+    {
+      "Qno": "4",
+      "Description": "Write a detailed procedure to manufacture coin purse and fabricate the coin purse by using given materials."
+    },
+    {
+      "Qno": "5",
+      "Description": "Write a detailed procedure to manufacture gent’s wallet and fabricate the gent’s wallet by using given materials."
+    },
+    {
+      "Qno": "6",
+      "Description": "Write a detailed procedure to manufacture cash bag and fabricate the cash bag by using given materials."
+    },
+    {
+      "Qno": "7",
+      "Description": "Write a detailed procedure to manufacture gent’s belt and fabricate the gent’s belt by using given materials."
+    }
+  ]
+}

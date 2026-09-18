@@ -1,0 +1,49 @@
+{
+  "subj_code": "1026234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Collect the true representative sample for the testing purpose."
+    },
+    {
+      "Qno": "2",
+      "Description": "Prepare the standard sand specimen using sand rammer."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determine the Shatter Index number of the sand specimen."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine the Permeability of the sand specimen."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determine the Mould Hardness"
+    },
+    {
+      "Qno": "6",
+      "Description": "Determine the core Hardness."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determine the moisture content of sand using Speedy moisture teller"
+    },
+    {
+      "Qno": "8",
+      "Description": "Determine the Green compression strength for the sand specimen"
+    },
+    {
+      "Qno": "9",
+      "Description": "Determine the Green Shear strength for the sand specimen."
+    },
+    {
+      "Qno": "10",
+      "Description": "Determine the AFS grain fineness number for the sand specimen using Sieving method."
+    },
+    {
+      "Qno": "11",
+      "Description": "Prepare the Core using CO2 process."
+    }
+  ]
+}

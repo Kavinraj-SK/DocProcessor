@@ -1,0 +1,37 @@
+{
+  "subj_code": "1091234320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Dismantling, servicing and reassembling of Jacking and levelling of an aircraft. Record caution, warnings and procedure."
+    },
+    {
+      "Qno": "2",
+      "Description": "Dismantling, servicing and reassembling of Locate and inspect components of air-conditioning system."
+    },
+    {
+      "Qno": "3",
+      "Description": "Dismantling, servicing and reassembling of Replace passenger seats and Check seat belts for serviceability."
+    },
+    {
+      "Qno": "4",
+      "Description": "Dismantling, servicing and reassembling of Rigging and operational check flight control systems."
+    },
+    {
+      "Qno": "5",
+      "Description": "Dismantling, servicing and reassembling of landing gear systems."
+    },
+    {
+      "Qno": "6",
+      "Description": "Dismantling, servicing and reassembling of Wheel and Brake removal /installation and checking of tyre air pressure."
+    },
+    {
+      "Qno": "7",
+      "Description": "Dismantling, servicing and reassembling of various fire exchangers."
+    },
+    {
+      "Qno": "8",
+      "Description": "Checking various systems like pressure, vacuum and temperature indicator on the display panel."
+    }
+  ]
+}

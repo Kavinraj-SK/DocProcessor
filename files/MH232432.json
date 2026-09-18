@@ -1,0 +1,55 @@
+{
+  "subj_code": "MH232432",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "i. Draw the graphs of the parabolas (𝑦 − 2)2 = 8(𝑥 − 5) and (𝑥 − 3)2 = 6(𝑦 − 4).  Determine the vertex, focus, axis, directrix, latus-rectum of each parabola and mark them on the graphs.\nii. Draw the graphs of the ellipse <latex>(x-1)29+(y-2)24=1.</latex>   Determine the eccentricity, centre, foci, vertices, major axis, minor axis, directrices, and latus-rectums and mark them on the graph.\nOutput for Parabolas\nEquation of the Parabola(p)\nVertex(v)\nFocus(f)\nAxis\nDirectrix(d)\nDistance from vertex to focus (vf)\nLength of lr\nOutput for Ellipses\nEquation of the Ellipse(e)\nEccentricity(E)\nCenter(c)\nFoci(f1,f2)\nVertices(v1,v2,v3,v4)\nMajor Axis\nMinor Axis\nDirectrices(d1,d2)\nLength of lrs"
+    },
+    {
+      "Qno": "2",
+      "Description": "----media/image1.jpeg----\ni) Draw a parabola which fits the given image of the dish antenna.\nii) Write the equation of the parabola.\niii) Find the vertex, focus, directrix and latus-rectum and mark them on the graph.\niv) How far from the vertex should the receiver of the antenna be placed?\nOutput for Parabolic Dish Antenna\nEquation of the Parabola\nVertex(v)\nFocus(F)\nDirectrix\nLength of lr\nDistance\n(Distance of the receiver from vertex)"
+    },
+    {
+      "Qno": "3",
+      "Description": "i. Draw the graphs of  5sin(3𝑥+2)  and 4cos(2𝑥−1). Find their domain, period, range, maximum value, minimum value, amplitude, and phase shift.\nii. Draw the graphs of sin−1𝑥 and cos−1𝑥. Find their domain, range, maximum value and minimum value.\nOutput for Wave Forms\nDescription\nDomain\nPeriod\nMaximum value\nMinimum value\nAmplitude\nPhaseShift\nRange (maximum, minimum)\nOutput for Inverse Trigonometric Function\nDescription\nDomain\nMaximum value\nMinimum value\nRange (maximum, minimum)"
+    },
+    {
+      "Qno": "4",
+      "Description": "The alternating current passing through a circuit is i(𝑡) = 𝐼𝑚 sin ω𝑡, where 𝐼𝑚 is the maximum value of current and 𝜔 is the angular velocity. Let 𝑅 be the resistance and 𝑉𝑚 be the maximum voltage.\ni. Graph the sinusoidal waveform of  i(𝑡) for the given values of 𝐼𝑚 and 𝜔.\nii. Calculate the maximum voltage V𝑚 using the formula 𝑉𝑚=𝐼𝑚𝑅 for the given value of 𝑅.\niii. Graph the sinusoidal waveform of voltage using the formula 𝑣(t)=𝑉𝑚<latex>sinωt+π2</latex>\niv. Determine the value of root mean square (r.m.s) current using the formula <latex>Irms=Im2</latex>\nv. Determine the frequency using the formula <latex>F=ω2π</latex>\nvi. Calculate the instantaneous value of the current at 𝑡=0, 0.1 and 0.2 sec.\nData Set: 𝐼𝑚=110 𝐴, 𝜔=90, 𝑅=5Ω\nOutput for Current and Voltage\nDescription | Value\nMaximum value of current(𝐼m)\nAngular velocity(ω)\nResistance(𝑅)\nMaximum value of voltage(𝑉𝑚)\nRoot mean square current(I𝑟ms)\nFrequency(𝐹)\nOutput for Instantaneous Current for Various Time Values\n𝑡 | 𝑖(𝑡)\n0\n0.1\n0.2"
+    },
+    {
+      "Qno": "5",
+      "Description": "i. Mark the given complex number 𝑍=4+3𝑖 on the Argand plane. Find the real and imaginary parts of Z. Find the distance of 𝑍 from y-axis and relate it to the real part of 𝑍. Find the distance of 𝑍 from x-axis and relate it to the imaginary part of 𝑍.\nii. Find the conjugate of 𝑍. Mark <latex>Z</latex> on the Argand plane. Find the reflection of 𝑍 on 𝑥-axis and relate it to <latex>Z</latex>.\niii. Find the modulus of 𝑍. Find the distance between 𝑍 and origin of the Argand plane and relate it to the modulus of 𝑍. Find the modulus of <latex>Z</latex> and relate it to the modulus of 𝑍.\niv. Find the argument of <latex>Z</latex>. Find the angle between the line segment 𝑂𝑍 and 𝑥 axis and relate it to the argument of 𝑍. Find the argument of <latex>Z</latex>and relate it to the argument of 𝑍.\nOutput for Real Part, Imaginary Part, Conjugate, Modulus and Argument\nComplex Number\nReal Part of Z\nDistance Between y-Axis and Z\nAre Real Part of Z and Distance Between y-Axis and Z are Equal? | Yes/No\nImaginary part of Z\nDistance Between x-Axis and Z\nAre Imaginary Part of Z and Distance Between x-Axis and Z are Equal? | Yes/No\nConjugate of Z\nReflection on x-Axis\nAre conjugate of Z and reflection on x-Axis are Equal? | Yes/No\nModulus of Z\nDistance Between Origin and Z\nAre Modulus of Z and Distance Between Origin and Z are Equal? | Yes/No\nModulus of<latex> Z</latex>\nAre Modulus of Z and Modulus of<latex> Z</latex> are Equal? | Yes/No\nArgument of Z\nAngle Between x-Axis and the Segment Joining O and Z\nAre the Argument and Angle Between x-Axis and the Segment are Equal? | Yes/No\nArgument of<latex> Z</latex>\nRelationship Between Argument of 𝑍 and Argument of <latex>Z</latex>"
+    },
+    {
+      "Qno": "6",
+      "Description": "i. The representation of apparent power as phasor sum of active power and reactive power is given by 𝑆=550+952.63i. Draw the phasor diagram of the system. Find the numerical value of the apparent power. Also calculate the phase angle and power factor of the system.\nii. A machine takes 10KW (real power, P) at a power factor of 0.6 from 400V supply. Calculate the total load in KVA(apparent power,S) and KVAR (reactive power,R). Represent the apparent power as a phasor sum of active power and reactive power\nOutput for Part-(i)\nDescription | Value/Expression\nPhasor Sum(S)\nApparent Power(|S|)\nActive Power (P)\nReactive Power(R)\nPhase Angle(𝜙)\nPower Factor(F)\nOutput for Part-(ii)\nDescription | Value/Expression\nReactive Power(R)\nPhasor Sum(S)\nApparent Power(|S|)"
+    },
+    {
+      "Qno": "7",
+      "Description": "i. Graph the polynomial function 𝑓(𝑥)=𝑥2−5𝑥+6. Find the value of 𝑓(𝑥) at 𝑥=5 and the limit of 𝑓(𝑥) at 𝑥=5.\nii. Graph the rational function R(𝑥)=<latex>x2-5x+6x+2</latex>. Find the value of R(𝑥) and the limit of R(𝑥) at 𝑥 = 4.\niii. Graph the functions <latex>sin3x2x</latex> and <latex>tan3x2x</latex> and evaluate <latex>limx→0sin 3x2x </latex>and <latex>limx→0tan3x2x</latex>.\niv. Graph the functions <latex>sin x,  cos x</latex>. Find their first derivative and         second derivative\nLimit of the Polynomial Function\nℎ | 𝑎− ℎ | 𝑎+ ℎ | 𝐿𝐻𝑉 | 𝑅𝐻𝑉\n1\n0.5\n0.1\n0\n<latex> limx→0 x2-5x+6</latex> (A) = 3 | <latex> limx→0 x2-5x+6</latex> (A) = 3 | <latex> limx→0 x2-5x+6</latex> (A) = 3 | <latex> limx→0 x2-5x+6</latex> (A) = 3 | <latex> limx→0 x2-5x+6</latex> (A) = 3\nLimit of the Rational Function\nℎ | 𝑎− ℎ | 𝑎+ ℎ | 𝐿𝐻V | 𝑅𝐻𝑉\n1\n0.5\n0.1\n0\n<latex> limx→0x2-5x+6x+2</latex> (A) = 0 | <latex> limx→0x2-5x+6x+2</latex> (A) = 0 | <latex> limx→0x2-5x+6x+2</latex> (A) = 0 | <latex> limx→0x2-5x+6x+2</latex> (A) = 0 | <latex> limx→0x2-5x+6x+2</latex> (A) = 0\nLimit of the Trigonometric Functions\nℎ | 𝑎− ℎ (L) | 𝑎+ ℎ (R) | LHV for <latex>sin3x2x</latex> | 𝑅𝐻𝑉  for <latex> sin3x2x</latex> | 𝐿𝐻𝑉 for       <latex>tan3x2x</latex> | 𝑅𝐻𝑉 for        <latex>tan3x2x</latex>\n1\n0.5\n0.1\n0.01\n<latex> limx→0sin3x2x(A)=</latex> | <latex> limx→0sin3x2x(A)=</latex> | <latex> limx→0tan3x2x(A)=</latex> | <latex> limx→0tan3x2x(A)=</latex>\nFirst Derivative and Second Derivative\nFunction 𝑓(𝑥) | First Derivative 𝑓′(𝑥) | Second Derivative 𝑓′′(𝑥)\nSin x | --\nCos𝑥"
+    },
+    {
+      "Qno": "8",
+      "Description": "The alternating current passing through a circuit is i(t)=<latex>Im</latex>sinωt, where<latex> Im</latex> is the maximum value of current and ω is the angular velocity. Let L be the inductance.\ni)  To Graph the sinusoidal wave form of i(t) for the given values of<latex> Im </latex>and ω.\nii)  To Graph the voltage using the formula v(t)=L<latex>di(t)dt</latex> for the given value of  L\niii) To Determine the values of i(t) and v(t) for a fixed t and different value s of ω.\niv) To Determine the values of i(t) and v(t) for fixed value of ω and different values of t.\nv) To Determine the values of  t for which i(t) and v(t) are equal.\nData set <latex>Im=40</latex>A, ω=10, L=1H\nOutput for (𝑡) and 𝑣(𝑡) for fixed 𝜔=30 and varying 𝑡\n𝑡 | 𝑖(t) | 𝑣(𝑡)\n0\n0.1\n0.2\n0.3\n0.4\nOutput for (𝑡) and 𝑣(𝑡) for fixed 𝑡=0.1 and varying 𝜔\n𝜔 | 𝑖(𝑡) | 𝑣(𝑡)\n10\n20\n30\n40\n50\nOutput for values of 𝑡 for which i(t)=𝑣(𝑡) (any five values)\n𝑡 | 𝑖(𝑡)=𝑣(𝑡)"
+    },
+    {
+      "Qno": "9",
+      "Description": "i. Graph the functions 5, 𝑒x, sin𝑥.Find their indefinite integrals.\nii. Evaluate the definite integral<latex>  05xdx   </latex>and relate it to the area under the curve 𝑦=x  between 𝑥-axis, 𝑥 = 0 and 𝑥 = 5.\niii. Find the volume of the solid generated by the revolution of the area bounded by  𝑦 =x  , 𝑥-axis, 𝑥 = 0 and 𝑥 = 5 about 𝑥-axis\nOutput for Indefinite Integrals\n<latex>fx</latex> | <latex>fxdx</latex> (I)\n5\n<latex>ex</latex>\nsin𝑥\nOutput for Definite Integral and Area under the curve\nFunction 𝑓(𝑥) | 𝑥=𝑎 | 𝑥=𝑏 | <latex>abfxdx</latex> | Area Between the 𝑓(𝑥), 𝑦=0, 𝑥=𝑎 and 𝑥=𝑏\n𝑦 = 𝑥 | 0 | 5\nOutput for the Volume of the solid revolution of surface generated by a curve\nFunction 𝑓(𝑥) | 𝑥=𝑎 | 𝑥=𝑏 | Volume=𝜋<latex>abfx2dx</latex>\n𝑦 = 𝑥 | 0 | 5"
+    },
+    {
+      "Qno": "10",
+      "Description": "i. Let V be the voltage,I be the inductance and 𝑅 be the resistance of a circuit.\nii. Graph the function of current at time 𝑡 using the formula  <latex> It=VR1-e- RtL</latex>.\niii. Graph the function of charge passing through the coil at time 𝑡 using the formula <latex>Qt=Itdt</latex>\niv. Find the values of (𝑡) and 𝑄(𝑡) for given values of 𝑉, 𝐿 and 𝑅 at different 𝑡 values.\nv. Find the values of (𝑡) and 𝑄(𝑡) at a fixed time for different values of 𝑉, 𝐿 and 𝑅.\nData Set\n𝑽=𝟓𝑽,𝑹=𝟏.𝟓𝛀,𝑳=𝟒𝑯\nOutput for 𝐼(𝑡) and 𝑄(𝑡) 𝑡=0,5,10\n𝑡 | 𝐼(𝑡) | 𝑄(𝑡)\n0\n5\n10\nOutput for I(𝑡) and 𝑄(𝑡) for fixed t=10, 𝑅=1.5, 𝐿=4 and 𝑉=3,4,5\n𝑉 | 𝐼(𝑡) | 𝑄(𝑡)\n3\n4\n5\nOutput for 𝐼(𝑡) and 𝑄(𝑡) for 𝑡=10,𝑉=5, 𝐿=4 and 𝑅=0.5,1,1.5\n𝑅 | 𝐼(𝑡) | 𝑄(𝑡)\n0.5\n1\n1.5\nOutput for 𝐼(𝑡) and 𝑄(𝑡) for 𝑡=10, 𝑉=5, 𝑅=1.5 and 𝐿=2,3,4\n𝐿 | 𝐼(𝑡) | 𝑄(𝑡)\n2\n3\n4"
+    }
+  ],
+  "_review_flags": [
+    {
+      "file": "MH232432.docx",
+      "reason": "document contains embedded equation object(s); preserved instead of skipped"
+    }
+  ],
+  "_media_dir": "MH232432_media",
+  "_embedded_media": [
+    "image1.jpeg"
+  ]
+}

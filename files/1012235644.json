@@ -1,0 +1,57 @@
+{
+  "subj_code": "1012235644",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Detailing of a simply supported one way Slab."
+    },
+    {
+      "Qno": "2",
+      "Description": "Detailing of a Two-way Slab with corners held down."
+    },
+    {
+      "Qno": "3",
+      "Description": "Detailing of a Two-way Slab with corners not held down."
+    },
+    {
+      "Qno": "4",
+      "Description": "Detailing of a Singly Reinforced Rectangular Beam.(Cantilever)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Detailing of a Singly Reinforced Rectangular Beam.(Partially fixed)"
+    },
+    {
+      "Qno": "6",
+      "Description": "Detailing of a Singly Reinforced Rectangular Beam.(Fixed)"
+    },
+    {
+      "Qno": "7",
+      "Description": "Detailing of a Doubly Reinforced Rectangular Beam.(Partially fixed)"
+    },
+    {
+      "Qno": "8",
+      "Description": "Detailing of Lintel Beam with Sunshade."
+    },
+    {
+      "Qno": "9",
+      "Description": "Detailing of a Square sloped Footing with Column."
+    },
+    {
+      "Qno": "10",
+      "Description": "Detailing of a Rectangular Footing with Column."
+    },
+    {
+      "Qno": "11",
+      "Description": "Detailing of Beam to Beam connection"
+    },
+    {
+      "Qno": "12",
+      "Description": "Detailing of Beam to Column connection(Framed and Seated connections)"
+    },
+    {
+      "Qno": "13",
+      "Description": "Detailing of Roof Truss"
+    }
+  ]
+}

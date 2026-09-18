@@ -1,0 +1,45 @@
+{
+  "subj_code": "2074234420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Recycling of given polymer by using scrap grinder"
+    },
+    {
+      "Qno": "2",
+      "Description": "Preparation of FRP by hand lay-up technique?"
+    },
+    {
+      "Qno": "3",
+      "Description": "The processing of given plastics using Compression moulding?"
+    },
+    {
+      "Qno": "4",
+      "Description": "The processing of given plastics using Injection moulding?"
+    },
+    {
+      "Qno": "5",
+      "Description": "The processing of given plastics using Blow moulding?"
+    },
+    {
+      "Qno": "6",
+      "Description": "The processing of polymer by extruder (single or twins crew)?"
+    },
+    {
+      "Qno": "7",
+      "Description": "Casting of thermo set resin?"
+    },
+    {
+      "Qno": "8",
+      "Description": "The processing of given polymer solution into film?"
+    },
+    {
+      "Qno": "9",
+      "Description": "The processing of rubber using Hydraulic press?"
+    },
+    {
+      "Qno": "10",
+      "Description": "The processing of plastic sheet by thermoforming techniques?"
+    }
+  ]
+}

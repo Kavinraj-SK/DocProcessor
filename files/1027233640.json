@@ -1,0 +1,45 @@
+{
+  "subj_code": "1027233640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Prepare the specimen and make plain turning using the lathe."
+    },
+    {
+      "Qno": "2",
+      "Description": "Prepare the specimen and make step turning using the lathe."
+    },
+    {
+      "Qno": "3",
+      "Description": "Prepare the specimen and make thread cutting using the lathe."
+    },
+    {
+      "Qno": "4",
+      "Description": "Prepare the specimen and make knurling using the lathe."
+    },
+    {
+      "Qno": "5",
+      "Description": "Prepare the greens and moulding using any one solid pattern in the foundry."
+    },
+    {
+      "Qno": "6",
+      "Description": "Prepare the greens and moulding using any one split pattern in the foundry."
+    },
+    {
+      "Qno": "7",
+      "Description": "Prepare the specimen and make the lap joint by arc welding (both side welded).\n(Raw material: 25mm X 6mm MS flat)."
+    },
+    {
+      "Qno": "8",
+      "Description": "Prepare the specimen and make the butt joint by arc welding (both side welded). (Rawmaterial:25mmX6mmMSflat)."
+    },
+    {
+      "Qno": "9",
+      "Description": "Prepare the specimen and make the lap joint by gas welding. (Raw material: 25mm X 6mm MS flat)."
+    },
+    {
+      "Qno": "10",
+      "Description": "Prepare the specimen and make the butt joint by gas welding.\n(Raw material: 25mmX6mmMSflat)."
+    }
+  ]
+}

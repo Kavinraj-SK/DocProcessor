@@ -1,0 +1,25 @@
+{
+  "subj_code": "1052236243",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Installing Python and Exploring Visualization Environment, Importing and Exporting\nDataset\nB) Creating Density Plot and Histogram with ggplot"
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Explore your data set using Data frame, info, shape, head, tail, dtypes, describe,\ngrouping of data in python\nB) Plotting data using Heat maps, Tree maps and Regression plot"
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Extract important variables and remove useless variables from the dataset\nB) Creating Violin Plot and Box plot with Sea born"
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Identify and fill missing values with in the dataset\nB) Visualization of Time Series Data"
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Creating Scatter Plot, Bar Chart, Pie Chart, Pair Plot with Matplotlib\nB) Visualization of Spatial Data."
+    }
+  ]
+}

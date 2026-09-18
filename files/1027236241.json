@@ -1,0 +1,45 @@
+{
+  "subj_code": "1027236241",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Practice Huddle position."
+    },
+    {
+      "Qno": "2",
+      "Description": "Practice Helpline position."
+    },
+    {
+      "Qno": "3",
+      "Description": "Practice life raft drill."
+    },
+    {
+      "Qno": "4",
+      "Description": "Practice emergency fire drill."
+    },
+    {
+      "Qno": "5",
+      "Description": "Donning of life jacket and lifebuoy."
+    },
+    {
+      "Qno": "6",
+      "Description": "Donning of immersion suit and thermal protective aid."
+    },
+    {
+      "Qno": "7",
+      "Description": "Practice search and rescue drill."
+    },
+    {
+      "Qno": "8",
+      "Description": "Practice launching of life raft."
+    },
+    {
+      "Qno": "9",
+      "Description": "Practice boarding procedure of life raft."
+    },
+    {
+      "Qno": "10",
+      "Description": "Practice boarding procedure of life boat."
+    }
+  ]
+}

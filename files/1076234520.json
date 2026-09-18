@@ -1,0 +1,45 @@
+{
+  "subj_code": "1076234520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determine the particle size distribution of the given sample using sieve analysis."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determine the reduction ratio, capacity, and efficiency of the jaw crusher."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determine the size reduction ratio and energy consumption of the roller crusher."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine the grinding efficiency and particle size reduction in a ball mill."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determine the filtration rate and filter cake thickness using a plate and frame filter press."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determine the rate of filtration and pressure drop across the leaf filter."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determine the separation efficiency and pressure drop in a cyclone separator."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determine the terminal settling velocity of particles using Stoke’s Law."
+    },
+    {
+      "Qno": "9",
+      "Description": "Determine the settling rate and concentration profile in a batch settling experiment."
+    },
+    {
+      "Qno": "10",
+      "Description": "Determine the mixing time and power consumption of an industrial mixer."
+    }
+  ]
+}

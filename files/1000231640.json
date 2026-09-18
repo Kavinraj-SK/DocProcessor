@@ -1,0 +1,2202 @@
+{
+  "subj_code": "1000231640",
+  "questions": [
+    {
+      "Qno": "1",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "1",
+          "Description": "Listen to the given poem played/read and complete the information gaps.\nIt_______ today, my heart,\nLike a _______ it dances, it dances.\nI spread out my joy on the shaded new woodland grass,\nMy ______ and kadamba-trees blossom together\nThe clouds rumble, rumble high up in the heavens.\nThe ______ rushes in.The new stalks of rice quiver.\nDoves shiver silently in their nests, frogs croak in flooded fields,\nThe ______ rumble, rumble in the heavens.\n-- New Rains by Rabindranath Tagore."
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "1",
+          "Description": "Listen to the poem played/read and identify the nouns, adjectives, and rhyming words from the poem.\nNouns\nAdjectives\nRhyming Words"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "1",
+          "Description": "Listen to the passage played/read and answer the following questions.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "III",
+              "Description": "Where is Ladakh located?"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "III",
+              "Description": "What kind of climate does Ladakh have?"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "III",
+              "Description": "What kind of clothes do Ladakh people wear?"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "III",
+              "Description": "The culture in Ladakh is rich and influenced by _______."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "III",
+              "Description": "Why Tourists want to visit Ladkh?"
+            }
+          ]
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "1",
+          "Description": "Choose the correct form of tense, from the options given and fill in the\nblanks",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "Ravi ______ well (write / write/ written)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "A river _______ (dry/ dries/dried) to a trickle."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "The peasants _____ (come/came/comes) like swarms of flies"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "Honey _____ (is/will/was) sweet."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "I _________ (lives/live/living) in a small town."
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "1",
+          "Description": "Frame a sentence in passive voice using the words given.\nOpen/the gate/the peon"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "1",
+          "Description": "Spot the errors in the given sentences.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "I went(a)/ to the(b)/ India in1967/no error(d)."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VI",
+              "Description": "I have been(a)/ in the United States since(b) a year/no error (c)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VI",
+              "Description": "I used(a)/ to having(b) a horse/no error(c)"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VI",
+              "Description": "I'm used(a)/ to get(b)/ up early/no error (c)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VI",
+              "Description": "She must has been(a)/on holiday(b)/no error (c)"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "1",
+          "Description": "Frame five sentences using the substitution table.\nI | was | a student\nRani | is | playing\nVani and Rani | are | Engineers\nThey | am | a doctor"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "1",
+          "Description": "Make notes and summarize the given passage.\nThe work of the heart can never be interrupted. The heart’s job is to keep oxygen-rich blood flowing through the body. All the body’s cells need a constant supply of oxygen, especially those in the brain. Brain cells live only 4-5 minutes after their oxygen is cut-off, and death comes to the body. The heart is a specialized muscle that serves as a pump. The pump is divided into four chambers, connected by tiny doors called valves. The chambers work to keep the blood flowing round the body in a circle. The heart diseases can result from damage to the heart muscle, the valves or pace-maker. If the muscle is damaged, the heart is unable to pump properly. If the valves are damaged, blood cannot flow normally and easily from one chamber to another; and if the pacemaker is defective, the contractions of the chambers will become uncoordinated. The era of open-heart surgery has begun. It gives surgeons the chance to repair and replace a defective heart. Heart-transplant is a fast-growing phenomenon in case of complete heart failure."
+        },
+        {
+          "Qno": "IX",
+          "ParentQuestionId": "1",
+          "Description": "Develop the following hints into a paragraph and give a suitable title\nAxe fell down into river…….. couldn’t swim….. unhappy at his misfortune and wept…… God of Forests appeared……….. promised to get back his axe……. dived……… came out with an axe of gold… “not mine”……… dived again……… came out with silver axe …….. “not mine” said woodcutter…… dived again……… came out with woodcutter’s axe…….. “this is my axe”……. truly honest…….. rewarded all three axes to the woodcutter."
+        },
+        {
+          "Qno": "X",
+          "ParentQuestionId": "1",
+          "Description": "Write a letter to your HOD asking permission for Industrial visit ."
+        },
+        {
+          "Qno": "I",
+          "ParentQuestionId": "1",
+          "Description": "Read out the Tongue twisters.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "I",
+              "Description": "Four furious friends fought for the phone."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "I",
+              "Description": "Red lorry, yellow lorry."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "I",
+              "Description": "Zebras zig and zebras zag."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "I",
+              "Description": "A big black bug bit a big black bear."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "I",
+              "Description": "If you notice this notice, you will notice that this notice is not worth noticing."
+            }
+          ]
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "1",
+          "Description": "Read the conversation in the given Comic Strip with proper stress and intonations."
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "1",
+          "Description": "Read the given paragraph based on moral values\n‘Honesty is the best policy’ says an old adage. To be honest is to be trustworthy and true to others. An honest person never tells a lie and cheats a person. One must be practised to be honest from childhood. It is the duty of parents to teach their children what is correct and what is wrong. Being true to parents, teachers and others will help a child to develop honesty. Honesty plays an integral part in a man’s life. Being honest will strengthen relationship and build trust. An honest man is the noblest work of God."
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "1",
+          "Description": "Scan the given passage on technology and list out the specific points.\nScientific innovations or technology is the most amazing thing that has ever happened to humankind. In this modern world, technology is no more a luxury; it has become a necessity. Life without technology is next to impossible since humans have become dependent on technological advancements. For every human activity, we need a machine, and then there comes technology. It has made all our lives easier and more convenient and has also made transportation, education, labour, etc., more accessible. Technological breakthroughs change from time to time in today’s fast-paced, ever-changing world. However, in today’s world, technology plays a critical role in strengthening a country’s economy and people’s lives."
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "1",
+          "Description": "Say the appropriate expressions for the given situations.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "V",
+              "Description": "Meeting your boss in the office cabin"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "V",
+              "Description": "Meeting your cousin in a family function"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "V",
+              "Description": "Meeting your school friend after a long time"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "V",
+              "Description": "Meeting your HoD in the Department"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "V",
+              "Description": "Meeting your neighbour in a community meeting"
+            }
+          ]
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "1",
+          "Description": "Introduce Your friend  to your classmates"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "1",
+          "Description": "Give a small talk for one minute on “ Global Warming”"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "1",
+          "Description": "Describe a Car."
+        }
+      ]
+    },
+    {
+      "Qno": "2",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "2",
+          "Description": "Listen to the given poem played/read and complete the information gaps.\nLike a joy on the heart of a sorrow,\nThe sunset hangs on a cloud;\nA golden storm of glittering sheaves,\nOf fair and frail and fluttering leaves,\nThe wild wind blows in a cloud.\nHark to a voice that is calling\nTo my heart in the voice of the wind:\nMy heart is weary and sad and alone,\nFor its dreams like the fluttering leaves have gone,\nAnd why should I stay behind?\n-Autumn Song by Sarojini Naidu"
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "2",
+          "Description": "Listen to the poem played/read and identify the nouns, adjectives, and rhyming words from the poem.\nNouns\nAdjectives\nRhyming Words"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "2",
+          "Description": "Listen to the passage played/read and answer the following questions.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "III",
+              "Description": "In which state, Western Ghats located?"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "III",
+              "Description": "Western Ghats extended from ____ district in north to ____ district in south."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "III",
+              "Description": "What is the height of the Western Ghats?"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "III",
+              "Description": "Western Ghats covers an area of about ______ sq. km."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "III",
+              "Description": "Name the major hills of Western Ghats."
+            }
+          ]
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "2",
+          "Description": "Choose the correct form of tense, from the options given and fill in the blanks",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "They _______ (playing/ had been playing/have been playing) since four o'clock."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "He _____ (go/goes/went) to Kolkata yesterday."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "She _______(leave/left/leaves ) school last year."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "He _____ (drinks/drank/drink)  tea every morning."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "If it rains we ______ (shall/may/can) get wet."
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "2",
+          "Description": "Frame a sentence in passive voice using the words given.\nbite/the boy/the dog"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "2",
+          "Description": "Spot the errors in the given sentences.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "I wish(a)/ I am(b) not fat/ no error(c)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VI",
+              "Description": "When I was(a)/ in Russia last year, I wish I went(b) to Moscow/ no error (c)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VI",
+              "Description": "I wish I didn't leave(a)/ my sun cream in(b)/ the hotel/ no error (c)"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VI",
+              "Description": "I am not used(a)/ to do(b)/ the housework/ no error(c)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VI",
+              "Description": "I hate(a)/ doing(b)/ mistakes/ no error(c)"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "2",
+          "Description": "Frame five sentences using the substitution table.\nHe | buy | chocolates\nThey | sells | candy\nHe | am | studying\nShe | is | playing\nI | walked | in to the class"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "2",
+          "Description": "Make notes and summarize the given passage.\nIt is said that if you laugh for ten minutes, you will be in a better position to put up with pain for two hours. According to US researches, laughter tones up the system and is a good antidote to stress. Facial laughter -muscles instruct the brain to feel good, regardless of how you feel.\nAccording to a French doctor, laughter deepens breathing, improves blood-circulation and speeds up the process of tissue-healing. In short, it acts as a powerful drug with no side-effects. It is also found that laughter stimulates natural pain- killers in the body & improves digestion. Some people in France have made it a career. You can hire a jovialist, who cracks jokes and laughs and promises to make you dissolve your worries in helpless laughter.A word of caution, although laughing is a good exercise, laughing at others’ expense, particularly at their disabilities, is in bad taste and is to be avoided. Secondly, laughing with food in the mouth is dangerous as food can get into the windpipe and choke the respiratory system"
+        },
+        {
+          "Qno": "IX",
+          "ParentQuestionId": "2",
+          "Description": "Develop the following hints into a paragraph and give a suitable title\nChildren in garden __ giant's friend __ seven years __ big wall __ notice board __ Nature's fury __ winter throughout the year __ wonderful sight __ little boy __ giant's help __ spring __ giant's information__ to the children __ longing to see the small boy __ giant's sickness __ little boy's arrival __ giant dead."
+        },
+        {
+          "Qno": "X",
+          "ParentQuestionId": "2",
+          "Description": "Write a request letter to your Principal to participate in District sports meet."
+        },
+        {
+          "Qno": "I",
+          "ParentQuestionId": "2",
+          "Description": "Read out the Tongue twisters.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "I",
+              "Description": "He threw three free throws."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "I",
+              "Description": "A happy hippo hopped and hiccupped."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "I",
+              "Description": "Toy boat. Toy boat. Toy boat."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "I",
+              "Description": "A synonym for cinnamon is a cinnamon synonym."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "I",
+              "Description": "One-one was a race horse. Two-two was one too."
+            }
+          ]
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "2",
+          "Description": "Read the conversation in the given Comic Strip with proper stress and intonations."
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "2",
+          "Description": "Read the given paragraph based on moral values\nRespect is one of the most important human values. Parents must instruct their children how to respect others. Respect must be given not only to elders but also to all other people. Everyone deserves to be respected. We should not interfere with others’ private affairs and must respect their rights. Everyone should respect every religion, culture, etc., We must respect others by being fair and just with them. A good citizen will respect people regardless of how they treat him/her. Respect is an essential ingredient that helps to develop strong relationship with others."
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "2",
+          "Description": "Scan the given passage on technology and list out the specific points.\nChandrayaan-3 is a follow-on mission to Chandrayaan-2 to demonstrate end-to-end capability in safe landing and roving on the lunar surface. It consists of Lander and Rover configuration. It will be launched by LVM3 from SDSC SHAR, Sriharikota. The propulsion module will carry the lander and rover configuration till 100 km lunar orbit. The propulsion module has Spectro-polarimetry of Habitable Planet Earth (SHAPE) payload to study the spectral and Polari metric measurements of Earth from the lunar orbit.Lander payloads: Chandra’s Surface Thermophysical Experiment (ChaSTE) to measure the thermal conductivity and temperature; Instrument for Lunar Seismic Activity (ILSA) for measuring the seismicity around the landing site; Langmuir Probe (LP) to estimate the plasma density and its variations. A passive Laser Retroreflector Array from NASA is accommodated for lunar laser ranging studies.Rover payloads: Alpha Particle X-ray Spectrometer (APXS) and Laser Induced Breakdown Spectroscope (LIBS) for deriving the elemental composition in the vicinity of landing site."
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "2",
+          "Description": "Say the appropriate expressions for the given situations.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "V",
+              "Description": "Meeting your friend in a stationery shop"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "V",
+              "Description": "Meeting your grocery shop owner"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "V",
+              "Description": "Meeting your teacher in a book fair"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "V",
+              "Description": "Meeting your aunt in a get-together"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "V",
+              "Description": "Meeting your colleague in a theatre"
+            }
+          ]
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "2",
+          "Description": "Introduce Yourself  to your classmates"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "2",
+          "Description": "Give a small talk for one minute on “ Global Warming”"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "2",
+          "Description": "Describe a Car"
+        }
+      ]
+    },
+    {
+      "Qno": "3",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "3",
+          "Description": "Listen to the given poem played/read and complete the information gaps.\nWEAVERS, weaving at break of day,\nWhy do you weave a ________so gay? . . .\nBlue as the wing of a halcyon wild,\nWe weave the robes of a new-born______ .\nWeavers, weaving at fall of night,\nWhy do you weave a garment so _______? . . .\nLike the plumes of a peacock, purple and green,\nWe weave the marriage-veils of a ________.\nWeavers, weaving solemn and still,\nWhat do you weave in the moonlight chill? . . .\nWhite as a feather and ________ as a cloud,\nWe weave a dead man’s funeral shroud.\n-Indian Weavers by Sarojini Naidu"
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "3",
+          "Description": "Listen to the poem played/read and identify the nouns, adjectives, and rhyming words from the poem.\nNouns\nAdjectives\nRhyming Words"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "3",
+          "Description": "Listen to the passage played/read and answer the following questions.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "III",
+              "Description": "Expansion of MOM?"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "III",
+              "Description": "Mission to Mars launched on ______."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "III",
+              "Description": "Which is the the fourth space agency to successfully send a spacecraft to Mars orbit?"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "III",
+              "Description": "How many scientific loads carried by MOM?"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "III",
+              "Description": "MOM completed ____ years in its orbit on Sept 24, 2021."
+            }
+          ]
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "3",
+          "Description": "Choose the correct form of tense, from the options given and fill in the blanks",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "The steamer _______ (sail/sailed/sails) yesterday."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "It _____ (was/will/is) be Diwali in a week."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "My friends _____the Prime Minister yesterday, (see/have seen/saw)"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "She _______ worried about something (looks/looking/is looking)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "It started to rain while we____ tennis. (are playing/were playing/had played)."
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "3",
+          "Description": "Frame a sentence in passive voice using the words given.\nthe mouse/ kill/the cat"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "3",
+          "Description": "Spot the errors in the given sentences.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "I live)a)/  here since(b)/ 1997/ no error (c)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VI",
+              "Description": "He knows(a)/  her for(b)/ ten years / no error(c)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VI",
+              "Description": "I've been cutting(a)/  my finger today(b)/ no error (c)"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VI",
+              "Description": "My house is built(a)/  in 1567(b)/ no error)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VI",
+              "Description": "Spinach is said(a)/  to being(b) very good for your health/ no error (c)"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "3",
+          "Description": "Frame five sentences using the substitution table.\nHe | became | me\nHis brother | is | mine\nIt | has turned | quiet\nThe milk | is | a pen\nThe children | kept | sour"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "3",
+          "Description": "Make notes and summarize the given passage.\nIndia is surrounded by water bodies on three sidesBy 2025, the annual per capita availability of water is the expected to fall drastically from the current 1800 cu m per person to between 1200 and 1500 cu m. Mumbai’s demand for water was 7950 MLD (million litres per day) in 2011. The supply was only around 3100 MID-a substantial shortfall, but the city receives only 2500 do, the balance being lost on account of leakage and pilferage. Delhi Jal Board is able to supply only around 650 million gallons of water per day against the demand of 750 million gallons. According to a World Bank study of 27 Asian cities with population of over one million. Kolkata is the fourth worst performing metro in terms of hour of water availability per day. The quality of available water is also fast deteriorating. In 1982 it was reported that 70 percent of all available water in India was polluted. The situation is much worse today. Over-extraction of ground water has led to salt water intrusion into coastal aquifers. It has also resulted in problems of excessive fluoride, iron, arsenic, and salinity in water, which is currently affecting about 44 million people in India. Ground water is facing an equally serious threat from contamination by industrial effluents and faecal matter, as well as pesticides and fertilisers from farm run-offs."
+        },
+        {
+          "Qno": "IX",
+          "ParentQuestionId": "3",
+          "Description": "Develop the following hints into a paragraph and give a suitable title\nTenali Raman – offends King – King gets angry sentences Raman to death – but allows Raman to choose type of death – wise Raman – promptly says – want natural death – of old age – King amazed – pardons Raman."
+        },
+        {
+          "Qno": "X",
+          "ParentQuestionId": "3",
+          "Description": "Write an apology letter to your HOD for your misbehavior"
+        },
+        {
+          "Qno": "I",
+          "ParentQuestionId": "3",
+          "Description": "Read out the Tongue twisters.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "I",
+              "Description": "Thirty-three thousand feathers on a thrush’s throat."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "I",
+              "Description": "The great Greek grape growers grow great Greek grapes."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "I",
+              "Description": "Linda-Lou Lambert loves lemon lollipop lip gloss."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "I",
+              "Description": "Near a ear, a nearer ear, a nearly eerie ear."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "I",
+              "Description": "Roberta ran rings around the Roman ruins."
+            }
+          ]
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "3",
+          "Description": "Read the conversation in the given Comic Strip with proper stress and intonations."
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "3",
+          "Description": "Read the given paragraph based on moral values\nSharing is an essential human value. One must share his/her possessions with people who are in need. Sharing one’s knowledge and ideas enriches his/her knowledge further. It helps to develop creativity. Sharing is a selfless attitude. Selfishness will lead to enmity whereas sharing will build strong relationship. Sharing is the quality of generosity. In teamwork sharing is an essential element, since it brings the desired result ie., success. Sharing the ideas of each one to others will promote a healthy atmosphere. ‘Happiness shared is doubled and sadness shared is halved” is an old saying."
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "3",
+          "Description": "Scan the given passage on technology and list out the specific points.\nRobotics and automation technology is an important subject within higher- education institutions in India and not only in Germany. The governments of the two countries are working together in order to boost research in these areas. During a workshop in Aachen, professors from India gained direct, first- hand experience of how easy it is to use the low- cost robots from igus. a T he higher- education institutions are to learn how simple automation tasks in industry can be performed with the robot arms. In the framework of delegation trip, 24 Indian professors familiarised themselves with the robolink system. The trip was organised by APS GmbH. The company has dedicated itself to the transfer of robotics knowledge and research between the countries. The professors were trained by the igus low- cost robotics experts, Alexander Muhlens and Kai Schmitz, during an event in the Aachen Digital Capability Centre. Dr. Christian Meyer, the developer of the robolink DCi software from Commonplace Robotics, instructed the professors on how to use the intuitive software."
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "3",
+          "Description": "Say the appropriate expressions for the given situations.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "V",
+              "Description": "Meeting the sanitary worker of your area"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "V",
+              "Description": "Request your teacher for a book"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "V",
+              "Description": "Apologize for coming late to the class."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "V",
+              "Description": "Request your teacher for a book."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "V",
+              "Description": "Greet your friend on his/her birthday"
+            }
+          ]
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "3",
+          "Description": "Introduce Your family to your classmates"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "3",
+          "Description": "Give a small talk for one minute on “ Global Warming”"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "3",
+          "Description": "Describe a Car"
+        }
+      ]
+    },
+    {
+      "Qno": "4",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "4",
+          "Description": "Listen to the given poem played/read and complete the information gaps.\nCHILDREN, ye have not lived, to you it seems\n_______  is a lovely stalactite of dreams,\nOr carnival of careless joys that leap\nAbout your _______ like billows on the deep\nIn flames of amber and of amethyst.\nChildren, ye have not____ , ye but exist\nTill some resistless hour shall rise and ______\nYour hearts to wake and hunger after love,\nAnd thirst with passionate longing for the things\nThat burn your brows with ______-red sufferings.\n-- Life by Sarojini Naidu"
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "4",
+          "Description": "Listen to the poem played/read and identify the nouns, adjectives, and rhyming words from the poem.\nNouns\nAdjectives\nRhyming Words"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "4",
+          "Description": "Listen to the passage played/read and answer the following questions.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "III",
+              "Description": "NDRF initially established in _____."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "III",
+              "Description": "NDRF established with __ Battalions"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "III",
+              "Description": "NDRF – National _____ Response Force"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "III",
+              "Description": "personnel from  NDRF have given their life in the line of duty."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "III",
+              "Description": "Name some countries which NDRF helped during disaster"
+            }
+          ]
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "4",
+          "Description": "Choose the correct form of tense, from the options given and fill in the blanks",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "He____ fast when the accident happened, (is driving/was driving/drove)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "He _____asleep while he was driving, (falls/fell/has fallen)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "I'm sure I____ him at the party last night, (saw/have seen/had seen)."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "He ____ a mill in this town, (have/has/is having)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "He ____ here for the last five years, (worked/is working/has been working)."
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "4",
+          "Description": "Frame a sentence in passive voice using the words given.\nHari / the door/ open"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "4",
+          "Description": "Spot the errors in the given sentences.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "Many peoples(a)/ attended(b) the funeral/ no error (c)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VI",
+              "Description": "The shepherd took (a)/ the cattles(b) to the field/ no error (c)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VI",
+              "Description": "Sita could not understands(a)/ what the teacher was saying(b)/ no error (c)"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VI",
+              "Description": "Do you know(a)/ the importance for(b) clean water?/ no error (c)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VI",
+              "Description": "Laughter(a)/ is the best medicine(b)/ no error (c)"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "4",
+          "Description": "Frame five sentences using the substitution table.\nThe teacher | gave | us | homework\nI | lent | her | the whole story\nThe old man | told | us | my pen\nWho | broke | help | the poor\nYou | should | the | Jug?"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "4",
+          "Description": "Make notes and summarize the given passage.\n“Population, industrialisation and pollution are putting pressure on our limited fresh water resources. There is a limit to increasing water supply because we are running out of sources and the cost of additional facilities is prohibitive. More over as industry, which pays heavily for the water it uses, recycles more and more of it, it will be increasingly difficult for municipalities to find money for subsidy. Sewage recycle would help reduce infrastructural costs on public water supply systems as well as avoid heavy losses of water through leakages during distribution through public supply pipelines. The best way to solve water scarcity, therefore, is by conserving water and recycling it wherever possible. Recycling must be made mandatory for all new projects – industrial or domestic. It should be promoted for existing buildings also. Apart from priority to watershed development, rainwater harvesting and water recycling, another area we need to address is optimising use of water in agriculture (which uses 70% of the fresh water available) through drip irrigation etc.”"
+        },
+        {
+          "Qno": "IX",
+          "ParentQuestionId": "4",
+          "Description": "Develop the following hints into a paragraph and give a suitable title\nManager of a firm advertised – night watchman – applicants presented – manager not satisfied – found something wrong with each man – there was Raju – an applicant – sat in a comer – patiently waiting – his turn came – manager found nothing wrong in his appearance – questioned about his health – got the reply -1 suffering from sleeplessness – manager happy – appointed him"
+        },
+        {
+          "Qno": "X",
+          "ParentQuestionId": "4",
+          "Description": "Write a leave letter to your class tutor requesting him / her for two days leave."
+        },
+        {
+          "Qno": "I",
+          "ParentQuestionId": "4",
+          "Description": "Read out the Tongue twisters.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "I",
+              "Description": "Sheena leads, Sheila needs."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "I",
+              "Description": "If a dog chews shoes, whose shoes does he choose?"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "I",
+              "Description": "Top chopstick shops stock top chopsticks."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "I",
+              "Description": "Selfish shellfish, Selfish shellfish."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "I",
+              "Description": "No need to light a night-light on a light night like tonight."
+            }
+          ]
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "4",
+          "Description": "Read the conversation in the given Comic Strip with proper stress and intonations."
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "4",
+          "Description": "Read the given paragraph based on moral values\nKindness is an important human value. It makes the world peaceful. It is needed not only to human beings but also to every living creature. Every religion teaches us to be kind to others. Kindness helps to build strong relationship. It leads to forgiveness. It develops positive attitude. It helps to improve physical and mental health. Kindness helps to resolve many conflicts. It makes a man very polite. Being kind does not cost anything. It is a selfless act. It brings happiness and satisfaction when it is shown to others. Kindness is needed to lead a peaceful life in this world."
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "4",
+          "Description": "Scan the given passage on technology and list out the specific points.\nMars Orbiter Mission (MOM), India's first interplanetary mission to planet Mars was launched-onboard PSLV-C25 on November 05, 2013. ISRO has become the fourth space agency to successfully send a spacecraft to Mars orbit.Though the designed mission life is 6 months, MOM completed 7 years in its orbit on Sept 24, 2021.Mission Objectives: The objectives of this mission are primarily technological and include design, realisation and launch of a Mars Orbiter spacecraft capable of operating with sufficient autonomy during the journey phase; Mars orbit insertion / capture and in-orbit phase around Mars. MOM carries five scientific payloads to study the Martian surface features, morphology, mineralogy and Martian atmosphere.Scientific payloads: Mars continues to be an object of keen interest to scientists in the context of planetary evolution and extra-terrestrial life. Based on our understanding of Mars, which was thought to be probably a warm and wet planet earlier, is now seen to be dry with a thin atmosphere. How this evolution has taken place is still a topic of research. In this backdrop, the Indian Mars Orbiter Mission carried the following five scientific payloads:",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "Mars Color Camera (MCC)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "Thermal Infrared Imaging Spectrometer (TIS)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "Methane Sensor for Mars (MSM)"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "Mars Exospheric Neutral Composition Analyser (MENCA)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "Lyman Alpha Photometer (LAP)"
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "4",
+          "Description": "Say the appropriate expressions for the given situations.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "V",
+              "Description": "Apologize to your teacher your absence."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "V",
+              "Description": "Thank your friend for his/her help"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "V",
+              "Description": "Congratulate your sister on her achievement"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "V",
+              "Description": "Request your neighbor to lend his/her bike."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "V",
+              "Description": "Offer your suggestion to your friend on choosing car."
+            }
+          ]
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "4",
+          "Description": "Introduce Your friends  to your classmates"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "4",
+          "Description": "Give a small talk for one minute on “ Global Warming”"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "4",
+          "Description": "Describe a Car"
+        }
+      ]
+    },
+    {
+      "Qno": "5",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "5",
+          "Description": "Listen to the given poem played/read and complete the information gaps.\n________, the folk who live up in the clouds call out to me-\n“We play from the time we wake till the _____ ends.\nWe play with the _____ dawn, we play with the silver moon.”\nI ask, “But how am I to get up to you ?”\nThey answer, “Come to the edge of the ______, lift up your\nhands to the _____, and you will be taken up into the clouds.”\n“My mother is waiting for me at ______, “I say, “How can I leave\nher and come?”. . . .\n-- Clouds and Waves by Rabindranath Tagore"
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "5",
+          "Description": "Listen to the poem played/read and identify the nouns, adjectives, and rhyming words from the poem.\nNouns\nAdjectives\nRhyming Words"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "5",
+          "Description": "Listen to the passage played/read and answer the following questions.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "III",
+              "Description": "What are the two main types of ecosystems?"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "III",
+              "Description": "Deserts, forests, grasslands, lakes, mountains, ponds, rivers, oceans, etc. are ______ ecosystem."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "III",
+              "Description": "Manmade such as an aquarium, crop fields, gardens, parks, zoo, etc. are ______ ecosystem."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "III",
+              "Description": "Biotic environment are ____organisms such as animals, birds, forests, insects, reptiles and microorganisms like algae, bacteria, fungus, viruses."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "III",
+              "Description": "Abiotic environment are______ components such as air, cloud, dust, land, mountains, rivers, temperature, humidity, water, water vapour, sand, etc."
+            }
+          ]
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "5",
+          "Description": "Choose the correct form of tense, from the options given and fill in the blanks",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "He thanked me for what I ____ (have done/had done/have been doing)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "I ____ a strange noise, (hear/am hearing/have been hearing)."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "I ____ him for a long time, (know/have known/am knowing) '."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "We ____English for five years, (study/am studying/have been studying) ."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "Don't disturb me. I ____ my homework (do/did/am doing) ."
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "5",
+          "Description": "Frame a sentence in passive voice using the words given.\nRama/ help/Hari/is"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "5",
+          "Description": "Spot the errors in the given sentences.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "The flock of sheeps(a)/ blocked the road(b)/ no error (c)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VI",
+              "Description": "The children decided(a)/ to surprise Miss Holmes (b)/ no error (c)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VI",
+              "Description": "I saw(a)/ Richard when I’m (b) on the flight/ no error (c)"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VI",
+              "Description": "Man have depended(a)/ on nature for a long time(b)/ no error (c)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VI",
+              "Description": "Ramu is(a)/ a honest man (b)/ no error ©"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "5",
+          "Description": "Frame five sentences using the substitution table.\nThe bird | have made | the shirt | empty\nWe | pushed | the trunk | open\nShe | found | the safe | clean\nThe thief | broke | the door | open\nYou | washed | the  plates | dirty"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "5",
+          "Description": "Make notes and summarize the given passage.\nThe Earth is the fifth largest of the planets in the solar system. It is smaller than the four giant planets i.e., Jupiter, Saturn, Uranus and Neptune, but larger than the three other rocky planets, i.e., Mercury, Mars and Venus. Almost 71 percent of the Earth’s surface is covered with water, and most of that is in the oceans. About a fifth of the Earth’s atmosphere consists of oxygen, produced by plants. While the Earth orbits the Sun, the planet is simultaneously spinning on an imaginary line called an axis that runs from the North Pole to the South Pole. It takes the Earth 23.934 hours to complete a rotation on its axis and 365.26 days to complete an orbit around the Sun. The Earth’s axis of rotation is tilted in relation to the ecliptic plane, an imaginary surface through the planet’s orbit around the Sun. This means the Northern and Southern hemispheres will sometimes point toward or away from the Sun depending on the time of year, and this changes the amount of light the hemispheres receive, resulting in different seasons"
+        },
+        {
+          "Qno": "IX",
+          "ParentQuestionId": "5",
+          "Description": "Develop the following hints into a paragraph and give a suitable title\nA rich farmer - lot of land - cattle and servants - two sons - happy life - After some years younger son unhappy - asked for his share of the property - wouldn't listen to father's advice - got his share - sold them all - went away to another country - fell into bad ways - soon all money gone - poor - no one to help him - understood his mistake"
+        },
+        {
+          "Qno": "X",
+          "ParentQuestionId": "5",
+          "Description": "Write a medical leave letter to your class tutor."
+        },
+        {
+          "Qno": "I",
+          "ParentQuestionId": "5",
+          "Description": "Read out the Tongue twisters.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "I",
+              "Description": "A cup of proper coffee in a coffee cup."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "I",
+              "Description": "Can an active actor always actually act accurately?"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "I",
+              "Description": "I saw a saw that could out saw any other saw I ever saw."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "I",
+              "Description": "Chester Cheetah chews a chunk of cheap cheddar cheese."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "I",
+              "Description": "A box of biscuits, a box of mixed biscuits and biscuit mixer."
+            }
+          ]
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "5",
+          "Description": "Read the conversation in the given Comic Strip with proper stress and intonations."
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "5",
+          "Description": "Read the given paragraph based on moral values\nDictionary says, ‘Cooperation is the act of working together with someone for a common purpose or benefit’. Cooperation must start from home. We must cooperate with family members. Cooperation is needed in society too. It is very important in team work. It plays a vital role in team building. We must accept others’ point of view, while working in a team. One should be prepared to listen to the conflicting or opposing ideas of other persons. Cooperation exists in honouring differences. Cooperation in a team leads to achieve the common goal. It helps to achieve the desired outcome. It develops positive attitude."
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "5",
+          "Description": "Scan the given passage on technology and list out the specific points.\nWe were standing on the bridge, trying to catch some fish for supper when a small red plane flew almost directly above our heads. We could even see the pilot's face. \"What on earth is he up to?\" I asked. I felt rather annoyed. \"I think he's in trouble,\" Jack said. \"His engine is making a strange noise.\"\"Well, we can't do anything, can we?\" I said. \"We can't even phone from here.\" We were on a boating holiday and we were miles from the nearest town. \"We can follow the plane down the river.\" Jack said. \"Come on! Let's go!\" I must admit I liked the idea. There weren't many fish in that part of the river and I was bored. We dropped our fishing lines and ran towards our boat. It lay under some bushes about a hundred yards down the river. Luckily the engine started almost at once and soon we were roaring down the river.But can the pilot land here?\" I asked Jack. He came to this part of the country for a holiday almost every year and he knew the area well\"There's a lake about fifteen miles down the river,\" Jack said. \"If the pilot really is in trouble, hell probably try to land there.\" The river was already becoming wider. We went round a bend and there was the lake in front of us. \"Can you see anything?\" Jack asked. I looked across the lake. \"No, absolutely nothing,\" I replied. \"Wait a minute, though. There's something in the water, near that island in the middle.\" It was the small red plane! We raced across the take. By the time we reached the island, the pilot a very young woman! - was sitting on top of the plane. \"Hi!\" she called out to us. \"Thanks for coming to help me. I'm sorry I disturbed you while you were fishing. Anyway, would you like some fish for supper?\" She reached into the plane and pulled out a large fish, \"There's plenty more in here!\" she said, laughing"
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "5",
+          "Description": "Say the appropriate expressions for the given situations.\n1.Thank your parents for their gift\n2.Request your mother to cook your favourite food\n3.Suggest your friend on buying a bike.\n4.Ask a stranger to lend his/her mobile to make a call\n5.Decline an offer in a polite manner"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "5",
+          "Description": "Introduce Your hobbies to your classmates"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "5",
+          "Description": "Give a small talk for one minute on “Global Watming”"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "5",
+          "Description": "Describe a car"
+        }
+      ]
+    },
+    {
+      "Qno": "6",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "6",
+          "Description": "Listen to the given poem played/read and complete the information gaps.\nLike a huge Python, winding _______and round\nThe rugged trunk, indented deep with scars,\nUp to its very summit near the_______,\nA creeper climbs, in whose embraces bound\nNo other ______ could live. But gallantly\nThe giant wears the scarf, and ______ are hung\nIn crimson clusters all the boughs among,\nWhereon all day are gathered _____ and bee;\n-- Our Casuarina Tree by Toru Dutt"
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "6",
+          "Description": "Listen to the poem played/read and identify the nouns, adjectives, and rhyming words from the poem.\nNouns\nAdjectives\nRhyming Words"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "6",
+          "Description": "Listen to the passage played/read and answer the following questions.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "III",
+              "Description": "The land resources of Tamil Nadu are conventionally categorized into ____major physical divisions."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "III",
+              "Description": "How many National Parks in Tamilnadu ?"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "III",
+              "Description": "How many Wildlife Sanctuaries in Tamilnadu?"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "III",
+              "Description": "Tamil Nadu has the highest level of urbanization in India, where _____  percent of the population live in urban areas"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "III",
+              "Description": "Destruction of forest for urbanization is good or bad?"
+            }
+          ]
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "6",
+          "Description": "Choose the correct form of tense, from the options given and fill in the blanks",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "Abdul ____ to be a doctor, (wants/wanting/is wanting)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "The soup ____ good, (taste/tastes/is tasting)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "He _____ TV most evenings, (watches/is watch/is watching)"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "He ____ out five minutes ago. (has gone/had gone/went)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "He _____ to the cinema once a week(goes/went/ was going)"
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "6",
+          "Description": "Frame a sentence in passive voice using the words given.\nAmerica/discover/Columbus"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "6",
+          "Description": "Spot the errors in the given sentences.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "Bread and butter are(a)/  Sheldon’s favourite breakfast(b) / no error (c)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VI",
+              "Description": "Birds of feathers(a)/ flock together(b) / no error (c)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VI",
+              "Description": "The teacher called(a)/  me on 12 o’clock(b) / no error (c)"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VI",
+              "Description": "The sweets was distributed(a)/  between all the children(b)/ no error (c)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VI",
+              "Description": "The sun rise(a)/ in the east(b) / no error (c)"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "6",
+          "Description": "Frame five sentences using the substitution table.\nWe | are waiting | to | go\nHe | belong | for | me\nThese books | met | to | our project\nHis uncle | would | with | Bus\nThey | agreed | like | an accident"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "6",
+          "Description": "Make notes and summarize the given passage.\nThe Earth’s orbit is not a perfect circle, but rather an ellipse, similar to the orbits of all the other planets. Our planet is a bit closer to the Sun in early January and farther away in July, although this variation has a much smaller effect than the heating and cooling caused by the tilt of the Earth’s axis. According to scientists, the Earth was formed at the same time as the Sun and other planets, some 4.6 billion years ago, when the solar system coalesced from a giant, rotating cloud of gas and dust known as the ‘solar nebula’. As the nebula collapsed because of its gravity, it spun faster and flattened into a disk. Most of the material was pulled towards the centre to form the Sun. Other particles within the disk collided and stuck together to form other bodies, including the Earth. The Earth’s magnetic field is generated by currents flowing in the Earth’s outer core. The magnetic poles are always on the move, with the magnetic North Pole accelerating its northward motion to 40 km annually since tracking began in the 1830s. It will likely exit North America and reach Siberia in a matter of decades."
+        },
+        {
+          "Qno": "IX",
+          "ParentQuestionId": "6",
+          "Description": "Develop the following hints into a paragraph and give a suitable title\nTortoise - hare - forest - tortoise walking- seen by a hare- hare laughs - tortoise speed - tortoise sad - bet – race tortoise moving- slow speed -hare moves - fast - sleeps- tortoise - reaches winning point - first - wins the bet."
+        },
+        {
+          "Qno": "X",
+          "ParentQuestionId": "6",
+          "Description": "Imagine you are ECE department. Write a letter to your Principal  requesting him / her to issue a  Bonafide certificate."
+        },
+        {
+          "Qno": "I",
+          "ParentQuestionId": "6",
+          "Description": "Read out the Tongue twisters.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "I",
+              "Description": "Twelve twins twirled twelve twigs."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "I",
+              "Description": "Bring the brown baked bread back."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "I",
+              "Description": "A big blue bucket of blue blueberries."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "I",
+              "Description": "Little Lola Lop licked a lollipop."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "I",
+              "Description": "She sells sea shells by the sea shore."
+            }
+          ]
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "6",
+          "Description": "Read the conversation in the given Comic Strip with proper stress and intonations."
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "6",
+          "Description": "Read the given paragraph based on moral values\nSharing is an essential human value. One must share his/her possessions with people who are in need. Sharing one’s knowledge and ideas enriches his/her knowledge further. It helps to develop creativity. Sharing is a selfless attitude. Selfishness will lead to enmity whereas sharing will build strong relationship. Sharing is the quality of generosity. In teamwork sharing is an essential element, since it brings the desired result ie., success. Sharing the ideas of each one to others will promote a healthy atmosphere. ‘Happiness shared is doubled and sadness shared is halved” is an old saying.\nI) Scan the given passage on technology and list out the specific points.\nSpaDeX mission is a cost-effective technology demonstrator mission for the demonstration of in-space docking using two small spacecraft launched by PSLV. This technology is essential for India's space ambitions such as Indian on Moon, sample return from the Moon, the building and operation of Bharatiya Antariksh Station (BAS), etc. In-space docking technology is essential when multiple rocket launches are required to achieve common mission objectives. Through this mission, India is marching towards becoming the fourth country in the world to have space docking technology.Objectives:The primary objective of the SpaDeX mission is to develop and demonstrate the technology needed for rendezvous, docking, and undocking of two small spacecraft (SDX01, which is the Chaser, and SDX02, the Target, nominally) in a low-Earth circular orbit. Secondary objectives include:\n-- Demonstration of the transfer of electric power between the docked spacecraft, which is essential for future applications such as in-space robotics,\n-- Composite spacecraft control, and\n-- Payload operations after undocking."
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "6",
+          "Description": "Say the appropriate expressions for the given situations.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "V",
+              "Description": "Apologize your for not returning his/her call"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "V",
+              "Description": "Request your father to send you Educational tour."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "V",
+              "Description": "Congratulate your team captain for his exceptional play."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "V",
+              "Description": "State the reason politely of your absence to a friend"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "V",
+              "Description": "Ask your classmate to lend his/her notes."
+            }
+          ]
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "6",
+          "Description": "Introduce Your leisure activities to your classmates"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "6",
+          "Description": "Give a small talk for one minute on “Global Warming”"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "6",
+          "Description": "Describe a car"
+        }
+      ]
+    },
+    {
+      "Qno": "7",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "7",
+          "Description": "Listen to the given poem played/read and complete the information gaps.\nThe sun set this ______ in masses of cloud,\nThe storm comes to-morrow, then calm be the ______,\nThen the Dawn in her chariot refulgent and proud,\nThen more nights, and still days, steps of ______in his flight.\nThe days shall pass rapid as swifts on the wing.\nO'er the face of the hills, o'er the face of the seas,\nO'er streamlets of silver, and forests that ring\nWith a dirge for the______, chanted low by the breeze;\nThe face of the waters, the brow of the mounts\nDeep scarred but not shrivelled, and woods tufted ______,\nTheir youth shall renew; and the rocks to the founts\nShall yield what these yielded to ocean their queen.\n-- Sunset by Toru Dutt"
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "7",
+          "Description": "Listen to the poem played/read and identify the nouns, adjectives, and rhyming words from the poem.\nNouns\nAdjectives\nRhyming Words"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "7",
+          "Description": "Listen to the passage played/read and answer the following questions.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "III",
+              "Description": "Emotional well-being is the capacity to _______ and ________ feelings."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "III",
+              "Description": "Maintaining strong relationships with___, family."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "III",
+              "Description": "Support groups to ______ feelings of loneliness."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "III",
+              "Description": "Engaging in new activities like_______ ."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "III",
+              "Description": "Good emotional _____  leads to better relationships"
+            }
+          ]
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "7",
+          "Description": "Choose the correct form of tense, from the options given and fill in the blanks",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "The baby _____ all morning, (cries/has been crying/have been crying)"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "I ____ Rahim at the zoo. (saw/have seen/had seen)"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "I _____ Kumar this week, (haven't seen/didn't see/am not seeing)"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "This paper _____ twice weekly, (is appearing/appearing/appears)"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "Ashok fell off the ladder when he _____ the roof, (is mending/was mending/mended)"
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "7",
+          "Description": "Frame a sentence in passive voice using the words given.\nThe lion/shot/the hunter"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "7",
+          "Description": "Spot the errors in the given sentences.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "(A) They were/ (B) waiting for/(C) the train arrival /(D) No error"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VI",
+              "Description": "(A) He is/(B) a student of three/(C) year's degree course. /(D) No error"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VI",
+              "Description": "(A) The two friends pointed out/ (B) each other merits and demerits/ (C) before the teacher./(D) No error"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VI",
+              "Description": "(A) None of the/(B) two sisters has/(C) paid her tuition fees. /(D) No error"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VI",
+              "Description": "(A) She was more/(B) beautiful than/(C) either of her three sisters. /(D) No error"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "7",
+          "Description": "Frame five sentences using the substitution table.\nShe | don’t keep | saying  that\nHe | enjoys | singing\nMy brother | suggest | playing cricket\nI | has finished | him go\nWe | saw | talking",
+          "SubQuestions": [
+            {
+              "Qno": "7",
+              "ParentQuestionId": "VII",
+              "Description": "Make notes and summarize the given passage.\nHow does television affect our lives? It can be very helpful to people who carefully choose the shows that they watch. Television can increase our knowledge of the outside world, there are high quality programmes that help us understand many fields of study, science, medicine, the different arts and so on. Moreover, television benefits very old people, who can’t leave the house, as well as patients in hospitals. It also offers non-native speakers the advantages of daily informal language practice. They can increase their vocabulary and practice listening. On the other hand, there are several serious disadvantages of television. Of course, it provides us with a pleasant way to relax and spend our free time, but in some countries people watch television for an average of six hours or more a day. Many children stare at the TV screen for more hours a day than they spend on anything else, including studying and sleeping. Its clear that TV has a powerful influence on their lives and that its influence is often negative.  Recent studies show that after only thirty seconds of television viewing, a person’s brain ‘relaxes’ the same way that it does just before the person falls asleep. Another effect of television on the human brain is that it seems to cause poor concentration. Children who view a lot of television can often concentrate on a subject for only fifteen to twenty minutes. They can pay attention only for the amount of time between commercials.Another disadvantage is that television often causes people to become dissatisfied with their own lives. Real life does not seem so exciting to these people. To many people, television becomes more real than reality and their own lives seem boring. Also many people get upset or depressed when they can’t solve problems in real life as quickly as television actors seem to do."
+            },
+            {
+              "Qno": "6",
+              "ParentQuestionId": "VII",
+              "Description": "Develop the following hints into a paragraph and give a suitable title\nLion - sleeping in a forest - mouse - playing on it - angry lion - threatened to kill the mouse - mouse asked to forgive - promised to save him one day - lion laughed - let him off - another day - lion caught by hunter - in net - mouse heard the lion roar - mouse cut the net with his teeth - lion escaped - thanked the mouse."
+            },
+            {
+              "Qno": "7",
+              "ParentQuestionId": "VII",
+              "Description": "Imagine you are Ajay, civil department. Write a letter to your Principal requesting him / her to issue a conduct certificate."
+            }
+          ]
+        },
+        {
+          "Qno": "I",
+          "ParentQuestionId": "7",
+          "Description": "Read out the Tongue twisters.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "I",
+              "Description": "He threw three balls."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "I",
+              "Description": "A really weird rear wheel."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "I",
+              "Description": "A proper copper coffee pot."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "I",
+              "Description": "Red leather, yellow leather."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "I",
+              "Description": "“What ails Alex?” asks Alice."
+            }
+          ]
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "7",
+          "Description": "Read the conversation in the given Comic Strip with proper stress and intonations."
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "7",
+          "Description": "Read the given paragraph based on moral values\n‘Honesty is the best policy’ says an old adage. To be honest is to be trustworthy and true to others. An honest person never tells a lie and cheats a person. One must be practised to be honest from childhood. It is the duty of parents to teach their children what is correct and what is wrong. Being true to parents, teachers and others will help a child to develop honesty. Honesty plays an integral part in a man’s life. Being honest will strengthen relationship and build trust. An honest man is the noblest work of God."
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "7",
+          "Description": "Scan the given passage on technology and list out the specific points.\nMission Concept:\nThe SpaDeX mission consists of two small spacecraft (about 220 kg each) to be launched by PSLV-C60, independently and simultaneously, into a 470 km circular orbit at 55° inclination, with a local time cycle of about 66 days. The demonstrated precision of the PSLV vehicle will be utilized to give a small relative velocity between the Target and Chaser spacecraft at the time of separation from the launch vehicle. This incremental velocity will allow the Target spacecraft to build a 10-20 km inter-satellite separation with respect to the Chaser within a day. At this point, the relative velocity between the Target will be compensated using the propulsion system of the Target spacecraft.\nAt the end of this drift arrest maneuver, the Target and Chaser will be in the same orbit with identical velocity but separated by about 20 km, known as Far Rendezvous. With a similar strategy of introducing and then compensating for a small relative velocity between the two spacecraft, the Chaser will approach the Target with progressively reduced inter-satellite distances of 5 km, 1.5 km, 500 m, 225 m, 15 m, and 3 m, ultimately leading to the docking of the two spacecraft. After successful docking and rigidization, electrical power transfer between the two satellites will be demonstrated before undocking and separation of the two satellites to start the operation of their respective payloads for the expected mission life of up to two years."
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "7",
+          "Description": "Say the appropriate expressions for the given situations.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "V",
+              "Description": "Ask a stranger for directions."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "V",
+              "Description": "Thank your brother for his help"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "V",
+              "Description": "Ask your friend to drop you on the way"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "V",
+              "Description": "Suggest your neighbor to buy an insurance policy"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "V",
+              "Description": "Request your mother to help you with solving a math problem"
+            }
+          ]
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "7",
+          "Description": "Introduce Your day’s schedule to your classmates"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "7",
+          "Description": "Give a small talk for one minute on “ Global Warming”"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "7",
+          "Description": "Describe a Car"
+        }
+      ]
+    },
+    {
+      "Qno": "8",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "8",
+          "Description": "Listen to the given poem played/read and complete the information gaps.\nAnd both that morning equally lay\nIn ______ no step had trodden black.\nOh, I kept the first for _____ day!\nYet knowing how way leads on to way,\nI doubted if I should ever come back.\nI shall be telling this with a sigh\nSomewhere ages and ____ hence:\n______ diverged in a wood, and I\nI took the one less traveled by,\nAnd that has made all the _____"
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "8",
+          "Description": "Listen to the poem played/read and identify the nouns, adjectives, and rhyming words from the poem.\nNouns\nAdjectives\nRhyming Words"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "8",
+          "Description": "Listen to the passage played/read and answer the following questions.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "III",
+              "Description": "What is the big problem for electric cars?"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "III",
+              "Description": "Name the Israeli company that has developed lithium-ion batteries?"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "III",
+              "Description": "What is “range anxiety’?"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "III",
+              "Description": "Mark True / False : The new batteries would not  end this anxiety."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "III",
+              "Description": "Complete it: it means the switch from petrol to electric cars will______________________."
+            }
+          ]
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "8",
+          "Description": "Choose the correct form of tense, from the options given and fill in the blanks",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "I _____ ( See / Saw / Will see ) the movie last week."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "Someone _____ ( is purchased / will be purchased / Had purchased ) the dress."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "Radha ______ ( Will have sung / Is singing / Were singing ) the song now."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "Everyday  My father _____ ( Go / Has Gone  / Goes ) to Park."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "Since 2009, he ________ ( worked / Have worked / Has been working ) in this college."
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "8",
+          "Description": "Frame a sentence in passive voice using the words given.\nThe, returned, He, Money, has."
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "8",
+          "Description": "Spot the errors in the given sentences.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "You must have faith ( a ) / on your parents ( b ) /  no error ( c )."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VI",
+              "Description": "Cooking are a (a ) / useful skill ( b ) / to learn ( c ) / no error ( d )."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VI",
+              "Description": "They have been learning ( a ) / Classical dance ( b ) / for 2012 (c ) /  no error ( d )"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VI",
+              "Description": "If I work hard (a) / I will get the first rank (b) / in the exam (c)  /   no error (d )"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VI",
+              "Description": "The Children slept ( a ) / themselves ( b ) / peacefully ( c ) no error ( d )"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "8",
+          "Description": "Frame five sentences using the substitution table.\nRaja | Love | the book\nSubhi | Ran | The ball\nLakshmi | May meet | Their kids\nFather and Mother | Brings | Me\nMy friend | Caught | Fast"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "8",
+          "Description": "Make notes and summarize the given passage.\nCoronavirus, often known as Covid-19, is an infectious disease. It affects the human respiratory system, making breathing difficult. It’s a contagious disease that has been spreading like wildfire over the world. The virus was initially discovered in Wuhan, China, in 2019. Covid-19 was declared a global pandemic by the World Health Organization in March. The virus was transferred by coughing, sneezing, and other means from an infected person. As a result, the people who were affected were isolated from the rest of society. The folks who were afflicted were even separated from their own family members and loved ones. Weariness, sore throat, muscle stiffness, and loss of taste and smell are among the other complaints reported by Covid-19 individuals. Almost every individual has been affected by the virus. A lot of people have lost their lives due to the severity of the infections. The dropping of oxygen levels and the unavailability of oxygen cylinders were the primary concerns during the pandemic."
+        },
+        {
+          "Qno": "IX",
+          "ParentQuestionId": "8",
+          "Description": "Develop the following hints into a paragraph and give a suitable title\nReading habit – cultivate from childhood – working men and women – commitments over – hectic life gone – lonely after retirement – no suitable companion – an idle mind devil’s workshop – books best companions in old age – reading keeps them engaged – books never desert – provide entertainment and information – ultimately regain confidence in life."
+        },
+        {
+          "Qno": "X",
+          "ParentQuestionId": "8",
+          "Description": "Imagine you are Arun  of first year Civil  Engineering department. Write a letter to your Principal  requesting him / her to issue a bona fide certificate."
+        },
+        {
+          "Qno": "I",
+          "ParentQuestionId": "8",
+          "Description": "Read out the Tongue twisters.\na) He threw three balls.\nb) Red leather, yellow leather.\nc) A cup of proper coffee in a coffee cup.\nd) Hungry Henry hit heavy Harriet over the head with a heavy hammer.\ne) A big blue bucket of blue blueberries."
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "8",
+          "Description": "Read the conversation in the given Comic Strip with proper stress and intonations."
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "8",
+          "Description": "Read the given paragraph based on moral values\nBeing punctual is a quality that is a much-needed trait in a person to take up major responsibilities in various ways. To be punctual means to reach somewhere on time, submit work on time, etc. When you are given a time period for something and offered employment within the given time period, it shows your punctuality. It is the quality of a person that makes him capable of handling various tasks on time. It teaches a person to do the right kind of work at the right time without giving any excuse for the delay. It makes a person more systematic and responsible in life."
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "8",
+          "Description": "Scan the given passage on technology and list out the specific points.\nMobile Phone is often also called “cellular phone”. It is a device mainly used for a voice call. Presently technological advancements have made our life easy. Today, with the help of a mobile phone we can easily talk or video chat with anyone across the globe by just moving our fingers. Today mobile phones are available in various shapes and sizes, having different technical specifications and are used for a number of purposes like – voice calling, video chatting, text messaging or SMS, multimedia messaging, internet browsing, email, video games, and photography. Hence it is called a ‘Smart Phone’. Like every device, the mobile phone also has its pros and cons."
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "8",
+          "Description": "Say the appropriate expressions for the given situations.\na) Greet your mother on Mother’s Day.\nb) Ask direction to reach the hospital.\nc) Request your brother to drop you at your college.\nd) Invite your Principal for your department function.\ne) Advise your friend to be punctual."
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "8",
+          "Description": "Introduce Your Friend  to your classmates"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "8",
+          "Description": "Give a small talk for one minute on “ Global Warming”"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "8",
+          "Description": "Describe a Car"
+        }
+      ]
+    },
+    {
+      "Qno": "9",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "9",
+          "Description": "Listen to the given poem played/read and complete the information gaps.\nThe road to ________ is not straight.\nThere is a _______called Failure,\nA loop called Confusion,\nSpeed bumps called Friends,\nRed lights called Enemies, and\nCaution ______called Family.\nBut if you have a spare called Determination,\nAn engine called Perseverance,\n________ called Faith, and\nA driver called God,\nYou will make it to a _________ called Success"
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "9",
+          "Description": "Listen to the poem played/read and identify the nouns, adjectives, and rhyming words from the poem.\nNouns\nAdjectives\nRhyming Words"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "9",
+          "Description": "Listen to the passage played/read and answer the following questions.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "III",
+              "Description": "When did dinosaurs disappear?"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "III",
+              "Description": "What is ankylosaur?"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "III",
+              "Description": "Who is Junki Yoshida?"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "III",
+              "Description": "Mark True / False : Tyrannosaurus rex probably made more of a tweeting sound, like a bird."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "III",
+              "Description": "Complete it: Hollywood may have to change its scary roars and growls in future _____________________________."
+            }
+          ]
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "9",
+          "Description": "Choose the correct form of tense, from the options given and fill in the blanks",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "They _____ ( Have been won / Won / Have won) the match."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "Ram _____ ( Produce / Will produce / Produced ) the movie soon."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "When I had entered the hall, the bell _____ ( Rang / Will ring / Had rung )."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "By next month, we _____ ( Have completed / Had completed / Will have completed ) our    project.."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "Always he ____ ( Came / Come / Comes ) late."
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "9",
+          "Description": "Frame a sentence in passive voice using the words given.\ntold/me/truth/they/the."
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "9",
+          "Description": "Spot the errors in the given sentences.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "The pen is ( a ) / mightier than ( b ) /  the sword ( c ) / no error ( d )"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VI",
+              "Description": "One of the boy  (a ) / has left ( b ) / his bag ( c ) / no error ( d )."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VI",
+              "Description": "He came ( a ) / here ( b ) /  on yesterday ( c ) no error ( d )"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VI",
+              "Description": "They built (a) / a new house (b) / last month (c)  /   no error (d )"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VI",
+              "Description": "The furnitures  ( a ) /in the shop ( b ) / are new ( c ) no error ( d )"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "9",
+          "Description": "Frame five sentences using the substitution table.\nJai | Have won | A reward for his achievement\nPriya | Is | A costly pen.\nAadhi | Bought | well\nThe dog | Sings | The Match\nThe boys | Shall get | A faithful animal."
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "9",
+          "Description": "Make notes and summarize the given passage.\nTeaching is the noblest of professions. A teacher has a sacred duty to perform. It is he on whom, rests the responsibility of molding the character of young children. Apart from developing their intellect, he can inculcate in them qualities of good citizenship, remaining neat and clean, talking decently and sitting properly. These virtues are not easy to be imbibed. Only he who himself leads a life of simplicity, purity and rigid discipline can successfully cultivate these habits in his pupils .Besides a teacher always remain young. He may grow old in age, but not in spite. Perpetual contact with budding youths keeps him happy and cheerful. There are moments when domestic worries weigh heavily on his mind, but the delightful company of innocent children makes him overcome his transient moods of despair."
+        },
+        {
+          "Qno": "IX",
+          "ParentQuestionId": "9",
+          "Description": "Develop the following hints into a paragraph and give a suitable title\nDifferent forms – of environmental pollution – air pollution due to – automobile – industrial smoke – respiratory problems – noise pollution caused by – heavy traffic – aero planes  helicopters – increases blood pressure – affects hearing ability – land and water pollution – disposal of rubbish – sewage chemical waste – contagious diseases – pollution of rivers – seas – marine life – affected – spreads water – borne diseases."
+        },
+        {
+          "Qno": "X",
+          "ParentQuestionId": "9",
+          "Description": "Imagine you are Mahesh of first year Electrical Engineering department. Write a letter to your Principal requesting him / her to issue a conduct certificate."
+        },
+        {
+          "Qno": "I",
+          "ParentQuestionId": "9",
+          "Description": "Read out the Tongue twisters.\na) I scream, you scream, we all scream for ice cream!\nb) Chester Cheetah chews a chunk of cheap cheddar cheese.\nc) Twelve twins twirled twelve twigs.\nd) I saw a saw that could out saw any other saw I ever saw.\ne) A really weird rear wheel."
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "9",
+          "Description": "Read the conversation in the given Comic Strip with proper stress and intonations."
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "9",
+          "Description": "Read the given paragraph based on moral values\nDiscipline is described as adhering to or obeying a set of rules. Our lives become more organized when we follow those rules. Working as per the rules is a lot of fun and makes everything normal and straightforward. That’s why there is a determined effort to maintain discipline in institutions like schools. A disciplined person is obedient to the proper authority and also has self-governing behaviour. Being disciplined is essential in all aspects of life and is required for every endeavour. This is necessary for everyone to collaborate on a project."
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "9",
+          "Description": "Scan the given passage on technology and list out the specific points.\nScience and technology is the ultimate need of an hour that changes the overall perspective of the human towards life. Over the centuries, there have been new inventions in the field of science and technology that help in modernizing. Right from connecting with people to using digital products, everything involves science and technology. In other words, it has made life easy and simple. Moreover, humans now have to live a simple life. There is modern equipment explored by tech experts to find something new for the future. Science and technology have now expanded their wings to medical, education, manufacturing and other areas. Moreover, they are not limited to cities, but also rural areas for educational purposes. Every day new technologies keep coming, making life easier and more comfortable."
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "9",
+          "Description": "Say the appropriate expressions for the given situations.\na) Congratulate your brother for his success.\nb) Request your sister to help you to complete your project\nc) Suggest your younger brother about a course .\nd) Thank your teacher for giving books.\ne) Greet your HOD in the morning."
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "9",
+          "Description": "Introduce Your Father to your friends"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "9",
+          "Description": "Give a small talk for one minute on “Social Media”"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "9",
+          "Description": "Describe a bike"
+        }
+      ]
+    },
+    {
+      "Qno": "10",
+      "SubDivisions": [
+        {
+          "Qno": "I",
+          "ParentQuestionId": "10",
+          "Description": "Listen to the given poem played/read and complete the information gaps.\nBe bold, be ________ , be confident\nYou are not meant to lament.\nThese _______ so sure today\nCan ________ without delay.\nSo when trouble comes your way\nDo not accept _______ and ruin your day\nMove ______ with a focused view\nStay positive in all you do."
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "10",
+          "Description": "Listen to the poem played/read and identify the nouns, adjectives, and rhyming words from the poem.\nNouns\nAdjectives\nRhyming Words"
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "10",
+          "Description": "Listen to the passage played/read and answer the following questions.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "III",
+              "Description": "What is a wonder to modern technology?"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "III",
+              "Description": "What is the secret feature available in Apple iphone 14 Pro?"
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "III",
+              "Description": "What is LiDAR?"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "III",
+              "Description": "Mark True / False :  LiDAR is also called 3D laser scanning."
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "III",
+              "Description": "Complete it: LiDAR measures a person's height _____________________________."
+            }
+          ]
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "10",
+          "Description": "Choose the correct form of tense, from the options given and fill in the blanks",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "IV",
+              "Description": "They _____ ( Have been won / Won / Have won) the match."
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "IV",
+              "Description": "He ______ (be / will be / will being) here next Sunday."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "IV",
+              "Description": "The players ________ (are playing / will play / had played) tennis now."
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "IV",
+              "Description": "The policeman ________  (arrest / arrested / have arrested) the thief,"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "IV",
+              "Description": "The train __________  (leave / left / has left ) the station. The platform looks deserted."
+            }
+          ]
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "10",
+          "Description": "Frame a sentence in passive voice using the words given.\nYesterday/The exam/wrote/ I"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "10",
+          "Description": "Spot the errors in the given sentences.",
+          "SubQuestions": [
+            {
+              "Qno": "1",
+              "ParentQuestionId": "VI",
+              "Description": "She ( a ) / has worked ( b ) /  in this office since 2020 ( c ) / no error ( d )"
+            },
+            {
+              "Qno": "2",
+              "ParentQuestionId": "VI",
+              "Description": "He (a ) / is ( b ) / an medical officer ( c ) / no error ( d )."
+            },
+            {
+              "Qno": "3",
+              "ParentQuestionId": "VI",
+              "Description": "I  ( a ) / have seen ( b ) /  him yesterday ( c ) no error ( d )"
+            },
+            {
+              "Qno": "4",
+              "ParentQuestionId": "VI",
+              "Description": "I (a) / did not went (b) / there (c)  /   no error (d )"
+            },
+            {
+              "Qno": "5",
+              "ParentQuestionId": "VI",
+              "Description": "The train  ( a ) / will arrive ( b ) / in 6 o clock ( c ) no error ( d )"
+            }
+          ]
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "10",
+          "Description": "Frame five sentences using the substitution table.\nRekha | are | A teacher\nPeacock | is | Playing\nChildren | fly | In forest\nAnimals | enjoys | In the ground\nHe | live | Beautiful"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "10",
+          "Description": "Make notes and summarize the given passage.\nSkipping breakfast, especially among primary and secondary school children, affects mental performance in the classroom, thus lending weight to the old age that a healthy breakfast gets you off to a good start for the day. New research shows that eating breakfast benefits the memory. It provides essential nutrients and energy that contribute to the overall diet quality and adequacy. Children who skip breakfast do not makeup for nutrients and energy deficits later in the day and they tend to perform more poorly in tests of cognition than those who eat their breakfast. A study undertaken by doctors at the University of Wales in the U.K. found that a higher blood glucose level after eating breakfast is one of the key reasons for the improvement in mental performance. It particularly affects the speed of recalling new information, but does not influence other aspects such as intelligence test results or mental tasks related to conditioning or developed skills. Eating breakfast was found to improve performance on retention of new information like recall of stories and word lists. This aspect of memory is called ‘declarative memory’ in which information can be consciously recalled and declared verbally, says the study whose finding have been presented in the American Journal of Clinical Nutrition."
+        },
+        {
+          "Qno": "IX",
+          "ParentQuestionId": "10",
+          "Description": "Develop the following hints into a paragraph and give a suitable title\nChoice of books  -  reflect   -  personality  -  intellect  - books tell - new things -  enrich knowledge -  open -  doors beautiful world - quicken our imagination -   give -  company - drive away -  boredom -  friends to -  lonely -  act as  - companions to -  deserted -  brighten our lives - giving joy -  happiness and pleasure -   true friends - make us better - wiser -  happier"
+        },
+        {
+          "Qno": "X",
+          "ParentQuestionId": "10",
+          "Description": "Imagine you are Akhil of first year Mechanical  Engineering department. Write a letter to your Principal requesting him / her to issue Bonafide certificate."
+        },
+        {
+          "Qno": "I",
+          "ParentQuestionId": "10",
+          "Description": "Read out the Tongue twisters.\na) If two witches would watch two watches, which witch would watch which watch?\nb) Little Lola Lop licked a lollipop.\nc) Twelve twins twirled twelve twigs.\nd) Can an active actor always actually act accurately?\ne) I saw a saw that could out saw any other saw I ever saw."
+        },
+        {
+          "Qno": "II",
+          "ParentQuestionId": "10",
+          "Description": "Read the conversation in the given Comic Strip with proper stress and intonations."
+        },
+        {
+          "Qno": "III",
+          "ParentQuestionId": "10",
+          "Description": "Read the given paragraph based on moral values\nHelping others is an action of kindness and humanity that spreads happiness to everyone in this world. Some people help others get help when they are stuck in a problem, and some help others as they want to have positive vibes in their lives. When you help others, your intention should be good; when you help others, do not wait for a thank you from them. Actions speak more than words; people give a speech to the world, but rather than speaking, one should help others in this world. Even small acts also play a significant role in changing one’s life. When you do something for others that help them and make them happy, it is considered helping others. The action of helping others spreads happiness and kindness in the world."
+        },
+        {
+          "Qno": "IV",
+          "ParentQuestionId": "10",
+          "Description": "Scan the given passage on technology and list out the specific points.\nArtificial intelligence websites such as ChatGPT and Google's Bard are less than a year old, but they have been asking many questions. One question is whether music and art produced by AI is real music and art. Daniel Ek, the boss of the music streaming site Spotify, has answered this question. He said there are many uses of AI for making music that are OK. He told the BBC that Spotify has no plans to ban all music created by artificial intelligence. This includes the auto-tune software that helps singers correct their pitch and can add vocal effects to a singer's voice. Mr Ek said auto-tunes improves music. One use of AI Mr Ek did not like was software for mimicking (copying) the voice of an artist. Daniel Ek said using AI in music will be debated for \"many, many years\". He said the biggest problem is when AI copies the voice of other singers. Spotify deleted one song created by the AI platform Ghostwriter. The software copied the voices of the singers Drake, and The Weeknd. The song was even submitted for a Grammy music award, but it was rejected. Neither Drake nor The Weeknd knew about the song. Mr Ek highlighted how serious the problem of cloning singers' voices is. He said: \"You can imagine someone uploading a song, claiming to be Madonna, even if they're not.\" He said it will be difficult to tell if a song is \"sung\" by a bot or a human. He added that the future of music production is going to be \"tricky\"."
+        },
+        {
+          "Qno": "V",
+          "ParentQuestionId": "10",
+          "Description": "Say the appropriate expressions for the given situations.\na. Your elder sister has passed the examination. How would you wish her?\nb.  A person says to you, \"How do you do? What would you say in return?\nc.  Your friend is going abroad. What would you say to him?\nd. You stepped on your friend's foot without seeing. How would you  respond?\ne.  You are late to class. How would you ask excuse to your teacher?"
+        },
+        {
+          "Qno": "VI",
+          "ParentQuestionId": "10",
+          "Description": "Introduce Your Friend to your family"
+        },
+        {
+          "Qno": "VII",
+          "ParentQuestionId": "10",
+          "Description": "Give a small talk for one minute on “Whatsapp”"
+        },
+        {
+          "Qno": "VIII",
+          "ParentQuestionId": "10",
+          "Description": "Describe a fridge."
+        }
+      ]
+    }
+  ],
+  "_review_flags": [
+    {
+      "digit": "1",
+      "line": "I spread out my joy on the shaded new woodland grass,",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "1",
+      "line": "I | was | a student",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "2",
+      "line": "I | walked | in to the class",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "4",
+      "line": "I | lent | her | the whole story",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "5",
+      "line": "I ask, “But how am I to get up to you ?”",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "6",
+      "line": "I) Scan the given passage on technology and list out the specific points.",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "7",
+      "line": "6.    Frame five sentences using the substitution table.",
+      "reason": "Section heading used Arabic numeral '6' instead of a Roman numeral in the source document - normalized to 'VII' since it directly follows a category header. Verify this is correct."
+    },
+    {
+      "digit": "7",
+      "line": "I | has finished | him go",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "8",
+      "line": "I doubted if I should ever come back.",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "8",
+      "line": "I shall be telling this with a sigh",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "8",
+      "line": "I took the one less traveled by,",
+      "reason": "Line starts with 'I' but is not the first Roman heading and doesn't follow a category header - treated as body text, not a new subsection. Verify this is correct."
+    },
+    {
+      "digit": "8",
+      "line": "VI. Scan the given passage on technology and list out the specific points.",
+      "reason": "Roman numeral 'VI' found where 'IV' was expected next - possible typo in the source document's own numbering (not a parsing ambiguity). Verify the sequence is correct."
+    }
+  ]
+}

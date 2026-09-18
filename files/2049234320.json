@@ -1,0 +1,59 @@
+{
+  "subj_code": "2049234320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Draw the orthographic top view of any two robotic or mechanical links used in industrial manipulators.\n----media/image1.png----"
+    },
+    {
+      "Qno": "2",
+      "Description": "Illustrate the orthographic top view of any two robotic or mechanical joints commonly applied in automation systems.\n----media/image2.png----"
+    },
+    {
+      "Qno": "3",
+      "Description": "----media/image3.png----Sketch the orthographic top view of two finger rotary motion robotic/mechanical grippers employed for material handling"
+    },
+    {
+      "Qno": "4",
+      "Description": "Sketch the orthographic top view of two finger rotary motion robotic/mechanical grippers employed for material handling.\n----media/image4.png----"
+    },
+    {
+      "Qno": "5",
+      "Description": "Draw the orthographic views of any two threaded fasteners used in machine assembly.\n----media/image5.png----"
+    },
+    {
+      "Qno": "6",
+      "Description": "Develop a neat 2D model of a cam and follower mechanism applied in industrial automation.\n----media/image6.png----"
+    },
+    {
+      "Qno": "7",
+      "Description": "Draw the assembly view of an induction motor showing the end elevation with the top half in section.\n----media/image7.png----"
+    },
+    {
+      "Qno": "8",
+      "Description": "Create a standard single-line diagram of electrical symbols (switch, wire, contactor, motor, transformer) using CAD layers and block features.\n----media/image8.png----"
+    },
+    {
+      "Qno": "9",
+      "Description": "----media/image9.png----Prepare a neat single-line diagram of an electrical circuit using components available in the CAD library or external sources."
+    },
+    {
+      "Qno": "10",
+      "Description": "Design a layout/plan of a robotic work cell and represent it using a block diagram.\n----Image alt text---->CAD for Automatin syllabus Practical<----media/image10.jpeg----"
+    }
+  ],
+  "_media_dir": "2049234320_media",
+  "_embedded_media": [
+    "image8.png",
+    "image10.jpeg",
+    "image7.png",
+    "image11.png",
+    "image9.png",
+    "image5.png",
+    "image4.png",
+    "image3.png",
+    "image2.png",
+    "image1.png",
+    "image6.png"
+  ]
+}

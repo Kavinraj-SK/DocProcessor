@@ -1,0 +1,61 @@
+{
+  "subj_code": "1146234340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study of Safety measures and Good Laboratory Practices in micro biology Laboratory"
+    },
+    {
+      "Qno": "2",
+      "Description": "To study the Introduction, operation, precautions and use of common microbiology laboratory instruments: Incubator, pH meter, Hot air oven, Autoclave, Colorimeter, Laminar air flow hood, Clinical centrifuge."
+    },
+    {
+      "Qno": "3",
+      "Description": "To examine the Bacteria, Fungi and Protozoa under Microscope."
+    },
+    {
+      "Qno": "4",
+      "Description": "A septic Technique and media preparation(Both solid and liquid)."
+    },
+    {
+      "Qno": "5",
+      "Description": "To demonstrate Motility of the given bacterial culture by hanging drop method."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of Antibiotic Sensitivity by Kirby-Bauer method"
+    },
+    {
+      "Qno": "7",
+      "Description": "To stain the bacteria and examine it using a micro scope"
+    },
+    {
+      "Qno": "8",
+      "Description": "To identify the bacteria by Grams Staining and examine it under the microscope"
+    },
+    {
+      "Qno": "9",
+      "Description": "Study the identification and examination of the bacteria by Acid fast staining"
+    },
+    {
+      "Qno": "10",
+      "Description": "To determine the packed cell value of a given blood sample."
+    },
+    {
+      "Qno": "11",
+      "Description": "Determine an individual blood type using antiserum and blood sample"
+    },
+    {
+      "Qno": "12",
+      "Description": "To enumerate the number of RBC’s and  WBC’s present in1 mm3of  blood sample."
+    },
+    {
+      "Qno": "13",
+      "Description": "To identify pathogenic microorganisms by using high medium"
+    },
+    {
+      "Qno": "14",
+      "Description": "To demonstrate Water quality test by Most Probable Number Method (MPN)."
+    }
+  ]
+}

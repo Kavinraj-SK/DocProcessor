@@ -1,0 +1,137 @@
+{
+  "subj_code": "1040234340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Construct and test the performance of LPF."
+    },
+    {
+      "Qno": "2",
+      "Description": "Construct and test the performance of HPF."
+    },
+    {
+      "Qno": "3",
+      "Description": "Construct LPF and plot its frequency response."
+    },
+    {
+      "Qno": "4",
+      "Description": "Construct HPF and plot its frequency response."
+    },
+    {
+      "Qno": "5",
+      "Description": "Implement a filter that allows all frequencies below a cutoff frequency\nand blocks all frequencies beyond it."
+    },
+    {
+      "Qno": "6",
+      "Description": "Implement a filter that allows all frequencies above a cutoff frequency\nand blocks all frequencies below it."
+    },
+    {
+      "Qno": "7",
+      "Description": "Construct and test the performance of BPF."
+    },
+    {
+      "Qno": "8",
+      "Description": "Construct BPF and plot its frequency response."
+    },
+    {
+      "Qno": "9",
+      "Description": "Implement a filter that allows all frequencies within a specified band of frequencies."
+    },
+    {
+      "Qno": "10",
+      "Description": "Construct and test the Performance of an AM Modulator circuit"
+    },
+    {
+      "Qno": "11",
+      "Description": "Construct an AM modulator and plot its waveforms."
+    },
+    {
+      "Qno": "12",
+      "Description": "Implement a modulator where the amplitude of the carrier signal is varied in accordance with the amplitude of the message signal."
+    },
+    {
+      "Qno": "13",
+      "Description": "Build a circuit that can perform Amplitude Modulation and plot its waveforms."
+    },
+    {
+      "Qno": "14",
+      "Description": "Construct and Test the Performance of AM demodulation using envelope detector."
+    },
+    {
+      "Qno": "15",
+      "Description": "Construct a simple AM Demodulator (Envelope detector) and plot its waveform."
+    },
+    {
+      "Qno": "16",
+      "Description": "Construct and test the performance of FM Modulator."
+    },
+    {
+      "Qno": "17",
+      "Description": "Construct a Frequency Modulator circuit and plot its waveforms."
+    },
+    {
+      "Qno": "18",
+      "Description": "Build and test an FM Modulator circuit and plot the waveforms."
+    },
+    {
+      "Qno": "19",
+      "Description": "Construct and test the performance of an FM Demodulator circuit."
+    },
+    {
+      "Qno": "20",
+      "Description": "Construct an FM Demodulator circuit and plot its waveforms."
+    },
+    {
+      "Qno": "21",
+      "Description": "Build and test a Frequency Demodulator circuit and plot its waveforms."
+    },
+    {
+      "Qno": "22",
+      "Description": "Construct and test the performance of Sample and Hold circuit."
+    },
+    {
+      "Qno": "23",
+      "Description": "Construct a Sample and Hold circuit and plot its waveforms."
+    },
+    {
+      "Qno": "24",
+      "Description": "Build and test the Sample and Hold circuit and plot its waveforms."
+    },
+    {
+      "Qno": "25",
+      "Description": "Construct and test the performance of Pulse Width Modulator"
+    },
+    {
+      "Qno": "26",
+      "Description": "Implement a Pulse Width Modulation circuit and plot its waveforms"
+    },
+    {
+      "Qno": "27",
+      "Description": "Build and test a Pulse Width Modulation circuit and plot its waveforms."
+    },
+    {
+      "Qno": "28",
+      "Description": "Determine the directional characteristics of Moving Coil Microphone."
+    },
+    {
+      "Qno": "29",
+      "Description": "Obtain the directional characteristics of Moving Coil Microphone."
+    },
+    {
+      "Qno": "30",
+      "Description": "Implement the setup and obtain the directional characteristics of Moving Coil Microphone."
+    },
+    {
+      "Qno": "31",
+      "Description": "Determine the directional characteristics of Dynamic Cone Loudspeaker."
+    },
+    {
+      "Qno": "32",
+      "Description": "Obtain the directional characteristics of Dynamic Cone Loudspeaker."
+    },
+    {
+      "Qno": "33",
+      "Description": "Implement the setup and obtain the directional characteristics of Dynamic Cone Loudspeaker."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "subj_code": "1023234520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Part(a)  Verification of Bernoulli’s Theorem\nPart(b)  Conducting performance test on Centrifugal pump."
+    },
+    {
+      "Qno": "2",
+      "Description": "Part(a) Determination of coefficient of discharge of a venture meter\nPart(b) Conducting performance test on Reciprocating pump."
+    },
+    {
+      "Qno": "3",
+      "Description": "Part(a) Determination of coefficient of discharge of an orifice meter.\nPart(b) Make suitable hydraulic circuit for direct operation of a hydraulic motor.."
+    },
+    {
+      "Qno": "4",
+      "Description": "Part(a) Determination of coefficient of discharge through flow measuring devices like orifice by constant head or variable head method.\nPart(b) Make suitable hydraulic circuit of metering in or metering out connection using the double acting reciprocating cylinder with flow regulator, control valve and check valve"
+    },
+    {
+      "Qno": "5",
+      "Description": "Part(a) Determination of friction factor of the given pipe.\nPart(b) Make suitable hydraulic circuit for direct operation of a hydraulic motor."
+    }
+  ]
+}

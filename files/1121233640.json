@@ -1,0 +1,57 @@
+{
+  "subj_code": "1121233640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determine the psychometric properties, gas percentage in atmosphere."
+    },
+    {
+      "Qno": "2",
+      "Description": "Study the principles and characteristics governing mine fans."
+    },
+    {
+      "Qno": "3",
+      "Description": "Study of lamp design and perform underground illumination surveys."
+    },
+    {
+      "Qno": "4",
+      "Description": "Study of mine flame safety lamp, gas testing with flame safety lamp, electric cap lamps, lamp room layouts and illumination survey."
+    },
+    {
+      "Qno": "5",
+      "Description": "Study of pressure survey and quantity survey in mines using velocity meter, anemometer and barometer."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of air born dust by gravimetric dust sampler, personal dust sampler\nand by high volume sampler"
+    },
+    {
+      "Qno": "7",
+      "Description": "Noise survey."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of crossing point temperature and index of inflammability"
+    },
+    {
+      "Qno": "9",
+      "Description": "Study of self-rescuers of different types."
+    },
+    {
+      "Qno": "10",
+      "Description": "Proximate analysis of coal."
+    },
+    {
+      "Qno": "11",
+      "Description": "Measurement of vibrations due to various sources."
+    },
+    {
+      "Qno": "12",
+      "Description": "Determination of pH, ľDS, ľSS, dissolved oxygen and chemical oxygen demand of water."
+    },
+    {
+      "Qno": "13",
+      "Description": "Study of pressure survey and quantity survey in mines using velocity meter, anemometer and barometer."
+    }
+  ]
+}

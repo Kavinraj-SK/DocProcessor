@@ -1,0 +1,45 @@
+{
+  "subj_code": "1064236241",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study the networking of computers in star structure"
+    },
+    {
+      "Qno": "2",
+      "Description": "Study the working of servers"
+    },
+    {
+      "Qno": "3",
+      "Description": "Study the Windows Linux and Unix operating systems for network management"
+    },
+    {
+      "Qno": "4",
+      "Description": "Study the protocols for information exchange(TCP/IP)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Study the network security and firewalls"
+    },
+    {
+      "Qno": "6",
+      "Description": "Study the video conferencing on the net"
+    },
+    {
+      "Qno": "7",
+      "Description": "Study the chat on internet"
+    },
+    {
+      "Qno": "8",
+      "Description": "Study the file transfer on internet"
+    },
+    {
+      "Qno": "9",
+      "Description": "Prepare a survey report on the state of the art of a particular textile machine by browsing and searching the internet"
+    },
+    {
+      "Qno": "10",
+      "Description": "Study the simple data acquisition from a textile machine or instrument"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "2022235540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Draw And Simulate The Direct Operation Of Single Acting Cylinder Using Hydrualic Software"
+    },
+    {
+      "Qno": "2",
+      "Description": "Draw And Simulate The Speed Control Of Double Acting Cylinder Metering In Control Using Hydrualic Software"
+    },
+    {
+      "Qno": "3",
+      "Description": "Draw And Simulate The Direct Operation Of Single And Double Acting Cylinder Using Pneumatic Software"
+    },
+    {
+      "Qno": "4",
+      "Description": "Draw And Simulate The Operation Of Double Acting Cylinder With Quick Exhaust Valve Using Pneumatic Software"
+    },
+    {
+      "Qno": "5",
+      "Description": "Draw And Simulate The Automatic Operation Of Double Acting Cylinder In Single Cycle Using Quick Exhaust Valve Using Pneumatic Software"
+    },
+    {
+      "Qno": "6",
+      "Description": "Draw And Simulate The Direct Operation Of Hydraulic Motor Using Hydraulic Software"
+    },
+    {
+      "Qno": "7",
+      "Description": "Draw And Simulate The Direct Operation Of A Motor Using Latching Circuit Using Hydraulic Software"
+    },
+    {
+      "Qno": "8",
+      "Description": "Draw And Simulate The Operation Of A Pneumatiac Cylinder Using “And“ Logic Control Using Pneumatic Software"
+    },
+    {
+      "Qno": "9",
+      "Description": "Draw And Simulate The Operation Of A Pneumatic Cylinder Using “Or” Control Using Pneumatiac Software"
+    },
+    {
+      "Qno": "10",
+      "Description": "Draw And Simulate The Automatic Operation Of A Double Acting Cylinder – Single Cycle Using Pneumatic Software"
+    }
+  ]
+}

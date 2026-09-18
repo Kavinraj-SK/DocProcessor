@@ -1,0 +1,45 @@
+{
+  "subj_code": "1093234340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "To operate and familiarize with external control panel of photo colorimeter. To calibrate the equipment and measure the concentration of unknown sample, then Trace the circuit of photo colorimeter"
+    },
+    {
+      "Qno": "2",
+      "Description": "Centrifuge Operate the electrical centrifuge machine"
+    },
+    {
+      "Qno": "3",
+      "Description": "Microtome: To operate and learn the dismantling and assembling of the machine"
+    },
+    {
+      "Qno": "4",
+      "Description": "Microscope: To use the microscope and take precautions and measures while operating the microscope."
+    },
+    {
+      "Qno": "5",
+      "Description": "Flame photometer:\ni)  To operate the machine and familiarize with its external control of the machine.\nii)  To find out the concentration of  Na+, K+ and Ca +of given blood sample."
+    },
+    {
+      "Qno": "6",
+      "Description": "Spectrophotometer:\ni)  To operate the machine and to calibrate\nii  To find out the concentration, Optical density and transmittance of unknown sample.\niii. To trace the circuit of the machine and familiarize with various sections"
+    },
+    {
+      "Qno": "7",
+      "Description": "pH Meter:\ni)  To operate the equipment\nii)  To calibrate the equipment\niii)  To measure the pH of unknown sample\niv. To open the equipment and trace the circuit and familiarize with various sections."
+    },
+    {
+      "Qno": "8",
+      "Description": "Auto-analyzer:\ni)  To operate the equipment\nii)  To calibrate the equipment.\niii. To find out various parameters of blood sample.\niv.  To open the equipment and trance its circuit diagram and familiarize with\nvarious sections"
+    },
+    {
+      "Qno": "9",
+      "Description": "Blood cell counter: To operate different types of Blood cell counter. To open the equipment and do circuit tracing and familiarize with various sections"
+    },
+    {
+      "Qno": "10",
+      "Description": "Study the Characteristics of Strain Gauges"
+    }
+  ]
+}

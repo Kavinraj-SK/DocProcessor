@@ -1,0 +1,65 @@
+{
+  "subj_code": "1040234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Write and Execute a C Program to convert a given temperature in degree Celsius to Fahrenheit"
+    },
+    {
+      "Qno": "2",
+      "Description": "Write and Execute a C program to implement Ohm‟s law"
+    },
+    {
+      "Qno": "3",
+      "Description": "Write and Execute a C program to calculate the equivalent resistance of THREE resistors connected in series"
+    },
+    {
+      "Qno": "4",
+      "Description": "Write and Execute a C program to calculate the equivalent capacitance of THREE capacitors connected in series"
+    },
+    {
+      "Qno": "5",
+      "Description": "Write and Execute a C Program to find whether the given integer is even or Odd"
+    },
+    {
+      "Qno": "6",
+      "Description": "Write and Execute a C Program to find whether the given number is Positive or negative or zero"
+    },
+    {
+      "Qno": "7",
+      "Description": "Write and Execute a C Program to perform various arithmetic operations Using switch-case statement"
+    },
+    {
+      "Qno": "8",
+      "Description": "Write and Execute a C Program to find the sum of first ten natural numbers Using “while” loop"
+    },
+    {
+      "Qno": "9",
+      "Description": "Write and Execute a C Program to print a pyramid star pattern(an Equilateral triangle)using “for” loop"
+    },
+    {
+      "Qno": "10",
+      "Description": "Write and Execute a C program to find the sum of elements in an 1Darray"
+    },
+    {
+      "Qno": "11",
+      "Description": "Write and Execute a C program to check whether the given string is a Palindrome using\nstring handling functions"
+    },
+    {
+      "Qno": "12",
+      "Description": "Write and Execute a C Program to store a simple 2D array of four elements (2x2) and print each element using “for” loop"
+    },
+    {
+      "Qno": "13",
+      "Description": "Write and Execute a C program to calculate the resonant frequency of an RLC series circuit using sqrt ()function"
+    },
+    {
+      "Qno": "14",
+      "Description": "Write and Execute a C program to prepare the total mark of each student by reading their “Name ,Reg. No, Marks for four subjects”(for a class of five\nstudents)using array of structure"
+    },
+    {
+      "Qno": "15",
+      "Description": "Write  and Execute a C program to find the factorial of a given number “N” Using\nan user-defined function"
+    }
+  ]
+}

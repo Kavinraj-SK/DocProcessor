@@ -1,0 +1,37 @@
+{
+  "subj_code": "1000232540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "TORSINAL PENDULUM.\nDetermination of moment of inertia of disc using Torsional Pendulum."
+    },
+    {
+      "Qno": "2",
+      "Description": "COMPOUND PENDULUM.\nDetermination of moment of inertia of rigid rod about center of mass- Compound Pendulum."
+    },
+    {
+      "Qno": "3",
+      "Description": "SURFACE TENSION.\nDetermination of Surface Tension of liquid by Capillary rise method."
+    },
+    {
+      "Qno": "4",
+      "Description": "STOKES METHOD\nDetermination of coefficient of Viscosity of highly viscous liquid by Stokes method."
+    },
+    {
+      "Qno": "5",
+      "Description": "SONOMETER\nDetermination of frequency of tuning fork -  Sonometer."
+    },
+    {
+      "Qno": "6",
+      "Description": "WHEATSTONE BRIDGE.\nDetermination of the resistance and resistivity of a given coil – Wheatstone Bridge."
+    },
+    {
+      "Qno": "7",
+      "Description": "LAW OF RESISTANCE.\nVerification of laws of resistances – Ohm’s Law."
+    },
+    {
+      "Qno": "8",
+      "Description": "JOULE’S CALORIMETER\nDetermination of specific heat capacity of liquid - Joule’s Calorimeter."
+    }
+  ]
+}

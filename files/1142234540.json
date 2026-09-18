@@ -1,0 +1,69 @@
+{
+  "subj_code": "1142234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Conduct experiment to measure displacement using potentiometer"
+    },
+    {
+      "Qno": "2",
+      "Description": "Conduct experiment to measure displacement using LVDT Conduct"
+    },
+    {
+      "Qno": "3",
+      "Description": "Conduct experiment to measure force using strain gauge load cell"
+    },
+    {
+      "Qno": "4",
+      "Description": "Conduct experiment to measure temperature using thermistor"
+    },
+    {
+      "Qno": "5",
+      "Description": "Conduct experiment to measure temperature using RTD"
+    },
+    {
+      "Qno": "6",
+      "Description": "Conduct experiment to measure light intensity using LDR"
+    },
+    {
+      "Qno": "7",
+      "Description": "Conduct experiment to measure body temperature"
+    },
+    {
+      "Qno": "8",
+      "Description": "Construct inverting amplifier using operational Amplifier and experimentally obtained input and output characteristics"
+    },
+    {
+      "Qno": "9",
+      "Description": "Construct non-inverting amplifier using operational Amplifier and experimentally obtained input and output characteristics"
+    },
+    {
+      "Qno": "10",
+      "Description": "Construct the instrumentation amplifier circuit and test it"
+    },
+    {
+      "Qno": "11",
+      "Description": "Convert I to V converter circuits using operational Amplifier"
+    },
+    {
+      "Qno": "12",
+      "Description": "Convert V to I converter circuits using operational Amplifier"
+    },
+    {
+      "Qno": "13",
+      "Description": "Construct low pass using operational amplifier and test it"
+    },
+    {
+      "Qno": "14",
+      "Description": "Construct high pass using operational amplifier and test it"
+    },
+    {
+      "Qno": "15",
+      "Description": "Construct notch filters using operational amplifier and test it"
+    },
+    {
+      "Qno": "16",
+      "Description": "Construct R–2 R digital to Analog Converter using operational amplifier\nand test it"
+    }
+  ]
+}

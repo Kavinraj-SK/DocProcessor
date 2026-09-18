@@ -1,0 +1,53 @@
+{
+  "subj_code": "1066234320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Piltch nicker."
+    },
+    {
+      "Qno": "2",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Zabala."
+    },
+    {
+      "Qno": "3",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Bloomer."
+    },
+    {
+      "Qno": "4",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–One piece cloth."
+    },
+    {
+      "Qno": "5",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–A Line frock."
+    },
+    {
+      "Qno": "6",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Yoke frock."
+    },
+    {
+      "Qno": "7",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Umbrella frock."
+    },
+    {
+      "Qno": "8",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Frock petticoat."
+    },
+    {
+      "Qno": "9",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Sun suit."
+    },
+    {
+      "Qno": "10",
+      "Description": "Calculate the fabric consumption of A Line frock by layout method."
+    },
+    {
+      "Qno": "11",
+      "Description": "Calculate the fabric consumption of Zabala by layout method."
+    },
+    {
+      "Qno": "12",
+      "Description": "Calculate the fabric consumption of Sun suit frock by layout method."
+    }
+  ]
+}

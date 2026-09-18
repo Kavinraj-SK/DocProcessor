@@ -1,0 +1,45 @@
+{
+  "subj_code": "2049233440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Construct a circuit to verify Kirchoff’s voltage and current law."
+    },
+    {
+      "Qno": "2",
+      "Description": "Construct a circuit to verify the Super position theorem."
+    },
+    {
+      "Qno": "3",
+      "Description": "Construct a circuit to verify the Maximum power transfer theorem."
+    },
+    {
+      "Qno": "4",
+      "Description": "Construct and test the performance of series and parallel resonant\nCircuits and obtain the resonance frequency"
+    },
+    {
+      "Qno": "5",
+      "Description": "Load test on DCs hunt motor"
+    },
+    {
+      "Qno": "6",
+      "Description": "Load test on Single phase induction motor"
+    },
+    {
+      "Qno": "7",
+      "Description": "Load test on Single phase Transformer"
+    },
+    {
+      "Qno": "8",
+      "Description": "Testing of Stepper motor drive"
+    },
+    {
+      "Qno": "9",
+      "Description": "Testing of Servomotor drive"
+    },
+    {
+      "Qno": "10",
+      "Description": "Testing control components and constructing of DOL starter."
+    }
+  ]
+}

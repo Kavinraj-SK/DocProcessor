@@ -1,0 +1,53 @@
+{
+  "subj_code": "1075233520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "ASTM Distillation of Petroleum Products."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of Reid vapor Pressure"
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of aromatics using aniline point."
+    },
+    {
+      "Qno": "4",
+      "Description": "Smoke point of Petroleum Products."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of Kinematic Viscosity."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of Penetration number of Bitumen."
+    },
+    {
+      "Qno": "7",
+      "Description": "Softening point."
+    },
+    {
+      "Qno": "8",
+      "Description": "Copper Corrosion test."
+    },
+    {
+      "Qno": "9",
+      "Description": "Determination of Refractive Index."
+    },
+    {
+      "Qno": "10",
+      "Description": "Carbonresi due by Conrads on method."
+    },
+    {
+      "Qno": "11",
+      "Description": "Carbonresi due by Rams bottom method."
+    },
+    {
+      "Qno": "12",
+      "Description": "Determination of Sediments and water in crude by centrifuging."
+    }
+  ]
+}

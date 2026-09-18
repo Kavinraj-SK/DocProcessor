@@ -1,0 +1,45 @@
+{
+  "subj_code": "1030235544",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Create a prototype of Solar powered vehicle."
+    },
+    {
+      "Qno": "2",
+      "Description": "Create a prototype of Wind powered vehicle."
+    },
+    {
+      "Qno": "3",
+      "Description": "Demonstrate fast charging in an electric vehicle."
+    },
+    {
+      "Qno": "4",
+      "Description": "Dismantling, trouble shooting and assembling of electronic starter motor."
+    },
+    {
+      "Qno": "5",
+      "Description": "Trace the automobile electrical system with respect to electronic ignition System."
+    },
+    {
+      "Qno": "6",
+      "Description": "Removing, servicing and replacing electronic control of diesel injection."
+    },
+    {
+      "Qno": "7",
+      "Description": "Demonstrate the working of Antilock braking system."
+    },
+    {
+      "Qno": "8",
+      "Description": "Online Study of the Automatic transmission's shifting behavior under Various driving conditions."
+    },
+    {
+      "Qno": "9",
+      "Description": "Verify the functionality of individual door lock actuators"
+    },
+    {
+      "Qno": "10",
+      "Description": "Dismantle existing AC unit and replace climate control unit in a car and note down the changes in performance."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1021233440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Battery Testing– Specific Gravity Test, Open volt testing, Cell voltage tester."
+    },
+    {
+      "Qno": "2",
+      "Description": "Testing of Alternator Parts such as Stator, Rotor and Rectifier for Resistance, Continuity for Insulation Effectiveness using Multifunction Tester"
+    },
+    {
+      "Qno": "3",
+      "Description": "Testing of Starter Motor Parts such as Test Field Windings, Brush  Holders, Armature and Solenoid Switch for Continuity Using a Multifunction Tester"
+    },
+    {
+      "Qno": "4",
+      "Description": "Construct and test the starting and charging circuit."
+    },
+    {
+      "Qno": "5",
+      "Description": "Construction and Testing of Head Lights, Parking Lights and Direction Indicators Circuit and adjust the headlight position."
+    },
+    {
+      "Qno": "6",
+      "Description": "Construction and Testing of Horn and wiper circuit."
+    },
+    {
+      "Qno": "7",
+      "Description": "Identify and Test the music system and power window."
+    },
+    {
+      "Qno": "8",
+      "Description": "Construction and Testing of Fuel and Temperature Gauges Circuit."
+    },
+    {
+      "Qno": "9",
+      "Description": "Test the electronic ignition and electronic Fuel injection system."
+    },
+    {
+      "Qno": "10",
+      "Description": "Testing of various Sensors using a Multifunction Tester. Pressure Sensor, Knock Sensor, Oxygen Sensor, Engine crank shaft angular position sensor, and Vehicle Speed Sensor."
+    }
+  ]
+}

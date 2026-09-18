@@ -1,0 +1,85 @@
+{
+  "subj_code": "1056235542",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Create a professional portfolio using Google Slides.\nB) Write an Arduino program to control servo motor."
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Use Google Drive as Storage as a Service to Store, Organize, Share and Collaborate.\nB) Write an Arduino program to calculate the distance to an object with the help of an ultrasonic sensor and display it on an LCD."
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Install Virtualbox/VMware Workstation with different flavours of Linux or Windows OS on top of existing OS.\nB) Write an Arduino program to display “Hello World” in LCD 16 × 2 Display."
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Install a PaaS Engine (Google App Engine / AWS / Azure or any one PaaS Engine) and create simple web applications using Python/Java.\nB) Write an Arduino program to create different LED patterns and controlling them using push button switches."
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Protect Google Sheets and Range with various access permissions.\nB) Write an Arduino program to control servo motor."
+    },
+    {
+      "Qno": "6",
+      "Description": "A) Install Virtualbox/VMware Workstation with different flavours of Linux or Windows OS on top of existing OS.\nB) Write an Arduino program to control servo motor"
+    },
+    {
+      "Qno": "7",
+      "Description": "A) Install a PaaS Engine (Google App Engine / AWS / Azure or any one PaaS Engine) and create simple web applications using Python/Java.\nB) Write an Arduino program to calculate the distance to an object with the help of an ultrasonic sensor and display it on an LCD."
+    },
+    {
+      "Qno": "8",
+      "Description": "A) Create/Launch an instance in AWS/OpenStack and add a security group for the created instance and connect/access the created instance from local computer using SSH.\nB) Write an Arduino program to calculate the distance to an object with the help of an ultrasonic sensor and display it on an LCD."
+    },
+    {
+      "Qno": "9",
+      "Description": "A) Create a professional portfolio using Google Slides.\nB) Write an Arduino program to create different LED patterns and controlling them using push button switches."
+    },
+    {
+      "Qno": "10",
+      "Description": "A) Use Google Drive as Storage as a Service to Store, Organize, Share and Collaborate.\nB) Write an Arduino program to control servo motor."
+    },
+    {
+      "Qno": "11",
+      "Description": "A) Install Virtualbox/VMware Workstation with different flavours of Linux or Windows OS on top of existing OS.\nB) Write an Arduino program to calculate the distance to an object with the help of an ultrasonic sensor and display it on an LCD."
+    },
+    {
+      "Qno": "12",
+      "Description": "A) Install a PaaS Engine (Google App Engine / AWS / Azure or any one PaaS Engine) and create simple web applications using Python/Java.\nB) Write an Arduino program to display “Hello World” in LCD 16 × 2 Display."
+    },
+    {
+      "Qno": "13",
+      "Description": "A) Protect Google Sheets and Range with various access permissions.\nB) Write an Arduino program to create different LED patterns and controlling them using push button switches."
+    },
+    {
+      "Qno": "14",
+      "Description": "A) Protect Google Sheets and Range with various access permissions.\nB) Write an Arduino program to display “Hello World” in LCD 16 × 2 Display."
+    },
+    {
+      "Qno": "15",
+      "Description": "A) Create/Launch an instance in AWS/OpenStack and add a security group for the created instance and connect/access the created instance from local computer using SSH.\nB) Write an Arduino program to create different LED patterns and controlling them using push button switches."
+    },
+    {
+      "Qno": "16",
+      "Description": "A) Create/Launch an instance in AWS/OpenStack and add a security group for the created instance and connect/access the created instance from local computer using SSH.\nB) Write an Arduino program to control servo motor."
+    },
+    {
+      "Qno": "17",
+      "Description": "A) Create a professional portfolio using Google Slides.\nB) Write an Arduino program to calculate the distance to an object with the help of an ultrasonic sensor and display it on an LCD."
+    },
+    {
+      "Qno": "18",
+      "Description": "A) Use Google Drive as Storage as a Service to Store, Organize, Share and Collaborate.\nB) Write an Arduino program to display “Hello World” in LCD 16 × 2 Display."
+    },
+    {
+      "Qno": "19",
+      "Description": "A) Create a professional portfolio using Google Slides.\nB) Write an Arduino program to display “Hello World” in LCD 16 × 2 Display."
+    },
+    {
+      "Qno": "20",
+      "Description": "A) Use Google Drive as Storage as a Service to Store, Organize, Share and Collaborate.\nB) Write an Arduino program to create different LED patterns and controlling them using push button switches."
+    }
+  ]
+}

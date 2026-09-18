@@ -1,0 +1,45 @@
+{
+  "subj_code": "1202236243",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Analyses the properties of various rigid packaging materials"
+    },
+    {
+      "Qno": "2",
+      "Description": "Design basic rigid packaging with principles like form, function, and aesthetics"
+    },
+    {
+      "Qno": "3",
+      "Description": "Create 3D models of rigid packaging designs using CAD software"
+    },
+    {
+      "Qno": "4",
+      "Description": "Box board Scoring and Creasing for folding and assembly."
+    },
+    {
+      "Qno": "5",
+      "Description": "Measurement of Dimensional Accuracy in Rigid Packaging"
+    },
+    {
+      "Qno": "6",
+      "Description": "Master various folding and gluing techniques for assembling rigid packaging proto types."
+    },
+    {
+      "Qno": "7",
+      "Description": "Design and build corrugated cardboard boxes with optimal strength and functionality."
+    },
+    {
+      "Qno": "8",
+      "Description": "Conduct compression strength tests on rigid packaging samples to evaluate their ability to with stand load."
+    },
+    {
+      "Qno": "9",
+      "Description": "Design rigid packaging with basic graphic design principles for creating visually appealing and informative packaging labels."
+    },
+    {
+      "Qno": "10",
+      "Description": "Analyses the environmental impact of different rigid packaging materials"
+    }
+  ]
+}

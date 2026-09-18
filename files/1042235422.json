@@ -1,0 +1,53 @@
+{
+  "subj_code": "1042235422",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Draw the P&ID of a drum type boiler with only measurement points."
+    },
+    {
+      "Qno": "2",
+      "Description": "Draw the P&ID of feedback control system in a chemical reactor for the control of temperature and pressure."
+    },
+    {
+      "Qno": "3",
+      "Description": "Draw the P&ID of feedback control system in a tank for the control of level and inlet flow rate."
+    },
+    {
+      "Qno": "4",
+      "Description": "Draw the P&ID of cascade control system in a steam heat exchanger and Distillation column."
+    },
+    {
+      "Qno": "5",
+      "Description": "Draw the P&ID of feed forward control system in a stirred tank heater."
+    },
+    {
+      "Qno": "6",
+      "Description": "Draw the P&ID of a ratio control system for the control of two flow rates by ratio."
+    },
+    {
+      "Qno": "7",
+      "Description": "Draw the P&ID of split range control scheme in a process."
+    },
+    {
+      "Qno": "8",
+      "Description": "Draw the P&ID of on/off, level, flow and pressure control of centrifugal pump."
+    },
+    {
+      "Qno": "9",
+      "Description": "Draw the P&ID for measurement of furnace draft in boiler."
+    },
+    {
+      "Qno": "10",
+      "Description": "Draw the P&ID of boiler feed water pumping and heating system."
+    },
+    {
+      "Qno": "11",
+      "Description": "Draw the P&ID of flue gas dew point control."
+    },
+    {
+      "Qno": "12",
+      "Description": "Draw the P&ID of lube oil cooler."
+    }
+  ]
+}

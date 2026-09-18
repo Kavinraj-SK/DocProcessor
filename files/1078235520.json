@@ -1,0 +1,57 @@
+{
+  "subj_code": "1078235520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Identification of spoiled food."
+    },
+    {
+      "Qno": "2",
+      "Description": "Preparation of product by using Salt as preservative (any two)"
+    },
+    {
+      "Qno": "3",
+      "Description": "Preparation of product by using Sugar as a preservative (any two)"
+    },
+    {
+      "Qno": "4",
+      "Description": "Preparation of product by using Oil as preservative (any two)."
+    },
+    {
+      "Qno": "5",
+      "Description": "Preparation of product by using Chemical Preservative (any two)"
+    },
+    {
+      "Qno": "6",
+      "Description": "Drying of fruits (any two)"
+    },
+    {
+      "Qno": "7",
+      "Description": "Drying of Vegetable (any two)"
+    },
+    {
+      "Qno": "8",
+      "Description": "Drying of seeds (any two)"
+    },
+    {
+      "Qno": "9",
+      "Description": "Blanching of Vegetables."
+    },
+    {
+      "Qno": "10",
+      "Description": "Steaming of Vegetables."
+    },
+    {
+      "Qno": "11",
+      "Description": "Preservation of fruits by Syruping."
+    },
+    {
+      "Qno": "12",
+      "Description": "Introduction of freezing equipment"
+    },
+    {
+      "Qno": "13",
+      "Description": "Freezing of fruits (any two)"
+    }
+  ]
+}

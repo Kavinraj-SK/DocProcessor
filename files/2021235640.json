@@ -1,0 +1,45 @@
+{
+  "subj_code": "2021235640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Micro & Macro etchant preparation"
+    },
+    {
+      "Qno": "2",
+      "Description": "Specimen Mounting on suitable base."
+    },
+    {
+      "Qno": "3",
+      "Description": "Micro-examination of Low carbon steel."
+    },
+    {
+      "Qno": "4",
+      "Description": "Micro-examination of Medium carbon steel."
+    },
+    {
+      "Qno": "5",
+      "Description": "Micro-examination of High carbon steel"
+    },
+    {
+      "Qno": "6",
+      "Description": "Micro-examination of S. G. Iron"
+    },
+    {
+      "Qno": "7",
+      "Description": "Micro-examination of Grey cast iron."
+    },
+    {
+      "Qno": "8",
+      "Description": "Micro-examination of Martensitic structure"
+    },
+    {
+      "Qno": "9",
+      "Description": "Micro-examination of Copper."
+    },
+    {
+      "Qno": "10",
+      "Description": "Micro-examination of Brass"
+    }
+  ]
+}

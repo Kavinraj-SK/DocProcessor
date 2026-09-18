@@ -1,0 +1,45 @@
+{
+  "subj_code": "2021234240",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "VERNIER CALIPER\ni)   Measure the dimensions of ground MS flat/Cylindrical bush using Vernier\nCaliper.\nii)   Compare the results with Digital Vernier Caliper."
+    },
+    {
+      "Qno": "2",
+      "Description": "OUTSIDE MICROMETER\ni)   Measure the diameter of a wire using micrometer\nii)  Compare the results with a digital Outside micrometer"
+    },
+    {
+      "Qno": "3",
+      "Description": "INSIDE MICROMETER\ni)   Measure the inside diameter of the bore of a bush cylindrical component using Inside  micrometer\nii)   Compare the results with digital inside micrometer."
+    },
+    {
+      "Qno": "4",
+      "Description": "SLIP GAUGES\ni)   Measure the thickness of ground MS plates using slip gauges."
+    },
+    {
+      "Qno": "5",
+      "Description": "VERNIER HEIGHT GAUGE\ni)   Measure the height of gauge blocks or parallel bars using vernier height gauge."
+    },
+    {
+      "Qno": "6",
+      "Description": "MECHANICAL COMPARATOR\ni)  Find out the measurement of a given component and Compare with a standard  component using a mechanical comparator and slip gauge."
+    },
+    {
+      "Qno": "7",
+      "Description": "UNIVERSAL BEVEL PROTRACTOR\ni) Measure the angle of a V-block/Taper Shank of Drill/ Dovetail using universal bevel  protractor"
+    },
+    {
+      "Qno": "8",
+      "Description": "SINE BAR\ni)   Measure the angle of the machined surface using sine bar with slip gauges."
+    },
+    {
+      "Qno": "9",
+      "Description": "SCREW THREAD MICROMETER\ni) Measure the geometrical dimensions of  V-Thread using screw thread micrometer."
+    },
+    {
+      "Qno": "10",
+      "Description": "GEAR TOOTH VERNIER CALIPER\ni) Measure the geometrical dimensions of spur gear using gear tooth vernier caliper."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "subj_code": "1010235540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Estimation of pH, TDS and Hardness of water sample"
+    },
+    {
+      "Qno": "2",
+      "Description": "Estimation of Sulphate content from the Collected water samples from sources."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determine the dissolved oxygen in the given sample of water."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine the chloride content in the given sample of water by silver Nitrate titration method."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determine the optimum dose of coagulant in a given raw water sample by jar test."
+    },
+    {
+      "Qno": "6",
+      "Description": "Making a bathroom connection from an existing water supply main (making indents, drawing a neat sketch of the connection with details)."
+    },
+    {
+      "Qno": "7",
+      "Description": "Making suction and delivery pipe connections to a centrifugal pump (making\nindents, drawing a neat sketch of the connection with details)."
+    }
+  ]
+}

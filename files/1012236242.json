@@ -1,0 +1,49 @@
+{
+  "subj_code": "1012236242",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Graphical representation of lines, rocks, grass, shrubs, hedges."
+    },
+    {
+      "Qno": "2",
+      "Description": "Graphical representation of tress, plants, plant groups, humans."
+    },
+    {
+      "Qno": "3",
+      "Description": "Graphical representation of water features, pergolas."
+    },
+    {
+      "Qno": "4",
+      "Description": "Working drawing of residential landscape – plan & Sectional elevations."
+    },
+    {
+      "Qno": "5",
+      "Description": "Planting plan of residential landscape."
+    },
+    {
+      "Qno": "6",
+      "Description": "Detailed drawings of soil medium, planter sections, mounds."
+    },
+    {
+      "Qno": "7",
+      "Description": "Detailed drawings of roadways, pathways, drainage details."
+    },
+    {
+      "Qno": "8",
+      "Description": "Details of terrace garden roof."
+    },
+    {
+      "Qno": "9",
+      "Description": "Electrical layout in residential landscape design."
+    },
+    {
+      "Qno": "10",
+      "Description": "Design of boulevards."
+    },
+    {
+      "Qno": "11",
+      "Description": "Design a pavilion in outdoor space."
+    }
+  ]
+}

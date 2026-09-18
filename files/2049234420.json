@@ -1,0 +1,53 @@
+{
+  "subj_code": "2049234420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Install Python and develop a simple script that displays a welcome message for an industrial automation system on the screen."
+    },
+    {
+      "Qno": "2",
+      "Description": "Write a Python program to perform basic arithmetic operations for calculating production cost, profit, and tax in a manufacturing setup."
+    },
+    {
+      "Qno": "3",
+      "Description": "Implement a Python program to determine the largest of three machine parameters (e.g., motor load values) using if–elif–else statements."
+    },
+    {
+      "Qno": "4",
+      "Description": "Develop a Python program to create, append, and remove items from a production inventory list."
+    },
+    {
+      "Qno": "5",
+      "Description": "Write a Python program to find the maximum value from two sets of sensor readings stored in a list."
+    },
+    {
+      "Qno": "6",
+      "Description": "Create a Python program to concatenate and print strings representing product names in an assembly line."
+    },
+    {
+      "Qno": "7",
+      "Description": "Develop a Python program for row-wise addition of elements in a tuple matrix representing factory shift-wise production data."
+    },
+    {
+      "Qno": "8",
+      "Description": "Write a Python program to demonstrate creation and usage of dictionaries for storing and retrieving employee details in an organization."
+    },
+    {
+      "Qno": "9",
+      "Description": "Implement a Python program to read a log file and count the number of words/entries recorded during machine operation."
+    },
+    {
+      "Qno": "10",
+      "Description": "Develop a Python module containing utility functions, and import a specific function into another program for quality-check calculations."
+    },
+    {
+      "Qno": "11",
+      "Description": "Write a Python program to define a simple class (e.g., Machine) and create objects representing different machines in a plant."
+    },
+    {
+      "Qno": "12",
+      "Description": "Develop a Python program to design a simple GUI application for entering and displaying daily production reports."
+    }
+  ]
+}

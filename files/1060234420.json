@@ -1,0 +1,53 @@
+{
+  "subj_code": "1060234420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "De-sizing of grey cotton fabric."
+    },
+    {
+      "Qno": "2",
+      "Description": "Scouring and mercerization of cotton fabric."
+    },
+    {
+      "Qno": "3",
+      "Description": "Hydrogen peroxide bleaching of cotton fabric."
+    },
+    {
+      "Qno": "4",
+      "Description": "Application of Direct dyes on cotton."
+    },
+    {
+      "Qno": "5",
+      "Description": "Application of cold brand reactive dyes on cotton."
+    },
+    {
+      "Qno": "6",
+      "Description": "Application of hot brand reactive dyes on cotton."
+    },
+    {
+      "Qno": "7",
+      "Description": "Application of disperse dye on polyester material by carrier method"
+    },
+    {
+      "Qno": "8",
+      "Description": "Application of disperse dye on polyester material by HTHP method"
+    },
+    {
+      "Qno": "9",
+      "Description": "Direct style of Printing of cotton fabric with reactive dyes."
+    },
+    {
+      "Qno": "10",
+      "Description": "Resist style of Printing of polyester with disperse dyes."
+    },
+    {
+      "Qno": "11",
+      "Description": "Analysis of rubbing fastness of dyed fabric."
+    },
+    {
+      "Qno": "12",
+      "Description": "Tie and dye."
+    }
+  ]
+}

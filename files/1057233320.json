@@ -1,0 +1,25 @@
+{
+  "subj_code": "1057233320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Write a program in ‘C’ to perform insertion and deletion operations in an array.\nb) Write a program in ‘C’ to implement push and pop operations in stack."
+    },
+    {
+      "Qno": "2",
+      "Description": "a) Write a program in ‘C’ to concatenate two strings using pointer.\nb) Write a program in ‘C’ to implement queue and its operations."
+    },
+    {
+      "Qno": "3",
+      "Description": "a) Write a program in ‘C’ to display the reverse of a string using stack.\nb) Write a program in ‘C’ to implement pre-order traversal in a binary tree."
+    },
+    {
+      "Qno": "4",
+      "Description": "a) Write a program in ‘C’ to create a singly linked list containing at least Five elements. Make necessary assumptions\nb) Write a program in ‘C’ to implement binary searching."
+    },
+    {
+      "Qno": "5",
+      "Description": "a) Write a program in ‘C’ to implement linear search.\nb) Write a program in ‘C’ to read N numbers and sort them using Selection sort."
+    }
+  ]
+}

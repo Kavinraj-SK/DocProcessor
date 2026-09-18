@@ -1,0 +1,67 @@
+{
+  "subj_code": "1220233620",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A.  Plain turning\n----media/image1.png----\nB.. | Drilling & Tapping\nRaw material 50mmX 50mmX10mmthickM.S.Flat\n----media/image2.png----"
+    },
+    {
+      "Qno": "2",
+      "Description": "A.  Step turning\n----media/image3.png----\nB. Drilling & Counter boring\nRaw material 50mm X 50mm X 15mm thickM.S.Flat\n----media/image4.png----"
+    },
+    {
+      "Qno": "3",
+      "Description": "A.  Step and taper turning\n----media/image5.png----\nB. | Drilling & Countersinking\nRaw material 50mm X 50mm X 15mm thickM.S.Flat\n----media/image6.png----"
+    },
+    {
+      "Qno": "4",
+      "Description": "Step and taper turning\n----media/image7.png----B.    Drilling and Reaming\nRaw material 50mmX 50mmX10mmthickM.S.Flat\n----media/image8.png----"
+    },
+    {
+      "Qno": "5",
+      "Description": "A. Knurling and step turning\n----media/image9.png----\nDrilling & Tapping\nRaw material 50mmX 50mmX10mmthickM.S.Flat\n----media/image2.png----"
+    },
+    {
+      "Qno": "6",
+      "Description": "A.   BSW Thread cutting\n----media/image10.png----\nB. Drilling & Counter boring\nRaw material 50mm X 50mm X 15mm thickM.S.Flat\n----media/image4.png----"
+    },
+    {
+      "Qno": "7",
+      "Description": "A.  Metric thread cutting\n----media/image11.png----\nA)  Drilling & Countersinking\nRaw material 50mm X 50mm X 15mm thickM.S.Flat\n----media/image6.png----"
+    },
+    {
+      "Qno": "8",
+      "Description": "A.   Metric thread cutting\n----media/image12.png----\nB. Drilling and Reaming\nRaw material 50mmX 50mmX10mmthickM.S.Flat\n----media/image8.png----"
+    },
+    {
+      "Qno": "9",
+      "Description": "A.  Shaft and bush mating\n----media/image13.png----\nB)  Drilling & Tapping\nRaw material 50mmX 50mmX10mmthickM.S.Flat\n----media/image2.png----"
+    },
+    {
+      "Qno": "10",
+      "Description": "A.  Thread cutting\n1x45°  M20(RH)(OR)3/4\"BSW\n----media/image14.png----\nB. Drilling & Countersinking\nRaw material 50mm X 50mm X 15mm thickM.S.Flat\n----media/image6.png----"
+    },
+    {
+      "Qno": "11",
+      "Description": "A.  Eccentric Turning\n----media/image15.png----\nB. Drilling & Counter boring\nRaw material 50mm X 50mm X 15mm thickM.S.Flat\n----media/image4.png----"
+    }
+  ],
+  "_media_dir": "1220233620_media",
+  "_embedded_media": [
+    "image11.png",
+    "image10.png",
+    "image13.png",
+    "image9.png",
+    "image14.png",
+    "image15.png",
+    "image12.png",
+    "image7.png",
+    "image6.png",
+    "image1.png",
+    "image2.png",
+    "image3.png",
+    "image4.png",
+    "image5.png",
+    "image8.png"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subj_code": "1060234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Calculate the speed of various parts of comber machine using gearing diagram"
+    },
+    {
+      "Qno": "2",
+      "Description": "Calculate the b production of comber per 8 hours using gear diagram and given data."
+    },
+    {
+      "Qno": "3",
+      "Description": "Draw the gear diagram of roving frame and calculate the speed of various parts of roving frame."
+    },
+    {
+      "Qno": "4",
+      "Description": "Calculate the break draft, main draft, total draft and draft constant using gear diagram."
+    },
+    {
+      "Qno": "5",
+      "Description": "Calculate twist and twist constant using gear diagram"
+    },
+    {
+      "Qno": "6",
+      "Description": "Explain the function of building mechanism of ring frame"
+    },
+    {
+      "Qno": "7",
+      "Description": "Draw the gearing diagram of ring frame and calculate the speed of various parts of ring frame."
+    },
+    {
+      "Qno": "8",
+      "Description": "Calculate the break draft, main draft, total draft and draft constant using gear diagram"
+    },
+    {
+      "Qno": "9",
+      "Description": "Calculate the speed of various parts of rotor spinning elements using given diagram."
+    },
+    {
+      "Qno": "10",
+      "Description": "Calculate the production of rotor spinning per 8 hours using gear diagram and given Data."
+    },
+    {
+      "Qno": "11",
+      "Description": "Calculate the speed of various parts of TFO using given diagram"
+    },
+    {
+      "Qno": "12",
+      "Description": "Calculate the production of TFO per 8 hours using gearing diagram and given data."
+    }
+  ]
+}

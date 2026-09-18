@@ -1,0 +1,45 @@
+{
+  "subj_code": "1221233620",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Green sand moulding – single piece pattern"
+    },
+    {
+      "Qno": "2",
+      "Description": "Green sand moulding – split pattern"
+    },
+    {
+      "Qno": "3",
+      "Description": "Arc welding – lap joint"
+    },
+    {
+      "Qno": "4",
+      "Description": "Arc welding – butt joint"
+    },
+    {
+      "Qno": "5",
+      "Description": "Resistance welding- spot welding"
+    },
+    {
+      "Qno": "6",
+      "Description": "Welding related process – soldering"
+    },
+    {
+      "Qno": "7",
+      "Description": "Lathe operation – plain turning"
+    },
+    {
+      "Qno": "8",
+      "Description": "Lathe operation – step turning"
+    },
+    {
+      "Qno": "9",
+      "Description": "Drilling and counter-boring"
+    },
+    {
+      "Qno": "10",
+      "Description": "Grinding – surface"
+    }
+  ]
+}

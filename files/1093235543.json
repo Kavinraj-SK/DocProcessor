@@ -1,0 +1,53 @@
+{
+  "subj_code": "1093235543",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study of metallurgical Microscope,"
+    },
+    {
+      "Qno": "2",
+      "Description": "Specimen preparation for identification of metals/alloys-B1Hand polishing B2 Etching"
+    },
+    {
+      "Qno": "3",
+      "Description": "Preparation and characterization of  Hydroxyapatite,"
+    },
+    {
+      "Qno": "4",
+      "Description": "Preparation and characterization of titanium oxide"
+    },
+    {
+      "Qno": "5",
+      "Description": "Physical Characterization of Coated / Uncoated Surfaces Contact Angle measurement poly caprolactone (PCL)"
+    },
+    {
+      "Qno": "6",
+      "Description": "Physical Characterization of Coated/Uncoated Surfaces Contact Angle measurement poly lactic acid (PHBV)"
+    },
+    {
+      "Qno": "7",
+      "Description": "Preparation of simulated body fluid solution."
+    },
+    {
+      "Qno": "8",
+      "Description": "Chemical Characterization of modified/un modified surfaces(PVA)"
+    },
+    {
+      "Qno": "9",
+      "Description": "Chemical Characterization of modified/un modified any biodegradable polymers"
+    },
+    {
+      "Qno": "10",
+      "Description": "In-vitro Study in any metallic medical implants."
+    },
+    {
+      "Qno": "11",
+      "Description": "Study the working of Dialyzer Machine"
+    },
+    {
+      "Qno": "12",
+      "Description": "Recording of pacemaker"
+    }
+  ]
+}

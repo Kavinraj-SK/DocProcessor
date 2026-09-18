@@ -1,0 +1,65 @@
+{
+  "subj_code": "1040236246",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Installation of Unity and Visual Studio, setting up Unity for VR development, understanding documentation of the same."
+    },
+    {
+      "Qno": "2",
+      "Description": "Implementation on Video/Feature viewing"
+    },
+    {
+      "Qno": "3",
+      "Description": "Implementation on Virtual Tool"
+    },
+    {
+      "Qno": "4",
+      "Description": "Demonstration of the working of HTC Vive, Google Cardboard, Google Daydream and Samsung gear VR."
+    },
+    {
+      "Qno": "5",
+      "Description": "Explore projects in unity 2D and 3D"
+    },
+    {
+      "Qno": "6",
+      "Description": "Create an immersive environment (living room / battlefield / tennis court) with only static game objects. 3D game objects  can be created using blender or use available 3D models."
+    },
+    {
+      "Qno": "7",
+      "Description": "Develop a scene in Unity that includes:\ni. a cube, plane and sphere, apply transformations on the 3 game objects.\nii. add a video and audio source."
+    },
+    {
+      "Qno": "8",
+      "Description": "Develop a scene in Unity that includes simple pendulum, apply any 3 transformations on the above object."
+    },
+    {
+      "Qno": "9",
+      "Description": "Develop a scene in Unity that shows flight dynamics of an aircraft."
+    },
+    {
+      "Qno": "10",
+      "Description": "Develop a scene in Unity that includes a sphere and plane. Apply Rigid body component, material and Box collider to the game Objects."
+    },
+    {
+      "Qno": "11",
+      "Description": "Apply the Visualization Techniques on any object."
+    },
+    {
+      "Qno": "12",
+      "Description": "Implement an interaction technique on any object."
+    },
+    {
+      "Qno": "13",
+      "Description": "Create an immersive environment (living room/ battlefield/ tennis court) with only static game objects. 3D game objects             can be created using Blender or use available 3D models."
+    },
+    {
+      "Qno": "14",
+      "Description": "Write a basic VRML code to create a simple red sphere"
+    },
+    {
+      "Qno": "15",
+      "Description": "Case Study of a single application using both VR and AR"
+    }
+  ]
+}

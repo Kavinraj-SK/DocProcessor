@@ -1,0 +1,49 @@
+{
+  "subj_code": "1020234320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "CNC Turning  Machine   Material: M.S / Aluminium / Acrylic ﬁbre / Plastic\nUsing Linear and Circular interpolation - Create a part program and produce component in the Machine.\n----media/image1.png----"
+    },
+    {
+      "Qno": "2",
+      "Description": "Using Stock removal cycle – Create a part program for multiple turning operations  and produce component in the Machine.\n----media/image2.png----"
+    },
+    {
+      "Qno": "3",
+      "Description": "Using Stock removal cycle – Create a part program for multiple turning operations  and produce component in the Machine.\n----media/image2.png----"
+    },
+    {
+      "Qno": "4",
+      "Description": "Using  Linear  interpolation  and  Circular  interpolation – Create a part  program  for  grooving and produce component in the Machine.\n----media/image3.png----"
+    },
+    {
+      "Qno": "6",
+      "Description": "Using subprogram - Create a part program and produce the component in the   Machine.\n----media/image5.png----"
+    },
+    {
+      "Qno": "7",
+      "Description": "Model the given engineering component and prepare the .stl ﬁle to print using a         3D printer or simulator. - Geneva Wheel"
+    },
+    {
+      "Qno": "8",
+      "Description": "Model the given engineering component and prepare the .stl ﬁle to print using a       3D printer or simulator. - C Clamp with V Block."
+    },
+    {
+      "Qno": "9",
+      "Description": "Position and record the point to point motion of the robot arm or in a simulator. (5 Positions)"
+    },
+    {
+      "Qno": "10",
+      "Description": "Position and record the continuous motion of the robot arm or in a simulator. (The proﬁle  should  have Straight line, Circular and  inclined line)"
+    }
+  ],
+  "_media_dir": "1020234320_media",
+  "_embedded_media": [
+    "image4.png",
+    "image5.png",
+    "image2.png",
+    "image1.png",
+    "image3.png"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "subj_code": "1078236621",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Identification of packaging materials"
+    },
+    {
+      "Qno": "2",
+      "Description": "Identification of packaging materials"
+    },
+    {
+      "Qno": "3",
+      "Description": "Measurement of water absorption of paper, paper boards"
+    },
+    {
+      "Qno": "4",
+      "Description": "Measurement of bursting strength of paper of paper boards"
+    },
+    {
+      "Qno": "5",
+      "Description": "Measurement tear resistance of papers"
+    },
+    {
+      "Qno": "6",
+      "Description": "Measurement of puncture resistance of paper and paperboard"
+    },
+    {
+      "Qno": "7",
+      "Description": "Measurement of tensile strength of paper of paper boards"
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of gas transmission rate of package films"
+    },
+    {
+      "Qno": "9",
+      "Description": "Determination of coating on package materials"
+    },
+    {
+      "Qno": "10",
+      "Description": "Tests for identification of plastic films"
+    },
+    {
+      "Qno": "11",
+      "Description": "Prepackaging practices followed for packing of fruits and vegetables"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "subj_code": "1030233620",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Conduct an Experiment to obtain the No load and Full Load Characteristics of Self Excited DC Shunt Generator"
+    },
+    {
+      "Qno": "2",
+      "Description": "Conduct an Experiment to obtain the Load Characteristics of Self Excited DC Series Generator."
+    },
+    {
+      "Qno": "3",
+      "Description": "Conduct Load Test on DC Shunt Motor and Draw the Performance Curve."
+    },
+    {
+      "Qno": "4",
+      "Description": "Predetermine the Efficiency of DC Machines by Swinburne’s Test"
+    },
+    {
+      "Qno": "5",
+      "Description": "Conduct Load Test on DC Series Motor and Draw the Performance Curve."
+    },
+    {
+      "Qno": "6",
+      "Description": "Perform Speed Control of DC Shunt Motor by\na) Armature Control Method b) Field Control Method"
+    },
+    {
+      "Qno": "7",
+      "Description": "Conduct Load Test on Single Phase Transformer."
+    },
+    {
+      "Qno": "8",
+      "Description": "Conduct Load Test on Three Phase Transformer."
+    },
+    {
+      "Qno": "9",
+      "Description": "Predetermine the Efficiency and Regulation of Single-Phase Transformer by conducting O.C and S.C Tests."
+    },
+    {
+      "Qno": "10",
+      "Description": "Find the Equivalent Circuit Constants of Single-Phase Transformer by conducting O.C and S.C Tests."
+    },
+    {
+      "Qno": "11",
+      "Description": "Perform Parallel Operation of two Single Phase Transformers"
+    },
+    {
+      "Qno": "12",
+      "Description": "Perform Breakdown Test to determine the Dielectric Strength of Transformer Oil and Acidity Test on Transformer Oil."
+    },
+    {
+      "Qno": "13",
+      "Description": "Connect Stepper motor with suitable drive / driver circuit and test its operation"
+    },
+    {
+      "Qno": "14",
+      "Description": "Connect Servo Motor with suitable drive / driver circuit and test its operation"
+    }
+  ]
+}

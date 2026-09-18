@@ -1,0 +1,45 @@
+{
+  "subj_code": "1030235340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Construct the Line synchronized Ramp trigger circuit using UJT with AC Load to measure firing angles."
+    },
+    {
+      "Qno": "2",
+      "Description": "Construct and test the SCR commutation circuits."
+    },
+    {
+      "Qno": "3",
+      "Description": "Construct and test a Half wave controlled rectifier with R Load."
+    },
+    {
+      "Qno": "4",
+      "Description": "Construct and test a Single phase fully controlled bridge rectifier with RL- Load."
+    },
+    {
+      "Qno": "5",
+      "Description": "Construct and test the Single phase to single phase Cyclo converter."
+    },
+    {
+      "Qno": "6",
+      "Description": "Construct PWM based step down DC Chopper using MOSFET/IGBT."
+    },
+    {
+      "Qno": "7",
+      "Description": "Construct and test the Single phase Single pulse / Sinusoidal PWM inverter using MOSFET/IGBT."
+    },
+    {
+      "Qno": "8",
+      "Description": "Construct and test the ON / OFF control of Lamp using solid state Relay."
+    },
+    {
+      "Qno": "9",
+      "Description": "Construct and test the Speed Control of AC Motor using VFD drive."
+    },
+    {
+      "Qno": "10",
+      "Description": "Construct a Lamp dimmer circuit using TRIAC."
+    }
+  ]
+}

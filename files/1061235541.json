@@ -1,0 +1,45 @@
+{
+  "subj_code": "1061235541",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Prepare self shades using vinyl sulphone reactive dyes in light, medium, and dark shades."
+    },
+    {
+      "Qno": "2",
+      "Description": "Prepare self shades using vat dyes in light, medium, and dark shades."
+    },
+    {
+      "Qno": "3",
+      "Description": "Prepare compound shades using two different vinyl sulphone reactive colours in different proportions."
+    },
+    {
+      "Qno": "4",
+      "Description": "Prepare compound shades using two different vat colours in different combinations."
+    },
+    {
+      "Qno": "5",
+      "Description": "Prepare compound shades using three different vinyl sulphone reactive colours in 60/20/20, 40/40/20, and 30/30/40 proportions."
+    },
+    {
+      "Qno": "6",
+      "Description": "Prepare compound shades using three different vat colours in 60/20/20, 40/40/20, and 30/30/40 proportions."
+    },
+    {
+      "Qno": "7",
+      "Description": "Match the compound shades using vinyl sulphone reactive dyes for the given sample"
+    },
+    {
+      "Qno": "8",
+      "Description": "Match the compound shades using vat colours for the given sample."
+    },
+    {
+      "Qno": "9",
+      "Description": "Prepare a printing shade card using two reactive dyes in different combinations."
+    },
+    {
+      "Qno": "10",
+      "Description": "Match the printed shade using two reactive dyes."
+    }
+  ]
+}

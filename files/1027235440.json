@@ -1,0 +1,45 @@
+{
+  "subj_code": "1027235440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Demonstrate the construction and working of water sprinkler fixed fire fighting installations"
+    },
+    {
+      "Qno": "2",
+      "Description": "Demonstrate the construction and working of water type portable extinguishers."
+    },
+    {
+      "Qno": "3",
+      "Description": "Demonstrate the construction and working of mechanical foam type portable extinguishers."
+    },
+    {
+      "Qno": "4",
+      "Description": "Demonstrate the construction and working of dry chemical powder type portable fire extinguishers."
+    },
+    {
+      "Qno": "5",
+      "Description": "Demonstrate the construction and working of carbon dioxide type portable fire extinguishers."
+    },
+    {
+      "Qno": "6",
+      "Description": "Demonstrate the construction and working of fire detectors."
+    },
+    {
+      "Qno": "7",
+      "Description": "Demonstrate the use of fire man outfit."
+    },
+    {
+      "Qno": "8",
+      "Description": "Demonstrate the construction and working of emergency fire pumps, hoses and nozzles."
+    },
+    {
+      "Qno": "9",
+      "Description": "Demonstrate the construction and working of breathing apparatus"
+    },
+    {
+      "Qno": "10",
+      "Description": "Demonstrate the use of fire blanket"
+    }
+  ]
+}

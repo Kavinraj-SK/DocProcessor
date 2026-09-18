@@ -1,0 +1,53 @@
+{
+  "subj_code": "1032234620",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a)  Conduct Load Test on DC Shunt Motor and Draw the Performance Curve.\nb) Reverse the direction of rotation of the DC shunt motor."
+    },
+    {
+      "Qno": "2",
+      "Description": "Conduct Load Test on DC Series Motor and Draw the Performance Curve"
+    },
+    {
+      "Qno": "3",
+      "Description": "Conduct Speed Control of DC Shunt Motor by\na. Armature Control Method\nb. Field Control Method"
+    },
+    {
+      "Qno": "4",
+      "Description": "Conduct Load Test on Single Phase Transformer."
+    },
+    {
+      "Qno": "5",
+      "Description": "Conduct Load Test on a Single phase induction motor and plot the performance curve."
+    },
+    {
+      "Qno": "6",
+      "Description": "Conduct Load Test on Three Phase slip ring Induction Motor."
+    },
+    {
+      "Qno": "7",
+      "Description": "Conduct Load Test on Three Phase Squirrel cage Induction Motor."
+    },
+    {
+      "Qno": "8",
+      "Description": "Conduct the No-load and Blocked-rotor tests on give three phase squirrel cage induction motor."
+    },
+    {
+      "Qno": "9",
+      "Description": "Connect and run the three phase squirrel cage induction motors (in both directions) using the DOL starter, Star delta starter and autotransformer starter."
+    },
+    {
+      "Qno": "10",
+      "Description": "Control the speed of the given three phase squirrel cage / slip ring induction motor using below any one method:\ni)  Auto-transformer  (or)\nii) VVVF."
+    },
+    {
+      "Qno": "11",
+      "Description": "Test the given Stepper motor drive."
+    },
+    {
+      "Qno": "12",
+      "Description": "Test the given Servo motor drive."
+    }
+  ]
+}

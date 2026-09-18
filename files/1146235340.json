@@ -1,0 +1,45 @@
+{
+  "subj_code": "1146235340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "To Study the working  principle  of  defibrillator  and pacemakers."
+    },
+    {
+      "Qno": "2",
+      "Description": "To demonstrate the working  of ECG Machine."
+    },
+    {
+      "Qno": "3",
+      "Description": "To study the electrodes used in ECG, EMG, EEG"
+    },
+    {
+      "Qno": "4",
+      "Description": "To study the morphological features of interior eye (fundus) by using opthalmoscope."
+    },
+    {
+      "Qno": "5",
+      "Description": "Ensure the safe operation of Electrical system and equipments."
+    },
+    {
+      "Qno": "6",
+      "Description": "To measure the various physiological signals using biotelemetry."
+    },
+    {
+      "Qno": "7",
+      "Description": "To measure the oxygen saturation and heart rate using pulse oximeter."
+    },
+    {
+      "Qno": "8",
+      "Description": "To study about the ventillators and ultrasound scanners."
+    },
+    {
+      "Qno": "9",
+      "Description": "To study about the Galvanic skin resistance(GSR)."
+    },
+    {
+      "Qno": "10",
+      "Description": "To measure the pure tone and bone tone air conduction using Audiogram."
+    }
+  ]
+}

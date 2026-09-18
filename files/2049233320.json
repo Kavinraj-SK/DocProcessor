@@ -1,0 +1,53 @@
+{
+  "subj_code": "2049233320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Write a program for AND,OR and NOT logical functions"
+    },
+    {
+      "Qno": "2",
+      "Description": "Write a program for calculate the equivalent resistance of resistors\nConnected in series and parallel."
+    },
+    {
+      "Qno": "3",
+      "Description": "Write program to implement Kirchhoff’s current law."
+    },
+    {
+      "Qno": "4",
+      "Description": "Write program to find sum of series using “while” loop and execute it."
+    },
+    {
+      "Qno": "5",
+      "Description": "Write a program to find whether the given number is positive or negative\nor zero."
+    },
+    {
+      "Qno": "6",
+      "Description": "Write a program for Fibonacci series."
+    },
+    {
+      "Qno": "7",
+      "Description": "Write a program for converting Decimal number into Binary number."
+    },
+    {
+      "Qno": "8",
+      "Description": "Writeaprogramtoprintthegivenmatrixelementusing2Darray."
+    },
+    {
+      "Qno": "9",
+      "Description": "Write a program for String Palindrome."
+    },
+    {
+      "Qno": "10",
+      "Description": "Write a program for addition of two matrixes."
+    },
+    {
+      "Qno": "11",
+      "Description": "Write a program for automatic door OPEN and CLOS  system using if-\nElse condition."
+    },
+    {
+      "Qno": "12",
+      "Description": "Write a program for forward and reverse operation of motor control."
+    }
+  ]
+}

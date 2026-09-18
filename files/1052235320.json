@@ -1,0 +1,85 @@
+{
+  "subj_code": "1052235320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Creating different LED patterns and controlling them with push button switchesusing Arduino.\nB) Upload the temperature data from LM35 sensor to Thing Speak cloud with Node MCU/Raspberry Pi."
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Controlling servo motor based on the input from Joystick or PIR or IR sensorusing Arduino.\nB) Automatic streetlight simulation with Wokwi and Thing Speak."
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Calculate the distance to an object with the help of ultrasonic sensor and display it on an LCD using Arduino.\nB) Create your first thing using ditto."
+    },
+    {
+      "Qno": "4",
+      "Description": "A )Build a basic burglar alert security system with the help of PIR or IR sensor and Buzzer/LED Pattern using Arduino\nB) Query an existing thing using ditto."
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Create automated LED light control based on the input from LDR using Arduino.\nB) Connect an Arduino based device to Eclipse ditto."
+    },
+    {
+      "Qno": "6",
+      "Description": "A) Controlling servo motor based on the input from Joystick or PIR or IR sensorusing Arduino.\nB) Upload the temperature data from LM35 sensor to ThingSpeak cloud with Node MCU/Raspberry Pi."
+    },
+    {
+      "Qno": "7",
+      "Description": "A) Calculate the distance to an object with the help of ultrasonic sensor and display it on an LCD using Arduino.\nB) Automatic streetlight simulation with Wokwi and ThingSpeak."
+    },
+    {
+      "Qno": "8",
+      "Description": "A) Build a basic burglar alert security system with the help of PIR or IR sensor and Buzzer/LED Pattern using Arduino\nB) Create your first thing using ditto."
+    },
+    {
+      "Qno": "9",
+      "Description": "A) Create automated LED light control based on the input from LDR using Arduino.\nB) Query an existing thing using ditto."
+    },
+    {
+      "Qno": "10",
+      "Description": "A) Creating different LED patterns and controlling them with push button switchesusing Arduino.\nB) Connect an Arduino based device to Eclipse ditto."
+    },
+    {
+      "Qno": "11",
+      "Description": "A) Calculate the distance to an object with the help of ultrasonic sensor and display it on an LCD using Arduino.\nB) Upload the temperature data from LM35 sensor to ThingSpeak cloud with Node MCU/Raspberry Pi."
+    },
+    {
+      "Qno": "12",
+      "Description": "A) Build a basic burglar alert security system with the help of PIR or IR sensor and Buzzer/LED Pattern using Arduino\nB) Automatic streetlight simulation with Wokwi and ThingSpeak."
+    },
+    {
+      "Qno": "13",
+      "Description": "A) Create automated LED light control based on the input from LDR using Arduino.\nB) Create your first thing using ditto."
+    },
+    {
+      "Qno": "14",
+      "Description": "A) Creating different LED patterns and controlling them with push button switchesusing Arduino.\nB) Query an existing thing using ditto."
+    },
+    {
+      "Qno": "15",
+      "Description": "A) Controlling servo motor based on the input from Joystick or PIR or IR sensorusing Arduino.\nB) Connect an Arduino based device to Eclipse ditto."
+    },
+    {
+      "Qno": "16",
+      "Description": "A) Build a basic burglar alert security system with the help of PIR or IR sensor and Buzzer/LED Pattern using Arduino\nB) Upload the temperature data from LM35 sensor to ThingSpeak cloud with Node MCU/Raspberry Pi."
+    },
+    {
+      "Qno": "17",
+      "Description": "A) Create automated LED light control based on the input from LDR using Arduino.\nB) Automatic streetlight simulation with Wokwi and ThingSpeak."
+    },
+    {
+      "Qno": "18",
+      "Description": "A) Creating different LED patterns and controlling them with push button switchesusing Arduino.\nB) Create your first thing using ditto."
+    },
+    {
+      "Qno": "19",
+      "Description": "A) Controlling servo motor based on the input from Joystick or PIR or IR sensorusing Arduino.\nB) Query an existing thing using ditto."
+    },
+    {
+      "Qno": "20",
+      "Description": "A) Calculate the distance to an object with the help of ultrasonic sensor and display it on an LCD using Arduino.\nB) Connect an Arduino based device to Eclipse ditto."
+    }
+  ]
+}

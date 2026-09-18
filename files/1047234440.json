@@ -1,0 +1,65 @@
+{
+  "subj_code": "1047234440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Measure the dimensions of ground MS flat/cylindrical bush using Vernier Caliper compare with Digital / Dial Vernier Caliper"
+    },
+    {
+      "Qno": "2",
+      "Description": "Measure the diameter of a wire using micrometer and compare the result with digital micrometer"
+    },
+    {
+      "Qno": "3",
+      "Description": "Measure the thickness of ground MS plates using slip gauges"
+    },
+    {
+      "Qno": "4",
+      "Description": "Measure the height of gauge blocks or parallel bars using Vernier height gauge"
+    },
+    {
+      "Qno": "5",
+      "Description": "Find the Young’s Modulus, yield points, percentage elongation and percentage reduction in area, stress strain diagram plotting, tests on mild steel"
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of Rockwell’s Hardness Number for various materials like mild steel, high carbon steel, brass, copper and aluminum."
+    },
+    {
+      "Qno": "7",
+      "Description": "Find the impact strength of given specimen (mild steel & cast iron) using charpy test."
+    },
+    {
+      "Qno": "8",
+      "Description": "Find the impact strength of given specimen (mild steel & cast Iron) using Izod test"
+    },
+    {
+      "Qno": "9",
+      "Description": "Determine the shear stress and modulus of rigidity of the given specimen using Torsion testing machine"
+    },
+    {
+      "Qno": "10",
+      "Description": "Tension test of spring to find modulus of rigidity, strain energy, shear stress and stiffness by load deflection method (Open or Closed coil spring)"
+    },
+    {
+      "Qno": "11",
+      "Description": "Find the velocity ratio of the given gear train."
+    },
+    {
+      "Qno": "12",
+      "Description": "To study the gear tooth profile using gear tooth Vernier."
+    },
+    {
+      "Qno": "13",
+      "Description": "To study the types of gears used in different engineering applications."
+    },
+    {
+      "Qno": "14",
+      "Description": "To study the different belts used in belt drives with its application"
+    },
+    {
+      "Qno": "15",
+      "Description": "To study effect of friction using different types of bearings."
+    }
+  ]
+}

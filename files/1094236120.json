@@ -1,0 +1,45 @@
+{
+  "subj_code": "1094236120",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Identify the uses and limitations of various types of goods coming in the warehouse based on organization requirements and list them"
+    },
+    {
+      "Qno": "2",
+      "Description": "Perform inspection process on the physical availability of the goods, against the goods and the invoice"
+    },
+    {
+      "Qno": "3",
+      "Description": "Identify whether it is a fresh order, a partial order, left over ones, returns, etc"
+    },
+    {
+      "Qno": "4",
+      "Description": "Carryout counting of goods unloaded, Cross verification of the physical count with the invoice and advanced shipment notice(ASN),"
+    },
+    {
+      "Qno": "5",
+      "Description": "Locate the missing items for reconciliation. Prepare a detailed report for the management. Prepare the goods receipt note after reconciliation of count with drivers copy"
+    },
+    {
+      "Qno": "6",
+      "Description": "Carry out the Dispatch activities in warehouse. Arrange items for inspection in staging are a before dispatch. Follow quality assurance procedures."
+    },
+    {
+      "Qno": "7",
+      "Description": "Collect items after unloading from truck. Initiate allocation of items to storage at proper location. Use standard storing procedure."
+    },
+    {
+      "Qno": "8",
+      "Description": "Check for the document requirements after unloading till it is put away."
+    },
+    {
+      "Qno": "9",
+      "Description": "Verify if hazmat cargo legal and regulatory requirements are complied with. Reconcile items with dispatch order. Initiate action to arrange for missing items in the dispatch order. Take necessary action in case of stock out."
+    },
+    {
+      "Qno": "10",
+      "Description": "Perform physical counting of items as per dispatch order in staging area. Provide verified dispatch list to the transport coordinator to initiate loading. Check if proper handling and packing equipment is being used."
+    }
+  ]
+}

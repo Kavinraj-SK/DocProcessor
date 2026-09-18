@@ -1,0 +1,45 @@
+{
+  "subj_code": "1042234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "(i)Write Assembly Language program in to Add two 8 bit data\n(ii)Write Assembly language program to subtract two 8 bit data"
+    },
+    {
+      "Qno": "2",
+      "Description": "(i)Write Assembly Language program in to Multiply two 8 bit data\n(ii)Write Assembly language program to divide two 8 bit data"
+    },
+    {
+      "Qno": "3",
+      "Description": "Write Assemble language program to perform the following through KEILIDE\n(i) when a Toggle switch connected to Input port is ON, 8 LEDs connected to output port glows (ON) and when the toggle is switch is OFF, 8 LEDs are OFF.\n(ii)When Reed switch or LDR connected to input pin activated, Buzzer connected to output pin will be activated."
+    },
+    {
+      "Qno": "4",
+      "Description": "(i)Write assembly language program to switch on a LED connected to Output Pin\n(ii)Write and assembly language program through KEIL IDE to count the external event (through toggle switch) and display the count value in the LED’s which are connected\nto output port."
+    },
+    {
+      "Qno": "5",
+      "Description": "Write assembly Language program through KEIL IDE to blink LED which is connected to P1.0 when the External interrupt INT0 (P3.2) is activated"
+    },
+    {
+      "Qno": "6",
+      "Description": "Write the assembly language program through KEILIDE to interface 8bit ADC and DAC and test it."
+    },
+    {
+      "Qno": "7",
+      "Description": "Write an assembly language program through KEIL IDE to interface Multiplexed multi digit7-segment displays with 8051 through internal parallel ports to display word"
+    },
+    {
+      "Qno": "8",
+      "Description": "Write an assembly language program through KEIL IDE to interface 16x2 LCD display with 8051 & test it"
+    },
+    {
+      "Qno": "9",
+      "Description": "Write an assembly program in KEIL to interface stepper Motor with 8051 through its internal port and to run clockwise direction to 90 degrees and to run Anticlockwise direction to 90 degrees .Choose the stepper motor with step angle1.8degree."
+    },
+    {
+      "Qno": "10",
+      "Description": "Write an assembly language program through KEILIDE ,to interface a DC motor through H-bridge and required driver circuit ,to run the motor in forward  and in the reverse direction"
+    }
+  ]
+}

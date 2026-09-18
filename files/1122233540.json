@@ -1,0 +1,45 @@
+{
+  "subj_code": "1122233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Demonstration of First Aid Kit (Small, Medium and Large First Aid box.)"
+    },
+    {
+      "Qno": "2",
+      "Description": "First Aid for bleeding Wounds"
+    },
+    {
+      "Qno": "3",
+      "Description": "First Aid for Burns (Chemical, Electrical, Thermal Burns)."
+    },
+    {
+      "Qno": "4",
+      "Description": "First Aid for Electrical shock."
+    },
+    {
+      "Qno": "5",
+      "Description": "First Aid for fits"
+    },
+    {
+      "Qno": "6",
+      "Description": "First Aid for Injuries"
+    },
+    {
+      "Qno": "7",
+      "Description": "Performing evacuations exercises.\n(Single Helper Technique: Shoulder Pull, Cradle, Human Crutch, Fireman’s lift)"
+    },
+    {
+      "Qno": "8",
+      "Description": "Performing evacuations exercises.\n(Multiple Helper Technique: Human Crutch, hand Seat, and aft method, Kitchen- Chair Carry, three person carry)."
+    },
+    {
+      "Qno": "9",
+      "Description": "Performing evacuations exercises.\n(Multiple Helper Technique: Stretcher. Blanker, Emergency Lifts)"
+    },
+    {
+      "Qno": "10",
+      "Description": "Performing Basic Cardio Pulmonary resuscitation (CPR)."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1013235540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determination of pH of given water and waste water samples."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination Total solids (TS), Total suspended solids (TSS) and Total dissolved solids (TDS) for given water and wastewater samples."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination Total Hardness, Calcium Hardness and magnesium hardness from given water samples"
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination Alkalinity (Phenolphthalein and Methyl orange Alkalinity) from given water samples."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination Chloride from given water and wastewater samples"
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination sulphates of given water and wastewater samples."
+    },
+    {
+      "Qno": "7",
+      "Description": "Finding Numerical on pH for the given samples."
+    },
+    {
+      "Qno": "8",
+      "Description": "Finding Numerical on Solids for the given samples."
+    },
+    {
+      "Qno": "9",
+      "Description": "Finding Numerical on Hardness for the given samples."
+    },
+    {
+      "Qno": "10",
+      "Description": "Finding Numerical on Alkalinity for the given samples.\n(Samples may be given like Dilute CH3COOH, Dilute NaOH, Salt NaCl, Dilute NaHCO3 Water, Lemon juice)"
+    }
+  ]
+}

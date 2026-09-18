@@ -1,0 +1,45 @@
+{
+  "subj_code": "1021233340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determine the Rockwell hardness or Brinell hardness number for various materials such as HSS, mild steel, copper and aluminium (Any Two).\nCompare the results to identify the hardest material"
+    },
+    {
+      "Qno": "2",
+      "Description": "Determine the impact energy and specific impact fact or for ductile\nMaterials by (i) Charpy Impact test and (ii) Izod impact test."
+    },
+    {
+      "Qno": "3",
+      "Description": "Conduct a tensile test for a ductile material and determine the following;\ni) Ultimate tensile stress. ii) Yield stress. iii) Breaking stress. iv) % Elongation v) Young's   modulus. vi) % Reduction in area."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine ultimate shear strength in single shear for a ductile material."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determine ultimate shear strength in double shear for a ductile material."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determine the modulus of rigidity of the material of the open coil spring."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determine the modulus of rigidity of the material of the Closed coil spring."
+    },
+    {
+      "Qno": "8",
+      "Description": "Prepare and mount the specimen (Ferrous or Non-ferrous material) and Check the microstructure of the given specimens by using a metallurgical microscope."
+    },
+    {
+      "Qno": "9",
+      "Description": "Determine the behavior of Mild steel when subjected to Torsion and  calculate the following torsional properties: (1) Modulus of rigidity (2) Elastic shear strength."
+    },
+    {
+      "Qno": "10",
+      "Description": "Detect the surface or subsurface crack of the given ferromagnetic material Using dye penetration test and magnetic particle test"
+    }
+  ]
+}

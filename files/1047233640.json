@@ -1,0 +1,53 @@
+{
+  "subj_code": "1047233640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Calibration of Ammeter, Voltmeter, Wattmeter"
+    },
+    {
+      "Qno": "2",
+      "Description": "Verify Super position Theorem"
+    },
+    {
+      "Qno": "3",
+      "Description": "Verify Maximum Power Transfer Theorem"
+    },
+    {
+      "Qno": "4",
+      "Description": "Analyse voltage current relationship n series RL, RC ,RLC circuit Through simulation.(Any open end software)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Simulation to Calculate Impedance in a Series RL C Circuit and Verify Theoretically. (Any open end software)"
+    },
+    {
+      "Qno": "6",
+      "Description": "Measurement of power and power factor of single phase load and plot The graph"
+    },
+    {
+      "Qno": "7",
+      "Description": "Measurement of three phase power using two wattmeter"
+    },
+    {
+      "Qno": "8",
+      "Description": "Construct the circuit and Obtain the VI Characteristics of PN Junction Diode and Zener Diode."
+    },
+    {
+      "Qno": "9",
+      "Description": "Construct the circuit and Obtain the Input and Output Characteristics Of BJT in CE Configuration"
+    },
+    {
+      "Qno": "10",
+      "Description": "Conduct an experiment to demonstrate the operation of an SCR a san Switch"
+    },
+    {
+      "Qno": "11",
+      "Description": "IdentifyingtheElectrical,mechanical,andelectronicCircuitsavailable In an Automobile/Industrial Robot/ Washing Machine"
+    },
+    {
+      "Qno": "12",
+      "Description": "Built a Creative Toy Using the Electrical, Mechanical and Electronics components"
+    }
+  ]
+}

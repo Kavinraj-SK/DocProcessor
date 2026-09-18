@@ -1,0 +1,45 @@
+{
+  "subj_code": "2074235440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determination of  Tensile strength of polymer?"
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of  Impact strength of plastics?"
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of  Falling dart Impact strength?"
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of  DIN Abrasion resistance?"
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of  Flammability of polymer?"
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of  MFI?"
+    },
+    {
+      "Qno": "7",
+      "Description": "Study on effect of  temperature on compression set rubber?"
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of  Rebound resilience of polymer?"
+    },
+    {
+      "Qno": "9",
+      "Description": "Determination of  ESCR?"
+    },
+    {
+      "Qno": "10",
+      "Description": "Determination  of  Fatigue strength by De-mattia method?"
+    }
+  ]
+}

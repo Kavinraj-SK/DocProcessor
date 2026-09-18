@@ -1,0 +1,45 @@
+{
+  "subj_code": "1040233640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Construct a Resistive Network to Verify Kirchhoff’s Voltage Law"
+    },
+    {
+      "Qno": "2",
+      "Description": "Construct a Resistive Network to Verify Kirchhoff’s Current                       Law"
+    },
+    {
+      "Qno": "3",
+      "Description": "Construct a Resistive Network to Verify the Superposition Theorem"
+    },
+    {
+      "Qno": "4",
+      "Description": "Construct a Resistive Network to Verify Thevenin’s Theorem."
+    },
+    {
+      "Qno": "5",
+      "Description": "Analysis of the sinusoidal waveform (Measurement of Peak Voltage, Time Period, Frequency and Phase difference between two waveforms)"
+    },
+    {
+      "Qno": "6",
+      "Description": "Analysis of the AC Response to sinusoidal inputs across R, L, and C."
+    },
+    {
+      "Qno": "7",
+      "Description": "Construct and test the performance of Series Resonant Circuit and obtain the Resonance Frequency"
+    },
+    {
+      "Qno": "8",
+      "Description": "Construct and test the performance of parallel resonant circuit and obtain the Resonance frequency"
+    },
+    {
+      "Qno": "9",
+      "Description": "Measure the output voltage in step up / step down Transformer."
+    },
+    {
+      "Qno": "10",
+      "Description": "Case study: Study the performance of Single-Phase Induction Motor."
+    }
+  ]
+}

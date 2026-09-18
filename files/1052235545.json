@@ -1,0 +1,25 @@
+{
+  "subj_code": "1052235545",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Design a webpage with header, footer and navigation sections using appropriate semantic elements of HTML5.\nb)Display a list in a webpage in which list elements can be dynamically added using Angular JS."
+    },
+    {
+      "Qno": "2",
+      "Description": "a)Design a Sign-up page for a website which would accept only numerical values in\nthe phone number field and password of minimum length 8 using HTML5 and Java Script.\nb) Display a list in a webpage in which list elements can be dynamically removed using Angular JS."
+    },
+    {
+      "Qno": "3",
+      "Description": "a) Design a webpage to demonstrate the bootstrap container and grid classes.\nb) Create a Django App to display “Hello World.”"
+    },
+    {
+      "Qno": "4",
+      "Description": "a) Design a webpage with navigation bar using. navbar classes.\nb) Create and display a template in Django App."
+    },
+    {
+      "Qno": "5",
+      "Description": "a) Design a webpage to demonstrate the scroll spy plug in.\nb) Create a Model in a Dj an go app and insert data."
+    }
+  ]
+}

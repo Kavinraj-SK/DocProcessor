@@ -1,0 +1,13 @@
+{
+  "subj_code": "1012233620",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Draft the given plan, elevation and section of a single room with furniture arrangement with proper dimension\n----media/image1.png----"
+    }
+  ],
+  "_media_dir": "1012233620_media",
+  "_embedded_media": [
+    "image1.png"
+  ]
+}

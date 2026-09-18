@@ -1,0 +1,45 @@
+{
+  "subj_code": "2049234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Develop and demonstrate the control circuit for operating both single-acting and double-acting cylinders used in an industrial pneumatic system."
+    },
+    {
+      "Qno": "2",
+      "Description": "Design and implement a speed control arrangement for a double-acting cylinder using meter-in and meter-out circuits, and compare their performance."
+    },
+    {
+      "Qno": "3",
+      "Description": "Construct a pneumatic circuit for sequence operation of two double-acting cylinders using a pressure sequence valve in an automation process."
+    },
+    {
+      "Qno": "4",
+      "Description": "Demonstrate the direct actuation method of single-acting and double-acting cylinders used in industrial applications."
+    },
+    {
+      "Qno": "5",
+      "Description": "Prepare a pneumatic circuit for the operation of a double-acting cylinder using a shuttle valve and a dual-pressure valve."
+    },
+    {
+      "Qno": "6",
+      "Description": "Design a pneumatic circuit for operating a double-acting cylinder with a quick exhaust valve to achieve high-speed motion."
+    },
+    {
+      "Qno": "7",
+      "Description": "Develop an automatic single-cycle operation of a double-acting cylinder using a limit switch and pilot valve in a production line."
+    },
+    {
+      "Qno": "8",
+      "Description": "Construct and demonstrate the hydraulic circuit for the operation of a hydraulic motor using a solenoid-operated valve."
+    },
+    {
+      "Qno": "9",
+      "Description": "Implement the indirect actuation of a pneumatic cylinder using a relay control circuit. Compare its operation with direct actuation"
+    },
+    {
+      "Qno": "10",
+      "Description": "Design and test a logic control circuit for a pneumatic actuator incorporating AND and OR logic functions."
+    }
+  ]
+}

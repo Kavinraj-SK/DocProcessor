@@ -1,0 +1,49 @@
+{
+  "subj_code": "1030234620",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Conduct Load test on 3 Phase Alternator and plot the load characteristics curve."
+    },
+    {
+      "Qno": "2",
+      "Description": "Predetermine the Regulation of Three Phase Alternator by EMF method."
+    },
+    {
+      "Qno": "3",
+      "Description": "Perform Synchronization of 3 Phase Alternators by\na)  Lamp method b) Synchroscope method"
+    },
+    {
+      "Qno": "4",
+      "Description": "Conduct Load Test on a three phase squirrel cage induction motor and plot the performance curve."
+    },
+    {
+      "Qno": "5",
+      "Description": "Conduct Load Test on a three phase slip-ring induction motor and plot the performance curve."
+    },
+    {
+      "Qno": "6",
+      "Description": "Find the equivalent circuit constants of a three phase induction motor by conducting No-Load and Blocked Rotor tests."
+    },
+    {
+      "Qno": "7",
+      "Description": "Demonstrate that power factor of an induction motor load is improved by connecting capacitor bank."
+    },
+    {
+      "Qno": "8",
+      "Description": "Conduct Load Test on a single phase induction motor and plot the performance curve."
+    },
+    {
+      "Qno": "9",
+      "Description": "Conduct and Experiment to obtain the ‘V’ curve and inverted ‘V’ curve of synchronous motor."
+    },
+    {
+      "Qno": "10",
+      "Description": "Perform Winding of primary and secondary coils of 230V/12V, 500m A Transformer. Insert suitable cores and Check the output voltage."
+    },
+    {
+      "Qno": "11",
+      "Description": "Make end connection to a three phase induction motor winding for a two pole/four pole operations and verify the output."
+    }
+  ]
+}

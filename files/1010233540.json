@@ -1,0 +1,57 @@
+{
+  "subj_code": "1010233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Verification of  Bernoulli’s theorem"
+    },
+    {
+      "Qno": "2",
+      "Description": "Flow through Ventuir meter - Determination of  Co-efficient of Discharge."
+    },
+    {
+      "Qno": "3",
+      "Description": "Flow through Orifice meter – Determination of Co-efficient of   Discharge."
+    },
+    {
+      "Qno": "4",
+      "Description": "Flow through orifice - Determination of Co-efficient of Discharge by time fall-Head method."
+    },
+    {
+      "Qno": "5",
+      "Description": "Flow through orifice - Determination of Co-efficient of Discharge by Constant head method."
+    },
+    {
+      "Qno": "6",
+      "Description": "Flow through external cylindrical mouth piece - Determination of Co- efficient of Discharge by timing fall in head method."
+    },
+    {
+      "Qno": "7",
+      "Description": "Flow through external cylindrical mouth piece - Determination of Co- efficient of Discharge by Constant head method."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of friction factor for the given GI pipe."
+    },
+    {
+      "Qno": "9",
+      "Description": "Determination of Co-efficient of Discharge for Rectangular Notch."
+    },
+    {
+      "Qno": "10",
+      "Description": "Determination of Co-efficient of Discharge for Triangular Notch."
+    },
+    {
+      "Qno": "11",
+      "Description": "Determination of Co-efficient of Discharge for Trapezoidal notch."
+    },
+    {
+      "Qno": "12",
+      "Description": "Reciprocating pump - to draw characteristic curves and determine the efficiency."
+    },
+    {
+      "Qno": "13",
+      "Description": "Centrifugal Pump - to  draw characteristic curves and determine the Efficiency."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subj_code": "1042234440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Create a VI that takes temperature in degree Centigrade as input and displays the temperature both in degree Centigrade and degree Fahrenheit. Use temperature indicator for display"
+    },
+    {
+      "Qno": "2",
+      "Description": "Create a VI to evaluate the equation y = 3a + 2b + c using arithmetic block or formula node."
+    },
+    {
+      "Qno": "3",
+      "Description": "Create a VI to compute and display the roots of a quadratic equation: x2+5x+6 by taking the values of a, b and c as inputs."
+    },
+    {
+      "Qno": "4",
+      "Description": "Create a VI to simulate a simple calculate or which performs addition, subtraction, multiplication and division using case structure."
+    },
+    {
+      "Qno": "5",
+      "Description": "Design a VI to display whether the given integer is odd or even."
+    },
+    {
+      "Qno": "6",
+      "Description": "Design a VI that takes two integers as input and displays its remainder and quotient."
+    },
+    {
+      "Qno": "7",
+      "Description": "Draw the function generator and test its output using LABVIEW software"
+    },
+    {
+      "Qno": "8",
+      "Description": "Design virtual CRO capable of addition of two waveforms with front panel and block diagram."
+    },
+    {
+      "Qno": "9",
+      "Description": "Design front panel and block diagram to simulate logic gate functions: AND, OR, NOT, NAND, NOR, EX-OR and EX-NOR."
+    },
+    {
+      "Qno": "10",
+      "Description": "Design front panel and block diagram to simulate temperature control system"
+    },
+    {
+      "Qno": "11",
+      "Description": "Design front panel and block diagram to simulate tank control system."
+    },
+    {
+      "Qno": "12",
+      "Description": "Design a VI to simulate half adder."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1027233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Finding Young’s Modulus of Elasticity, yield points, percentage elongation and percentage reduction in area, stress strain diagram plotting, tests on mild steel.\n(Equipment: UTM)"
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of Rockwell hardness number for various materials like mild steel, brass, copper and Aluminum.\n( Equipment : Rock well Hardness Testing Machine)"
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of Young’s Modulus for steel by deflection test.\n( Equipment  : Deflection testing arrangement )"
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of modulus of rigidity, strain energy, shear stress by load deflection method. (Equipment: Tension testing arrangements)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of Coefficient of discharge of a Venturimeter.\n(Equipment: A Centrifugal pump having the discharge line with Venturimeter arrangement)"
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of Coefficient of discharge of a Orifice meter.\n(Equipment: A Centrifugal pump having the discharge line with Orifice meter arrangement)"
+    },
+    {
+      "Qno": "7",
+      "Description": "Verifying the Bernoulli’s Theorem\n(Equipment: The Bernoulli’s Apparatus)"
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of the Friction Factor in a Pipe\n(Equipment: An arrangement to find friction factor)"
+    },
+    {
+      "Qno": "9",
+      "Description": "Performance test on a reciprocating pump and draw the characteristic curves.\n(Equipment: A reciprocating pump with an arrangement for collecting data to find out the efficiency and plot the characteristic curves)"
+    },
+    {
+      "Qno": "10",
+      "Description": "Performance test on a centrifugal pump and draw the characteristic curves.\n(Equipment: A centrifugal pump with an arrangement for collecting data to find out the\nEfficiency and plot the characteristic curves)"
+    }
+  ]
+}

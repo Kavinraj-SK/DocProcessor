@@ -1,0 +1,33 @@
+{
+  "subj_code": "2101236620",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Practice on Resin finish-(Nappa & upper Leather)"
+    },
+    {
+      "Qno": "2",
+      "Description": "Practice on aniline finish (Glaze Kid & Burnish Leather)"
+    },
+    {
+      "Qno": "3",
+      "Description": "Practice on semi-aniline finish."
+    },
+    {
+      "Qno": "4",
+      "Description": "Practice on Patent finish."
+    },
+    {
+      "Qno": "5",
+      "Description": "Practice on Antique finish."
+    },
+    {
+      "Qno": "6",
+      "Description": "Practice on metallic finish"
+    },
+    {
+      "Qno": "7",
+      "Description": "Practice on Transfer foil finish"
+    }
+  ]
+}

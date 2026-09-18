@@ -1,0 +1,149 @@
+{
+  "subj_code": "1058234440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A)  To write a java program to compute the area of a circle, square and rectangle using\nvariables (command line arguments and variable declaration).\nB) To write a JAVA program to implement class and objects - create a class student\nwith four data members. Use a constructor to initialize the data members. Define a method display () to display the information of a student. Use Main method to create the objects."
+    },
+    {
+      "Qno": "2",
+      "Description": "A)  To write a java program to compute the area of a circle, square and rectangle using\nvariables (command line arguments and variable declaration).\nB) Write a Java program to illustrate the concept of single inheritance. Create a parent\nclass \"Vehicle\". Child class \"Car”, with each class having distinct functionalities.\nOverride the parent functionality in child class."
+    },
+    {
+      "Qno": "3",
+      "Description": "A)  To write a java program to compute the area of a circle, square and rectangle using\nvariables (command line arguments and variable declaration).\nB) Write a java program to demonstrate exception handling - Read an integer from user.\nThrow an exception if user enters a non-integer value. Throw another exception if user enters0 as input. Use finally block"
+    },
+    {
+      "Qno": "4",
+      "Description": "A)  To write a java program to compute the area of a circle, square and rectangle using\nvariables (command line arguments and variable declaration).\nB)  Write a java program to demonstrate multithreading concept."
+    },
+    {
+      "Qno": "5",
+      "Description": "A)  To write a java program to compute the area of a circle, square and rectangle using\nvariables (command line arguments and variable declaration).\nB)  Write a java program to read a string in lowercase and write the string in uppercase\ninto a file and close the file."
+    },
+    {
+      "Qno": "6",
+      "Description": "A)  To write a java program to compute the area of a circle, square and rectangle using\nvariables (command line arguments and variable declaration).\nB)  Write a program to create a simple calculate or to perform addition, subtraction,\nMultiplication and division using button, label and text field."
+    },
+    {
+      "Qno": "7",
+      "Description": "A) To write a java program to print the default value of all primitive data types.\nB) To write a JAVA program to implement class and objects - create a class student with\nfour data members. Use a constructor to initialize the data members. Define a method\ndisplay () to display the information of a student. Use Main method to create the objects."
+    },
+    {
+      "Qno": "8",
+      "Description": "A) To write a java program to print the default value of all primitive data types.\nB) Write a Java program to illustrate the concept of single inheritance. Create a parent class\n\"Vehicle\". Child class \"Car”, with each class having distinct functionalities. Override the\nparent functionality in child class."
+    },
+    {
+      "Qno": "9",
+      "Description": "A) To write a java program to print the default value of all primitive data types.\nB) Write a java program to demonstrate exception handling - Read an integer from user.\nThrow an exception if user enters a non-integer value. Throw another exception if user\nenters0 as input. Use finally block."
+    },
+    {
+      "Qno": "10",
+      "Description": "A) To write a java program to print the default value of all primitive data types.\nB) Write a java program to demonstrate multi threading concept."
+    },
+    {
+      "Qno": "11",
+      "Description": "A) To write a java program to print the default value of all primitive data types.\nB) Write a java program to read a string in lowercase and write the string in uppercase into\na file and close the file."
+    },
+    {
+      "Qno": "12",
+      "Description": "A)  To write a java program to print the default value of all primitive data types.\nB)  Write a program to create a simple calculator to perform addition, subtraction,\nMultiplication and division using button, label and text field."
+    },
+    {
+      "Qno": "13",
+      "Description": "A) To write a simple java program to demonstrate type conversion that requires cast.\nB) To write a JAVA program to implement class and objects - create a class student with\nfour data members. Use a constructor to initialize the data members. Define a method\ndisplay () to display the information of a student. Use Main method to create the objects."
+    },
+    {
+      "Qno": "14",
+      "Description": "A) To write a simple java program to demonstrate type conversion that requires cast.\nB) Write a Java program to illustrate the concept of single inheritance. Create a parent class\n\"Vehicle\". Child class \"Car”, with each class having distinct functionalities. Override the\nparent functionality in child class."
+    },
+    {
+      "Qno": "15",
+      "Description": "A) To write a simple java program to demonstrate type conversion that requires cast.\nB) Write a java program to demonstrate exception handling - Read an integer from user.\nThrow an exception if user enters a non-integer value. Throw another exception if user\nenters0 as input. Use finally block."
+    },
+    {
+      "Qno": "16",
+      "Description": "A) To write a simple java program to demonstrate type conversion that requires cast.\nB) Write a java program to demonstrate multi threading concept."
+    },
+    {
+      "Qno": "17",
+      "Description": "A) To write a simple java program to demonstrate type conversion that requires cast.\nB) Write a java program to read a string in lowercase and write the string in uppercase into\na file and close the file."
+    },
+    {
+      "Qno": "18",
+      "Description": "A) To write a simple java program to demonstrate type conversion that requires cast.\nB) Write a program to create a simple calculator to perform addition, subtraction,\nMultiplication and division using button, label and text field."
+    },
+    {
+      "Qno": "19",
+      "Description": "A) To write a java program to find greatest of three numbers\nB) To write a JAVA program to implement class and objects - create a class student with\nfour data members. Use a constructor to initialize the data members. Define a method\ndisplay () to display the in formation of a student. Use Main method to create the objects."
+    },
+    {
+      "Qno": "20",
+      "Description": "A) To write a java program to find greatest of three numbers\nB) Write a Java program to illustrate the concept of single in heritance. Create a parent class\n\"Vehicle\" . Child class \"Car”, with each class having distinct functionalities. Override the\nparent functionality in child class."
+    },
+    {
+      "Qno": "21",
+      "Description": "A) To write a java program to find greatest of three numbers\nB) Write a java program to demonstrate exception handling - Read an integer from user.\nThrow an exception if user enters a non-integer value. Throw another exception if user\nenters0 as input. Use finally block."
+    },
+    {
+      "Qno": "22",
+      "Description": "A) To write a java program to find greatest of three numbers\nB) Write a java program to demonstrate multithreading concept."
+    },
+    {
+      "Qno": "23",
+      "Description": "A) To write a java program to find greatest of three numbers\nB) Write a java program to read a string in lowercase and write the string in uppercase into\na file and close the file."
+    },
+    {
+      "Qno": "24",
+      "Description": "A) To write a java program to find greatest of three numbers\nB) Write a program to create a simple calculate or toper form addition, subtraction,\nMultiplication and division using button, label and text field."
+    },
+    {
+      "Qno": "25",
+      "Description": "A)  To write a java program to find the average of 5 students marks using one dimensional array\nB) To write a JAVA program to implement class and objects - create a class student\nwith four data members. Use a constructor to initialize the data members. Define a method display () to display the information of a student. Use Main method to create the objects."
+    },
+    {
+      "Qno": "26",
+      "Description": "A)  To write a java program to find the average of 5 students marks using one dimensional array\nB) Write a Java program to illustrate the concept of single inheritance. Create a parent\nclass \"Vehicle\" . Child class \"Car”, with each class having distinct functionalities. Override the parent functionality in child class."
+    },
+    {
+      "Qno": "27",
+      "Description": "A)  To write a java program to find the average of 5 students marks using one dimensional array\nB) Write a java program to demonstrate exception handling - Read an integer from user.\nThrow an exception if user enters a non-integer value. Throw another exception if user enters0 as input. Use finally block."
+    },
+    {
+      "Qno": "28",
+      "Description": "A)  To write a java program to find the average of 5 students marks using one dimensional\narray\nB)  Write a java program to demonstrate multi threading concept."
+    },
+    {
+      "Qno": "29",
+      "Description": "A)   To write a java program to find the average of 5 students marks using one dimensional\narray\nB)  Write a java program to read a string in lowercase and write the string in uppercase\ninto a file and close the file."
+    },
+    {
+      "Qno": "30",
+      "Description": "A)  To write a java program to find the average of 5 students marks using one dimensional\narray\nB)  Write a program to create a simple calculator to perform addition, subtraction,\nMultiplication and division using button, label and text field."
+    },
+    {
+      "Qno": "31",
+      "Description": "A)  To write  a java program to perform matrix arithmetic operations using Multidimensional arrays\nB) To write a JAVA program to implement class and objects - create a class student\nwith four data members. Use a constructor to initialize the data members. Define a method display () to display the information of a student. Use Main method to create the objects."
+    },
+    {
+      "Qno": "32",
+      "Description": "A)  To write a java program to perform matrix arithmetic operations using Multi dimensional arrays\nB)  Write a Java program to illustrate the concept of single inheritance. Create a parent\nclass \"Vehicle\". Child class \"Car”, with each class having distinct functionalities. Override the parent functionality in child class."
+    },
+    {
+      "Qno": "33",
+      "Description": "A)  To write a java program to perform matrix arithmetic operations using Multidimensional arrays\nB) Write a java program to demonstrate exception handling - Read an integer from user.\nThrow an exception if user enters a non-integer value. Throw another exception if user enters0 as input. Use finally block."
+    },
+    {
+      "Qno": "34",
+      "Description": "A) To write a java program to perform matrix arithmetic operations using\nMultidimensional arrays\nB) Write a java program to demonstrate multi threading concept."
+    },
+    {
+      "Qno": "35",
+      "Description": "A) To write a java program to perform matrix arithmetic operations using\nMultidimensional arrays\nC)  Write a java program to read a string in lowercase and write the string in uppercase into a file and close the file."
+    },
+    {
+      "Qno": "36",
+      "Description": "A)  To write a java program to perform matrix arithmetic operations using Multi dimensional arrays\nB) Write a program to create a simple calculate or to perform addition, subtraction,\nMultiplication and division using button, label and text field."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1220234420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Machine a cube by using shaping machine as per the Dimensions"
+    },
+    {
+      "Qno": "2",
+      "Description": "Machine a square block from round rod using Milling machine as per the Dimensions"
+    },
+    {
+      "Qno": "3",
+      "Description": "Machine a ‘V’ Block using Milling machine as per the Dimensions"
+    },
+    {
+      "Qno": "4",
+      "Description": "Machine Groove cuts using Vertical Milling machine as per the dimensions"
+    },
+    {
+      "Qno": "5",
+      "Description": "Grind a plain surface using surface Grinder as per the Dimensions"
+    },
+    {
+      "Qno": "6",
+      "Description": "Grind a cylindrical surface using Cylindrical Grinding machine as per the dimensions"
+    },
+    {
+      "Qno": "7",
+      "Description": "Grind a Progressive type Plug gauge using Cylindrical Grinding machine as per the Dimensions"
+    },
+    {
+      "Qno": "8",
+      "Description": "Machine a Spur Gear using milling machine by Simple Indexing as per the Dimensions"
+    },
+    {
+      "Qno": "9",
+      "Description": "Machine a Helical Gear using milling machine as per the Dimensions"
+    },
+    {
+      "Qno": "10",
+      "Description": "Grind a Facing Tool using Tool and Cutter Grinder as per the Dimensions"
+    }
+  ]
+}

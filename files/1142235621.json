@@ -1,0 +1,53 @@
+{
+  "subj_code": "1142235621",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Explain the blood documentation that ensures prevention, disinfection, sterilization, preservation, storage and transportation of blood"
+    },
+    {
+      "Qno": "2",
+      "Description": "Determine the ABO blood grouping of the given blood sample using Slide method."
+    },
+    {
+      "Qno": "3",
+      "Description": "Perform the ABO blood grouping of the given blood sample using Tube method"
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine the Rh grouping of the given blood sample using Slide method"
+    },
+    {
+      "Qno": "5",
+      "Description": "Determine the Rh grouping of the given blood sample using tube method"
+    },
+    {
+      "Qno": "6",
+      "Description": "Evaluate the subgroups of the blood sample using A1-lectin solution."
+    },
+    {
+      "Qno": "7",
+      "Description": "Conduct the Major cross-matching to determine the compatibility between donor and recipient"
+    },
+    {
+      "Qno": "8",
+      "Description": "Perform the Minor cross-matching to determine the compatibility between donor and recipient"
+    },
+    {
+      "Qno": "9",
+      "Description": "Perform the compatibility testing by direct coomb’s test (Direct Antiglobulin Test)."
+    },
+    {
+      "Qno": "10",
+      "Description": "Perform the Indirect Antiglobulin Test (IAT) for compatibility testing."
+    },
+    {
+      "Qno": "11",
+      "Description": "Write the process of pre-transfusion testing in a blood bank."
+    },
+    {
+      "Qno": "12",
+      "Description": "Write the steps to prepare the anticoagulants."
+    }
+  ]
+}

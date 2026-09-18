@@ -1,0 +1,25 @@
+{
+  "subj_code": "1055233320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Verify the truth tables of any 3 gates NOT,AND,OR,NAND,NOR,XOR using IC’s\nb) Test the performance of3-bit Parity Generator and 4-bit Parity  Checker using\nBasic logic gates with an even parity bit"
+    },
+    {
+      "Qno": "2",
+      "Description": "a) Test the performance of Full Adder.\nb) Test the performance of Inverting Amplifier and Non inverting Amplifier using\nOp-ampIC741."
+    },
+    {
+      "Qno": "3",
+      "Description": "a) Test the performance of Full Subtractor.\nb) Test the performance of Integrator and Differentiator using Op-ampIC741."
+    },
+    {
+      "Qno": "4",
+      "Description": "a) Test the performance of JK flip-flops.\nb) Test the performance of Integrator and Differentiator using Op-ampIC741."
+    },
+    {
+      "Qno": "5",
+      "Description": "a) Test the performance of De multiplexer.\nb) Test the performance of IC Voltage Regulator Power supplies using IC 7805,IC\n7912"
+    }
+  ]
+}

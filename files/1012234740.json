@@ -1,0 +1,53 @@
+{
+  "subj_code": "1012234740",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Details of Different plastering, pointing and cladding with different materials\non Exterior surfaces (sketch only)."
+    },
+    {
+      "Qno": "2",
+      "Description": "Details different types of joints in concrete work."
+    },
+    {
+      "Qno": "3",
+      "Description": "Details of Grill Gate, Rolling Shutter and Collapsible Gate."
+    },
+    {
+      "Qno": "4",
+      "Description": "Various steel Trusses for industrial buildings and go down"
+    },
+    {
+      "Qno": "5",
+      "Description": "Details of Single and double scaffolding."
+    },
+    {
+      "Qno": "6",
+      "Description": "Details of formwork for shoring, underpinning."
+    },
+    {
+      "Qno": "7",
+      "Description": "Details of formwork for Beams and Floor Slabs."
+    },
+    {
+      "Qno": "8",
+      "Description": "Plan and sectional elevation of Dog-legged staircase and Open well staircase"
+    },
+    {
+      "Qno": "9",
+      "Description": "Plan and sectional elevation of Spiral staircase and Bifurcated staircase"
+    },
+    {
+      "Qno": "10",
+      "Description": "Details of Shell roof"
+    },
+    {
+      "Qno": "11",
+      "Description": "Plan and cross section of Filler slab."
+    },
+    {
+      "Qno": "12",
+      "Description": "Plan, elevation and Isometric view of Rat Trap Bond"
+    }
+  ]
+}

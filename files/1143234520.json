@@ -1,0 +1,57 @@
+{
+  "subj_code": "1143234520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "To Identify the parts of X-ray circuit and units."
+    },
+    {
+      "Qno": "2",
+      "Description": "To Operate the parts of the control panel."
+    },
+    {
+      "Qno": "3",
+      "Description": "To Identify and use the beam restricting devices."
+    },
+    {
+      "Qno": "4",
+      "Description": "To Check and perform the grid functions of x ray units."
+    },
+    {
+      "Qno": "5",
+      "Description": "To Select and choose the grid &the Bucky factor."
+    },
+    {
+      "Qno": "6",
+      "Description": "Execute the operation of the X-ray circuit, control ling of different parameters."
+    },
+    {
+      "Qno": "7",
+      "Description": "To Check KVP accuracy, using the digital KVP meter."
+    },
+    {
+      "Qno": "8",
+      "Description": "Measure the real KVP output and real mA output in high frequency inverter circuit of latest x-ray machine"
+    },
+    {
+      "Qno": "9",
+      "Description": "Calibration of KVP and mA in X-ray control panel"
+    },
+    {
+      "Qno": "10",
+      "Description": "Test alignment of grid using grid alignment test tool."
+    },
+    {
+      "Qno": "11",
+      "Description": "Check the consistency of timer."
+    },
+    {
+      "Qno": "12",
+      "Description": "Check the consistency of mA loading stations."
+    },
+    {
+      "Qno": "13",
+      "Description": "Check the consistency of X-ray tube output"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subj_code": "1046236242",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A.Analyse the quality of application, find out defects on the page from any test website and validate the testing quality based on the number of defects captured. Rate the quality of testing by following metrics. 0 – 4 defects => Poor, 5 – 6 defects => Average, 7 – 8 defects =>Good, 9 – 10 defects => Excellent, 10+ defects => Best tester!.\nB.Perform End-to-End testing of the e-commerce application and report the status."
+    },
+    {
+      "Qno": "2",
+      "Description": "A.Analyse the given defect and identify the bug type and classify the type of bug it belongs to from the following defects type listed, • Functional Bugs, • Logical Bugs,• Workflow Bugs, • Unit Level Bugs, • System-Level Integration Bugs, • Security Bugs.\nB.Perform Unit Testing to Test the login component functionality of e-commerce and report any bugs observed."
+    },
+    {
+      "Qno": "3",
+      "Description": "A.Develop the test plan for testing an e-commerce web/mobile application (www.amazon.in).\nB.Automate the testing of e-commerce applications using Selenium."
+    },
+    {
+      "Qno": "4",
+      "Description": "A.Write a detailed defect report for this sample defect: After logging into Gmail, it navigates to Google.com. you can decide upon the fields you want to include while reporting the defect in the best way.\nB.Verify e-commerce website compatibility on Cross-Browser and Cross-Device."
+    },
+    {
+      "Qno": "5",
+      "Description": "A.Design the test cases for testing the e-commerce application.\nB.Integrate Test NG with the above test automation."
+    },
+    {
+      "Qno": "6",
+      "Description": "A.Defect Reporting – Analyze the below incident and report the bug, I logged into the order management site as a sales manager and when I clicked on the purchase order report page, it opened the page where I could choose the filter criteria. Once I selected all the filter criteria and clicked the ‘Show Report’ button, I got a 404 error. I tried other filtering criteria with the same result. I also tried logging into the site as a non-sales manager user and I still see the issue.\nB.Verify e-commerce website accessibility across all Users."
+    },
+    {
+      "Qno": "7",
+      "Description": "A.Analyse the given defect and identify the bug type and classify the type of bug it belongs to from the following defects type listed, • Functional Bugs, • Logical Bugs, • Workflow Bugs, • Unit Level Bugs, • System-Level Integration Bugs, • Security Bugs.\nB.Verify e-commerce website accessibility across all Users."
+    },
+    {
+      "Qno": "8",
+      "Description": "A.Analyse the quality of application, find out defects on the page from any test website and validate the testing quality based on the number of defects captured. Rate the quality of testing by following metrics.  0 – 4 defects => Poor, 5 – 6 defects => Average, 7 – 8 defects => Good, 9 – 10 defects => Excellent, 10+ defects => Best tester!..\nB.Perform End-to-End testing of the e-commerce application and report the status."
+    },
+    {
+      "Qno": "9",
+      "Description": "A.Design the test cases for testing the e-commerce application.\nB.Verify e-commerce website compatibility on Cross-Browser and Cross-Device."
+    },
+    {
+      "Qno": "10",
+      "Description": "A.Develop the test plan for testing an e-commerce web/mobile applicatio(www.amazon.in).\nB.Perform End-to-End testing of the e-commerce application and report the status."
+    },
+    {
+      "Qno": "11",
+      "Description": "A.Defect Reporting – Analyze the below incident and report the bug, I logged into the order management site as a sales manager and when I clicked on the purchase order report page, it opened the page where I could choose the filter criteria. Once I selected all the filter criteria and clicked the ‘Show Report’ button, I got a 404 error. I tried other filtering criteria with the same result. I also tried logging into the site as a non-sales manager user and I still see the issue.\nB.Automate the testing of e-commerce applications using Selenium."
+    },
+    {
+      "Qno": "12",
+      "Description": "A.Write a detailed defect report for this sample defect: After logging into Gmail, it navigates to Google.com. you can decide upon the fields you want to include while reporting the defect in the best way.\nB.Integrate Test NG with the above test automation."
+    }
+  ]
+}

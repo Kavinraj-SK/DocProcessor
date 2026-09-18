@@ -1,0 +1,49 @@
+{
+  "subj_code": "2080235253",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Stencil preparation for Enameling"
+    },
+    {
+      "Qno": "1",
+      "Description": "Stencil preparation for Enameling"
+    },
+    {
+      "Qno": "2",
+      "Description": "Preparation of metal sheet"
+    },
+    {
+      "Qno": "3",
+      "Description": "Pickling – H2SO4 & HCl"
+    },
+    {
+      "Qno": "4",
+      "Description": "Special Treatment – Nickel dipping"
+    },
+    {
+      "Qno": "5",
+      "Description": "Ground Coat enamel"
+    },
+    {
+      "Qno": "6",
+      "Description": "White coat enamel"
+    },
+    {
+      "Qno": "7",
+      "Description": "Colour coat enamel"
+    },
+    {
+      "Qno": "8",
+      "Description": "Frit making – Ground coat"
+    },
+    {
+      "Qno": "9",
+      "Description": "Frit making – White coat"
+    },
+    {
+      "Qno": "10",
+      "Description": "Frit making – Colour coat"
+    }
+  ]
+}

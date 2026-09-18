@@ -1,0 +1,53 @@
+{
+  "subj_code": "1064233620",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Prepare a quotation of a company using MS Excel"
+    },
+    {
+      "Qno": "2",
+      "Description": "Designing in voice format of a company using MS Excel"
+    },
+    {
+      "Qno": "3",
+      "Description": "Prepare a market report of textile products using MS Excel."
+    },
+    {
+      "Qno": "4",
+      "Description": "Designing sales report of a company using MS Excel"
+    },
+    {
+      "Qno": "5",
+      "Description": "Analyze quantity of raw material used by the company using MS Excel"
+    },
+    {
+      "Qno": "6",
+      "Description": "Analyze production capacity of a company for last five years using MS Excel."
+    },
+    {
+      "Qno": "7",
+      "Description": "Find out sales of a company by territory / region using sort, filter command using MS Excel"
+    },
+    {
+      "Qno": "8",
+      "Description": "Analyze profit and loss of a company for last five years using MS Excel"
+    },
+    {
+      "Qno": "9",
+      "Description": "Analyze as sets of a company at a particular financial year using MS Excel"
+    },
+    {
+      "Qno": "10",
+      "Description": "Comparisons of wage and salary for administrative staff and workers using MS"
+    },
+    {
+      "Qno": "11",
+      "Description": "Creating employees data using MS Excel."
+    },
+    {
+      "Qno": "12",
+      "Description": "Create a payroll /modify an existing pay roll using MS Excel."
+    }
+  ]
+}

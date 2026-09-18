@@ -1,0 +1,25 @@
+{
+  "subj_code": "1055233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Plot the V-I characteristics of a PN junction diode(Si) with an experimental\nsetup. Find its cut-in voltage\nb) Construct a circuit to plot drain and transfer characteristics of FET."
+    },
+    {
+      "Qno": "2",
+      "Description": "a) Construct a circuit to test forward and reverse bias characteristics of Zenerdiode and note\nits breakdown voltage\nb) Design and verify RC coupled amplifier(2-stage) using simulation tool like  Multisim  / P\nSpice."
+    },
+    {
+      "Qno": "3",
+      "Description": "a) Construct a centre tapped transformer FWR circuit. Draw the input & output signal\nUse different values of Capacitor and what do you infer by observing the output\nb) Design a Hartley and RC phase shift Oscillator circuit and plot\nThe output wave form and also find frequency of oscillation. Use Multisim /P Spice"
+    },
+    {
+      "Qno": "4",
+      "Description": "a) Construct a Bridge Rectifier, Compare its output with FWR output. Which one gives\nbetter output.\nb) Construct clippers and clampers circuits to analyse their outputs."
+    },
+    {
+      "Qno": "5",
+      "Description": "a) Construct a circuit to test input and output characteristics of CE configuration.\nb) Construct an a stable multi vibrator circuit to generate a square wave using\ntwo set of resistors, capacitors values and calculate their frequency."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1061235542",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Estimate the pH in the given chemical."
+    },
+    {
+      "Qno": "2",
+      "Description": "Bleach the substrate using organic stabilizer"
+    },
+    {
+      "Qno": "3",
+      "Description": "Carry out the Formaldehyde free crease recovery finish."
+    },
+    {
+      "Qno": "4",
+      "Description": "Finish the fabric using eco-friendly softeners."
+    },
+    {
+      "Qno": "5",
+      "Description": "Desize the fabric using enzymes."
+    },
+    {
+      "Qno": "6",
+      "Description": "Bio-Scour the fabric using enzymes."
+    },
+    {
+      "Qno": "7",
+      "Description": "Carryout the Peroxide killing using enzymes."
+    },
+    {
+      "Qno": "8",
+      "Description": "Carryout the Peroxide killing using enzymes."
+    },
+    {
+      "Qno": "9",
+      "Description": "Bio-polish the fabric using enzymes."
+    },
+    {
+      "Qno": "10",
+      "Description": "Carry out Degumming of silk using enzymes."
+    }
+  ]
+}

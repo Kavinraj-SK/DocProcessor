@@ -1,0 +1,41 @@
+{
+  "subj_code": "1221236246",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study of heat transfer through different types of fins"
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of heat transfer through composite wall."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of thermal conductivity of metal rod."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of thermal conductivity of insulator [Wood]"
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of overall heat transfer coefficient of parallel flow heat exchanger."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of overall heat transfer coefficient of counter flow heat exchanger."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determination of effectiveness of cross flow heat exchanger."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of heat transfer in air cooled condenser"
+    },
+    {
+      "Qno": "9",
+      "Description": "Determination of heat transfer in evaporator"
+    }
+  ]
+}

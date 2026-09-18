@@ -1,0 +1,53 @@
+{
+  "subj_code": "1066234420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Pinafore."
+    },
+    {
+      "Qno": "2",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Skirt blouse."
+    },
+    {
+      "Qno": "3",
+      "Description": "Using given paper pattern cut, stitch and finish the garment –Peddle pusher."
+    },
+    {
+      "Qno": "4",
+      "Description": "Calculate the fabric consumption of Pinafore by layout method."
+    },
+    {
+      "Qno": "5",
+      "Description": "Calculate the fabric consumption of Skirt blouse by layout method."
+    },
+    {
+      "Qno": "6",
+      "Description": "Calculate the fabric consumption of Peddle pusher by layout method."
+    },
+    {
+      "Qno": "7",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–T Shirt."
+    },
+    {
+      "Qno": "8",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Pyjama."
+    },
+    {
+      "Qno": "9",
+      "Description": "Using given paper pattern cut, stitch and finish the garment–Boys shorts."
+    },
+    {
+      "Qno": "10",
+      "Description": "Calculate the fabric consumption of T Shirt by layout method."
+    },
+    {
+      "Qno": "11",
+      "Description": "Calculate the fabric consumption of Pyjama by layout method"
+    },
+    {
+      "Qno": "12",
+      "Description": "Calculate the fabric consumption of Boys shorts by layout method"
+    }
+  ]
+}

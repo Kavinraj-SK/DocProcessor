@@ -1,0 +1,45 @@
+{
+  "subj_code": "1061235443",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Analyze the Single Jersey Plain knitted fabric and find\na) CPI/WPI b) Stitch length c) GSM d) Crimp% e) Design Repeat f) Count ofyarn."
+    },
+    {
+      "Qno": "2",
+      "Description": "Analyze the Single Jersey Derivative Fabric Lacoste and find\na) CPI/WPI b) Stitch length c) GSM d) Crimp%e) Design Repeat f) Count of yarn."
+    },
+    {
+      "Qno": "3",
+      "Description": "Analyze the Single Jersey Derivative Fabric Single Pique and find\na) CPI/WPI b) Stitch length c) GSM d) Crimp % e) Design Repeat f) Count of yarn."
+    },
+    {
+      "Qno": "4",
+      "Description": "Analyze the Double Jersey 1x1 Rib Fabric and find\na) CPI/WPI b) Stitch length c) GSM d) Crimp% e) Design Repeat f) Count of yarn."
+    },
+    {
+      "Qno": "5",
+      "Description": "Analyze any one Rib derivative Fabric and find\na ) CPI/WPI b)Stitch length c) GSM d) Crimp% e)Design Repeat f) Count of yarn."
+    },
+    {
+      "Qno": "6",
+      "Description": "Analyze the Plain Interlock Fabric and find\na) CPI/WPI b) Stitch length c)GSM d)Crimp% e) Design Repeat f) Count of yarn."
+    },
+    {
+      "Qno": "7",
+      "Description": "Analyze anyone fleece fabric and find\na)CPI / WPI b)Stitch length c) GSM d)Crimp% e) Design Repeat f) Count of yarn."
+    },
+    {
+      "Qno": "8",
+      "Description": "Analyze the Terry structures and find\na) CPI/WPI b) Stitch length c)GSM d)Crimp% e) Design Repeat f) Count of yarn."
+    },
+    {
+      "Qno": "9",
+      "Description": "Calculate the production of a Single Jersey Weft Knitting Machinewith the given particulars"
+    },
+    {
+      "Qno": "10",
+      "Description": "Calculate the production of a Rib gaited Weft Knitting Machine with the givenparticulars"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "subj_code": "1091233520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Construct A.M. Modulation and verify the readings."
+    },
+    {
+      "Qno": "2",
+      "Description": "Construct F.M. Modulation and verify the readings."
+    },
+    {
+      "Qno": "3",
+      "Description": "Construct Demodulation of A.M and verify the readings."
+    },
+    {
+      "Qno": "4",
+      "Description": "Verify Magnetron and Klystron – set up and verify it."
+    },
+    {
+      "Qno": "5",
+      "Description": "Construct a Radiation Pattern Experiment (Dipole-Yogi Antenna) and verifying the readings."
+    },
+    {
+      "Qno": "6",
+      "Description": "Construct Digital FSK (Frequency Shift Keying, Amplitude Shift Keying) and verifying the readings"
+    },
+    {
+      "Qno": "7",
+      "Description": "Construct Direction Finding Antenna and verify the readings"
+    },
+    {
+      "Qno": "8",
+      "Description": "RADAR – Study experiment"
+    }
+  ]
+}

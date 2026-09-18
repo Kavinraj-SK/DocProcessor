@@ -1,0 +1,53 @@
+{
+  "subj_code": "1042235525",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Conduct an experiment to operate single acting cylinder using PLC for fixed number of cycles using counter instruction and electrical switches."
+    },
+    {
+      "Qno": "2",
+      "Description": "Conduct an experiment to operate single acting cylinder using PLC (a) using on- delay logic (b) using off-delay logic."
+    },
+    {
+      "Qno": "3",
+      "Description": "Implement and test the following sequence of operations in PLC: Double acting cylinder is used to perform machining operation. Pneumatic cylinder is advanced by pressing two push buttons simultaneously. If any one of the push button is released, cylinder comes back to start position."
+    },
+    {
+      "Qno": "4",
+      "Description": "Implement and test the following sequence of operations in PLC: Double acting cylinder is used to perform forward and return motion. Pneumatic cylinder is advanced by pressing push buttons PB1. Cylinder is returned by pressing push button PB2."
+    },
+    {
+      "Qno": "5",
+      "Description": "Implement and test the following sequence of operations in PLC: Double acting cylinder is used to perform forward and return automatically after reaching the extreme forward position. Pneumatic cylinder is advanced by pressing push buttons PB1."
+    },
+    {
+      "Qno": "6",
+      "Description": "Implement and test the following sequence of operations in PLC: Double acting cylinder is used to perform pressing operation. Cylinder has to move forward when PB1 button is pressed and return for set time of 20 seconds before it automatically returns to initial position. Limit switch S2 is used for end sensing of the forward motion of the cylinder"
+    },
+    {
+      "Qno": "7",
+      "Description": "Conduct an experiment to operate Double acting cylinder using PLC N cycles using counter and one set of electrical limit switches and one number of 5/2 solenoid valve."
+    },
+    {
+      "Qno": "8",
+      "Description": "Implement and test the following sequence of operations in PLC: Double acting cylinder is used to perform continuous to and fro motion. Cylinder has to move forward when PB1 button is pressed and once to and fro reciprocation starts it should continue till stop button PB2 is pressed. Limit switches are used for end position sensing."
+    },
+    {
+      "Qno": "9",
+      "Description": "Implement and test the following sequence of operations in PLC: Double acting cylinder is used to perform to and fro operation. Cylinder has to move forward when PB1 button is pressed and continue to and fro motion till 10 cycles of operations is performed."
+    },
+    {
+      "Qno": "10",
+      "Description": "Conduct an experiment to perform Sequential operation of 2 numbers of double acting cylinders using PLC for the sequence A+ B+ B- and A- using 2 nos. of 5/2 solenoid valves and 2 sets of electrical limit switches."
+    },
+    {
+      "Qno": "11",
+      "Description": "Conduct an experiment to perform Sequential operation of 2 nos. of double acting cylinders using PLC for the sequence A+ B+ A- and B- using 2 numbers of 5/2 solenoid valves and 2 sets of electrical limit switches"
+    },
+    {
+      "Qno": "12",
+      "Description": "Conduct an experiment to operate Double acting cylinder using PLC Single cycle, forward, time delay and return."
+    }
+  ]
+}

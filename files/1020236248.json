@@ -1,0 +1,45 @@
+{
+  "subj_code": "1020236248",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study of Solar Distillation System"
+    },
+    {
+      "Qno": "2",
+      "Description": "Performance test on Solar Cooker"
+    },
+    {
+      "Qno": "3",
+      "Description": "Performance analysis of Solar Water Heater"
+    },
+    {
+      "Qno": "4",
+      "Description": "Performance test on Solar Dryer"
+    },
+    {
+      "Qno": "5",
+      "Description": "Performance Evaluation on Solar Lighting System"
+    },
+    {
+      "Qno": "6",
+      "Description": "Study on the Production Process of Bio-Fuels"
+    },
+    {
+      "Qno": "7",
+      "Description": "Study on the Floating Drum & Fixed Drum Biogas Plants"
+    },
+    {
+      "Qno": "8",
+      "Description": "Study on the various Bio-mass energy conservation technologies."
+    },
+    {
+      "Qno": "9",
+      "Description": "Study on Production Process of Briquettes"
+    },
+    {
+      "Qno": "10",
+      "Description": "Performance test on BIO Diesel using blend analyzer"
+    }
+  ]
+}

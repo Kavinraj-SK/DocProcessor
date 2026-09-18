@@ -1,0 +1,53 @@
+{
+  "subj_code": "1042233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Construct Half wave rectifier circuit using PN junction Diode IN4007 and observe\nthe input and output waveforms in CRO."
+    },
+    {
+      "Qno": "2",
+      "Description": "Construct the Bridge Rectifier circuit and observe the input and output waveforms in CRO"
+    },
+    {
+      "Qno": "3",
+      "Description": "ConstruConstruct the Voltage regulator circuit using Zener Diode and check the regulated\noutput voltage."
+    },
+    {
+      "Qno": "4",
+      "Description": "Test the performance of RC coupled Amplifier circuit using NPN Transistor BC107 and\nobserve voltage gain, Input and output waveforms."
+    },
+    {
+      "Qno": "5",
+      "Description": "Test the performance of RC Phase shift oscillator circuit using NPN transistor BC107                                                                and ob    serve the output waveform in CRO"
+    },
+    {
+      "Qno": "6",
+      "Description": "Test the performance of Colpitts oscillator circuit using NPN transistor BC107 and\nobserve the output waveform in CRO"
+    },
+    {
+      "Qno": "7",
+      "Description": "Construct a circuit to study the characteristics of JFET in common source configuration"
+    },
+    {
+      "Qno": "8",
+      "Description": "Test the Test  the  performance of common source FET amplifier circuit"
+    },
+    {
+      "Qno": "9",
+      "Description": "Test the performance of MOSFET as Switch"
+    },
+    {
+      "Qno": "10",
+      "Description": "Construct the circuit to test the VI characteristic of SCR"
+    },
+    {
+      "Qno": "11",
+      "Description": "Construct the circuit to test the VI characteristic of DIAC"
+    },
+    {
+      "Qno": "12",
+      "Description": "Construct the circuit to test the characteristic of Photo diode"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subj_code": "1094235230",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study of various material handling machines"
+    },
+    {
+      "Qno": "2",
+      "Description": "Study of various material handling equipments"
+    },
+    {
+      "Qno": "3",
+      "Description": "Study of manual handling and safety"
+    },
+    {
+      "Qno": "4",
+      "Description": "Wheeled equipments operations and maintenance"
+    },
+    {
+      "Qno": "5",
+      "Description": "Lifting equipments operation and maintenance"
+    },
+    {
+      "Qno": "6",
+      "Description": "Fixed crane operation and checking of lifting equipment"
+    },
+    {
+      "Qno": "7",
+      "Description": "Security check for lifting equipments"
+    },
+    {
+      "Qno": "8",
+      "Description": "Getting of safety certificate for loading/ unloading machines"
+    },
+    {
+      "Qno": "9",
+      "Description": "Safety preparations to be followed for trucks"
+    },
+    {
+      "Qno": "10",
+      "Description": "Study of information systems and prepare information Report in logistics"
+    },
+    {
+      "Qno": "11",
+      "Description": "Study of facility of warehousing"
+    },
+    {
+      "Qno": "12",
+      "Description": "Checklist for maintenance activity"
+    }
+  ]
+}

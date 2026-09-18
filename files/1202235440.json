@@ -1,0 +1,45 @@
+{
+  "subj_code": "1202235440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Preparing a box in parallel tuck-in style in folding carton"
+    },
+    {
+      "Qno": "2",
+      "Description": "Preparing a box in reverse tuck-in style in folding carton"
+    },
+    {
+      "Qno": "3",
+      "Description": "Preparing a box in auto lock bottom style in folding carton"
+    },
+    {
+      "Qno": "4",
+      "Description": "Preparing a box in parallel tuck-in style with multiple ups in folding carton"
+    },
+    {
+      "Qno": "5",
+      "Description": "Preparing a box in Reverse tuck-in style with multiple ups in folding carton"
+    },
+    {
+      "Qno": "6",
+      "Description": "Preparing a tube style/tray style folding carton."
+    },
+    {
+      "Qno": "7",
+      "Description": "Preparing a rigid box in folding carton."
+    },
+    {
+      "Qno": "8",
+      "Description": "Preparing a paper bag in folding carton."
+    },
+    {
+      "Qno": "9",
+      "Description": "Preparing a sleeve boxes like match box in folding carton"
+    },
+    {
+      "Qno": "10",
+      "Description": "Preparing a gift box in folding carton"
+    }
+  ]
+}

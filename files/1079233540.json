@@ -1,0 +1,49 @@
+{
+  "subj_code": "1079233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Verify the Bernoulli's Theorem."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of co-efficient of discharge of a mouth piece by variable head method."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of Orifice Co-Efficient."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of Venturi Co-Efficient."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determine the friction factor in a Pipe."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determine the flow through V-Notch"
+    },
+    {
+      "Qno": "7",
+      "Description": "Determine the flow measurement using Rota meter."
+    },
+    {
+      "Qno": "8",
+      "Description": "Performance test on Centrifugal Pump and to draw the characteristics"
+    },
+    {
+      "Qno": "9",
+      "Description": "Performance test on reciprocating pump and to draw the characteristics  curves"
+    },
+    {
+      "Qno": "10",
+      "Description": "Determine the efficiency of compressor."
+    },
+    {
+      "Qno": "11",
+      "Description": "Study of Pipes, Pipe Fittings."
+    }
+  ]
+}

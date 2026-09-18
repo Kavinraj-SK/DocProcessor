@@ -1,0 +1,49 @@
+{
+  "subj_code": "1021235542",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Dismantle, check and assemble the engine cooling system of Three wheeler"
+    },
+    {
+      "Qno": "3",
+      "Description": "Check the engine oil level and replace the oil in Two wheeler"
+    },
+    {
+      "Qno": "4",
+      "Description": "Dismantle and assemble the clutch used in a Three-wheeler."
+    },
+    {
+      "Qno": "5",
+      "Description": "Adjust the clutch free play, throttle cable and inspect the common troubles and causes in Two wheeler."
+    },
+    {
+      "Qno": "6",
+      "Description": "Over haul and lubricate the gear box of a Three-wheeler"
+    },
+    {
+      "Qno": "7",
+      "Description": "Dismantle, lubricate and assemble the propeller shaft and differential."
+    },
+    {
+      "Qno": "8",
+      "Description": "Dismantle ,lubricate and assemble the rear axle of the three-wheeler"
+    },
+    {
+      "Qno": "9",
+      "Description": "Check frame alignment, dismantle and assemble the leaf spring assembly."
+    },
+    {
+      "Qno": "10",
+      "Description": "Dismantle and assemble the front suspension and rear suspension of a two-wheeler."
+    },
+    {
+      "Qno": "11",
+      "Description": "Remove the tire, lubricate bearings, refit and adjust the chain of the two-wheeler."
+    },
+    {
+      "Qno": "12",
+      "Description": "Dismantle, Service and assemble the disc brake system–Master cylinder, Wheel Cylinder, Caliper and brake pad of two-wheeler."
+    }
+  ]
+}

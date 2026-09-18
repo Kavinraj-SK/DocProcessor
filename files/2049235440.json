@@ -1,0 +1,53 @@
+{
+  "subj_code": "2049235440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Start/Stop operation(Latching & Unlatching) of a motor using two Push button"
+    },
+    {
+      "Qno": "2",
+      "Description": "Delayed operation of a lamp using push button(On-delay & Off-delay)"
+    },
+    {
+      "Qno": "3",
+      "Description": "Blinking lamp using On-delay or Off-delay timer"
+    },
+    {
+      "Qno": "4",
+      "Description": "Event count operation using UP counter & DOWN counter"
+    },
+    {
+      "Qno": "5",
+      "Description": "Star Delta control with inter locking"
+    },
+    {
+      "Qno": "6",
+      "Description": "Convey or control using PLC"
+    },
+    {
+      "Qno": "7",
+      "Description": "Tank level control."
+    },
+    {
+      "Qno": "8",
+      "Description": "Automatic operation two pneumatic cylinders in a sequence."
+    },
+    {
+      "Qno": "9",
+      "Description": "Illumination control using analog I/O."
+    },
+    {
+      "Qno": "10",
+      "Description": "Heater control with PID function of the PLC"
+    },
+    {
+      "Qno": "11",
+      "Description": "Fire alarm and display the status in HMI\nA)  Multiple alarms\nB)  Sound alarm\nC)  If not acknowledged, Sound alarms 1 and 2"
+    },
+    {
+      "Qno": "12",
+      "Description": "Develop Ladder logic for Servomotor control(PLC and  HMI)"
+    }
+  ]
+}

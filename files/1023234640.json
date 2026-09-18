@@ -1,0 +1,45 @@
+{
+  "subj_code": "1023234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Prepare the specimen and make the sheet metal process – rectangular tray."
+    },
+    {
+      "Qno": "2",
+      "Description": "Prepare the specimen and make the lap joint by the spot welding."
+    },
+    {
+      "Qno": "3",
+      "Description": "Prepare the specimen and make the lap joint by the arc welding."
+    },
+    {
+      "Qno": "4",
+      "Description": "Prepare the specimen and make the butt joint by the arc welding"
+    },
+    {
+      "Qno": "5",
+      "Description": "Prepare the specimen and make the T joint by the arc welding"
+    },
+    {
+      "Qno": "6",
+      "Description": "Prepare the specimen and make the drilling and counter boring as shown in figure. Using the upright drilling machine"
+    },
+    {
+      "Qno": "7",
+      "Description": "Prepare the specimen and make the step turning by using lathe"
+    },
+    {
+      "Qno": "8",
+      "Description": "Prepare the specimen and make the taper turning by using lathe."
+    },
+    {
+      "Qno": "9",
+      "Description": "Prepare the specimen and make the plain surfaces as shown in figure. Using the surface Grinder."
+    },
+    {
+      "Qno": "10",
+      "Description": "Prepare the specimen and make ‘V’ Block as shown in figure using milling machine."
+    }
+  ]
+}

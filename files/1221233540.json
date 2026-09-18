@@ -1,0 +1,45 @@
+{
+  "subj_code": "1221233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study and identification of various Refrigeration & Air conditioning tools"
+    },
+    {
+      "Qno": "2",
+      "Description": "Cutting and flaring operation on copper tube"
+    },
+    {
+      "Qno": "3",
+      "Description": "Swaging and brazing operation on copper tube"
+    },
+    {
+      "Qno": "4",
+      "Description": "Bending, straightening and pinching operation on copper tube"
+    },
+    {
+      "Qno": "5",
+      "Description": "Fabrication of circular duct"
+    },
+    {
+      "Qno": "6",
+      "Description": "Fabrication of rectangular reducer duct"
+    },
+    {
+      "Qno": "7",
+      "Description": "Determination of air flow velocity using anemometer"
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of DBT and WBT of air using sling psychrometer"
+    },
+    {
+      "Qno": "9",
+      "Description": "Testing of starting and running capacitor"
+    },
+    {
+      "Qno": "10",
+      "Description": "Test the working condition of thermostat switch"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "subj_code": "2060236320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determination of RH% by using hygrometer."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of fibre trash by Trash Analyser."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of fibre length parameters using Baer Sorter."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of fibre fineness by fibre fineness tester"
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of hank of roving by cutting and weighing method."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of count of yarn by cutting and weighing method."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determination of single yarn twist by tension type twist tester."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of ply yarn twist."
+    },
+    {
+      "Qno": "9",
+      "Description": "Determination of single yarn strength."
+    },
+    {
+      "Qno": "10",
+      "Description": "Determination of Lea strength and CSP."
+    },
+    {
+      "Qno": "11",
+      "Description": "Determination of yarn appearance grade as per ASTM visual examination method."
+    },
+    {
+      "Qno": "12",
+      "Description": "Determination of fabric tensile strength by tensile strength tester."
+    },
+    {
+      "Qno": "13",
+      "Description": "Determination of fabric tearing strength."
+    },
+    {
+      "Qno": "14",
+      "Description": "Determination of crease recovery angle in warp way & weft way"
+    },
+    {
+      "Qno": "15",
+      "Description": "Determination of crimp in warp & weft yarn for the given fabric sample"
+    },
+    {
+      "Qno": "16",
+      "Description": "Determine the fabric stiffness by stiffness tester (Warp way & Weft way)."
+    }
+  ]
+}

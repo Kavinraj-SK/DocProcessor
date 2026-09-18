@@ -1,0 +1,45 @@
+{
+  "subj_code": "1145235440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study of sampling basics."
+    },
+    {
+      "Qno": "2",
+      "Description": "Study of  digital filters."
+    },
+    {
+      "Qno": "3",
+      "Description": "Study of computation of DFT."
+    },
+    {
+      "Qno": "4",
+      "Description": "Study of  computation of  FFT."
+    },
+    {
+      "Qno": "5",
+      "Description": "Implementation of  EEG signal processing."
+    },
+    {
+      "Qno": "6",
+      "Description": "Study and implement  noise cancellation  technique for EEG  signals."
+    },
+    {
+      "Qno": "7",
+      "Description": "Implementation of  ECG signal processing"
+    },
+    {
+      "Qno": "8",
+      "Description": "Study and implement  noise cancellation  technique for ECG  signals."
+    },
+    {
+      "Qno": "9",
+      "Description": "Reconstruction of AZTEC signals."
+    },
+    {
+      "Qno": "10",
+      "Description": "Reconstruction of CORTES signals."
+    }
+  ]
+}

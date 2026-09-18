@@ -1,0 +1,45 @@
+{
+  "subj_code": "2049233640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Test the performance of Inverting and Non Inverting Amplifier with\nWave forms for input and output signals"
+    },
+    {
+      "Qno": "2",
+      "Description": "Test the performance of Integrator & Differentiator trace the waveforms\nFor input and output signals"
+    },
+    {
+      "Qno": "3",
+      "Description": "Design and implement the Binary weighted resistor DAC by\nusingIC741"
+    },
+    {
+      "Qno": "4",
+      "Description": "Test the line regulation for positive voltage regulator using78xxandnegativevoltageregulatorusing79xx"
+    },
+    {
+      "Qno": "5",
+      "Description": "Realization of logic gates using NAND&NOR gates."
+    },
+    {
+      "Qno": "6",
+      "Description": "Verification of Dem organ’s theorems."
+    },
+    {
+      "Qno": "7",
+      "Description": "Convert and verify with truth table of Gray code to Binary ,Binary to Gray\nCode methods"
+    },
+    {
+      "Qno": "8",
+      "Description": "Construct and verify the Half Subtractor and Full Adder Circuit"
+    },
+    {
+      "Qno": "9",
+      "Description": "Construct and verify the Multiplexer and Demultiplexer Circuit"
+    },
+    {
+      "Qno": "10",
+      "Description": "Construct and verify the Parity Generator and Checker Circuit"
+    }
+  ]
+}

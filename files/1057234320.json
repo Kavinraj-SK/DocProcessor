@@ -1,0 +1,25 @@
+{
+  "subj_code": "1057234320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Install, configure and connect to MySQL server and MySQL workbench in windows. Create a database, backup and restore the database.\nB) Create two tables with the following structure.\na) users - table name\nuser id - UNSIGNED, INT, AUTO INCREMENT, PRIMARY KEY\nusername - VARCHAR (60)\npassword - VARCHAR (128)\nemail - VARCHAR (255)\nb) users profiles\nuser id - FOREIGN KEY refers to user id field of user table\nfirst name - VARCHAR(60)\nlast name - VARCHAR(60)\nmobile - VARCHAR(15)\ni. SELECT all the users along with their profile details. (Hint: Use INNER JOIN)\nii. SELECT the users who do not have profiles (Hint: USE LEFT JOIN and exclude the rows generated with NULL values from joining table)"
+    },
+    {
+      "Qno": "2",
+      "Description": "A) To study Basic MySQL commands (create database, create table, use, drop, insert) and execute the following queries using these commands:\na. Create a database named ‘employee’.\nb. Use the database ‘employee’ and create a table ‘emp’ with attributes ‘ename’,‘ecity’, ‘salary’, ‘enumber’, ‘eaddress’, ‘deptname’.\nc. Create another table ‘Company’ with attributes ‘cname’, ‘ccity’, ‘empnumber’in the   database ‘employee’.\nB) Create an employee database and create a stored procedure that accepts employee Id as input and returns complete details of employee as output."
+    },
+    {
+      "Qno": "3",
+      "Description": "A) To study the viewing commands and compound conditions (select, update, and, between) and execute the following queries using these commands:\na. Find the names of all employees who live in Chennai.\nb. Increase the salary of all employees by Rs. 5,000.\nc. Find the names of all employees who live in ‘Chennai’ and whose salary is between         Rs. 20,000 to Rs.30,000.\nd. Find the names of all employees whose names begin with either letter ‘A’ or ‘B’.\nB) Create two tables with the following structure\na. Authors\nauthor_id - INT\nname VARCHAR (60)\ntitles_count INT -- holds the total number numbers of titles authored.\nb. Titles\nauthor_id - INT\nname VARCHAR (512) -- name of the title\nCreate a trigger to update the titles count field of respective row in authors table each time a title gets inserted into titles table."
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Create a table to store the details of a customer in a Bank. Do some transactions like withdrawal, deposit. Find the Balance amount(Credit Limit). Based on customer’s credit limit, write a program using IF or CASE flow control statements to find the customer levels namely SILVER, GOLD or PLATINUM.\na. If the Credit limit is\nb. greater than 50K, then the customer level is PLATINUM\nc. less than 50K and greater than 10K, then the customer level is GOLD\nd. less than 10K, then the customer level is SILVER\nB) Create a table to store the salary details of the employees in a company. Declare the cursor id to contain employee number, employee name and net 30 salary. Use cursor to update the employee."
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Create a library table with proper fields. Create another table called library1 and insert rows from library table.\nHint:\na. CREATE TABLE new_table LIKE original_table;\nb. INSERT INTO new_table SELECT * FROM original_table;\nB) Write a program to connect PHP with MySQL and create a database using PHP MySQL."
+    }
+  ]
+}

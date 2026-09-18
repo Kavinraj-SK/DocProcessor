@@ -1,0 +1,45 @@
+{
+  "subj_code": "1079235541",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Viscosity Determination using Redwood Viscometer"
+    },
+    {
+      "Qno": "2",
+      "Description": "Viscosity Determination Using Saybolt Viscometer"
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of Flash and Fire point of the given oils by open cup  method"
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of Flash and Fire point of the given oils by closed cup  method"
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of (a) Cloud point and (b) Pour point."
+    },
+    {
+      "Qno": "6",
+      "Description": "Refrigeration Test Rig - COP Determination"
+    },
+    {
+      "Qno": "7",
+      "Description": "Compressor test Rig."
+    },
+    {
+      "Qno": "8",
+      "Description": "Analysis of coal (a) Proximate analysis and (b) Ultimate analysis"
+    },
+    {
+      "Qno": "9",
+      "Description": "Determination of solids (TSS & TDS)"
+    },
+    {
+      "Qno": "10",
+      "Description": "Determination of the Turbidity, Electrical Conductivity and pH of the  given sample"
+    }
+  ]
+}

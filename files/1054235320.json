@@ -1,0 +1,41 @@
+{
+  "subj_code": "1054235320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Props Modelling In Nurbs Modelling Techniques"
+    },
+    {
+      "Qno": "2",
+      "Description": "Assets Modelling With Polygon Modelling Techniques"
+    },
+    {
+      "Qno": "3",
+      "Description": "Set Modelling With Polygon Techniques"
+    },
+    {
+      "Qno": "4",
+      "Description": "Cartoon Character Modelling With Low Polygon Modelling Techniques"
+    },
+    {
+      "Qno": "5",
+      "Description": "Fantasy Human Character With Sculpting Techniques"
+    },
+    {
+      "Qno": "6",
+      "Description": "Props Texturing With Uv Mapping Techniques"
+    },
+    {
+      "Qno": "7",
+      "Description": "Set /Props Texture With Psd Network"
+    },
+    {
+      "Qno": "8",
+      "Description": "Character Un Wrapping With Uv Techniques"
+    },
+    {
+      "Qno": "9",
+      "Description": "Texture painting techniques with substance"
+    }
+  ]
+}

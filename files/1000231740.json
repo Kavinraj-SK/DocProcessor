@@ -1,0 +1,51 @@
+{
+  "subj_code": "1000231740",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Perform a Cutting and filing for the given profile as per the given dimensions.\n----media/image1.emf----\nAll Dimensions are in MM\nDimensions may be altered as required"
+    },
+    {
+      "Qno": "2",
+      "Description": "Perform Drilling, Reaming and Tapping as per the given dimensions\n----media/image2.emf----\nAll Dimensions are in MM\nDimensions may be altered as required"
+    },
+    {
+      "Qno": "3",
+      "Description": "Perform L Mating as per the given dimensions\n----media/image3.emf----\nAll Dimensions are in MM\nDimensions may be altered as required"
+    },
+    {
+      "Qno": "4",
+      "Description": "Draw the circuit diagram and connect for the connection of two lamps, two switches with sockets for parallel and series connection."
+    },
+    {
+      "Qno": "5",
+      "Description": "Draw the circuit diagram and connect the connection for Fan switch regulator."
+    },
+    {
+      "Qno": "6",
+      "Description": "Draw the circuit diagram and connect for the Stair case wiring"
+    },
+    {
+      "Qno": "7",
+      "Description": "Install a Battery  and Test for it using a hydrometer"
+    },
+    {
+      "Qno": "8",
+      "Description": "Connect a tap using - PVC pipe, fittings and a tap"
+    },
+    {
+      "Qno": "9",
+      "Description": "Connect the pipe line for the Sink / Wash basin"
+    },
+    {
+      "Qno": "10",
+      "Description": "Connect the pipe line for the Rain Water Harvesting Arrangement."
+    }
+  ],
+  "_media_dir": "1000231740_media",
+  "_embedded_media": [
+    "image3.emf",
+    "image1.emf",
+    "image2.emf"
+  ]
+}

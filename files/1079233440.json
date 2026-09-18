@@ -1,0 +1,45 @@
+{
+  "subj_code": "1079233440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "To study the settling characteristics of calcium carbonate slurries of two different concentrations and plot graphs and make inferences"
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of viscosity of water by making it flow through a capillary tube of known length and diameter"
+    },
+    {
+      "Qno": "3",
+      "Description": "Analyze a feed by separating it into different sized solid particles using a set of sieve"
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of viscosities of different free flowing liquid samples using an Ostwald's viscometer"
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of Overall heat transfer coefficient 'U' of an open pan evaporator set-up with continuous stirring of the bath liquid."
+    },
+    {
+      "Qno": "6",
+      "Description": "To study the drying characteristics of a wet solid by drying it in a current of air inside a drying chamber, and plot graphs and make interfaces."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determination of LMTD and Overall heat transfer coefficient of water - air system."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of steam required to distilled unit samples of Aniline Sample"
+    },
+    {
+      "Qno": "9",
+      "Description": "Determination of percentage recovery of sodium hydroxide from its admixture with sand by single stage leaching to understand the principles behind leaching operation."
+    },
+    {
+      "Qno": "10",
+      "Description": "Ball Mill and operation efficiency"
+    }
+  ]
+}

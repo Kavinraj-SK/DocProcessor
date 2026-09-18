@@ -1,0 +1,65 @@
+{
+  "subj_code": "1141234340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "What are the detailed steps involved in manual paraffin tissue processing."
+    },
+    {
+      "Qno": "2",
+      "Description": "How does cryo sectioning differ from traditional paraffin sectioning.\n."
+    },
+    {
+      "Qno": "3",
+      "Description": "What are the observable differences on his to pathological slides that indicate a tumor malignant."
+    },
+    {
+      "Qno": "4",
+      "Description": "What genetic tests are relevant to the investigation of inherited bleeding disorders."
+    },
+    {
+      "Qno": "5",
+      "Description": "How do you ensure the sterility of bacterial growth media."
+    },
+    {
+      "Qno": "6",
+      "Description": "What are the combined protocols for laboratory safety and glassware cleaning."
+    },
+    {
+      "Qno": "7",
+      "Description": "How does staining enhance the microscopic view of algae and fungi."
+    },
+    {
+      "Qno": "8",
+      "Description": "Why is methylene blue used in simple staining."
+    },
+    {
+      "Qno": "9",
+      "Description": "What is the purpose of gram staining."
+    },
+    {
+      "Qno": "10",
+      "Description": "What are the chemical principles behind acid fast staining."
+    },
+    {
+      "Qno": "11",
+      "Description": "How is a motility of bacteria-Hanging drop preparation performed."
+    },
+    {
+      "Qno": "12",
+      "Description": "Why we are using the antimicrobial susceptibility testing by Modiﬁed Kirby-Bauer method."
+    },
+    {
+      "Qno": "13",
+      "Description": "What are the core techniques involved in working with culture media."
+    },
+    {
+      "Qno": "14",
+      "Description": "How are staphylococcus and streptococcus visualized under a microscope."
+    },
+    {
+      "Qno": "15",
+      "Description": "Why is the identification of colonial morphology important in microbiology."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "2049236241",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Setup Arduino and connect to a network."
+    },
+    {
+      "Qno": "2",
+      "Description": "Write a program to transmit a data to a cloud server."
+    },
+    {
+      "Qno": "3",
+      "Description": "Control a light bulb using Arduino."
+    },
+    {
+      "Qno": "4",
+      "Description": "Set up Raspberry Pi and connect to a network."
+    },
+    {
+      "Qno": "5",
+      "Description": "Build a temperature monitoring system using Raspberry Pi."
+    },
+    {
+      "Qno": "6",
+      "Description": "Create Wireless network of sensors using Zig Bee."
+    },
+    {
+      "Qno": "7",
+      "Description": "Establish the remote connection between PLC and the cloud using an IIoT protocol (Ex: MQTT)."
+    },
+    {
+      "Qno": "8",
+      "Description": "Remotely monitor the status of the PLC program using an IIoT Gate way."
+    },
+    {
+      "Qno": "9",
+      "Description": "Publish new functionalities on the HMI screen using an IoT protocol"
+    },
+    {
+      "Qno": "10",
+      "Description": "Predict machine maintenance and analyse up front which alarm is ON through IoT protocol."
+    }
+  ]
+}

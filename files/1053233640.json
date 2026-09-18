@@ -1,0 +1,25 @@
+{
+  "subj_code": "1053233640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Configure Peer-to-Peer Network at least three Host\nb) Create a Network Using Bluetooth."
+    },
+    {
+      "Qno": "2",
+      "Description": "a) Create desired standard network cable including Cross cable and test it  by using cable tester\nb) Run basic utilities and network commands: ip config, ping, tracert, net stat, Path ping ,route"
+    },
+    {
+      "Qno": "3",
+      "Description": "a) Connect computer using bus and star topology with wired media.\nb) Create IPv6 environment in a small network using simulator"
+    },
+    {
+      "Qno": "4",
+      "Description": "a) Share a Printer and Folder in Network.\nb) Configure DNS server."
+    },
+    {
+      "Qno": "5",
+      "Description": "a)   Configuring Router using Network Simulator\nb)   Configure File Server"
+    }
+  ]
+}

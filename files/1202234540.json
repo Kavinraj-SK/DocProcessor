@@ -1,0 +1,45 @@
+{
+  "subj_code": "1202234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Design and print multi color work using digital printing."
+    },
+    {
+      "Qno": "2",
+      "Description": "Multicolor printing on coated paper / board using digital printing process."
+    },
+    {
+      "Qno": "3",
+      "Description": "Print on curved surface using pad printing process."
+    },
+    {
+      "Qno": "4",
+      "Description": "Print a simple prototype / 3D model using FDM technique."
+    },
+    {
+      "Qno": "5",
+      "Description": "Print on paper with marbling effect using suitable printing process."
+    },
+    {
+      "Qno": "6",
+      "Description": "Using screen printing process print on non-oven fabrics."
+    },
+    {
+      "Qno": "7",
+      "Description": "Print on flat ceramic surface / glass surface using screen printing or pad print technique."
+    },
+    {
+      "Qno": "8",
+      "Description": "Do the textile printing on piece of cloth using screen printing process."
+    },
+    {
+      "Qno": "9",
+      "Description": "Print on any one nonabsorbent substrate using screen printing process"
+    },
+    {
+      "Qno": "10",
+      "Description": "Identify key steps in the digital printing workflow and explain the purpose of each step"
+    }
+  ]
+}

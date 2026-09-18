@@ -1,0 +1,25 @@
+{
+  "subj_code": "1053233340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Write a C program to calculate the simple and compound interest\nb) Write a C program to demonstrate matrix addition and transpose operations"
+    },
+    {
+      "Qno": "2",
+      "Description": "a)   Write a C program to find the area of a circle and a rectangle (use preprocessing directory for defining pi value).\nb)   Write a C program to find the length of a string and reverse a string using                 pointers"
+    },
+    {
+      "Qno": "3",
+      "Description": "a) Write a C program to find the largest of three numbers\nb)   Write a C program for implementing linear search using pointer to an array."
+    },
+    {
+      "Qno": "4",
+      "Description": "a)   Write a C program to generate all prime numbers from 1 to N.\nb)   Write a C program to collect and print students details like name, marks, etc. and then calculate total and average mark using structure."
+    },
+    {
+      "Qno": "5",
+      "Description": "a) Write a C program to find factorial of a given number using recursion\nb)  Write a C program to count the number of characters, words and lines in a file."
+    }
+  ]
+}

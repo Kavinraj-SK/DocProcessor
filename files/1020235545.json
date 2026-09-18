@@ -1,0 +1,49 @@
+{
+  "subj_code": "1020235545",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Programming using Position recording using Cartesian co-ordinate system."
+    },
+    {
+      "Qno": "2",
+      "Description": "Programming using Position recording using Polar co-ordinate system"
+    },
+    {
+      "Qno": "3",
+      "Description": "Programming using Loops and sub–routine."
+    },
+    {
+      "Qno": "4",
+      "Description": "Pick and place of objects (No.of objects to be specified- 6)."
+    },
+    {
+      "Qno": "5",
+      "Description": "Pick and stack of objects(No.of objects to be specified- 6)."
+    },
+    {
+      "Qno": "6",
+      "Description": "Arc welding  practice(Length. Of weld to be specified)."
+    },
+    {
+      "Qno": "7",
+      "Description": "Programming using Spot welding practice -(No.of spots Minimum3)."
+    },
+    {
+      "Qno": "8",
+      "Description": "Assembling  practice(Simple assembling)."
+    },
+    {
+      "Qno": "9",
+      "Description": "Profile cutting  practice(combination of lines and arcs)."
+    },
+    {
+      "Qno": "10",
+      "Description": "Programming for Spray painting practice -(Area-300mmx 300mm)."
+    },
+    {
+      "Qno": "11",
+      "Description": "Programming using Machine loading and unloading practice with time delay"
+    }
+  ]
+}

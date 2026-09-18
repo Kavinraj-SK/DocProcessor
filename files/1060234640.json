@@ -1,0 +1,45 @@
+{
+  "subj_code": "1060234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Set the various parts of Dobby mechanism for correct working with timing"
+    },
+    {
+      "Qno": "2",
+      "Description": "Peg the Lattice for Left hand Dobby for the given weaves: Honey comb and Mock leno"
+    },
+    {
+      "Qno": "3",
+      "Description": "Peg the Lattice for Right hand Dobby for the given weaves: Huck–a-back and Herring bone Twill."
+    },
+    {
+      "Qno": "4",
+      "Description": "Sketching the Jacquard mechanism with timing diagram for correct working."
+    },
+    {
+      "Qno": "5",
+      "Description": "Set the various parts of 4x1 Drop box motion for correct working with timing."
+    },
+    {
+      "Qno": "6",
+      "Description": "Prepare a chain of metallic cards for weaving a given pattern without card saving device in a drop box loom."
+    },
+    {
+      "Qno": "7",
+      "Description": "Set the various parts of Terry mechanism with timing."
+    },
+    {
+      "Qno": "8",
+      "Description": "Set the Mechanical weft feeler and various parts of Cop changing mechanism of an automatic loom with timings and settings."
+    },
+    {
+      "Qno": "9",
+      "Description": "Set the various parts of Positive let-off mechanism of an automatic loom with timings and settings"
+    },
+    {
+      "Qno": "10",
+      "Description": "Set the various parts of Warp stop motion of automatic loom with timings and settings"
+    }
+  ]
+}

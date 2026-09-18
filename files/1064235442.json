@@ -1,0 +1,45 @@
+{
+  "subj_code": "1064235442",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Analysis the water."
+    },
+    {
+      "Qno": "2",
+      "Description": "Analysis the soap composition"
+    },
+    {
+      "Qno": "3",
+      "Description": "Study the care labels and symbols."
+    },
+    {
+      "Qno": "4",
+      "Description": "Study the different types of drying equipments."
+    },
+    {
+      "Qno": "5",
+      "Description": "Study the different types of laundry equipments."
+    },
+    {
+      "Qno": "6",
+      "Description": "Study the effect of laundering of different types of fabrics"
+    },
+    {
+      "Qno": "7",
+      "Description": "Study the stain removal of food stain & Lipstick."
+    },
+    {
+      "Qno": "8",
+      "Description": "Study the dry cleaning of garments."
+    },
+    {
+      "Qno": "9",
+      "Description": "Study the stain removal of turmeric and kum-kum."
+    },
+    {
+      "Qno": "10",
+      "Description": "Study the storing of different kinds of fabrics"
+    }
+  ]
+}

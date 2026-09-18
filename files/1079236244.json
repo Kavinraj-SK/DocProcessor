@@ -1,0 +1,45 @@
+{
+  "subj_code": "1079236244",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Understand different types of production layouts (product, process, and fixed position)."
+    },
+    {
+      "Qno": "2",
+      "Description": "Create a production schedule using Gantt charts."
+    },
+    {
+      "Qno": "3",
+      "Description": "Calculate EOQ for raw materials."
+    },
+    {
+      "Qno": "4",
+      "Description": "Create and analyze control charts for a process."
+    },
+    {
+      "Qno": "5",
+      "Description": "Measure task times to improve productivity."
+    },
+    {
+      "Qno": "6",
+      "Description": "Apply the 5S method (Sort, Set in order, Shine, Standardize, Sustain) in a lab environment."
+    },
+    {
+      "Qno": "7",
+      "Description": "Assess the precision and accuracy of measuring instruments.."
+    },
+    {
+      "Qno": "8",
+      "Description": "Identify major contributors to product defects using the Pareto principle."
+    },
+    {
+      "Qno": "9",
+      "Description": "Identify bottlenecks in a production process and suggest improvements."
+    },
+    {
+      "Qno": "10",
+      "Description": "Conduct a quality inspection for a sample product batch."
+    }
+  ]
+}

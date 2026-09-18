@@ -1,0 +1,45 @@
+{
+  "subj_code": "2021235540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Conduct an experiment to measure voltage, current and power in a single phase A.C circuit by using Voltmeter, Ammeter and Wattmeter respectively for different loads.\nb) Repeat the same experiment by replacing above meters with single Digital Power Monitor.\nc) Compare and discuss the observations."
+    },
+    {
+      "Qno": "2",
+      "Description": "a)From the voltage and current rating of given LED, calculate the value of resistor to be connected in series with it.\nb) Construct and test a simple circuit using DC Source, Resistor and LED.\nc) Construct and test a simple circuit using DC Source, Resistor and RGB LED."
+    },
+    {
+      "Qno": "3",
+      "Description": "a)From the voltage and current rating of given LED, calculate the value of resistor to be connected in series with it.\nb) Construct and test a simple circuit using DC Source, Resistor and LED.\nc) Construct and test a simple circuit using DC Source, Resistor and RGB LED."
+    },
+    {
+      "Qno": "4",
+      "Description": "a) Connect Single Pole MCB with Load bank and Test the Tripping Operation for over load and/or Short Circuit fault.\nb) Connect ELCB with Lamp Load and Test the Tripping Operation for Earth fault."
+    },
+    {
+      "Qno": "5",
+      "Description": "a) Construct the circuit and verify the Truth Tables of AND, OR , NOT, NAND, NOR, EX-OR Logic gates by using corresponding Logic Gate ICs.\nb) Compare and discuss the observations."
+    },
+    {
+      "Qno": "6",
+      "Description": "a) Conduct Load Test on given DC Shunt Motor\nb) Discuss the starting current and No load current of the Motor\nc) Plot the performance Characteristics."
+    },
+    {
+      "Qno": "7",
+      "Description": "a) Conduct Load Test on given three phase squirrel cage Induction Motor.\nb) Discuss the starting current and No load current of the Motor\nc) Plot the performance Characteristics."
+    },
+    {
+      "Qno": "8",
+      "Description": "a) Make connections and Control the speed of the given single phase or three phase squirrel cage induction motor by VFD.\nb) Discuss the features and advantages of VFD."
+    },
+    {
+      "Qno": "9",
+      "Description": "a) Interface L293D Motor Driver IC with Arduino to control Direction of rotation of Two DC Motors.\nb) Execute the Arduino program and observe the direction of rotation of Motors."
+    },
+    {
+      "Qno": "10",
+      "Description": "a) Interface suitable stepper motor driver with stepper motor.\nb) Test the operation of driver circuit by observing the movement of stepper motor."
+    }
+  ]
+}

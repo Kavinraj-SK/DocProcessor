@@ -1,0 +1,45 @@
+{
+  "subj_code": "1145235541",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Construct a circuit to find the LED charactristics."
+    },
+    {
+      "Qno": "2",
+      "Description": "Construct a circuit to find the photo diode characteristics."
+    },
+    {
+      "Qno": "3",
+      "Description": "Construct  a suitable circuit & find the bending loss in optical fiber."
+    },
+    {
+      "Qno": "4",
+      "Description": "Construct  a suitable circuit & find the attenuation loss in optical fiber."
+    },
+    {
+      "Qno": "5",
+      "Description": "Construct and test a fiber optic analog link."
+    },
+    {
+      "Qno": "6",
+      "Description": "Construct and test a fiber optic digital link"
+    },
+    {
+      "Qno": "7",
+      "Description": "Construct and measure the numerical aperture of optical fiber."
+    },
+    {
+      "Qno": "8",
+      "Description": "Study the characterisitics of connectors and splices."
+    },
+    {
+      "Qno": "9",
+      "Description": "Comparison of the transmission characteristics of fiber splice with and without index matching."
+    },
+    {
+      "Qno": "10",
+      "Description": "Construct and test receiver amplifier for fiber optics communication system."
+    }
+  ]
+}

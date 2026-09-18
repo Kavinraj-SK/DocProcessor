@@ -1,0 +1,25 @@
+{
+  "subj_code": "1052236241",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Create a Python List / tuple which stores the details of a student (roll no, name,  dept,\nbranch, percentage of mark) in Python and print the values.\nB) Load two csv file into two data frame (d1,d2), combine both the Data frame and find\nand remove duplicate rows and rename indexes."
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Create the python list, convert the list and tuple as NumPy array and print its\nelements. Slice the NumPy array in to 3 slices and print all.\nB) Load the Iris dataset, where observations belong to either one of three iris flower\nclasses and visualize the average value for each feature of the Setosa iris class using a\nbar chart with suitable line width and color."
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Load your class Mark list data from a csv(comma-separated value)file into numpy\narray. Perform the following operations to inspect your array: Len(), ndim, size,\ndtype, shape, info().\nB) Load the Iris dataset; plot all the column‗s relationships using a pairplot for\nmultivariate analysis. Save the plot as JPEG file."
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Load a data into a pandas data frame and perform following functions on it: min(),\nmax(), cumsum(), mean(), median(), corrcoef(), std().\nB) Implement the Machine learning model for clustering with Iris dataset and analyse\nDecision Tree."
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Load a data into a pandas data frame, list out number of missing values in each\ncolumn and fill the missing values with suitable default value.\nB) Implement the Machine learning model for clustering with Iris data set and analyse K-\nmeans Clustering."
+    }
+  ]
+}

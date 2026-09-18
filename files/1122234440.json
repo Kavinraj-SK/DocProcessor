@@ -1,0 +1,45 @@
+{
+  "subj_code": "1122234440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Describe the process of measuring energy in a single-phase circuit using a lamp load."
+    },
+    {
+      "Qno": "2",
+      "Description": "Describe the methods used to measure power in a single-phase circuit."
+    },
+    {
+      "Qno": "3",
+      "Description": "Testing of relays, conductors, Push buttons and limit switch."
+    },
+    {
+      "Qno": "4",
+      "Description": "Describe the procedure for testing the working of a single-phase preventer."
+    },
+    {
+      "Qno": "5",
+      "Description": "To Prepare a wiring circuit to check the availability of R/Y/B Phases using one lamp only by operating Individual switches for each phase and test it."
+    },
+    {
+      "Qno": "6",
+      "Description": "Measurement of Insulation Resistance for motors and cables."
+    },
+    {
+      "Qno": "7",
+      "Description": "Explain the Estimation of earth Resistance."
+    },
+    {
+      "Qno": "8",
+      "Description": "Explain the importance of earth continuity testing in ensuring electrical safety."
+    },
+    {
+      "Qno": "9",
+      "Description": "Explain the importance of sensitivity testing for ensuring the reliable operation of ELCB, MCB, RCCB, and MCCB."
+    },
+    {
+      "Qno": "10",
+      "Description": "Describe the procedure for measuring the lux level using a lux meter."
+    }
+  ]
+}

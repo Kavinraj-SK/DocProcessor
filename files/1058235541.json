@@ -1,0 +1,53 @@
+{
+  "subj_code": "1058235541",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Write a program to find the largest of three numbers using if-elif-else and implement it.\nB) Write a program to connect to a database and perform CRUD operations."
+    },
+    {
+      "Qno": "2",
+      "Description": "A. Write a program to sort a list of numbers using the bubble sort algorithm.\nB. Write a program to demonstrate inheritance and polymorphism in Python."
+    },
+    {
+      "Qno": "3",
+      "Description": "A. Write a program to find the factorial of a number using a recursive function.\nB. Develop a program to create a simple GUI application."
+    },
+    {
+      "Qno": "4",
+      "Description": "A. Write a program to perform arithmetic operations using variables.\nB. Sales Data Analysis with Python: Calculate total sales for each product."
+    },
+    {
+      "Qno": "5",
+      "Description": "A. Write a program to read a file and count the number of words in it.\nB. Write a python program for simple class and create objects and implement it."
+    },
+    {
+      "Qno": "6",
+      "Description": "A. Write a program to handle divide by zero exception and implement it.\nB.  Write a program to create a module and import it into another program."
+    },
+    {
+      "Qno": "7",
+      "Description": "A. Write a program to find the factorial of a number using a recursive function.\nB. Write a program to demonstrate inheritance and polymorphism in Python."
+    },
+    {
+      "Qno": "8",
+      "Description": "A. Write a program to handle divide by zero exception and implement it.\nB. Write a python program for simple class and create objects and implement it."
+    },
+    {
+      "Qno": "9",
+      "Description": "A. Write a program to sort a list of numbers using the bubble sort algorithm.\nB. Develop a program to create a simple GUI application."
+    },
+    {
+      "Qno": "10",
+      "Description": "A. Write a program to read a file and count the number of words in it.\nB. Sales Data Analysis with Python: Calculate total sales for each product."
+    },
+    {
+      "Qno": "11",
+      "Description": "A. Write a program to find the largest of three numbers using if-elif-else and implement it.\nB. Develop a program to create a simple GUI application."
+    },
+    {
+      "Qno": "12",
+      "Description": "A. Write a program to sort a list of numbers using the bubble sort algorithm.\nB. Write a program to connect to a database and perform CRUD operations."
+    }
+  ]
+}

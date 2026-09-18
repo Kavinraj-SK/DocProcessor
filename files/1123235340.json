@@ -1,0 +1,58 @@
+{
+  "subj_code": "1123235340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Write a part program and produce a step turning component with the given dimensions in CNC LATHE machine\n----media/image1.png----"
+    },
+    {
+      "Qno": "2",
+      "Description": "Write a part program and produce a component using Forming & Grooving operations with the given dimensions in CNC LATHE machine\n----media/image2.png----"
+    },
+    {
+      "Qno": "3",
+      "Description": "Write a part program and produce a Taper Turning component with the given dimensions in CNCLATHE machine.\n----media/image3.png----"
+    },
+    {
+      "Qno": "4",
+      "Description": "Write and produce a component with the given dimensions using interpolation\nMethod\n----media/image4.jpeg----"
+    },
+    {
+      "Qno": "5",
+      "Description": "Write and produce a component with the given dimensions using Mirroring method\n----media/image5.png----"
+    },
+    {
+      "Qno": "6",
+      "Description": "Write and produce a component with the given dimensions using Drilling\noperation.\n----media/image6.png----"
+    },
+    {
+      "Qno": "7",
+      "Description": "Using Stock removal cycle–Create a part program for multiple turning operations and produce component in the Machine\n----media/image7.png----"
+    },
+    {
+      "Qno": "8",
+      "Description": "Using canned cycle - Create a part program for thread cutting, grooving and produce component in the Machine\n----media/image8.png----"
+    },
+    {
+      "Qno": "9",
+      "Description": "Using canned cycle-Create a part program for drilling, tapping, counter sinking and produce component in the Machine\n----media/image9.jpeg----"
+    },
+    {
+      "Qno": "10",
+      "Description": "Using subprogram-Create a part program and produce component in the\nMachine\n----media/image10.png----"
+    }
+  ],
+  "_media_dir": "1123235340_media",
+  "_embedded_media": [
+    "image8.png",
+    "image10.png",
+    "image7.png",
+    "image9.jpeg",
+    "image4.jpeg",
+    "image5.png",
+    "image3.png",
+    "image2.png",
+    "image1.png",
+    "image6.png"
+  ]
+}

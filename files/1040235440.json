@@ -1,0 +1,65 @@
+{
+  "subj_code": "1040235440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study of ARM Processor Kit"
+    },
+    {
+      "Qno": "2",
+      "Description": "Write assembly language program for addition, subtraction and simulate."
+    },
+    {
+      "Qno": "3",
+      "Description": "Write assembly language program for multiplication and simulate."
+    },
+    {
+      "Qno": "4",
+      "Description": "Write assembly language program to find smallest of N numbers and simulate"
+    },
+    {
+      "Qno": "5",
+      "Description": "Write assembly language program to find largest of N numbers and simulate"
+    },
+    {
+      "Qno": "6",
+      "Description": "Write and execute C program to blink the LEDs using on chip TIMER/COUNTER for the delay (Using Polling method)."
+    },
+    {
+      "Qno": "7",
+      "Description": "Write and execute C program to blink the LEDs using on chip TIMER/COUNTER for the delay (Using Interrupt method)."
+    },
+    {
+      "Qno": "8",
+      "Description": "(a) Write and execute C program for serial transmission and reception using on chip UART. Send the received character back to the PC by using polling method"
+    },
+    {
+      "Qno": "9",
+      "Description": "(b) Write and execute C program for serial transmission and reception using on chip UART. Send the received character back to the PC by using interrupt method"
+    },
+    {
+      "Qno": "10",
+      "Description": "Write and execute C program to display a number in seven segment LED."
+    },
+    {
+      "Qno": "11",
+      "Description": "Write and execute C program to blink the LEDs using software delay routine."
+    },
+    {
+      "Qno": "12",
+      "Description": "Write and execute C program for accessing an internal ADC and display the binary output in LEDs."
+    },
+    {
+      "Qno": "13",
+      "Description": "Design of Raspberry Pi Pico Based Traffic Light Control System"
+    },
+    {
+      "Qno": "14",
+      "Description": "Design of Raspberry Pi Pico Based Temperature Monitoring System"
+    },
+    {
+      "Qno": "15",
+      "Description": "Design of Raspberry Pi Pico Based motor speed control systems"
+    }
+  ]
+}

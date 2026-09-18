@@ -1,0 +1,45 @@
+{
+  "subj_code": "1025234440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Measure displacement by using inductive transducer. (Linear variable displacement transducer i.e. LVDT) and verify its characteristics."
+    },
+    {
+      "Qno": "2",
+      "Description": "Measure negative pressure or vacuum using McLeod gauge /Bourdon tube pressure gauge."
+    },
+    {
+      "Qno": "3",
+      "Description": "Measure temperature by thermocouple and verifying by thermometer."
+    },
+    {
+      "Qno": "4",
+      "Description": "Measure flow of liquid by rotameter."
+    },
+    {
+      "Qno": "5",
+      "Description": "Measure liquid level by capacitive transducer system."
+    },
+    {
+      "Qno": "6",
+      "Description": "Measure speed of rotating shaft by stroboscope"
+    },
+    {
+      "Qno": "7",
+      "Description": "Measure speed of rotating shaft by inductive pickup."
+    },
+    {
+      "Qno": "8",
+      "Description": "Measure force or weight by load cell measurement trainer kit."
+    },
+    {
+      "Qno": "9",
+      "Description": "Measure strain by using basic strain gauge and verify the stress induced."
+    },
+    {
+      "Qno": "10",
+      "Description": "Measure Torque using Torque measurement Trainer kit."
+    }
+  ]
+}

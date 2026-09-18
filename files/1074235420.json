@@ -1,0 +1,37 @@
+{
+  "subj_code": "1074235420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Estimation of Reducing sugars from juice by Potassium Ferric cyanide method."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of Suspended Solids from given sample"
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of Viscosity from given juice sample."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of Total Reducing Sugar (TRS) From Given juice sample."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determination of Conductometric ash content from Given Sugar sample."
+    },
+    {
+      "Qno": "6",
+      "Description": "Estimation of Cao from given Lime sample by Phenol method."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determination of Carbonated ash from given juice sample."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of Brix from Juice by using hand Refractometer."
+    }
+  ]
+}

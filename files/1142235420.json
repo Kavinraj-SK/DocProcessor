@@ -1,0 +1,45 @@
+{
+  "subj_code": "1142235420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Examine immune cells by morphology with Leishman & Giemsa staining."
+    },
+    {
+      "Qno": "2",
+      "Description": "Perform Latex Agglutination Test for Rheumatoid Arthritis (RA)."
+    },
+    {
+      "Qno": "3",
+      "Description": "Perform Latex Agglutination Test for ASO (Antistreptolysin O)."
+    },
+    {
+      "Qno": "4",
+      "Description": "Demonstrate agglutination reaction using latex particles – CRP test."
+    },
+    {
+      "Qno": "5",
+      "Description": "Perform and interpret forward grouping, reverse grouping and Rh typing."
+    },
+    {
+      "Qno": "6",
+      "Description": "Experiment on separation and preservation of plasma and serum."
+    },
+    {
+      "Qno": "7",
+      "Description": "Demonstrate antigen–antibody reaction in Widal test"
+    },
+    {
+      "Qno": "8",
+      "Description": "Demonstrate principle of flocculation with Rapid Plasma Reagin test."
+    },
+    {
+      "Qno": "9",
+      "Description": "Experiment on immune diffusion techniques – Radial and Ouchterlony double diffusion."
+    },
+    {
+      "Qno": "10",
+      "Description": "Experiment on detection of antigens by rocket and counter current immune electrophoresis."
+    }
+  ]
+}

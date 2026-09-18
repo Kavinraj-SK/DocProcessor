@@ -1,0 +1,45 @@
+{
+  "subj_code": "1026236222",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Introduction of casting simulation"
+    },
+    {
+      "Qno": "2",
+      "Description": "Part modeling and geometry analysis: new casting project and layouts, inputs – model, material, process, mould and mesh, display layout and controls, part properties, thickness and radiography, identifying cored holes."
+    },
+    {
+      "Qno": "3",
+      "Description": "Core print design and Mould cavity layout: casting orientation and parting, core Print design, plugging drilled hole, mould cavity layout and optimization"
+    },
+    {
+      "Qno": "4",
+      "Description": "Feeder design and solidification simulation: Feeder location, design & modeling, Feed aids - Sleeves, chills, padding & vents, importing feeder and sleeve models."
+    },
+    {
+      "Qno": "5",
+      "Description": "Gating design and mould filling simulation: gating layout and design, mould filling Simulation, results, gating design optimization."
+    },
+    {
+      "Qno": "6",
+      "Description": "Modeling and Simulation of Simple part models for CI – 300, Al – 222 and Steels."
+    },
+    {
+      "Qno": "7",
+      "Description": "Modeling and Simulation of Valve casting for CI and SG iron."
+    },
+    {
+      "Qno": "8",
+      "Description": "Modeling and Simulation of Bracket casting for steel, Stand Casting for Cast Iron and Flange for Aluminium."
+    },
+    {
+      "Qno": "9",
+      "Description": "Modeling and simulation of Non-ferrous metal – Aluminium Alloy – in GDC process."
+    },
+    {
+      "Qno": "10",
+      "Description": "Modeling and simulation of Non-ferrous metal – other alloys – in investment casting process."
+    }
+  ]
+}

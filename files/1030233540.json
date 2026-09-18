@@ -1,0 +1,45 @@
+{
+  "subj_code": "1030233540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Write and Execute a C program to implement Ohm’s Law."
+    },
+    {
+      "Qno": "2",
+      "Description": "Write and Execute a C program to calculate total resistance of 3 resistors connected in series and in parallel."
+    },
+    {
+      "Qno": "3",
+      "Description": "Write and Execute a C program to calculate Power using Voltage and Current, Voltage and Resistance, Current and Resistance"
+    },
+    {
+      "Qno": "4",
+      "Description": "Write and Execute a C Program to calculate sum and average of 5 numbers."
+    },
+    {
+      "Qno": "5",
+      "Description": "Write and Execute a C program to Check Largest of Three Numbers"
+    },
+    {
+      "Qno": "6",
+      "Description": "Write and Execute a C Program to calculate total capacitance of 3 capacitors connected in series and in parallel using switch case."
+    },
+    {
+      "Qno": "7",
+      "Description": "Write and Execute a C program to accept 10 numbers and print them."
+    },
+    {
+      "Qno": "8",
+      "Description": "Write and Execute a C Program to perform string functions strlen, strcmp and strrev."
+    },
+    {
+      "Qno": "9",
+      "Description": "Write and Execute a C program to find power and square root using Math Functions."
+    },
+    {
+      "Qno": "10",
+      "Description": "Write and Execute a C Program to calculate Electrostatic Force (Coulomb's Law) using function."
+    }
+  ]
+}

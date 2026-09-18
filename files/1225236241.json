@@ -1,0 +1,45 @@
+{
+  "subj_code": "1225236241",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Prepare Graded pattern as per the given bodice front pattern."
+    },
+    {
+      "Qno": "2",
+      "Description": "Prepare Graded pattern as per the given bodice back pattern."
+    },
+    {
+      "Qno": "3",
+      "Description": "Prepare Graded pattern as per the given sleeve pattern."
+    },
+    {
+      "Qno": "4",
+      "Description": "Study the parts and function of Industrial sewing machine."
+    },
+    {
+      "Qno": "5",
+      "Description": "Study the causes and remedies for sewing defects."
+    },
+    {
+      "Qno": "6",
+      "Description": "Using given pattern cut, stitch and finish the garment style–A Line frock."
+    },
+    {
+      "Qno": "7",
+      "Description": "Using given pattern cut, stitch and finish the garment style–T Shirt."
+    },
+    {
+      "Qno": "8",
+      "Description": "Using given pattern cut, stitch and finish the garment style–School uniform."
+    },
+    {
+      "Qno": "9",
+      "Description": "Using given pattern cut, stitch and finish the garment style–Full sleeve shirt."
+    },
+    {
+      "Qno": "10",
+      "Description": "Prepare sewing machine maintenance chart(based on Industrial visit)"
+    }
+  ]
+}

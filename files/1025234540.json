@@ -1,0 +1,45 @@
+{
+  "subj_code": "1025234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Draw a port timing diagram of two stroke petrol/diesel engine"
+    },
+    {
+      "Qno": "2",
+      "Description": "Draw a valve timing diagram of four stroke petrol engine"
+    },
+    {
+      "Qno": "3",
+      "Description": "Draw a valve timing diagram of four stroke diesel engine"
+    },
+    {
+      "Qno": "4",
+      "Description": "Conduct the performance test on Petrol/Diesel engine and draw the performance curves."
+    },
+    {
+      "Qno": "5",
+      "Description": "Conduct a Morse test on multi cylinder Petrol engine/Diesel engine."
+    },
+    {
+      "Qno": "6",
+      "Description": "Dismantle and assemble the two stroke or four stroke IC engine cylinder assembly."
+    },
+    {
+      "Qno": "7",
+      "Description": "Remove, service and replace the given fuel pump or oil pump or water Pump."
+    },
+    {
+      "Qno": "8",
+      "Description": "Dismantle, service and assemble the given SOLEX or SU type carburetor."
+    },
+    {
+      "Qno": "9",
+      "Description": "Dismantle and assemble the given fuel injector and also explain the components in CRDI/MPFI."
+    },
+    {
+      "Qno": "10",
+      "Description": "Find the Coefficient of Performance of Vapour Compression Refrigeration System."
+    }
+  ]
+}

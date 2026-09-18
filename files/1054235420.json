@@ -1,0 +1,45 @@
+{
+  "subj_code": "1054235420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Create The Robot Rigging With Child& Parent Rigging Concept"
+    },
+    {
+      "Qno": "2",
+      "Description": "Create The Skelton Anatomy For Biped & Quadruped Character With Naming"
+    },
+    {
+      "Qno": "3",
+      "Description": "Create The Leg Rigging With Grouping Method With Proper Controls"
+    },
+    {
+      "Qno": "4",
+      "Description": "Create The Hand Rigging With Ik Solver With Proper Control"
+    },
+    {
+      "Qno": "5",
+      "Description": "Create Facial Using With Blend Shape With Gui Controls"
+    },
+    {
+      "Qno": "6",
+      "Description": "Create The Ball Bouncing Animation With Stretch& Squash 60 Frames"
+    },
+    {
+      "Qno": "7",
+      "Description": "Create 8 Different Poses With Character With Graph Editor Stepped Tangent"
+    },
+    {
+      "Qno": "8",
+      "Description": "Create The Thread Mill Walk Cycle For The Given Character With Graph Editor Infinity"
+    },
+    {
+      "Qno": "9",
+      "Description": "Create Any Physical Motion For Gaming Character With Given Video Reference"
+    },
+    {
+      "Qno": "10",
+      "Description": "Create The Facial Expression With Lip-Sync For The Character With Own Acting Video"
+    }
+  ]
+}

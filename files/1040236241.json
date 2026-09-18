@@ -1,0 +1,65 @@
+{
+  "subj_code": "1040236241",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Verify the V-I Characteristics of Power MOSFET and Plot the graph."
+    },
+    {
+      "Qno": "2",
+      "Description": "Verify the V-I Characteristics of IGBT and Plot the graph."
+    },
+    {
+      "Qno": "3",
+      "Description": "Study any one Application of IGBT/Power MOSFET."
+    },
+    {
+      "Qno": "4",
+      "Description": "Verify the V-I Characteristics of SCR and Plot the graph."
+    },
+    {
+      "Qno": "5",
+      "Description": "Verify the V-I Characteristics of DIAC and Plot the graph."
+    },
+    {
+      "Qno": "6",
+      "Description": "Verify the V-I Characteristics of TRIAC for different values of Gate Currents and Plot the graph."
+    },
+    {
+      "Qno": "7",
+      "Description": "Construct and Test the Lamp Dimmer Circuit using TRIAC."
+    },
+    {
+      "Qno": "8",
+      "Description": "Construct a circuit to Trigger the given SCR using a UJT relaxation oscillator."
+    },
+    {
+      "Qno": "9",
+      "Description": "Construct a circuit to prevent unwanted dv/dt triggering of the SCR using a snubber circuit."
+    },
+    {
+      "Qno": "10",
+      "Description": "Study any one Application based on SCR."
+    },
+    {
+      "Qno": "11",
+      "Description": "Construct and Test a Half-Wave Controlled Rectifier with R Load."
+    },
+    {
+      "Qno": "12",
+      "Description": "Construct and Test a Single-phase Full Controlled Bridge Rectifier with RL-Load."
+    },
+    {
+      "Qno": "13",
+      "Description": "Study the Working of a Single-Phase AC chopper."
+    },
+    {
+      "Qno": "14",
+      "Description": "Construct and Test the Single-Phase Inverter using MOSFET/IGBT."
+    },
+    {
+      "Qno": "15",
+      "Description": "Study any one method to obtain Sine Wave output from an  Inverter."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1202234320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Create a poster showcasing different typefaces and their characteristics, including serif, sans-serif, script, and display fonts."
+    },
+    {
+      "Qno": "2",
+      "Description": "Create a color wheel showcasing primary, secondary, and tertiary colors, along   with their complementary and analogous color schemes."
+    },
+    {
+      "Qno": "3",
+      "Description": "Design business card / letterhead / envelope consistent with the visual identity of a chosen brand."
+    },
+    {
+      "Qno": "4",
+      "Description": "Select a company logo and redesign it while maintaining brand identity and recognition."
+    },
+    {
+      "Qno": "5",
+      "Description": "Explore text effects such as outlining, shadowing, and skewing to create visually appealing typography"
+    },
+    {
+      "Qno": "6",
+      "Description": "Experiment with gradient fills to add depth and dimension to your shapes and illustrations."
+    },
+    {
+      "Qno": "7",
+      "Description": "Perform color correction by adjusting curves, Hue/Saturation to adjust color balance, contrast, and tonal range in an image."
+    },
+    {
+      "Qno": "8",
+      "Description": "Perform placing of text along a path or shape to create curved or circular typography effects."
+    },
+    {
+      "Qno": "9",
+      "Description": "Design a book cover with minimalistic design approach."
+    },
+    {
+      "Qno": "10",
+      "Description": "Design an invitation using the design elements like line, shape, space etc."
+    }
+  ]
+}

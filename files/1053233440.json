@@ -1,0 +1,25 @@
+{
+  "subj_code": "1053233440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a)   Verify the truth tables of (i) Any 3 Logic Gates (OR) (ii) Any 3 Flip Flops.\nb)    Design a digital interface circuit to control the illumination of an LED and control the speed and direction of a DC motor using TTL/CMOS ICs."
+    },
+    {
+      "Qno": "2",
+      "Description": "a)    Implement 2 input Boolean logic function using logic gates in\n(ii) POS form (OR) (ii)  SOP form\nb)  Connect DAC0808 IC to convert digital to analog and ADC0804 IC to convert analog to digital. Show analog output via oscilloscope and digital via LEDs."
+    },
+    {
+      "Qno": "3",
+      "Description": "a)   Verify the truth tables of (i) Multiplexer IC74151 (OR ) (ii) Encoder IC74148\nb)  Implement the Boolean expression F = A'B'C' + A'BC + AB'C + ABC' using\ni)   PAL16R8  IC (OR)     (ii) PLA22V10 IC."
+    },
+    {
+      "Qno": "4",
+      "Description": "a) Implement and verify the truth table using TTL/CMOS gates. ((i) BCD to 7 segments Decoder (OR ) (ii) 4-bit Ripple Counter\nb) Perform SRAM Operations through Reading, Writing using IC6264"
+    },
+    {
+      "Qno": "5",
+      "Description": "a)   Verify the function of (i) 4-bit magnitude comparator 7485 IC (OR) (ii) Shift registers (ICs like 7495, 74194 etc.).\nb)   Simulate (i) Full Adder Circuits Using ICs (OR) (ii) universal gates realization (any 2) using  ppice / any circuit simulation software"
+    }
+  ]
+}

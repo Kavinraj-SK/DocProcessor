@@ -1,0 +1,45 @@
+{
+  "subj_code": "1143234740",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "To identify the size if X-ray film."
+    },
+    {
+      "Qno": "2",
+      "Description": "To demonstrate automatic film processing and manual film processing"
+    },
+    {
+      "Qno": "3",
+      "Description": "To perform radio graphic positioning of human body parts"
+    },
+    {
+      "Qno": "4",
+      "Description": "To preparing x-ray machine and patient before procedure"
+    },
+    {
+      "Qno": "5",
+      "Description": "To  measure monitor the radiation devices"
+    },
+    {
+      "Qno": "6",
+      "Description": "Applying console room techniques and first aid methods"
+    },
+    {
+      "Qno": "7",
+      "Description": "To perform constitution of alloys and phase diagram"
+    },
+    {
+      "Qno": "8",
+      "Description": "To perform chest radiography engineering materials and mechanical, thermal and optical properties of materials"
+    },
+    {
+      "Qno": "9",
+      "Description": "To perform abdomen and pelvic radiograph"
+    },
+    {
+      "Qno": "10",
+      "Description": "To develop engineering materials and mechanical, thermal and optical properties of material"
+    }
+  ]
+}

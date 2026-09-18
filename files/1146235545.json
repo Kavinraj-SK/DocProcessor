@@ -1,0 +1,45 @@
+{
+  "subj_code": "1146235545",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "To Study the VLSI Design Process."
+    },
+    {
+      "Qno": "2",
+      "Description": "Simulation of VHDL Code for Logic gates (NOT, AND, OR)."
+    },
+    {
+      "Qno": "3",
+      "Description": "Simulation of VHDL Code for Adder (Half Adder and Full Adder)."
+    },
+    {
+      "Qno": "4",
+      "Description": "Simulation of VHDL Code for Subtractor (Half Subtractor and Full Subtractor)."
+    },
+    {
+      "Qno": "5",
+      "Description": "VHDL Implementation of 1 to 8 Demultiplexer."
+    },
+    {
+      "Qno": "6",
+      "Description": "VHDL Implementation of 8 to 3 Encoder."
+    },
+    {
+      "Qno": "7",
+      "Description": "VHDL Code for JK Flipflop (by Simulation or Implementation)."
+    },
+    {
+      "Qno": "8",
+      "Description": "VHDL Code for D Flipflop (by Simulation or Implementation)."
+    },
+    {
+      "Qno": "9",
+      "Description": "VHDL Implementation of Blinking an Array of LEDs."
+    },
+    {
+      "Qno": "10",
+      "Description": "VHDL Implementation of a Speller with an array of LEDs"
+    }
+  ]
+}

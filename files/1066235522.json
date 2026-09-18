@@ -1,0 +1,37 @@
+{
+  "subj_code": "1066235522",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Analysis the water."
+    },
+    {
+      "Qno": "2",
+      "Description": "Analysis the soap and detergent (Foam test)."
+    },
+    {
+      "Qno": "4",
+      "Description": "Study the different types of drying equipments."
+    },
+    {
+      "Qno": "5",
+      "Description": "Study the effect of laundering of different types of fabrics."
+    },
+    {
+      "Qno": "6",
+      "Description": "Study the dry cleaning of garments."
+    },
+    {
+      "Qno": "7",
+      "Description": "Remove the below stain from White cotton, Coloured cotton, Silk & Wool and Synthetics.\ni     Tea / Coffee stain\nii   Blood / Egg / Meat stain\niii    Butter / Ghee / Oil stain"
+    },
+    {
+      "Qno": "8",
+      "Description": "Paint / Shoe polish / Lip stick / Ball pen stain / Grass stain"
+    },
+    {
+      "Qno": "9",
+      "Description": "Study the storing of different kinds of fabrics."
+    }
+  ]
+}

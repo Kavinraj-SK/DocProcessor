@@ -1,0 +1,21 @@
+{
+  "subj_code": "1055235541",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Write a python program to double the elements in list using map function and to find the sum of elements of a list using reduce functions.\nB) Load a data set in to a data frame, drop then on-numeric columns and list out the basic static analysis of each column."
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Write a python program to filter only even numbers in the list using filter function and\nTo create a list of squares of the elements of using list comprehension.\nB) Load a data set into a data frame, find correlation matrix and plot the heat map to\nFind highly correlated feature of the target feature"
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Load a CSV file into a Pandas data frame and print the first five rows, shape of the dataset, and column names and their types.\nB) Load a pre-cleaned dataset into a data frame, plot the values of feature and target variables using scatter plot to visualize their relation"
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Load a data into a Pandas data frame, list out number of missing value sin each column and fill the null values with suitable default value.\nB) Visualize a pre-cleaned data set to detect an out liner and filter out them"
+    }
+  ]
+}

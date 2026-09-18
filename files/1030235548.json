@@ -1,0 +1,45 @@
+{
+  "subj_code": "1030235548",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Write a Program to Blink an LED connected to a General Purpose Input /Output (GPIO) pin."
+    },
+    {
+      "Qno": "2",
+      "Description": "Write a Program to Read the state of a push-button and control an LED."
+    },
+    {
+      "Qno": "3",
+      "Description": "Write a Program to Read Analog data from a potentiometer and display the data by using LCD."
+    },
+    {
+      "Qno": "4",
+      "Description": "Write a Program to Establish communication between the dsPIC33CH and a computer using UART"
+    },
+    {
+      "Qno": "5",
+      "Description": "Write a Program to generate one PWM to drive an IGBT Switch to Control a DC Motor/Stepper Motor"
+    },
+    {
+      "Qno": "6",
+      "Description": "Write a program to generate PWM for Buck/Boost Converter"
+    },
+    {
+      "Qno": "7",
+      "Description": "Write a Program to read 2 channel ADC."
+    },
+    {
+      "Qno": "8",
+      "Description": "Write a Program to generate Sine PWM to Drive a IGBT to get a 50Hz sine waveform."
+    },
+    {
+      "Qno": "9",
+      "Description": "Write a Program to generate 3 Phase output from an Inverter Module."
+    },
+    {
+      "Qno": "10",
+      "Description": "Simulate a V/F Control of Induction Motor in MATLAB-SIMULINK & down load the program to a IGBT Power Module and run a 3 phase Induction Motor at 800RPM."
+    }
+  ]
+}

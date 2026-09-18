@@ -1,0 +1,145 @@
+{
+  "subj_code": "1055234520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Do the following cabling works in a network\ni) Cable Crimpling\nii) Test the Crimped cable using a Cable tester.\nb) Configuration of Internet connection and use IPCONFIG, PING/ Tracert, and  Net stat\nutilities to debug the Network issues."
+    },
+    {
+      "Qno": "2",
+      "Description": "a) Implement the cross-wired cable and straight-through cable using the Clamping tool.\nb) Learn to use commands like tcp dump, net stat ,ns look up, and trace route in\nWindows. Capture ping and trace route PDUs using a network  protocol  analyzer and\nExamine"
+    },
+    {
+      "Qno": "3",
+      "Description": "a)Installation and configuration of Network Devices: Modem, HUB, Switch, and\nRouters.\nb) Learn to use commands like ping, ns lookup, trace route, host, net stat, ARP, Dig, Route, Eth tool, Hostname, and if con fig in Linux."
+    },
+    {
+      "Qno": "4",
+      "Description": "a)Establish Peer to Peer network connection between two systems using Switch and\nRouter in a LAN.\nb) Create a subnet with 5 systems and configure Host IP, Subnet Mask, Default Gateway,\nand DNS for the systems in that subnet. (TCP/IP Configuration)."
+    },
+    {
+      "Qno": "5",
+      "Description": "a)Creation of a simple network with two PCs using a hub.\ni) Identify the proper cable to connect the PCs to the hub\nii) Configure work station IP address information.\niii) Test connectivity using the Ping command\nb) Configure a DHCP server and firewall."
+    },
+    {
+      "Qno": "6",
+      "Description": "a)Creation of various network topologies using network devices, cables, and computers.\nb) Transfer of files between systems in LAN."
+    },
+    {
+      "Qno": "7",
+      "Description": "a) Do the following cabling works in a network:\ni) Cable Crimpling\nii) Test the Crimped cable using a Cable tester.\nb) Learn to use commands like tcp dump, net stat, ns look up, and trace route in Windows. Capture ping and trace route PDUs using a network protocol analyzer and examine."
+    },
+    {
+      "Qno": "8",
+      "Description": "a) Do the following cabling works in a network:\ni) Cable Crimpling\nii) Test the Crimped cable using a Cable tester.\nb) Learn to use commands like ping, ns lookup, trace route, host, net stat, ARP, Dig, Route, Eth tool, Hostname, and if config in Linux."
+    },
+    {
+      "Qno": "10",
+      "Description": "a) Do the following cabling works in a network:\ni) Cable Crimpling\nii) Test the Crimped cable using a Cable tester.\nb) Configure a DHCP server and firewall."
+    },
+    {
+      "Qno": "11",
+      "Description": "a) Do the following cabling works in a network:\ni) Cable Crimpling\nii) Test the Crimped cable using a Cable tester.\nb) Transfer of files between systems in LAN."
+    },
+    {
+      "Qno": "12",
+      "Description": "a) Implement the cross-wired cable and straight-through cable using the Clamping tool.\nb) Configuration of  Internet connection and use IPCONFIG, PING/Tracert, and Net stat utilities to debug network issues."
+    },
+    {
+      "Qno": "13",
+      "Description": "a) Implement the cross-wired cable and straight-through cable using the Clamping tool.\nb) Installation and configuration of Network Devices: Modem, HUB, Switch, and Routers."
+    },
+    {
+      "Qno": "14",
+      "Description": "a) Implement the cross-wired cable and straight-through cable using the Clamping tool.\nb) Establish Peer-to-Peer network connection between two systems using Switch and Router in a LAN."
+    },
+    {
+      "Qno": "15",
+      "Description": "a) Implement the cross-wired cable and straight-through cable using the Clamping tool.\nb) Creation of a simple network with two PCs using a hub."
+    },
+    {
+      "Qno": "16",
+      "Description": "a) Implement the cross-wired cable and straight-through cable using the Clamping tool.\nb) Creation of various network topologies using network devices, cables, and computers."
+    },
+    {
+      "Qno": "17",
+      "Description": "a) Installation and configuration of Network Devices: Modem, HUB, Switch, and Routers.\nb) Configuration of Internet connection and use IPCONFIG, PING/Tracert, and Net stat utilities to debug network issues."
+    },
+    {
+      "Qno": "18",
+      "Description": "a) Installation and configuration of Network Devices: Modem, HUB, Switch, and Routers.\nb) Learn to use commands like tcp dump, net stat, ns look up, and trace route in Windows. Capture ping and trace route PDUs using a network protocol analyzer and examine."
+    },
+    {
+      "Qno": "19",
+      "Description": "a) Installation and configuration of Network Devices: Modem, HUB, Switch, and Routers.\nb) Create a subnet with 5 systems and configure Host IP, Subnet Mask, Default Gateway, and DNS for the systems in that subnet. (TCP/IP Configuration)."
+    },
+    {
+      "Qno": "20",
+      "Description": "a) Installation and configuration of Network Devices: Modem, HUB, Switch, and Routers.\nb) Configure a DHCP server and firewall."
+    },
+    {
+      "Qno": "21",
+      "Description": "a) Installation and configuration of Network Devices: Modem, HUB, Switch, and Routers.\nb) Transfer of files between systems in LAN."
+    },
+    {
+      "Qno": "22",
+      "Description": "a) Establish Peer-to-Peer network connection between two systems using Switch and Router in a LAN.\nb) Configuration of Internet connection and use IPCONFIG, PING/Tracert, and Net stat utilities to debug network issues."
+    },
+    {
+      "Qno": "23",
+      "Description": "a) Establish Peer-to-Peer network connection between two systems using Switch and Router in a LAN.\nb) Learn to use commands like tcp dump, net stat, ns look up, and trace route in Windows. Capture ping and trace route PDUs using a network protocol analyzer and examine."
+    },
+    {
+      "Qno": "24",
+      "Description": "a) Establish Peer-to-Peer network connection between two systems using Switch and Router in a LAN.\nb) Learn to use commands like ping, ns lookup, trace route, host, net stat, ARP, Dig, Route, Eth tool, Hostname, and if config in Linux."
+    },
+    {
+      "Qno": "25",
+      "Description": "a) Establish Peer-to-Peer network connection between two systems using Switch and Router in a LAN.\nb) Configure a DHCP server and firewall."
+    },
+    {
+      "Qno": "26",
+      "Description": "a) Establish Peer-to-Peer network connection between two systems using Switch and Router in a LAN.\nb) Transfer of files between systems in LAN."
+    },
+    {
+      "Qno": "27",
+      "Description": "a) Creation of a simple network with two PCs using a hub.\nb) Configuration of Internet connection and use IPCONFIG, PING/Tracert, and Net stat utilities to debug network issues."
+    },
+    {
+      "Qno": "28",
+      "Description": "a) Creation of a simple network with two PCs using a hub.\nb) Learn to use commands like tcp dump, net stat, ns look up, and trace route in Windows. Capture ping and trace route PDUs using a network protocol analyzer and examine."
+    },
+    {
+      "Qno": "29",
+      "Description": "a) Creation of a simple network with two PCs using a hub.\nb) Installation and configuration of Network Devices: Modem, HUB, Switch, and Routers."
+    },
+    {
+      "Qno": "30",
+      "Description": "a) Creation of a simple network with two PCs using a hub.\nb) Establish Peer-to-Peer network connection between two systems using Switch and Router in a LAN."
+    },
+    {
+      "Qno": "31",
+      "Description": "a) Creation of a simple network with two PCs using a hub.\nb) Transfer of files between systems in LAN."
+    },
+    {
+      "Qno": "32",
+      "Description": "a) Creation of various network topologies using network devices, cables, and computers.\nb) Configuration of Internet connection and use IPCONFIG, PING/Tracert, and Net stat utilities to debug network issues."
+    },
+    {
+      "Qno": "33",
+      "Description": "a) Creation of various network topologies using network devices, cables, and computers.\nb) Learn to use commands like tcp dump, net stat, ns look up, and trace route in Windows. Capture ping and trace route PDUs using a network protocol analyzer and examine."
+    },
+    {
+      "Qno": "34",
+      "Description": "a) Creation of various network topologies using network devices, cables, and computers.\nb) Installation and configuration of Network Devices: Modem, HUB, Switch, and Routers."
+    },
+    {
+      "Qno": "35",
+      "Description": "a) Creation of various network topologies using network devices, cables, and computers.\nb) Establish Peer-to-Peer network connection between two systems using Switch and Router in a LAN."
+    },
+    {
+      "Qno": "36",
+      "Description": "a) Creation of various network topologies using network devices, cables, and computers.\nb) Configure a DHCP server and firewall."
+    }
+  ]
+}

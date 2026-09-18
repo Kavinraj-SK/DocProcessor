@@ -1,0 +1,45 @@
+{
+  "subj_code": "1021236241",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study on layout of automobile service stations."
+    },
+    {
+      "Qno": "2",
+      "Description": "Tighten and adjust the wheel bearing"
+    },
+    {
+      "Qno": "3",
+      "Description": "Adjustment of pedal play in clutch"
+    },
+    {
+      "Qno": "4",
+      "Description": "Air bleeding from hydraulic brakes"
+    },
+    {
+      "Qno": "5",
+      "Description": "Minor and major tune up of gasoline/diesel engines"
+    },
+    {
+      "Qno": "6",
+      "Description": "Drive train maintenance: propeller shaft, universal joint, differential."
+    },
+    {
+      "Qno": "7",
+      "Description": "Fault diagnosis and service of Electrical systems like battery, starting system, charging system, lighting system."
+    },
+    {
+      "Qno": "8",
+      "Description": "Automotive Headlight Beam Alignment test."
+    },
+    {
+      "Qno": "9",
+      "Description": "Wheel alignment in Four Wheelers."
+    },
+    {
+      "Qno": "10",
+      "Description": "Remove and fit the tire after in flation"
+    }
+  ]
+}

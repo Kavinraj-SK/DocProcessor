@@ -1,0 +1,41 @@
+{
+  "subj_code": "1021235547",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Identify and check the following components – cylinder block, crankshaft, connecting rod, inlet and exhaust manifolds, valve train and its components of petrol engine (four wheeler)."
+    },
+    {
+      "Qno": "3",
+      "Description": "Testing the Valve spring by spring tester."
+    },
+    {
+      "Qno": "4",
+      "Description": "Adjustment of valve tappet clearance(four cylinder/six-cylinder engine)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Dismantle and Assemble engine part, piston connecting rod, cylinder head, rocker arm assembly."
+    },
+    {
+      "Qno": "6",
+      "Description": "Calibrating and phasing of fuel pump through calibrating machine."
+    },
+    {
+      "Qno": "7",
+      "Description": "Dismantle and Assemble engine parts such as F.I. pump, injectors, fuel filter & other accessories"
+    },
+    {
+      "Qno": "8",
+      "Description": "Conduct the variable speed performance test of a single –cylinder petrol engineanddrawthecurve.1.BHP, IHP,FHPVsSpeed2.Volumetric efficiency, SFC Vs Speed."
+    },
+    {
+      "Qno": "9",
+      "Description": "Conduct the constant speed performance test of a single-cylinder diesel engineanddrawthecurve.1.BHP,IHP,FHPVsSpeed2.Volumetricefficiency,SFC Vs Speed."
+    },
+    {
+      "Qno": "10",
+      "Description": "Prepare the heat balance sheet on a multi-cylinder petrol/diesel engine."
+    }
+  ]
+}

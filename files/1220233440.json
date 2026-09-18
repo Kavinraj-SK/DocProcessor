@@ -1,0 +1,13 @@
+{
+  "subj_code": "1220233440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Vernier caliper-Measuring the overall dimension of a Die plate to an accuracy of 0.02mm.\nMicrometer-Measuring diameter and thickness of die components to an accuracy of one micron (0.001mm)"
+    },
+    {
+      "Qno": "2",
+      "Description": "i) Vernier height gauge:-\na) Measurement of height of the given work piece\nb) Marking the given dimensions on the work piece.\nc) Transferring measurements from one job to another.\n(ii) Vernier Depth gauge–Measuring the depth of blind holes"
+    }
+  ]
+}

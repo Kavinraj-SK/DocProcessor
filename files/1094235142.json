@@ -1,0 +1,45 @@
+{
+  "subj_code": "1094235142",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "To measure the thickness of paper and paper boards"
+    },
+    {
+      "Qno": "2",
+      "Description": "To Measurement of basis of weight of the paper board"
+    },
+    {
+      "Qno": "3",
+      "Description": "To Measure water absorption capacity of paper"
+    },
+    {
+      "Qno": "4",
+      "Description": "To Measurement of bursting strength of paper"
+    },
+    {
+      "Qno": "5",
+      "Description": "To measure the internal tearing resistance of a paper"
+    },
+    {
+      "Qno": "6",
+      "Description": "To measure the resistance of a paper board and corrugated board to puncture"
+    },
+    {
+      "Qno": "7",
+      "Description": "Determination of grease resistance of a paper"
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of water vapour permeability of packing material"
+    },
+    {
+      "Qno": "9",
+      "Description": "To Identification of plastic films."
+    },
+    {
+      "Qno": "10",
+      "Description": "To Pre-packing of fruits and vegetables"
+    }
+  ]
+}

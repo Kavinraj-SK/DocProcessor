@@ -1,0 +1,45 @@
+{
+  "subj_code": "1076235522",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "ASTM Distillation of Petroleum Products."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination of Reid vapor Pressure."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determination of aromatics using aniline point."
+    },
+    {
+      "Qno": "4",
+      "Description": "Smoke point of Petroleum Products."
+    },
+    {
+      "Qno": "5",
+      "Description": "Total Acidity Test"
+    },
+    {
+      "Qno": "6",
+      "Description": "Bromine Number test to determine the % of olefin in the Distillate."
+    },
+    {
+      "Qno": "7",
+      "Description": "Copper Corrosion test."
+    },
+    {
+      "Qno": "8",
+      "Description": "Carbon residue by Conradson method."
+    },
+    {
+      "Qno": "9",
+      "Description": "Carbon residue by Rams bottom method."
+    },
+    {
+      "Qno": "10",
+      "Description": "Determination of Sediments and water in crude by centrifuging."
+    }
+  ]
+}

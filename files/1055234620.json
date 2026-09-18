@@ -1,0 +1,145 @@
+{
+  "subj_code": "1055234620",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a)Installation and configuration of Windows 2008/2012Server operating system\nb)Installation & configuration of Linux OS."
+    },
+    {
+      "Qno": "2",
+      "Description": "a)Installation and configuration of DHCP Server in Windows.\nb)Creating and managing user & group accounts in LINUX."
+    },
+    {
+      "Qno": "3",
+      "Description": "a)Installation and configuration of Mail Server.\nb)Illustrate the various Linux networking commands."
+    },
+    {
+      "Qno": "4",
+      "Description": "a)Installing & configuring a Virtual Machine.\nb)Setting up FTP Server and configure http d Web Server"
+    },
+    {
+      "Qno": "5",
+      "Description": "a)Installation and configuration of DNS Server.\nb)Demonstrate remote desk top access in Linux."
+    },
+    {
+      "Qno": "6",
+      "Description": "a)Transfer files between systems in LAN using FTP Configuration.\nb)Configuring an NFS Server &Client."
+    },
+    {
+      "Qno": "7",
+      "Description": "a) Installation and configuration of Windows 2008/2012 Server operating system.\nb) Creating and managing user & group accounts in LINUX."
+    },
+    {
+      "Qno": "8",
+      "Description": "a) Installation and configuration of Windows 2008/2012 Server operating system.\nb) Illustrate the various Linux networking commands."
+    },
+    {
+      "Qno": "10",
+      "Description": "a) Installation and configuration of Windows 2008/2012 Server operating system.\nb) Demonstrate remote desktop access in Linux."
+    },
+    {
+      "Qno": "11",
+      "Description": "a) Installation and configuration of Windows 2008/2012 Server operating system.\nb) Configuring an NFS Server & Client."
+    },
+    {
+      "Qno": "12",
+      "Description": "a) Installation and configuration of DHCP Server in Windows.\nb) Installation & configuration of Linux OS."
+    },
+    {
+      "Qno": "13",
+      "Description": "a) Installation and configuration of DHCP Server in Windows.\nb) Illustrate the various Linux networking commands."
+    },
+    {
+      "Qno": "14",
+      "Description": "a) Installation and configuration of DHCP Server in Windows.\nb) Setting up FTP Server and configure https Web Server."
+    },
+    {
+      "Qno": "15",
+      "Description": "a) Installation and configuration of DHCP Server in Windows.\nb) Demonstrate remote desktop access in Linux."
+    },
+    {
+      "Qno": "16",
+      "Description": "a) Installation and configuration of DHCP Server in Windows.\nb) Configuring an NFS Server & Client."
+    },
+    {
+      "Qno": "17",
+      "Description": "a) Installation and configuration of Mail Server.\nb) Installation & configuration of Linux OS."
+    },
+    {
+      "Qno": "18",
+      "Description": "a) Installation and configuration of Mail Server.\nb) Creating and managing user & group accounts in LINUX."
+    },
+    {
+      "Qno": "19",
+      "Description": "a) Installation and configuration of Mail Server.\nb) Setting up FTP Server and configure https Web Server."
+    },
+    {
+      "Qno": "20",
+      "Description": "a) Installation and configuration of Mail Server.\nb) Demonstrate remote desktop access in Linux."
+    },
+    {
+      "Qno": "21",
+      "Description": "a) Installation and configuration of Mail Server.\nb) Configuring an NFS Server & Client."
+    },
+    {
+      "Qno": "22",
+      "Description": "a) Installing & configuring a Virtual Machine.\nb) Installation & configuration of Linux OS."
+    },
+    {
+      "Qno": "23",
+      "Description": "a) Installing & configuring a Virtual Machine.\nb) Creating and managing user & group accounts in LINUX."
+    },
+    {
+      "Qno": "24",
+      "Description": "a) Installing & configuring a Virtual Machine.\nb) Illustrate the various Linux networking commands."
+    },
+    {
+      "Qno": "25",
+      "Description": "a) Installing & configuring a Virtual Machine.\nb) Demonstrate remote desktop access in Linux."
+    },
+    {
+      "Qno": "26",
+      "Description": "a) Installing & configuring a Virtual Machine.\nb) Configuring an NFS Server & Client."
+    },
+    {
+      "Qno": "27",
+      "Description": "a) Installation and configuration of DNS Server.\nb) Installation & configuration of Linux OS."
+    },
+    {
+      "Qno": "28",
+      "Description": "a) Installation and configuration of DNS Server.\nb) Creating and managing user & group accounts in LINUX"
+    },
+    {
+      "Qno": "29",
+      "Description": "a) Installation and configuration of DNS Server.\nb) Illustrate the various Linux networking commands."
+    },
+    {
+      "Qno": "30",
+      "Description": "a) Installation and configuration of DNS Server.\nb) Setting up FTP Server and configure https Web Server."
+    },
+    {
+      "Qno": "31",
+      "Description": "a) Installation and configuration of DNS Server.\nb) Configuring an NFS Server & Client."
+    },
+    {
+      "Qno": "32",
+      "Description": "a) Transfer files between systems in LAN using FTP Configuration.\nb) Installation & configuration of Linux OS."
+    },
+    {
+      "Qno": "33",
+      "Description": "a) Transfer files between systems in LAN using FTP Configuration.\nb) Creating and managing user & group accounts in LINUX."
+    },
+    {
+      "Qno": "34",
+      "Description": "a) Transfer files between systems in LAN using FTP Configuration.\nb) Illustrate the various Linux networking commands."
+    },
+    {
+      "Qno": "35",
+      "Description": "a) Transfer files between systems in LAN using FTP Configuration.\nb) Setting up FTP Server and configure https Web Server."
+    },
+    {
+      "Qno": "36",
+      "Description": "a) Transfer files between systems in LAN using FTP Configuration.\nb) Demonstrate remote desktop access in Linux."
+    }
+  ]
+}

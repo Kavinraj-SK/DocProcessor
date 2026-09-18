@@ -1,0 +1,45 @@
+{
+  "subj_code": "1122236241",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study of an On-site emergency plan."
+    },
+    {
+      "Qno": "2",
+      "Description": "Study of an off-site Emergency plan."
+    },
+    {
+      "Qno": "3",
+      "Description": "Reading and demonstration of excavation plan of a chemical plant / facility."
+    },
+    {
+      "Qno": "4",
+      "Description": "Mock drill of Assembling at the emergency assembling point."
+    },
+    {
+      "Qno": "5",
+      "Description": "Developing flowcharts for various possible emergency situations."
+    },
+    {
+      "Qno": "6",
+      "Description": "Demonstration of emergency preparedness in a chemical plant /facility."
+    },
+    {
+      "Qno": "7",
+      "Description": "Demonstration of emergency preparedness in the event of afire."
+    },
+    {
+      "Qno": "8",
+      "Description": "Demonstration on notifying the Government departments during an emergency."
+    },
+    {
+      "Qno": "9",
+      "Description": "Demonstration on warning the public during an emergency."
+    },
+    {
+      "Qno": "10",
+      "Description": "Demonstration on the preparedness for any disaster based on local geography."
+    }
+  ]
+}

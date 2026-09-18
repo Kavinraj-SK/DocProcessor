@@ -1,0 +1,41 @@
+{
+  "subj_code": "1020234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determine the flash and fire point of the lubricating oil by using Open cup apparatus and Closed cup apparatus and compare the value for the given sample."
+    },
+    {
+      "Qno": "3",
+      "Description": "Draw the valve timing diagram of single cylinder four stroke diesel engines."
+    },
+    {
+      "Qno": "4",
+      "Description": "Draw the port timing diagram of a single cylinder two stroke Petrol Engine"
+    },
+    {
+      "Qno": "5",
+      "Description": "Load test (Performance test) on Four Stroke Diesel Engine or Four Stroke Petrol Engine."
+    },
+    {
+      "Qno": "6",
+      "Description": "Morse test on multi-cylinder petrol engine."
+    },
+    {
+      "Qno": "7",
+      "Description": "Heat balance test on Four Stroke Diesel or Petrol Engine."
+    },
+    {
+      "Qno": "8",
+      "Description": "Volumetric efficiency of Air Compressor."
+    },
+    {
+      "Qno": "9",
+      "Description": "Determination of  COP of  Refrigeration System."
+    },
+    {
+      "Qno": "10",
+      "Description": "Find the Percentage of CO,CO2,O2,and amount of HC, NOx using Exhaustgas analyser."
+    }
+  ]
+}

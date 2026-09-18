@@ -1,0 +1,33 @@
+{
+  "subj_code": "1047233420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Write a simple C Program\na. Print your Name and Address\nb. Find Simple interest and Compound interest\nB) Write a program to prepare the total marks for N student by reading the Reg.No,Name,andMark1toMark6byusingarrayofstructures"
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Write a C program to swap two variable’s using\n( i) third variable and (ii) without using a third variable.\nB) Write a program using the function power(a,b)to calculate the value of a  Raised to b"
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Write a program to find the largest number between given three numbers\nB) Write a program to find the length of the given string using pointers"
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Writeaprogramtoprintallprimenumbersfrom1toN.\ni)  Write a Python Program to print prime numbers in the given range\nii)Write a Python Program to convert  decimal to binary and octal\nB) Write a program to find factorial of a number using recursion."
+    },
+    {
+      "Qno": "5",
+      "Description": "A)  i) Write a Python Program to check the given year is leap year or not.\nii)Write a Python Program to print Arm strong numbers between given range\nB)  Write a Python Program to make a simple calculator"
+    },
+    {
+      "Qno": "6",
+      "Description": "A) Write a Python program function for display calendar\nB) Write a Python Program to take a list of word sand return the length of the Long et one using string"
+    },
+    {
+      "Qno": "7",
+      "Description": "A) i) Write a Python Program using recursion to print ‘n’ terms in Fibonacci series.\nii)Write a Python Program using without recursion to print ‘n’ terms in Fibonacci series\nB) Write a Python Program to copy file contents from one file to another and Display\nnumber of words copied"
+    }
+  ]
+}

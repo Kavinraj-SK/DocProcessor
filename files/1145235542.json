@@ -1,0 +1,45 @@
+{
+  "subj_code": "1145235542",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Testing of electrical installation in the institute from electrical power meter output to the electrical output points (sockets), safety devices and their proper installations, loose connection. Earthing preparation and installation of proper earthing and its extension to electrical points."
+    },
+    {
+      "Qno": "2",
+      "Description": "Installation of small medical equipment in laboratories of the institute, Precautions to be taken."
+    },
+    {
+      "Qno": "3",
+      "Description": "Study of large medical equipment in hospital/nursing home(Special emphasis to x-ray machines)"
+    },
+    {
+      "Qno": "4",
+      "Description": "Installation of stabilizers, inverters, generators in laboratory of the institute Nursing  home/ hospital."
+    },
+    {
+      "Qno": "5",
+      "Description": "Maintenance schedule for different equipment and their records in a hospital."
+    },
+    {
+      "Qno": "6",
+      "Description": "Servicing of small medical machines/equipment in Laboratory"
+    },
+    {
+      "Qno": "7",
+      "Description": "How Does an Oxygen concentrator Work and its sample module"
+    },
+    {
+      "Qno": "8",
+      "Description": "Study about all corona and other virus related test and its equipment’s"
+    },
+    {
+      "Qno": "9",
+      "Description": "Precautionary measures and uses of microscope while its operation."
+    },
+    {
+      "Qno": "10",
+      "Description": "To find out the concentration of Na +,K+ and Ca +of given blood  sample."
+    }
+  ]
+}

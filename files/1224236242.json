@@ -1,0 +1,53 @@
+{
+  "subj_code": "1224236242",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Set the EYC in automatic warp winding to improve the yarn quality."
+    },
+    {
+      "Qno": "2",
+      "Description": "Set the tension elements in weft winding to minimize end breakage."
+    },
+    {
+      "Qno": "3",
+      "Description": "Set the tension elements in warping to minimize end breakage."
+    },
+    {
+      "Qno": "4",
+      "Description": "Prepare maintenance chart in warping department."
+    },
+    {
+      "Qno": "5",
+      "Description": "Practise the drawing-in process"
+    },
+    {
+      "Qno": "6",
+      "Description": "Prepare the sizing paste recipe for cotton and synthetic yarn."
+    },
+    {
+      "Qno": "7",
+      "Description": "Prepare maintenance chart in sizing department."
+    },
+    {
+      "Qno": "8",
+      "Description": "Test the viscosity of the size paste for the given size recipe."
+    },
+    {
+      "Qno": "9",
+      "Description": "Take a snap study at regular intervals and find the stoppage of looms."
+    },
+    {
+      "Qno": "10",
+      "Description": "Take warp and weft breakage study for10 looms."
+    },
+    {
+      "Qno": "11",
+      "Description": "Inspect the fabric for 4 point and 10 point system."
+    },
+    {
+      "Qno": "12",
+      "Description": "Set the standards to control hard waste and maintain the accessories in weaving department."
+    }
+  ]
+}

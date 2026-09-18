@@ -1,0 +1,45 @@
+{
+  "subj_code": "2022235620",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Perform drilling and tapping operations using a drilling machine on the given work piece."
+    },
+    {
+      "Qno": "2",
+      "Description": "Perform drilling and counterboring operations using a drilling machine on the given work piece."
+    },
+    {
+      "Qno": "3",
+      "Description": "Make a dovetail using a shaping machine on the given work piece."
+    },
+    {
+      "Qno": "4",
+      "Description": "Convert a round section to a square section using a milling machine on the given work piece."
+    },
+    {
+      "Qno": "5",
+      "Description": "Cut a spur gear using a milling machine by the simple indexing method on the given work piece."
+    },
+    {
+      "Qno": "6",
+      "Description": "Cut a helical gear using a milling machine on the given work piece."
+    },
+    {
+      "Qno": "7",
+      "Description": "Make a slot cut using a milling machine on the given work piece."
+    },
+    {
+      "Qno": "8",
+      "Description": "Make a progressive type plug gauge using a cylindrical grinding machine on the given work piece"
+    },
+    {
+      "Qno": "9",
+      "Description": "Grind a turning tool using a tool and cutter grinder on the given work piece."
+    },
+    {
+      "Qno": "10",
+      "Description": "Produce plain surfaces (four surfaces) using a surface grinder on the given work piece."
+    }
+  ]
+}

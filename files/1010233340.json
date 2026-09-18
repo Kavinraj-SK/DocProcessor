@@ -1,0 +1,65 @@
+{
+  "subj_code": "1010233340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determine the distance between two ground stations with the help of a chain. (Direct ranging)"
+    },
+    {
+      "Qno": "2",
+      "Description": "Calculate the area bounded by the given points by chain triangulation."
+    },
+    {
+      "Qno": "3",
+      "Description": "Find the included angle of the given closed traverse by using a compass (Minimum5 stations)."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine the elevations of given points (Minimum 6 points) by conducting fly levelling with Height of collimation method."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determine the elevations of given points (Minimum 6 points) by conducting fly levelling with Rise and fall method."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determination of distance between two points when their bases are accessible,   using   Theodolite   –   Measuring   Horizontal   angles   by repetition method and distances from a Theodolite station."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determination of distance between two points when their bases are inaccessible,   using   Theodolite   –   Measuring   Horizontal   angles   by reiteration method from a baseline."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determine the elevation of an object when the base is accessible by trigonometrical levelling."
+    },
+    {
+      "Qno": "9",
+      "Description": "8)\n9)  Determine the elevation of an object when the base is inaccessible by single plane method.\n10)"
+    },
+    {
+      "Qno": "10",
+      "Description": "Determine the constants of the given tacheometer."
+    },
+    {
+      "Qno": "11",
+      "Description": "Determine the gradient between two points by stadia tacheometry."
+    },
+    {
+      "Qno": "12",
+      "Description": "Calculate the area of the given irregular field by using the Trapezoidal"
+    },
+    {
+      "Qno": "13",
+      "Description": "Calculate the area of a given irregular field by using Simpson’s rule."
+    },
+    {
+      "Qno": "14",
+      "Description": "Determine the Horizontal distance, slope distance, height, and horizontal and vertical angle of given points using Total Station. (Minimum 5 points)"
+    },
+    {
+      "Qno": "15",
+      "Description": "Find the coordinates of closed traverse stations using the Total Station and determine the area of the traverse."
+    }
+  ]
+}

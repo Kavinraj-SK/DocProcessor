@@ -1,0 +1,45 @@
+{
+  "subj_code": "1026235543",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Prepare the given metallic specimen using Electrolytic polishing and Electrolytic Etching techniques."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determine the inclusion rating of the given steel specimen as per ASTM E45 standard."
+    },
+    {
+      "Qno": "3",
+      "Description": "Measure the ASTM Grain size number (G) of the given specimen."
+    },
+    {
+      "Qno": "4",
+      "Description": "Examine the given Austempered low alloy steel under microscope and draw the micro-structure."
+    },
+    {
+      "Qno": "5",
+      "Description": "Examine the given Tool steel specimen under microscope draw the micro-structure.."
+    },
+    {
+      "Qno": "6",
+      "Description": "Observe and identify the microstructure of Hadfield (Mn) steel specimen draw the micro-structure."
+    },
+    {
+      "Qno": "7",
+      "Description": "Compare the microstructure of cast and wrought stainless steel specimens draw the micro-structure."
+    },
+    {
+      "Qno": "8",
+      "Description": "Study the given cast Al–Si eutectic alloy specimen draw the micro-structure."
+    },
+    {
+      "Qno": "9",
+      "Description": "Examine the Titanium alloy specimen draw the micro-structure."
+    },
+    {
+      "Qno": "10",
+      "Description": "Observe the microstructure of the given Magnesium or Nickel alloy draw the micro-structure.."
+    }
+  ]
+}

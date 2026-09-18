@@ -1,0 +1,49 @@
+{
+  "subj_code": "1026234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determine the width of Weld zone in welded specimen."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determine the width of HAZ in welded specimen."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determine the microstructure of Base metal in Low carbon steel welded specimen."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine the microstructure of HAZ in low carbon steel welded specimen."
+    },
+    {
+      "Qno": "5",
+      "Description": "Determine the microstructure of UAZ in low carbon steel welded specimen."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determine the microstructure of Base metal in medium carbon steel welded specimen."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determine the microstructure of HAZ in medium carbon steel welded specimen."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determine the microstructure of UAZ in medium carbon steel welded specimen."
+    },
+    {
+      "Qno": "9",
+      "Description": "Determine the microstructure of Base metal in high carbon steel welded specimen."
+    },
+    {
+      "Qno": "10",
+      "Description": "Determine the microstructure of HAZ in high carbon steel welded specimen."
+    },
+    {
+      "Qno": "11",
+      "Description": "Determine the microstructure of UAZ in high carbon steel welded specimen."
+    }
+  ]
+}

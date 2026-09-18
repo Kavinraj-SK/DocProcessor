@@ -1,0 +1,37 @@
+{
+  "subj_code": "1030234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Perform Dismantling, Identification of parts, Technical Checking, Re-assembling and\nTesting of Automatic Iron box."
+    },
+    {
+      "Qno": "2",
+      "Description": "Perform Dismantling, Identification of parts, Technical Checking, Re-assembling and\nTesting of Water Heater."
+    },
+    {
+      "Qno": "3",
+      "Description": "Perform Dismantling, Identification of parts, Technical Checking, Re-assembling and\nTesting of Ceiling Fan."
+    },
+    {
+      "Qno": "4",
+      "Description": "Perform Dismantling, Identification of parts, Technical Checking, Re-assembling and\nTesting of Mixer Grinder."
+    },
+    {
+      "Qno": "5",
+      "Description": "Perform Dismantling, Identification of parts, Technical Checking, Re-assembling and\nTesting of Wet Grinder."
+    },
+    {
+      "Qno": "6",
+      "Description": "Perform Dismantling, Identification of parts, Technical Checking, Re-assembling and\nTesting of Portable Induction Stove."
+    },
+    {
+      "Qno": "7",
+      "Description": "Perform Dismantling, Identification of parts, Technical Checking, Re-assembling and\nTesting of Microwave Oven."
+    },
+    {
+      "Qno": "8",
+      "Description": "Perform Installation of  OFF Grid Solar PV System and Test its Performance."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1020233440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "VOLTAGE, CURRENT AND POWER MEASUREMENT IN SINGLE PHASE AC CIRCUIT.\nActivities to Perform:\na) Conduct an experiment to measure voltage, current and power in a single phase a.c circuit by using Voltmeter, Ammeter and Wattmeter respectively for different loads.\nb)  Repeat the same experiment by replacing above meters with a single Digital Power Monitor.\nc) Compare and Discuss the observations Repeat the same experiment by replacing above meters with a single Digital Power Monitor.Compare and Discuss the observations"
+    },
+    {
+      "Qno": "2",
+      "Description": "CONSTRUCT LED CIRCUIT WITH CURRENT LIMITING RESISTOR\nActivities to Perform:\na)  From the voltage and current rating of the given LED, calculate the value of the resistor to be connected in series with it.\nb)  Construct and test a simple circuit using DC Source, Resistor and LED.\nc)  Construct and test a simple circuit using DC Source, Resistor and\nRGB LED."
+    },
+    {
+      "Qno": "3",
+      "Description": "CONSTRUCT DC REGULATED POWER SUPPLY UNIT\nActivities to Perform:\na)  Construct 5V or 12V DC Regulated Power Supply circuit using Bridge Rectiﬁer, Capacitor Filter and IC Voltage Regulator.\nb)  Observe the voltage at various stages of the circuit.\nc) Discuss the function of each stage of the RPS unit."
+    },
+    {
+      "Qno": "4",
+      "Description": "DEMONSTRATE THE WORKING OF MCB AND ELCB\nActivities to Perform:\na)  Connect Single Pole MCB with Load bank and Test the Tripping Operation for over load and/or Short Circuit fault.\nb)  Connect ELCB with Lamp Load and Test the Tripping Operation for Earth fault."
+    },
+    {
+      "Qno": "5",
+      "Description": "LOGIC GATE USING ICs\nActivities to Perform:\na)  Construct the circuit and verify the Truth Tables of AND, OR, NOT, NAND, NOR, EX-OR Logic gates by using corresponding Logic Gate ICs.\nb)  Compare and Discuss the observations."
+    },
+    {
+      "Qno": "6",
+      "Description": "LOAD TEST ON DC SHUNT MOTOR\nActivity to Perform:\na)  Conduct Load Test on given DC Shunt Motor\nb)  Discuss the starting current and No load current of the Motor\nc) Plot the performance Characteristics."
+    },
+    {
+      "Qno": "7",
+      "Description": "LOAD TEST ON THREE PHASE INDUCTION MOTOR\nActivity to Perform:\na)  Conduct Load Test on given three phase squirrel cage Induction Motor.\nb)  Discuss the starting current and No load current of the Motor\nc) Plot the performance Characteristics."
+    },
+    {
+      "Qno": "8",
+      "Description": "SPEED CONTROL OF INDUCTION MOTOR USING VFD\nActivity to Perform:\na)  Make connections and Control the speed of the given single phase or three phase squirrel cage induction motor by VFD.\nb)  Discuss the features and advantages of VFD."
+    },
+    {
+      "Qno": "9",
+      "Description": "DIRECTION CONTROL OF DC MOTOR USING DRIVER IC L293D\nActivity to Perform:\na)  Interface L293D Motor Driver IC with Arduino to control Direction of rotation of Two DC Motors.\nb)  Execute the Arduino program and observe the direction of rotation of Motors."
+    },
+    {
+      "Qno": "10",
+      "Description": "TESTING OF STEPPER MOTOR DRIVE\nActivity to Perform:\na)  Interface suitable stepper motor driver with stepper motor.\nb) Test the operation of the driver circuit by observing the movement of the stepper motor."
+    }
+  ]
+}

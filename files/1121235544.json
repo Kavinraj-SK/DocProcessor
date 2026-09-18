@@ -1,0 +1,37 @@
+{
+  "subj_code": "1121235544",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Determination of relative humidity by whirling hygrometer."
+    },
+    {
+      "Qno": "2",
+      "Description": "Study of self-contain breathing apparatus Proto-Mark IV."
+    },
+    {
+      "Qno": "3",
+      "Description": "Study & layout of Cap Lamp room."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of cooling power of the mine air by using kata thermometer."
+    },
+    {
+      "Qno": "5",
+      "Description": "Measurement of air velocity, quantity and pressure in a duct by using a pit top tube."
+    },
+    {
+      "Qno": "6",
+      "Description": "Study and sketch of air crossing, regulator, Ventilating door, airlock at pit top etc."
+    },
+    {
+      "Qno": "7",
+      "Description": "Study of different types of flame safety lamps and their use for determining CH4% in a gassy mine."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of CO gas in mine working."
+    }
+  ]
+}

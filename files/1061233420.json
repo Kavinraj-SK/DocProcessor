@@ -1,0 +1,45 @@
+{
+  "subj_code": "1061233420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Identify the fibres by burning test"
+    },
+    {
+      "Qno": "2",
+      "Description": "Identify the fibres by solvent test"
+    },
+    {
+      "Qno": "3",
+      "Description": "Estimate the total hardness and pH of given water"
+    },
+    {
+      "Qno": "4",
+      "Description": "Estimate the purity of sulphuric acid"
+    },
+    {
+      "Qno": "5",
+      "Description": "Estimate the purity of hydrochloric acid"
+    },
+    {
+      "Qno": "6",
+      "Description": "Estimate the purity of sodium carbonate"
+    },
+    {
+      "Qno": "7",
+      "Description": "Estimate the purity of sodium hydroxide"
+    },
+    {
+      "Qno": "8",
+      "Description": "Estimate the strength of given hydrogen peroxide"
+    },
+    {
+      "Qno": "9",
+      "Description": "Analyze the individual composition of fibres in blends – Polyester / Cotton fabric"
+    },
+    {
+      "Qno": "10",
+      "Description": "Analyze the individual composition of fibres in blends – Polyester / Wool fabric"
+    }
+  ]
+}

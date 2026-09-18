@@ -1,0 +1,41 @@
+{
+  "subj_code": "2060233420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Examination of the longitudinal views of the given natural fibers cotton, silk, wool and jute by means of a microscope."
+    },
+    {
+      "Qno": "2",
+      "Description": "Examination of the longitudinal views of the given synthetic fibers viscose rayon, nylon, polyester and acrylic by means of a microscope."
+    },
+    {
+      "Qno": "3",
+      "Description": "Examination of the solubility of the given natural fibers cotton, silk, wool and jute with suitable solvents."
+    },
+    {
+      "Qno": "4",
+      "Description": "Examination of the solubility of the given synthetic fibers viscose rayon, nylon, polyester and acrylic with suitable solvents."
+    },
+    {
+      "Qno": "5",
+      "Description": "Identification of the given natural fibres cotton, silk, wool and jute by burning tests."
+    },
+    {
+      "Qno": "6",
+      "Description": "Identification of the given synthetic fibers Viscose rayon, Polyester, Nylon and Acrylic by burning tests."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determination of the blend proportions of the given spun yarns P/C, P/V."
+    },
+    {
+      "Qno": "8",
+      "Description": "Determination of the blend proportions of the given fabric P/C, P/V."
+    },
+    {
+      "Qno": "9",
+      "Description": "Examination of longitudinal view of texturized yarn."
+    }
+  ]
+}

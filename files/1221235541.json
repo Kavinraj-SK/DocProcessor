@@ -1,0 +1,53 @@
+{
+  "subj_code": "1221235541",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Test and service the Refrigerator"
+    },
+    {
+      "Qno": "2",
+      "Description": "Faults diagnosis and servicing of Window air conditioner"
+    },
+    {
+      "Qno": "3",
+      "Description": "Faults diagnosis and servicing of Split air conditioner"
+    },
+    {
+      "Qno": "4",
+      "Description": "Dismantling and assembling of window air conditioner."
+    },
+    {
+      "Qno": "5",
+      "Description": "Dismantling and assembling of split air conditioner."
+    },
+    {
+      "Qno": "6",
+      "Description": "Faults diagnosis and servicing of Water-cooled condenser"
+    },
+    {
+      "Qno": "7",
+      "Description": "Faults diagnosis and servicing of Air-cooled condenser"
+    },
+    {
+      "Qno": "8",
+      "Description": "Servicing and maintenance procedure of Cooling tower"
+    },
+    {
+      "Qno": "9",
+      "Description": "Servicing and maintenance procedure of Bottle cooler"
+    },
+    {
+      "Qno": "10",
+      "Description": "Servicing and maintenance procedure of Water cooler"
+    },
+    {
+      "Qno": "11",
+      "Description": "Servicing and maintenance procedure of Deep freezer"
+    },
+    {
+      "Qno": "12",
+      "Description": "Servicing and maintenance procedure of AHU in Central plant"
+    }
+  ]
+}

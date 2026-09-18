@@ -1,0 +1,45 @@
+{
+  "subj_code": "1027234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Develop a specimen ‘V’ block using a shaping machine."
+    },
+    {
+      "Qno": "2",
+      "Description": "Develop a specimen dovetail using a shaping machine"
+    },
+    {
+      "Qno": "3",
+      "Description": "Develop a specimen groove cut using a shaping machine."
+    },
+    {
+      "Qno": "4",
+      "Description": "Develop a specimen key way – slot using a shaping machine"
+    },
+    {
+      "Qno": "5",
+      "Description": "Develop a specimen round to hexagon in milling machine"
+    },
+    {
+      "Qno": "6",
+      "Description": "Develop a specimen spur gear using milling machine."
+    },
+    {
+      "Qno": "7",
+      "Description": "Develop a specimen progressive type plug gauge using cylindrical grinding machine"
+    },
+    {
+      "Qno": "8",
+      "Description": "Develop a specimen plain surface using a surface grinder"
+    },
+    {
+      "Qno": "9",
+      "Description": "Develop a specimen through hole drilling using a drilling machine"
+    },
+    {
+      "Qno": "10",
+      "Description": "Develop a specimen through hole drilling with countersunk using a drilling machine"
+    }
+  ]
+}

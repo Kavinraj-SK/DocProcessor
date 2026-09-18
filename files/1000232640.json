@@ -1,0 +1,37 @@
+{
+  "subj_code": "1000232640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "To Estimate the total hardness of a given water sample in ppm using EDTA. A Standard Solution of Hard Water of strength 0.01 M and EDTA solution of unknown strength is supplied as link solution.\nகொடுக்கப்பட்டுள்ள நீரின் மொத்தகடினத்தன்மையை EDTA முறையில் ppm ல் கணக்கிடுக. 0.01 M திட்ட கடினநீரும், திறன் தெரியாத EDTA இணைப்புக்கரைசலாகவும் கொடுக்கப்பட்டுள்ளது"
+    },
+    {
+      "Qno": "2",
+      "Description": "Systematic analysis of acid Report the three Acid radicals present in the three given simple salts. Give their confirmatory test.\nகொடுக்கப்பட்டுள்ள மூன்று உப்புகளில் உள்ள மூன்று அமில உறுப்புகளை கண்டறிந்து அதன் உறுதிப்படுத்தும் சோதனையை கூறுக."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determine the pH value of 3 samples solutions and calculate [H+] ion concentration of these solutions. Also determine    the TDS values of the given 3 sample solutions by using TDS meter.\nகொடுக்கப்பட்டுள்ள 3 கரைசல்களின் pH மதிப்பு மற்றும் [H+ ] அயனியின் செறிவை காண்க. மேலும் கொடுக்கப்பட்டுள்ள 3 கரைசல்களின் TDS மதிப்பை TDS மீட்டரை பயன்படுத்தி கணக்கிடுக."
+    },
+    {
+      "Qno": "4",
+      "Description": "Report the three metallic pollutants present in the given Industrial effluent. Give their sources and Harmful effects.\nகொடுக்கப்பட்டுள்ள தொழிற்சாலை கழிவுநீரில் உள்ள மூன்று உலோக மாசுக்களை கண்டறிந்து அதன் உற்பத்தியாகும் இடங்கள் மற்றும் தீய விளைவுகளை கூறு."
+    },
+    {
+      "Qno": "5",
+      "Description": "Estimate the amount of oxalic acid present in whole of the given solution. A standard solution of Ferrous sulphate (FeSO4) of strength 0.1 N and an approximately decinormal solution of Potassium permanganate (KMnO4) are supplied.\nகொடுக்கப்பட்டுள்ள கரைசலில் கரைந்துள்ள ஆக்ஸாலிக் அமிலத்தின் எடையை கண்டறிதல். 0.1 N பெரஸ் சல்பேட் (FeSO4) கரைசலும், தோராய திறன் கொண்ட பொட்டாசியம் பெர்மாங்கனேட் (KMnO4) இணைப்பு கரைசலாகவும் கொடுக்கப்பட்டுள்ளது."
+    },
+    {
+      "Qno": "6",
+      "Description": "Determine the total alkalinity of a given water sample by titrating against Hydrochloric acid of normality of 0.01N.\n0.01 N திறன் கொண்ட ஹைட்ரோ குளோரிக் அமிலத்துடன் கொடுக்கப்பட்ட கடினநீரை தரம் பார்த்து மொத்த கடினதன்மையை காண்க."
+    },
+    {
+      "Qno": "7",
+      "Description": "Determine the residual chlorine present in one litre of the given water sample. A standard solution of Potassium dichromate K2Cr2O7 of strength 0.1 N and an approximately decinormal solution of Sodium thiosulphate (Na2S2O3) are supplied.\nநீரில் கரைந்துள்ள எஞ்சிய குளோரின் அளவை மதிப்பிடுக. 0.1 N திட்ட பொட்டாசியம் டைகுரோமேட் (K₂Cr2O7) கரைசல் மற்றும் சோடியம் தயோசல்பேட் (Na₂S₂O3) இணைப்பு கரைசலாக கொடுக்கப்பட்டுள்ளது."
+    },
+    {
+      "Qno": "8",
+      "Description": "To Estimate the amount of Copper Present in whole of the given solution. A standard Solution of Zinc Sulphate (ZnSO4) of strength 0.1 N and EDTA of unknown strength is supplied as link solution.\nகொடுக்கப்பட்டுள்ள கரைசலில் கரைந்துள்ள தாமிரத்தின் எடையை கண்டறிதல். 0.1N துத்தநாக சல்பேட் (ZnSO4) கரைசலும், தோராய திறன் கொண்ட EDTA இணைப்பு கரைசலாகவும் கொடுக்கப்பட்டுள்ளது."
+    }
+  ]
+}

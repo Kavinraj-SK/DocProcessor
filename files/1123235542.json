@@ -1,0 +1,61 @@
+{
+  "subj_code": "1123235542",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study of Robot / Study of robot simulation software ."
+    },
+    {
+      "Qno": "2",
+      "Description": "Pick and place of objects (No. of objects to be specified- 6)"
+    },
+    {
+      "Qno": "3",
+      "Description": "Pick and stack of objects (No. of objects to be specified- 6)"
+    },
+    {
+      "Qno": "4",
+      "Description": "Arc welding practice (Length. of weld to be specified)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Assembling practice (Simple assembling)"
+    },
+    {
+      "Qno": "6",
+      "Description": "Profile cutting practice (combination of lines and arcs)"
+    },
+    {
+      "Qno": "7",
+      "Description": "Machine loading and unloading practice"
+    },
+    {
+      "Qno": "8",
+      "Description": "Operation of a motor using ‘AND’ logic control."
+    },
+    {
+      "Qno": "9",
+      "Description": "Operation of a motor using ‘OR’ control."
+    },
+    {
+      "Qno": "10",
+      "Description": "On-Delay control of a motor and Off –Delay control of a motor."
+    },
+    {
+      "Qno": "11",
+      "Description": "Automatic operation of a Double acting cylinder-single cycle."
+    },
+    {
+      "Qno": "12",
+      "Description": "Automatic operation of a Double acting cylinder-single cycle - forward, time delay return."
+    },
+    {
+      "Qno": "13",
+      "Description": "Automatic operation of Double acting cylinder-Multi cycle."
+    },
+    {
+      "Qno": "14",
+      "Description": "Sequential operation of double acting cylinder and a motor."
+    }
+  ]
+}

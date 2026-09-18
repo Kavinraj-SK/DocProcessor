@@ -1,0 +1,41 @@
+{
+  "subj_code": "2101236440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Sampling position of Leather for chemical testing of Leather."
+    },
+    {
+      "Qno": "2",
+      "Description": "Analysis of a Liquor/Extracts\na) Moisture\nb) Cr2O3 Content\nc) Basicity\nd) pH of Chrome liquor"
+    },
+    {
+      "Qno": "3",
+      "Description": "Qualitative and Quantitative analysis of Vegetable Tanning Materials."
+    },
+    {
+      "Qno": "4",
+      "Description": "Determination of Acid Value and Saponification Value of oil."
+    },
+    {
+      "Qno": "5",
+      "Description": "Analysis of Various Type of Leather for Moisture content."
+    },
+    {
+      "Qno": "6",
+      "Description": "Analysis of Leather for water soluble and insoluble ash."
+    },
+    {
+      "Qno": "7",
+      "Description": "Analysis of total ash content in chrome and vegetable tanned leathers."
+    },
+    {
+      "Qno": "8",
+      "Description": "Analysis of Cr2O3 content in chrome tanned leather."
+    },
+    {
+      "Qno": "9",
+      "Description": "Analysis of Tannin and Non Tannin of Vegetable Tanned Leathers."
+    }
+  ]
+}

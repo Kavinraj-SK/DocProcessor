@@ -1,0 +1,61 @@
+{
+  "subj_code": "1220234641",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Carry out the following operations.\na. Direct operation of a single Acting cylinder using pneumatic kit.\nb. Direct operation of Double Acting cylinder using hydraulic kit"
+    },
+    {
+      "Qno": "2",
+      "Description": "Carry out the following operations.\nOperations of Single and double Acting Cylinder controlled from two different positions using shuttle valve/quick exhaust valve."
+    },
+    {
+      "Qno": "3",
+      "Description": "Carry out the following operations.\na. Direct operation of Double Acting cylinder.\nb. Direct operation of hydraulic Motor."
+    },
+    {
+      "Qno": "4",
+      "Description": "Carry out the following operations.\na. Speed control of Double Acting cylinder - Using metering-in and metering-out control.\nb. Speed control Hydraulic Motor - Using metering-in and metering-out control."
+    },
+    {
+      "Qno": "5",
+      "Description": "Carry out the following operations.\nAutomatic operation of two Double Acting cylinder in following sequencing using Pressure sequence valve"
+    },
+    {
+      "Qno": "6",
+      "Description": "Carry out the following operations.\nOperation of a Double Acting cylinder using solenoid operated Directional control valve."
+    },
+    {
+      "Qno": "7",
+      "Description": "Carry out the following operations.\nSpeed control of Double Acting cylinder using metering in and metering out circuit."
+    },
+    {
+      "Qno": "8",
+      "Description": "Carry out the following operations.\nAutomatic operation of Double Acting cylinder in multi cycles-Using limit switches and memory valves"
+    },
+    {
+      "Qno": "9",
+      "Description": "Carry out the following operations.\na. Direct operation of a Pneumatic cylinder using solenoid valve and latch circuit.\nb. Direct operation of a hydraulic cylinder using solenoid valve and latch circuit."
+    },
+    {
+      "Qno": "10",
+      "Description": "Carry out the following operations.\na. Operation of a pneumatic/hydraulic cylinder using AND logic control.\nb. Operation of a pneumatic/hydraulic cylinder using OR logic control."
+    },
+    {
+      "Qno": "11",
+      "Description": "Carry out the following operations.\na. On-delay timer control of pneumatic/hydraulic cylinder\nb. Off-delay timer control of pneumatic/hydraulic cylinder."
+    },
+    {
+      "Qno": "12",
+      "Description": "Carry out the following operations.\nAutomatic operation of Two Double Acting pneumatic cylinder in multi cycles Using proximities in the following sequence\ni.)  A+B+A-B   ii) A-B+A+B"
+    },
+    {
+      "Qno": "13",
+      "Description": "Carry out the following operations.\nWire and test the sequential operation of solenoid valve and a motor for tank filling operation using PLC."
+    },
+    {
+      "Qno": "14",
+      "Description": "Carry out the following operations.\nDevelop and execute the ladder logic to interface PLC with conveyor model for counting the object moving in the conveyer"
+    }
+  ]
+}

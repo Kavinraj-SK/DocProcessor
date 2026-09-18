@@ -1,0 +1,45 @@
+{
+  "subj_code": "1122235340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Explain the Identification of Mechanical Hazard in a Working environment"
+    },
+    {
+      "Qno": "2",
+      "Description": "Discuss about Identification of Physical Hazard in a Working environment."
+    },
+    {
+      "Qno": "3",
+      "Description": "Discuss about Identification  of Chemical Hazard in a Working environment"
+    },
+    {
+      "Qno": "4",
+      "Description": "Explain the Identification Electrical Hazard in a Working environment"
+    },
+    {
+      "Qno": "5",
+      "Description": "Explain the Identification Fire Hazard in a Working environment"
+    },
+    {
+      "Qno": "6",
+      "Description": "Discuss about Identification of manual Material handling Hazard in a Working environment."
+    },
+    {
+      "Qno": "7",
+      "Description": "Discuss about Identification of Mechanical material handling Hazard in a Working environment"
+    },
+    {
+      "Qno": "8",
+      "Description": "Discuss about Identification of Hazard in a Movement of people and vehicles in a working environment."
+    },
+    {
+      "Qno": "9",
+      "Description": "Explain the Identification of Biological Hazard in a Working environment."
+    },
+    {
+      "Qno": "10",
+      "Description": "Explain the Identification of psychological hazard in a Working environment."
+    }
+  ]
+}

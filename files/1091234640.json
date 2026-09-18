@@ -1,0 +1,33 @@
+{
+  "subj_code": "1091234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Simulation of open and closed loop systems"
+    },
+    {
+      "Qno": "2",
+      "Description": "Simulation of Electrical and Mechanical Systems"
+    },
+    {
+      "Qno": "3",
+      "Description": "Simulation of plots diagram reduction technique"
+    },
+    {
+      "Qno": "4",
+      "Description": "Computing transfer function using signal flow graph technique"
+    },
+    {
+      "Qno": "5",
+      "Description": "Time analysis of second order system."
+    },
+    {
+      "Qno": "6",
+      "Description": "Frequency analysis of second order system."
+    },
+    {
+      "Qno": "7",
+      "Description": "Stability analysis of system using rout hwlite analysis."
+    }
+  ]
+}

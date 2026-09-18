@@ -1,0 +1,57 @@
+{
+  "subj_code": "1143235341",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "i) Measure the dimensions of ground MS flat /Cylindrical bush using Vernier Caliper.\nii) Compare the results with Digital Vernier Caliper."
+    },
+    {
+      "Qno": "2",
+      "Description": "i) Measure the diameter of a wire using micrometer\nii) Compare the results with a digital Outside micrometer"
+    },
+    {
+      "Qno": "3",
+      "Description": "i) Measure the inside diameter of the bore of a bush cylindrical component using Inside micrometer\nii) Compare the results with digital inside micrometer"
+    },
+    {
+      "Qno": "4",
+      "Description": "Measure the thickness of ground MS plates using slip gauges"
+    },
+    {
+      "Qno": "5",
+      "Description": "Measure the height of gauge blocks or parallel bars using vernier height gauge."
+    },
+    {
+      "Qno": "6",
+      "Description": "Find out the measurement of a given component and Compare with a standard component using a mechanical comparator and slip gauge"
+    },
+    {
+      "Qno": "7",
+      "Description": "To measurement of given component and Comparison  with a standard component using a pneumatic comparator"
+    },
+    {
+      "Qno": "8",
+      "Description": "Measure the angle of a V-block/Taper Shank of Drill / Dove tail using universal bevel protractor"
+    },
+    {
+      "Qno": "9",
+      "Description": "Measure the angle of the machined surface using sine bar with slip gauges"
+    },
+    {
+      "Qno": "10",
+      "Description": "Measurement of  the geometrical dimensions of V-Thread using screw thread\nmicrometer"
+    },
+    {
+      "Qno": "11",
+      "Description": "Measurement of  geometrical dimensions of  a spur gear using gear tooth vernier caliper"
+    },
+    {
+      "Qno": "12",
+      "Description": "Detection of cracks in a given specimen using liquid penetrant test"
+    },
+    {
+      "Qno": "13",
+      "Description": "Detection  of cracks in a given specimen using magnetic particle test"
+    }
+  ]
+}

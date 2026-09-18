@@ -1,0 +1,45 @@
+{
+  "subj_code": "1074234520",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Draw the Mill Tandem by using Auto cad"
+    },
+    {
+      "Qno": "2",
+      "Description": "Draw the Vertical juice heater by using Auto cad"
+    },
+    {
+      "Qno": "3",
+      "Description": "Draw the Film type sulphur burner by using Auto cad"
+    },
+    {
+      "Qno": "4",
+      "Description": "Draw the juice sulphitor by using Auto Cad"
+    },
+    {
+      "Qno": "5",
+      "Description": "Draw the juice clarifier by using Auto Cad"
+    },
+    {
+      "Qno": "6",
+      "Description": "Draw the Rotary Vacuum Filter by using Auto Cad."
+    },
+    {
+      "Qno": "7",
+      "Description": "Draw the Evaporator by using Auto Cad"
+    },
+    {
+      "Qno": "8",
+      "Description": "Draw the PAN by using Auto Cad."
+    },
+    {
+      "Qno": "9",
+      "Description": "Draw the Crystallizer by using Auto Cad."
+    },
+    {
+      "Qno": "10",
+      "Description": "Draw the Centrifugal by using Auto Cad."
+    }
+  ]
+}

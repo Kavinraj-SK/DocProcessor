@@ -1,0 +1,45 @@
+{
+  "subj_code": "1142235320",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Experiment on collection of blood and Preparation of Serum and Plasma."
+    },
+    {
+      "Qno": "2",
+      "Description": "Estimation of True glucose by Glucose oxidase (GOD) method."
+    },
+    {
+      "Qno": "3",
+      "Description": "Estimation of Total Protein by Biuret method."
+    },
+    {
+      "Qno": "4",
+      "Description": "Estimation of Blood Urea by Diacetyl monoxime – Thiosemicarbazide (DAM-TSC method)"
+    },
+    {
+      "Qno": "5",
+      "Description": "Estimation of Total Cholesterol by modified Zak method and Sacket Method."
+    },
+    {
+      "Qno": "6",
+      "Description": "Estimation of Triglycerides by Enzymatic method."
+    },
+    {
+      "Qno": "7",
+      "Description": "Estimation of HDL/LDL cholesterol."
+    },
+    {
+      "Qno": "8",
+      "Description": "Estimation of serum creatinine by Alkaline picrate method."
+    },
+    {
+      "Qno": "9",
+      "Description": "Estimation of serum Bilirubin by Malloy & Evelyn method."
+    },
+    {
+      "Qno": "10",
+      "Description": "Estimation of uric acid in blood."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "subj_code": "1026233420",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Preparation of Green sand for Moulding"
+    },
+    {
+      "Qno": "2",
+      "Description": "Preparation of Mould using Cube Pattern"
+    },
+    {
+      "Qno": "3",
+      "Description": "Preparation of Mould using Flange Pattern"
+    },
+    {
+      "Qno": "4",
+      "Description": "Preparation of Mould using Stepped Pulley Pattern"
+    },
+    {
+      "Qno": "5",
+      "Description": "Preparation of Mould using Bearing Top Pattern."
+    },
+    {
+      "Qno": "6",
+      "Description": "Preparation of Mould using End Plate Pattern"
+    },
+    {
+      "Qno": "7",
+      "Description": "Preparation of Mould using Gear Wheel Pattern"
+    },
+    {
+      "Qno": "8",
+      "Description": "Preparation of Mould using Bend Pipe Pattern"
+    },
+    {
+      "Qno": "9",
+      "Description": "Preparation of Mould using T–Pipe Pattern."
+    },
+    {
+      "Qno": "10",
+      "Description": "Preparation of Mould using Dumb-Bells Pattern"
+    },
+    {
+      "Qno": "11",
+      "Description": "Preparation of Mould using Loose-Piece Pattern"
+    },
+    {
+      "Qno": "12",
+      "Description": "Preparation of Core (T- Core / Straight core)"
+    }
+  ]
+}

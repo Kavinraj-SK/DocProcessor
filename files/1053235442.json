@@ -1,0 +1,25 @@
+{
+  "subj_code": "1053235442",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) Studyofsettingupananaloganddigitallinkusingopticalfiber.\nb) PlotthetranscendentalequationsfortheTEmodesinasymmetricstepindexplannerwaveguide."
+    },
+    {
+      "Qno": "2",
+      "Description": "a) Measurement ofnumericalapertureoftheplasticfiberprovidedusing660nmwavelength.\nb) PlotthetranscendentalequationsfortheTMmodesinasymmetricstepindexplannerwaveguide."
+    },
+    {
+      "Qno": "3",
+      "Description": "a) StudyofFrequencymodulationanddemodulationusingOpticalfiber.\nb) WriteaMATLABprogramtoplotthenormalizedindexb,againstthenormalizedfreq.V,fordifferentvalues of symmetriccoefficient‘a’and for thefirst threevalues of‘v’."
+    },
+    {
+      "Qno": "4",
+      "Description": "a)Studyofpulsewidthmodulation anddemodulation techniqueusingOpticalfiber\nb) Plottherefractiveindexprofilesfordifferentvaluesofαinagradedindexfiberwithaindexprofileofn2 (r) =n1 2 [1 -2∆(r/a)α], 0<r"
+    },
+    {
+      "Qno": "5",
+      "Description": "a)StudyofCharacteristics of LASERdiode.\nb)Writeaprogramtostudythemodesofastepindex cylindricalcoreoptical fiber"
+    }
+  ]
+}

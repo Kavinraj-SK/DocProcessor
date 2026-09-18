@@ -1,0 +1,29 @@
+{
+  "subj_code": "1057234640",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) Write a PHP program to find factorial of a number.\nB) Write a PHP script to check if a cookie named “visited” exists. If it does, display a\nwelcome message; otherwise, display a default message."
+    },
+    {
+      "Qno": "2",
+      "Description": "A) Write a PHP program to implement atleast five string functions.\nB) Write a PHP script to store an array of user preferences in a session variable."
+    },
+    {
+      "Qno": "3",
+      "Description": "A) Write a PHP program to display date and Time and implement some date functions.\nB) Write a PHP code to parse the given JSON file."
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Create a PHP script which displays the capital and country name from an associative\narray. Sort the list by the capital of the country.\nB)  Generate a JSON file in PHP using an array."
+    },
+    {
+      "Qno": "5",
+      "Description": "A) Write a PHP program that appends a string to an existing file.\nB)  Perform the operation such as insert, update and find a document in MongoDB."
+    },
+    {
+      "Qno": "6",
+      "Description": "A) Write a PHP program that validates the form submitted by the user.\nB) Write a PHP script to implement form processing controls such as insert, delete and\ndisplay data from a database."
+    }
+  ]
+}

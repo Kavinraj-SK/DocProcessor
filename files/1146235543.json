@@ -1,0 +1,45 @@
+{
+  "subj_code": "1146235543",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Accurately Diagnose The Tumour Type And Nature."
+    },
+    {
+      "Qno": "2",
+      "Description": "Determination Of Cell Injury Using LDH(Lactase Dehydrogenase Test)"
+    },
+    {
+      "Qno": "3",
+      "Description": "Evaluate The Chemical Examination Of Renal Function   (Protein, Ketones)."
+    },
+    {
+      "Qno": "4",
+      "Description": "Diagnose Coagulation Factor Test-Bleeding Time."
+    },
+    {
+      "Qno": "5",
+      "Description": "Detect The Presence Of Acid Fast Bacilli In Sputum Samples."
+    },
+    {
+      "Qno": "6",
+      "Description": "Collect The Urine Sample And Examine It Under The Microscope."
+    },
+    {
+      "Qno": "7",
+      "Description": "Evaluation Of LH-PCOD"
+    },
+    {
+      "Qno": "8",
+      "Description": "Test For Albumin In Urine-Heat Test And Precipitation Test"
+    },
+    {
+      "Qno": "9",
+      "Description": "Detect And Identify Specific Antigens And Antibodies In Immuno Electrophoresis."
+    },
+    {
+      "Qno": "10",
+      "Description": "Testing Of Antigen And Antibodies- Mono Spot Test."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1121234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Establish the survey stations and calculate area of a tract using the odolite by triangulation method with the following data."
+    },
+    {
+      "Qno": "2",
+      "Description": "Measure  horizontal and vertical angles between two points A,B from point o, on the ground by applying i) repetition and reiteration method."
+    },
+    {
+      "Qno": "3",
+      "Description": "Determine height of a building by trigono metrical levelling. take two station I1 and I2 30 m apart on the same plane. find R.L of the top of the building and horizontal distance from the station. Assume R.L of B.M as 100m"
+    },
+    {
+      "Qno": "4",
+      "Description": "Determine the constants of the given tachometer by taking levels on four points of equal interval 8m on a horizontal line of 100m"
+    },
+    {
+      "Qno": "5",
+      "Description": "Determine height and horizontal distance of a point on ground or building by tachometer levelling. Take R.L of B.M as 120m and constant of the instrument as K= 100 and C=0.15"
+    },
+    {
+      "Qno": "6",
+      "Description": "Briefly explain about total station: general command used, instrument preparation settings, reading distances and angles."
+    },
+    {
+      "Qno": "7",
+      "Description": "Set out a simple curve of radius 30m by linear or angular method of curve setting using total station. Also prepare curve setting table"
+    },
+    {
+      "Qno": "8",
+      "Description": "Calculate area of a given boundary using total station. Also find out height of a remote tower and its horizontal distance using total station"
+    },
+    {
+      "Qno": "9",
+      "Description": "Find out co-ordinates of any five points with the help of total station and GPS"
+    },
+    {
+      "Qno": "10",
+      "Description": "Carry out an open traverse with minimum five station and record their position with the help of GPS"
+    }
+  ]
+}

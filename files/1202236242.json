@@ -1,0 +1,45 @@
+{
+  "subj_code": "1202236242",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Study of Market Research and Consumer Analysis"
+    },
+    {
+      "Qno": "2",
+      "Description": "Study of Competitor Analysis and Positioning"
+    },
+    {
+      "Qno": "3",
+      "Description": "Perform Product Life Cycle assessment for a given sample"
+    },
+    {
+      "Qno": "4",
+      "Description": "Predict the Sales Forecasting for a given sample& based on the previous year data"
+    },
+    {
+      "Qno": "5",
+      "Description": "Calculate the price of the given carton sample using any one of the pricing Strategies"
+    },
+    {
+      "Qno": "6",
+      "Description": "Create a Digital Marketing Campaign poster for a new product launch"
+    },
+    {
+      "Qno": "7",
+      "Description": "Create a strategy for the Customer Relationship Management (CRM) for a given sample product"
+    },
+    {
+      "Qno": "8",
+      "Description": "Study of Sales Pitch and Negotiation Techniques"
+    },
+    {
+      "Qno": "9",
+      "Description": "Create Advertising and Promotional Strategy for a given sample product"
+    },
+    {
+      "Qno": "10",
+      "Description": "Study of Brand Equity Measurement and Management"
+    }
+  ]
+}

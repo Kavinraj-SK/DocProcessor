@@ -1,0 +1,45 @@
+{
+  "subj_code": "1064235542",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Analyze the given water sample for standard parameters such as pH, TDS, BOD, COD, and suspended solids."
+    },
+    {
+      "Qno": "2",
+      "Description": "Carry out the analysis of the given soap sample to determine its composition."
+    },
+    {
+      "Qno": "3",
+      "Description": "Examine and interpret the care labels and symbols on the given textile or garment sample."
+    },
+    {
+      "Qno": "4",
+      "Description": "Identify and describe different laundry machines and tools, including their functions and applications."
+    },
+    {
+      "Qno": "5",
+      "Description": "Identify and describe different drying machines and methods used in textile finishing."
+    },
+    {
+      "Qno": "6",
+      "Description": "Examine and study the effects of laundering on different types of fabrics."
+    },
+    {
+      "Qno": "7",
+      "Description": "Study the effect of dry cleaning on different types of fabrics and garment finishes."
+    },
+    {
+      "Qno": "8",
+      "Description": "Study the proper methods for storing different types of fabrics."
+    },
+    {
+      "Qno": "9",
+      "Description": "Examine and study the removal of food stains and lipstick stains from fabrics."
+    },
+    {
+      "Qno": "10",
+      "Description": "Study the procedure for removing turmeric and kum-kum stains from fabrics."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "subj_code": "1094234440",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Prepare a Report of Raw Material purchase system."
+    },
+    {
+      "Qno": "2",
+      "Description": "Prepare a Report of Route selection on Road for a Truck / from one place to another place."
+    },
+    {
+      "Qno": "3",
+      "Description": "Prepare a Report of Loading and Unloading facilities of Track Terminal Data Sheet."
+    },
+    {
+      "Qno": "4",
+      "Description": "Prepare a Report of study about Logistics Information Techniques."
+    },
+    {
+      "Qno": "5",
+      "Description": "Prepare a Report of Register a ship in a port with need Particulars."
+    },
+    {
+      "Qno": "6",
+      "Description": "Prepare a Report of E- Insurance claim."
+    },
+    {
+      "Qno": "7",
+      "Description": "Prepare a Report of study about collection of information about ports in India."
+    },
+    {
+      "Qno": "8",
+      "Description": "Prepare a Report of study about collection of information about any one container Terminal in India."
+    },
+    {
+      "Qno": "9",
+      "Description": "Prepare a Report of Arrival and Departure of a ship and Publish Information."
+    },
+    {
+      "Qno": "10",
+      "Description": "Prepare a Report of study about collect the information about various type of Rail Wagon in available at Goods Wagon Yard."
+    }
+  ]
+}

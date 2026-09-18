@@ -1,0 +1,121 @@
+{
+  "subj_code": "1046235541",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "A) a) Create a cloud account and set up a basic project.\nB) b) Navigate the cloud console and explore basic services.Implement encryption for data at rest and in transit"
+    },
+    {
+      "Qno": "4",
+      "Description": "A) Create a cloud account and set up a basic project\nB) Navigate the cloud console and explore basic services.Deploy a sample application on the cloud platform."
+    },
+    {
+      "Qno": "8",
+      "Description": "A)  Launch a simple virtual machine (VM) on the chosen cloud platform.\nB)  Implement encryption for data at rest and in transit."
+    },
+    {
+      "Qno": "9",
+      "Description": "A)  Launch a simple virtual machine (VM) on the chosen cloud platform.\nB)  Set up firewall rules and implement security groups."
+    },
+    {
+      "Qno": "10",
+      "Description": "A) Launch a simple virtual machine (VM) on the chosen cloud platform.\nB) Deploy a sample application on the cloud platform."
+    },
+    {
+      "Qno": "11",
+      "Description": "A) Launch a simple virtual machine (VM) on the chosen cloud platform.\nB) Set up cloud monitoring tools to track resource utilization."
+    },
+    {
+      "Qno": "12",
+      "Description": "A) Launch a simple virtual machine (VM) on the chosen cloud platform.\nB) Optimize cloud resources for cost efficiency."
+    },
+    {
+      "Qno": "13",
+      "Description": "C) Launch a simple virtual machine (VM) on the chosen cloud platform.\nD) Optimize cloud resources for cost efficiency."
+    },
+    {
+      "Qno": "14",
+      "Description": "A) Install and configure a hypervisor.\nB) Set up firewall rules and implement security groups."
+    },
+    {
+      "Qno": "15",
+      "Description": "C) Install and configure a hypervisor.\nD) Set up firewall rules and implement security groups."
+    },
+    {
+      "Qno": "16",
+      "Description": "A) Install and configure a hypervisor.\nB) Implement load balancing for the application."
+    },
+    {
+      "Qno": "17",
+      "Description": "A) Install and configure a hypervisor.\nB) Set up cloud monitoring tools to track resource utilization."
+    },
+    {
+      "Qno": "18",
+      "Description": "C) Install and configure a hypervisor.\nD) Set up cloud monitoring tools to track resource utilization"
+    },
+    {
+      "Qno": "19",
+      "Description": "A) Create and manage virtual machines using virtualization technology.\nB) Implement encryption for data at rest and in transit."
+    },
+    {
+      "Qno": "20",
+      "Description": "C) Create and manage virtual machines using virtualization technology.\nD) Implement encryption for data at rest and in transit."
+    },
+    {
+      "Qno": "21",
+      "Description": "A) Create and manage virtual machines using virtualization technology.\nB) Deploy a sample application on the cloud platform."
+    },
+    {
+      "Qno": "22",
+      "Description": "A) Create and manage virtual machines using virtualization technology.\nB) Implement load balancing for the application."
+    },
+    {
+      "Qno": "23",
+      "Description": "A) Create and manage virtual machines using virtualization technology.\nB) Set up cloud monitoring tools to track resource utilization."
+    },
+    {
+      "Qno": "24",
+      "Description": "A) Create and manage virtual machines using virtualization technology.\nB) Optimize cloud resources for cost efficiency."
+    },
+    {
+      "Qno": "25",
+      "Description": "A) Set up Docker and deploy a containerized application.\nB) Implement encryption for data at rest and in transit."
+    },
+    {
+      "Qno": "27",
+      "Description": "A) Set up Docker and deploy a containerized application.\nB) Deploy a sample application on the cloud platform."
+    },
+    {
+      "Qno": "29",
+      "Description": "A) Set up Docker and deploy a containerized application.\nB) Set up cloud monitoring tools to track resource utilization."
+    },
+    {
+      "Qno": "30",
+      "Description": "A) Set up Docker and deploy a containerized application.\nB) Optimize cloud resources for cost efficiency."
+    },
+    {
+      "Qno": "31",
+      "Description": "A) Configure IAM roles and permissions.\nB) Implement encryption for data at rest and in transit."
+    },
+    {
+      "Qno": "32",
+      "Description": "A) Configure IAM roles and permissions.\nB) Set up firewall rules and implement security groups."
+    },
+    {
+      "Qno": "33",
+      "Description": "A) Configure IAM roles and permissions.\nB) Deploy a sample application on the cloud platform."
+    },
+    {
+      "Qno": "34",
+      "Description": "A) Configure IAM roles and permissions.\nB) Implement load balancing for the application."
+    },
+    {
+      "Qno": "35",
+      "Description": "A) Configure IAM roles and permissions.\nB) Set up cloud monitoring tools to track resource utilization."
+    },
+    {
+      "Qno": "36",
+      "Description": "A) Configure IAM roles and permissions.\nB) Optimize cloud resources for cost efficiency."
+    }
+  ]
+}

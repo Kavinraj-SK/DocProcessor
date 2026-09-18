@@ -1,0 +1,101 @@
+{
+  "subj_code": "1055235340",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "(A) Study the interfaces in a router. (Console port, AUI, Serial, Auxiliary, Ethernet, Fast Ethernet, BRI). Setup up a Wi-Fi router in your lab, log in and configure the router. Connect a PC in your lab to Wi-Fi.\n(B) Create a topology with one server and few client computers, use DHCP and show dynamic IP allocation using relevant simulation software"
+    },
+    {
+      "Qno": "3",
+      "Description": "(A) Create two subnets, configure a Wi-Fi router to connect these subnets (have wired and wireless devices in the subnets). Add static routes as required and use ping command to ensure the connectivity between these subnets.\n(B)  Configure Telnet Server in a windows machine and access it by using a client connected in intranet."
+    },
+    {
+      "Qno": "4",
+      "Description": "(A) Telnet into the router and perform basic router commands to get stats of the devices connected to your router.\n(B) Simulate a wireless sensor network."
+    },
+    {
+      "Qno": "5",
+      "Description": "(A) Download and install a network simulator.\n(B) Implementation of LEACH routing protocol in simulation."
+    },
+    {
+      "Qno": "6",
+      "Description": "(A) Study the interfaces in a router. (Console port, AUI, Serial, Auxiliary, Ethernet, Fast Ethernet, BRI). Setup up a Wi-Fi router in your lab, log in and configure the router. Connect a PC in your lab to Wi-Fi.\n(B) Configure Domain Name Server (DNS) using relevant simulation software."
+    },
+    {
+      "Qno": "7",
+      "Description": "(A) i) Wireless LAN setup in infrastructure mode - Configure a Wi-Fi router in one floor of your institution, use wireless access points to extend Wi-Fi to other floors in your organization\n(OR)\nii) Wireless LAN setup in adhoc mode - Create a ADHOC network in a windows device, add other windows devices to this ADHOC network and ensure connection through ping command.\n(B)  Configure Telnet Server in a windows machine and access it by using a client connected in intranet."
+    },
+    {
+      "Qno": "8",
+      "Description": "(A) Create two subnets, configure a Wi-Fi router to connect these subnets (have wired and wireless devices in the subnets). Add static routes as required and use ping command to ensure the connectivity between these subnets.\n(B) Simulate a wireless sensor network."
+    },
+    {
+      "Qno": "9",
+      "Description": "(A) Telnet into the router and perform basic router commands to get stats of the devices connected to your router.\n(B) Implementation of LEACH routing protocol in simulation."
+    },
+    {
+      "Qno": "10",
+      "Description": "(A) Download and install a network simulator.\n(B) Create a topology with one server and few client computers, use DHCP and show dynamic IP allocation using relevant simulation software."
+    },
+    {
+      "Qno": "11",
+      "Description": "(A) Study the interfaces in a router. (Console port, AUI, Serial, Auxiliary, Ethernet, Fast Ethernet, BRI). Setup up a Wi-Fi router in your lab, log in and configure the router. Connect a PC in your lab to Wi-Fi.\n(B)  Configure Telnet Server in a windows machine and access it by using a client connected in intranet."
+    },
+    {
+      "Qno": "12",
+      "Description": "(A) i) Wireless LAN setup in infrastructure mode - Configure a Wi-Fi router in one floor of your institution, use wireless access points to extend Wi-Fi to other floors in your organization\n(OR)\nii) Wireless LAN setup in adhoc mode - Create a ADHOC network in a windows device, add other windows devices to this ADHOC network and ensure connection through ping command.\n(B) Simulate a wireless sensor network."
+    },
+    {
+      "Qno": "13",
+      "Description": "(A) Create two subnets, configure a Wi-Fi router to connect these subnets (have wired and wireless devices in the subnets). Add static routes as required and use ping command to ensure the connectivity between these subnets.\n(B) Implementation of LEACH routing protocol in simulation."
+    },
+    {
+      "Qno": "14",
+      "Description": "(A) Telnet into the router and perform basic router commands to get stats of the devices connected to your router.\n(B) Create a topology with one server and few client computers, use DHCP and show dynamic IP allocation using relevant simulation software."
+    },
+    {
+      "Qno": "15",
+      "Description": "(A) Download and install a network simulator.\n(B) Configure Domain Name Server (DNS) using relevant simulation software."
+    },
+    {
+      "Qno": "16",
+      "Description": "(A) Study the interfaces in a router. (Console port, AUI, Serial, Auxiliary, Ethernet, Fast Ethernet, BRI). Setup up a Wi-Fi router in your lab, log in and configure the router. Connect a PC in your lab to Wi-Fi.\n(B) Simulate a wireless sensor network."
+    },
+    {
+      "Qno": "17",
+      "Description": "(A) i) Wireless LAN setup in infrastructure mode - Configure a Wi-Fi router in one floor of your institution, use wireless access points to extend Wi-Fi to other floors in your organization\n(OR)\nii) Wireless LAN setup in adhoc mode - Create a ADHOC network in a windows device, add other windows devices to this ADHOC network and ensure connection through ping command.\n(B) Implementation of LEACH routing protocol in simulation."
+    },
+    {
+      "Qno": "18",
+      "Description": "(A) Create two subnets, configure a Wi-Fi router to connect these subnets (have wired and wireless devices in the subnets). Add static routes as required and use ping command to ensure the connectivity between these subnets.\n(B) Create a topology with one server and few client computers, use DHCP and show dynamic IP allocation using relevant simulation software"
+    },
+    {
+      "Qno": "19",
+      "Description": "(A) Telnet into the router and perform basic router commands to get stats of the devices connected to your router.\n(B) Configure Domain Name Server (DNS) using relevant simulation software."
+    },
+    {
+      "Qno": "20",
+      "Description": "(A) Download and install a network simulator.\n(B)  Configure Telnet Server in a windows machine and access it by using a client connected in intranet"
+    },
+    {
+      "Qno": "21",
+      "Description": "(A) Study the interfaces in a router. (Console port, AUI, Serial, Auxiliary, Ethernet, Fast Ethernet, BRI). Setup up a Wi-Fi router in your lab, log in and configure the router. Connect a PC in your lab to Wi-Fi.\n(B) Implementation of LEACH routing protocol in simulation."
+    },
+    {
+      "Qno": "22",
+      "Description": "(A) a) Wireless LAN setup in infrastructure mode - Configure a Wi-Fi router in one floor of your institution, use wireless access points to extend Wi-Fi to other floors in your organization\n(OR)\nb) Wireless LAN setup in adhoc mode - Create a ADHOC network in a windows device, add other windows devices to this ADHOC network and ensure connection through ping command.\n(B) Create a topology with one server and few client computers, use DHCP and show dynamic IP allocation using relevant simulation software"
+    },
+    {
+      "Qno": "23",
+      "Description": "(A) Create two subnets, configure a Wi-Fi router to connect these subnets (have wired and wireless devices in the subnets). Add static routes as required and use ping command to ensure the connectivity between these subnets.\n(B) Configure Domain Name Server (DNS) using relevant simulation software."
+    },
+    {
+      "Qno": "24",
+      "Description": "(A) Telnet into the router and perform basic router commands to get stats of the devices connected to your router.\n(B)  Configure Telnet Server in a windows machine and access it by using a client connected in intranet."
+    },
+    {
+      "Qno": "25",
+      "Description": "(A) Download and install a network simulator.\n(B) Simulate a wireless sensor network."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "subj_code": "1053235443",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "a) WriteaprogramtocreateStudentregistration form\nb)Demonstrate the Database–Insert operation"
+    },
+    {
+      "Qno": "2",
+      "Description": "a)Write a program to perform EB bill calculation\nb) DemonstratetheDatabase –Deleteoperation"
+    },
+    {
+      "Qno": "3",
+      "Description": "a)Writeaprogramto perform Studentgrademanipulation\nb) DemonstratetheDatabase–Selectoperation"
+    },
+    {
+      "Qno": "4",
+      "Description": "a)Writeaprogram To process array\nb) DemonstratetheDatabase –Updateoperation"
+    },
+    {
+      "Qno": "5",
+      "Description": "a)WriteaprogramtoperformStringoperationsin PHP\nb)Writethequeriestodemonstratetheworkingofsummaries operation\n(Groupbyand order by)"
+    },
+    {
+      "Qno": "6",
+      "Description": "a) WriteaprogramtocreateBookmasterform\nb) DemonstratetheFilehandlingoperation"
+    },
+    {
+      "Qno": "7",
+      "Description": "a) Writeaprogramto  performFormvalidation– Railwayticketreservation\nb) DemonstratetheDatabase–Insertoperation"
+    },
+    {
+      "Qno": "8",
+      "Description": "a) WriteaprogramtoperformDateandtimeoperationsinPHP\nb) DemonstratetheDatabase –Deleteoperation"
+    },
+    {
+      "Qno": "9",
+      "Description": "a) Writeaprogram to identifythe web browser\nb) DemonstratetheDatabase–Selectoperation"
+    }
+  ]
+}

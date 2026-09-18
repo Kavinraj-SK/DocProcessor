@@ -1,0 +1,53 @@
+{
+  "subj_code": "1032234540",
+  "questions": [
+    {
+      "Qno": "1",
+      "Description": "Removing and replacing of the pressure plate and clutch plate and fingers adjustment."
+    },
+    {
+      "Qno": "2",
+      "Description": "Dismantling, inspecting and assembling of the two-wheeler CVT tr system"
+    },
+    {
+      "Qno": "3",
+      "Description": "Dismantling, inspecting and assembling of Epicyclical gear box and find out the gear ratios."
+    },
+    {
+      "Qno": "4",
+      "Description": "Dismantling, inspecting and assembling of front & Rear axle wheel bearing."
+    },
+    {
+      "Qno": "5",
+      "Description": "Dismantling, assembling and adjusting of the steering gear box and find gear ratio."
+    },
+    {
+      "Qno": "6",
+      "Description": "Dismantling, inspecting and assembling the power steering assembly."
+    },
+    {
+      "Qno": "7",
+      "Description": "Removing, inspecting and refitting of the shock absorber, leaf and coil spring assembly."
+    },
+    {
+      "Qno": "8",
+      "Description": "Removing, checking and vulcanizing the tubes by using electrical vulcanizing machine."
+    },
+    {
+      "Qno": "9",
+      "Description": "Checking, measuring and adjusting of the caster, chamber, and king pin inclination, toe-in and to e-out."
+    },
+    {
+      "Qno": "10",
+      "Description": "Removing the wheel from the LMV vehicle and balance the wheel using wheel balancing machine"
+    },
+    {
+      "Qno": "11",
+      "Description": "Dismantling, checking and adjusting of Wheel bearing, Steering stem & ballrace, inspect and replace in E-two-wheeler."
+    },
+    {
+      "Qno": "12",
+      "Description": "Dismantling, inspecting and Servicing of disc brake including master cylinder, wheel cylinder and brake pads."
+    }
+  ]
+}
