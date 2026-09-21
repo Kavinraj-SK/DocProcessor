@@ -13,6 +13,18 @@ Embedded data tables (fill-in-the-blank grids, substitution tables) are
 skipped - only their preceding instruction line is kept.
 Ambiguous Roman-numeral detections are flagged for manual review rather
 than guessed silently.
+
+Image URLs are S3 presigned links that expire ~900s (15 min) after being
+issued -- baking one into the JSON at conversion time and leaving it there
+is what causes broken images in the frontend later on. Re-run this script
+in refresh mode any time before the JSON is actually displayed:
+
+    python doc_to_json.py --refresh path/to/output.json
+    python doc_to_json.py --refresh path/to/output_dir   # refreshes every *.json in it
+
+This re-signs each image's URL from its durable S3 key ("filePath") without
+touching question text, and can be run as often as needed (e.g. on a timer,
+or right before serving the JSON to the frontend).
 """
 
 import json
@@ -200,9 +212,9 @@ def upload_images_to_s3(image_paths, docx_stem):
       "1012234420_image1.png") to keep them unique.
     - The returned "imageUrl" here is only an initial, short-lived
       preview (ViewFileUrl issues presigned URLs, same ~900s expiry
-      pattern as before) -- refresh_image_urls.py should be re-run right
-      before actual use, same as with the old endpoint. The durable
-      value that matters long-term is "filePath" (the S3 key).
+      pattern as before) -- run this script with --refresh right before
+      actual use, same as with the old endpoint. The durable value that
+      matters long-term is "filePath" (the S3 key).
     """
     if not image_paths or requests is None:
         return {}
@@ -670,6 +682,91 @@ def fetch_view_url(file_path_key: str) -> str:
     return ""
 
 
+def refresh_baked_urls(questions, url_by_basename: dict):
+    """
+    Swaps a freshly-issued presigned URL into every already-baked
+    <img src="..."> tag across Questions/SubDivisions/SubQuestions, keyed
+    by the S3 key's basename (e.g. "1020235541_image1.jpeg"), which stays
+    constant across re-signs -- only the query string (signature/expiry)
+    changes. This is what makes refreshing a previously generated output
+    JSON possible without re-parsing the source .docx.
+    """
+    if not url_by_basename:
+        return
+
+    patterns = [
+        (re.compile(r'src="[^"]*' + re.escape(basename) + r'[^"]*"'), f'src="{fresh_url}"')
+        for basename, fresh_url in url_by_basename.items()
+    ]
+
+    def process_node(node):
+        if node.get("Description") is not None:
+            text = node["Description"]
+            for pattern, replacement in patterns:
+                text = pattern.sub(replacement, text)
+            node["Description"] = text
+        for child in node.get("SubDivisions", []) or []:
+            process_node(child)
+        for child in node.get("SubQuestions", []) or []:
+            process_node(child)
+
+    for q in questions:
+        process_node(q)
+
+
+def refresh_json_file(json_path: Path) -> bool:
+    """
+    Re-signs every embedded image's URL in an already-generated output
+    JSON, using each image's durable S3 key ("filePath" in
+    _embedded_media) to fetch a brand-new ViewFileUrl, then rewrites both
+    _embedded_media and every baked <img> tag in place.
+
+    Presigned URLs expire ~900s after being issued, so this should be run
+    right before the JSON is actually consumed/displayed -- not just once
+    right after the initial docx -> json conversion. Safe to run
+    repeatedly; it only touches "imageUrl" values, never "filePath" (the
+    permanent S3 key) or any question text.
+    """
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"  [ERROR] could not read {json_path.name}: {e}")
+        return False
+
+    media = data.get("_embedded_media") or []
+    if not media:
+        print(f"  [SKIP] {json_path.name}: no embedded media to refresh")
+        return False
+
+    url_by_basename = {}
+    refreshed = 0
+    for entry in media:
+        file_path = entry.get("filePath")
+        fname = entry.get("fileName")
+        if not file_path:
+            continue
+        fresh_url = fetch_view_url(file_path)
+        if not fresh_url:
+            print(f"    [WARN] could not refresh URL for {fname} ({file_path})")
+            continue
+        entry["imageUrl"] = fresh_url
+        url_by_basename[Path(file_path).name] = fresh_url
+        refreshed += 1
+
+    if not url_by_basename:
+        print(f"  [SKIP] {json_path.name}: no URLs could be refreshed")
+        return False
+
+    refresh_baked_urls(data.get("questions", []), url_by_basename)
+
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print(f"  [OK] {json_path.name}: refreshed {refreshed}/{len(media)} image URL(s)")
+    return True
+
+
 def process_file(docx_path: Path, out_dir: Path):
     has_equations = has_omml_equations(docx_path)
 
@@ -750,6 +847,27 @@ def process_file(docx_path: Path, out_dir: Path):
 
 def main():
     args = sys.argv[1:]
+
+    # --refresh <json_file_or_dir>: re-sign expired presigned image URLs in
+    # an already-generated output JSON (or every *.json in a directory)
+    # without re-parsing the source .docx. Run this right before the JSON
+    # is actually displayed -- the URLs baked in at conversion time expire
+    # after ~900s, which is what was causing broken images in the frontend.
+    if args and args[0] == "--refresh":
+        refresh_args = args[1:]
+        target = (Path(refresh_args[0]).expanduser().resolve()
+                  if refresh_args else Path(OUTPUT_PATH).expanduser().resolve())
+        if not target.exists():
+            sys.exit(f"Path does not exist: {target}")
+        json_files = [target] if target.is_file() else sorted(target.glob("*.json"))
+        if not json_files:
+            sys.exit(f"No .json file(s) found at: {target}")
+
+        print(f"Refreshing image URLs in {len(json_files)} file(s)...")
+        ok_refresh = sum(1 for jf in json_files if refresh_json_file(jf))
+        print(f"\nDone. {ok_refresh}/{len(json_files)} file(s) refreshed.")
+        return
+
     input_path = Path(args[0]).expanduser().resolve() if len(args) >= 1 else Path(INPUT_PATH).expanduser().resolve()
     output_path = Path(args[1]).expanduser().resolve() if len(args) >= 2 else Path(OUTPUT_PATH).expanduser().resolve()
 
