@@ -55,8 +55,8 @@ except ImportError:
 # ============================================================================
 # SET THESE TWO PATHS AND RUN THE SCRIPT WITH NO ARGUMENTS
 # ============================================================================
-INPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\test"
-OUTPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\test"
+INPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\files"
+OUTPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\res"
 # ============================================================================
 
 load_dotenv()
