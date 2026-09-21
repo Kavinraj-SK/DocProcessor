@@ -49,10 +49,14 @@ OUTPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\test"
 
 load_dotenv()
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
-UPLOAD_IMAGES_URL = os.getenv(
-    "UPLOAD_IMAGES_URL",
-    "https://campus.psgtech.ac.in/dote/api/QuestionBank/UploadQuestionImages",
-)
+# File Service (sfm) -- confirmed working, unlike the old QuestionBank
+# UploadQuestionImages route which the server rejects with a permission
+# error regardless of client (verified directly via Swagger).
+SFM_UPLOAD_URL = os.getenv("SFM_UPLOAD_URL", "https://campus.psgtech.ac.in/sfm/api/files/upload")
+SFM_VIEW_URL = os.getenv("SFM_VIEW_URL", "https://campus.psgtech.ac.in/sfm/api/files/viewfileurl")
+# Must already exist in AWS -- FILE_SERVICE's own docs note this route
+# does not create the path, only uploads into an existing one.
+SFM_UPLOAD_PATH = os.getenv("SFM_UPLOAD_PATH", "/DOTECOE/atlas-9f3c7a1d")
 
 
 CATEGORY_HEADER_RE = re.compile(
@@ -170,29 +174,35 @@ def extract_embedded_media(docx_path: Path, out_dir: Path):
     return media_dir.name, extracted
 
 
-def upload_images_to_s3(image_paths):
+def upload_images_to_s3(image_paths, docx_stem):
     """
-    POSTs local image files to UploadQuestionImages and returns
-    {local_filename: {"filePath": s3_key, "imageUrl": base_url}}.
+    Uploads each local image individually via the File Service
+    (sfm/api/files/upload), then fetches an initial viewable URL for it
+    via ViewFileUrl. Returns {local_filename: {"filePath": s3_key,
+    "imageUrl": url}}.
 
     ASSUMPTIONS (please verify / correct if wrong):
-    - Auth is the same BEARER_TOKEN used for SaveQuestion in json_to_db.py.
-    - The endpoint takes files as multipart/form-data under field name
-      "files" (array), confirmed via Swagger -- one part per file.
-    - The response's "images" list is in the SAME ORDER the files were
-      sent -- the server assigns each upload a new random filename (a
-      UUID-based S3 key), not the original filename, so there's no name
-      to match results back by; order is the only correlation available.
-    - The API's own imageUrl is a PRESIGNED URL valid for only ~900
-      seconds (15 min) -- caching that exact string in a JSON file meant
-      for later use would produce a dead link almost immediately. This
-      strips the "?X-Amz-..." query string and stores the durable base
-      S3 URL instead, on the assumption the bucket/object is otherwise
-      readable at that path without a fresh signature. VERIFY this by
-      opening one stored base URL (no query string) in a browser after
-      a real run -- if it 403s, the object is private and this approach
-      needs to change (e.g. re-requesting a signed URL at point of use
-      instead of caching one here).
+    - Auth: FILE_SERVICE's docs say "Send RBAC token in header as
+      <bearer RBAC Token>" -- assumed to be the same BEARER_TOKEN used
+      for SaveQuestion elsewhere in this project, not a separate
+      credential. If uploads fail with an auth-looking error, this is
+      the first thing to check.
+    - The upload field is named "file" (singular) -- FILE_SERVICE.docx
+      says 'file : Send Iform File' for this route.
+    - SFM_UPLOAD_PATH must already exist in AWS -- FILE_SERVICE's own
+      docs note this route does NOT create the path, only uploads into
+      an existing one.
+    - SFM_UPLOAD_PATH is ONE shared folder across every document in this
+      batch (not per-subject), so two different documents each
+      extracting an "image1.png" would silently overwrite each other in
+      S3 if uploaded under their raw filename. Each upload is prefixed
+      with its source document's filename stem (e.g.
+      "1012234420_image1.png") to keep them unique.
+    - The returned "imageUrl" here is only an initial, short-lived
+      preview (ViewFileUrl issues presigned URLs, same ~900s expiry
+      pattern as before) -- refresh_image_urls.py should be re-run right
+      before actual use, same as with the old endpoint. The durable
+      value that matters long-term is "filePath" (the S3 key).
     """
     if not image_paths or requests is None:
         return {}
@@ -201,51 +211,66 @@ def upload_images_to_s3(image_paths):
     if BEARER_TOKEN:
         headers["Authorization"] = f"Bearer {BEARER_TOKEN}"
 
-    files = [("files", (p.name, open(p, "rb"))) for p in image_paths]
-    try:
-        resp = requests.post(UPLOAD_IMAGES_URL, files=files, headers=headers, timeout=120)
-        if not resp.ok:
-            try:
-                err_data = resp.json()
-                msg = err_data.get("message", resp.text[:200])
-            except Exception:
-                msg = resp.text[:200]
-            if "token" in str(msg).lower():
-                print(f"    [INFO] S3 image upload skipped: server reported '{msg}' "
-                      f"(campus server's AWS credentials/token issue). "
-                      f"Images will be preserved locally and inlined as Base64 in json_to_db.py.")
-            else:
-                print(f"    [WARN] image upload failed: {resp.status_code} {resp.reason} -- {msg}")
-            return {}
-        result = resp.json()
-    except Exception as e:
-        print(f"    [WARN] image upload failed: {e}")
-        return {}
-    finally:
-        for _, (_, fh) in files:
-            fh.close()
-
-    if result.get("isError"):
-        msg = result.get("message", "")
-        if "token" in msg.lower():
-            print(f"    [WARN] image upload failed: campus server reported '{msg}' "
-                  f"(server-side AWS S3 credentials issue on campus backend). "
-                  f"Images will be preserved locally and inlined via json_to_db.py.")
-        else:
-            print(f"    [WARN] image upload reported error: {msg}")
-        return {}
-
-    returned = result.get("images", [])
-    if len(returned) != len(image_paths):
-        print(f"    [WARN] sent {len(image_paths)} image(s), got back {len(returned)} "
-              f"result(s) -- can't safely match them up, skipping URL attachment")
-        return {}
-
     mapping = {}
-    for local_path, img in zip(image_paths, returned):
-        raw_url = img.get("imageUrl", "")
-        base_url = raw_url.split("?", 1)[0]
-        mapping[local_path.name] = {"filePath": img.get("filePath", ""), "imageUrl": base_url}
+    for local_path in image_paths:
+        unique_name = f"{docx_stem}_{local_path.name}"
+        params = {"Path": SFM_UPLOAD_PATH, "Filename": unique_name}
+
+        try:
+            with open(local_path, "rb") as fh:
+                resp = requests.post(
+                    SFM_UPLOAD_URL, params=params,
+                    files={"file": (unique_name, fh)},
+                    headers=headers, timeout=120,
+                )
+            resp_body = None
+            try:
+                resp_body = resp.json()
+            except ValueError:
+                pass
+
+            already_exists = (
+                resp.status_code == 400 and isinstance(resp_body, dict)
+                and "already exists" in str(resp_body.get("message", "")).lower()
+            )
+            if already_exists:
+                # The image genuinely was already uploaded in a prior run
+                # (S3 uploads are permanent even if our local tracking
+                # JSON lost track of it, e.g. an intervening failed run
+                # overwrote it). Reconstruct the deterministic key
+                # ourselves instead of treating this as a failure.
+                key = f"{SFM_UPLOAD_PATH.strip('/')}/{unique_name}"
+                print(f"    [REUSE] {local_path.name} already exists in S3 at {key}, reusing it")
+            elif not resp.ok:
+                print(f"    [WARN] image upload failed for {local_path.name}: "
+                      f"{resp.status_code} -- {resp.text[:300]}")
+                continue
+            else:
+                result = resp_body or {}
+                if result.get("isError"):
+                    print(f"    [WARN] image upload reported error for {local_path.name}: "
+                          f"{result.get('message')}")
+                    continue
+                key = (result.get("result") or {}).get("key")
+                if not key:
+                    print(f"    [WARN] upload succeeded but no 'key' returned for {local_path.name}")
+                    continue
+        except Exception as e:
+            print(f"    [WARN] image upload failed for {local_path.name}: {e}")
+            continue
+
+        image_url = ""
+        try:
+            view_resp = requests.get(SFM_VIEW_URL, params={"filepath": key}, headers=headers, timeout=30)
+            if view_resp.ok:
+                view_result = view_resp.json()
+                if not view_result.get("isError"):
+                    image_url = (view_result.get("result") or {}).get("url", "")
+        except Exception as e:
+            print(f"    [WARN] could not fetch initial view URL for {local_path.name}: {e}")
+
+        mapping[local_path.name] = {"filePath": key, "imageUrl": image_url}
+
     return mapping
 
 
@@ -605,6 +630,46 @@ def substitute_image_placeholders(questions, url_by_filename):
         process_node(q)
 
 
+def load_existing_media_map(json_path: Path) -> dict:
+    """Reads a prior run's output JSON (if present) and returns
+    {fileName: {"filePath":..., "imageUrl":...}} for any image that was
+    already successfully uploaded, so a re-run can reuse it instead of
+    uploading a duplicate."""
+    if not json_path.exists():
+        return {}
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        return {}
+    mapping = {}
+    for entry in data.get("_embedded_media") or []:
+        fname = entry.get("fileName")
+        if fname and entry.get("filePath"):
+            mapping[fname] = {"filePath": entry["filePath"], "imageUrl": entry.get("imageUrl", "")}
+    return mapping
+
+
+def fetch_view_url(file_path_key: str) -> str:
+    """Fetches a fresh viewable URL for an already-uploaded S3 key via
+    ViewFileUrl -- used when reusing a prior upload, since the old cached
+    imageUrl from a previous run has likely already expired."""
+    if requests is None:
+        return ""
+    headers = {}
+    if BEARER_TOKEN:
+        headers["Authorization"] = f"Bearer {BEARER_TOKEN}"
+    try:
+        resp = requests.get(SFM_VIEW_URL, params={"filepath": file_path_key}, headers=headers, timeout=30)
+        if resp.ok:
+            result = resp.json()
+            if not result.get("isError"):
+                return (result.get("result") or {}).get("url", "")
+    except Exception:
+        pass
+    return ""
+
+
 def process_file(docx_path: Path, out_dir: Path):
     has_equations = has_omml_equations(docx_path)
 
@@ -626,8 +691,25 @@ def process_file(docx_path: Path, out_dir: Path):
     uploaded_media = []
     if embedded_media and media_dir_name:
         media_dir = out_dir / media_dir_name
-        image_paths = [media_dir / fname for fname in embedded_media]
-        url_map = upload_images_to_s3(image_paths)
+        existing_out_path = out_dir / (docx_path.stem + ".json")
+        already_uploaded = load_existing_media_map(existing_out_path)
+
+        url_map = {}
+        to_upload = []
+        for fname in embedded_media:
+            if fname in already_uploaded:
+                old = already_uploaded[fname]
+                fresh_url = fetch_view_url(old["filePath"]) or old["imageUrl"]
+                url_map[fname] = {"filePath": old["filePath"], "imageUrl": fresh_url}
+                print(f"    [REUSE] {fname} already uploaded at {old['filePath']}, skipping re-upload")
+            else:
+                to_upload.append(fname)
+
+        if to_upload:
+            image_paths = [media_dir / fname for fname in to_upload]
+            new_results = upload_images_to_s3(image_paths, docx_path.stem)
+            url_map.update(new_results)
+
         for fname in embedded_media:
             entry = {"fileName": fname}
             if fname in url_map:

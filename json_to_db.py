@@ -43,10 +43,8 @@ Only these fields are populated; everything else is sent as 0 / "" / [].
 """
 
 import argparse
-import base64
 import csv
 import json
-import mimetypes
 import os
 import sys
 import time
@@ -86,19 +84,11 @@ IMAGE_MARKER_RE = re.compile(r"----media/([A-Za-z0-9_.-]+)----")
 
 
 def _inline_media_references(description: str, media_dir: Path | None) -> str:
-    if not description or not media_dir:
-        return description or ""
-
-    def replace_marker(match):
-        image_name = match.group(1)
-        image_path = media_dir / image_name
-        if not image_path.exists():
-            return match.group(0)
-        mime_type = mimetypes.guess_type(image_path.name)[0] or "application/octet-stream"
-        encoded = base64.b64encode(image_path.read_bytes()).decode("ascii")
-        return f'<img alt="{image_name}" src="data:{mime_type};base64,{encoded}">'
-
-    return IMAGE_MARKER_RE.sub(replace_marker, description)
+    """Images are uploaded to S3 by doc_to_json.py and their URLs are
+    already baked into the Description as <img> tags.  Any remaining
+    ----media/imageN.ext---- markers (upload failed or images were not
+    present) are left as-is so they stay visible for review."""
+    return description or ""
 
 
 def format_ques_content(description: str, media_dir: Path | None = None) -> str:
@@ -227,7 +217,6 @@ def upload_question_images(session, question_id, description, media_dir, dry_run
             all_ok = False
         elif test_mode:
             print(f"  -> uploaded image {image_path.name}: {resp.text[:200]}")
-
     return all_ok
 
 
@@ -266,9 +255,6 @@ def post_question(session, payload, dry_run, test_mode):
             new_id = extract_new_id(resp_json)
             return True, new_id, "ok"
 
-        # Duplicate / near-duplicate detection: the server returns a non-2xx
-        # status but with a message describing an existing similar question,
-        # rather than a genuine failure. Treat that as "duplicate", not error.
         try:
             body = resp.json()
         except ValueError:
