@@ -9,7 +9,11 @@ SETUP
 -----
 1. pip install requests python-dotenv
 2. Create a .env file next to this script:
-       BEARER_TOKEN=your_token_here
+       ques_TOKEN=your_token_here
+   (kept separate from doc_to_json.py's BEARER_TOKEN -- that script's token
+   is for the file/image upload service; this one is for the QuestionBank
+   SaveQuestion + UploadQuestionImages APIs, so the two no longer need to
+   share/overwrite the same .env value.)
 3. Run a test on a single file first (ALWAYS do this before a full run):
        python upload_questions.py --folder /path/to/json_files --test
 
@@ -43,8 +47,10 @@ Only these fields are populated; everything else is sent as 0 / "" / [].
 """
 
 import argparse
+import base64
 import csv
 import json
+import mimetypes
 import os
 import sys
 import time
@@ -71,7 +77,7 @@ EXAM_ID_DEFAULT = int(os.getenv("EXAM_ID_DEFAULT", "1"))
 # Change this path if you move the files, or override at runtime with --folder.
 DEFAULT_FOLDER = r"C:\Users\Administrator\Desktop\DocQues\test"
 
-BEARER_TOKEN = os.getenv("BEARER_TOKEN")
+QUES_TOKEN = os.getenv("ques_TOKEN")
 QUESTION_IMAGE_UPLOAD_URL = os.getenv(
     "QUESTION_IMAGE_UPLOAD_URL",
     API_URL.rsplit("/", 1)[0] + "/UploadQuestionImages.handle",
@@ -84,11 +90,19 @@ IMAGE_MARKER_RE = re.compile(r"----media/([A-Za-z0-9_.-]+)----")
 
 
 def _inline_media_references(description: str, media_dir: Path | None) -> str:
-    """Images are uploaded to S3 by doc_to_json.py and their URLs are
-    already baked into the Description as <img> tags.  Any remaining
-    ----media/imageN.ext---- markers (upload failed or images were not
-    present) are left as-is so they stay visible for review."""
-    return description or ""
+    if not description or not media_dir:
+        return description or ""
+
+    def replace_marker(match):
+        image_name = match.group(1)
+        image_path = media_dir / image_name
+        if not image_path.exists():
+            return match.group(0)
+        mime_type = mimetypes.guess_type(image_path.name)[0] or "application/octet-stream"
+        encoded = base64.b64encode(image_path.read_bytes()).decode("ascii")
+        return f'<img alt="{image_name}" src="data:{mime_type};base64,{encoded}">'
+
+    return IMAGE_MARKER_RE.sub(replace_marker, description)
 
 
 def format_ques_content(description: str, media_dir: Path | None = None) -> str:
@@ -173,7 +187,7 @@ def upload_question_images(session, question_id, description, media_dir, dry_run
 
     headers = {
         "accept": "*/*",
-        "Authorization": f"Bearer {BEARER_TOKEN}",
+        "Authorization": f"Bearer {QUES_TOKEN}",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     }
@@ -217,6 +231,7 @@ def upload_question_images(session, question_id, description, media_dir, dry_run
             all_ok = False
         elif test_mode:
             print(f"  -> uploaded image {image_path.name}: {resp.text[:200]}")
+
     return all_ok
 
 
@@ -228,7 +243,7 @@ def post_question(session, payload, dry_run, test_mode):
 
     headers = {
         "accept": "*/*",
-        "Authorization": f"Bearer {BEARER_TOKEN}",
+        "Authorization": f"Bearer {QUES_TOKEN}",
         "Content-Type": "application/json",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -255,6 +270,9 @@ def post_question(session, payload, dry_run, test_mode):
             new_id = extract_new_id(resp_json)
             return True, new_id, "ok"
 
+        # Duplicate / near-duplicate detection: the server returns a non-2xx
+        # status but with a message describing an existing similar question,
+        # rather than a genuine failure. Treat that as "duplicate", not error.
         try:
             body = resp.json()
         except ValueError:
@@ -403,8 +421,8 @@ def main():
     parser.add_argument("--delay", type=float, default=0.6, help="Seconds to sleep between real API calls")
     args = parser.parse_args()
 
-    if not args.dry_run and not BEARER_TOKEN:
-        print("ERROR: BEARER_TOKEN not found. Put it in a .env file as BEARER_TOKEN=...", file=sys.stderr)
+    if not args.dry_run and not QUES_TOKEN:
+        print("ERROR: ques_TOKEN not found. Put it in a .env file as ques_TOKEN=...", file=sys.stderr)
         sys.exit(1)
 
     folder = Path(args.folder)

@@ -77,7 +77,7 @@ def refresh_urls(file_paths):
         if result.get("isError"):
             print(f"  [WARN] ViewFileUrl reported error for {fp}: {result.get('message')}")
             continue
-
+        
         url = (result.get("result") or {}).get("url")
         if url:
             url_map[fp] = url
