@@ -1049,45 +1049,35 @@ def process_file(docx_path: Path, out_dir: Path):
     return "ok"
 
 
-def main():
-    args = sys.argv[1:]
+def run_pipeline(input_path: Path, output_path: Path) -> dict:
+    """
+    Converts every .docx under input_path (or just input_path itself, if
+    it's a single .docx file) into output_path, using process_file() for
+    each. Shared by both the CLI (main(), below) and the web frontend
+    (app.py), so the two never drift out of sync. All progress/warnings
+    go through print(), same as the rest of this script -- the web
+    frontend captures those by redirecting stdout, not by changing this
+    function's shape.
 
-    # --refresh <json_file_or_dir>: re-sign expired presigned image URLs in
-    # an already-generated output JSON (or every *.json in a directory)
-    # without re-parsing the source .docx. Run this right before the JSON
-    # is actually displayed -- the URLs baked in at conversion time expire
-    # after ~900s, which is what was causing broken images in the frontend.
-    if args and args[0] == "--refresh":
-        refresh_args = args[1:]
-        target = (Path(refresh_args[0]).expanduser().resolve()
-                  if refresh_args else Path(OUTPUT_PATH).expanduser().resolve())
-        if not target.exists():
-            sys.exit(f"Path does not exist: {target}")
-        json_files = [target] if target.is_file() else sorted(target.glob("*.json"))
-        if not json_files:
-            sys.exit(f"No .json file(s) found at: {target}")
-
-        print(f"Refreshing image URLs in {len(json_files)} file(s)...")
-        ok_refresh = sum(1 for jf in json_files if refresh_json_file(jf))
-        print(f"\nDone. {ok_refresh}/{len(json_files)} file(s) refreshed.")
-        return
-
-    input_path = Path(args[0]).expanduser().resolve() if len(args) >= 1 else Path(INPUT_PATH).expanduser().resolve()
-    output_path = Path(args[1]).expanduser().resolve() if len(args) >= 2 else Path(OUTPUT_PATH).expanduser().resolve()
-
+    Returns a summary dict: {"total", "ok", "no_questions", "images",
+    "equations", "errors", "duplicates": [(stem, [Path, ...]), ...]}.
+    Raises FileNotFoundError / ValueError instead of calling sys.exit(),
+    so callers other than the CLI (like a web request) can turn a bad
+    path into a proper error response instead of killing the process.
+    """
     if not input_path.exists():
-        sys.exit(f"Path does not exist: {input_path}")
+        raise FileNotFoundError(f"Path does not exist: {input_path}")
 
     if input_path.is_file():
         if input_path.suffix.lower() != ".docx":
-            sys.exit(f"Not a .docx file: {input_path}")
+            raise ValueError(f"Not a .docx file: {input_path}")
         docx_files = [input_path]
     else:
         docx_files = sorted(input_path.rglob("*.docx"))
         docx_files = [f for f in docx_files if not f.name.startswith("~$")]
 
     if not docx_files:
-        sys.exit(f"No .docx files found at: {input_path}")
+        raise FileNotFoundError(f"No .docx files found at: {input_path}")
 
     seen_stems = {}
     for f in docx_files:
@@ -1129,6 +1119,48 @@ def main():
         print(f"  {no_q_count} file(s) skipped: no questions found (check structure)")
     if error_count:
         print(f"  {error_count} file(s) skipped: processing error")
+
+    return {
+        "total": len(docx_files),
+        "ok": ok_count,
+        "no_questions": no_q_count,
+        "images": image_count,
+        "equations": eqn_count,
+        "errors": error_count,
+        "duplicates": list(dupes.items()),
+    }
+
+
+def main():
+    args = sys.argv[1:]
+
+    # --refresh <json_file_or_dir>: re-sign expired presigned image URLs in
+    # an already-generated output JSON (or every *.json in a directory)
+    # without re-parsing the source .docx. Run this right before the JSON
+    # is actually displayed -- the URLs baked in at conversion time expire
+    # after ~900s, which is what was causing broken images in the frontend.
+    if args and args[0] == "--refresh":
+        refresh_args = args[1:]
+        target = (Path(refresh_args[0]).expanduser().resolve()
+                  if refresh_args else Path(OUTPUT_PATH).expanduser().resolve())
+        if not target.exists():
+            sys.exit(f"Path does not exist: {target}")
+        json_files = [target] if target.is_file() else sorted(target.glob("*.json"))
+        if not json_files:
+            sys.exit(f"No .json file(s) found at: {target}")
+
+        print(f"Refreshing image URLs in {len(json_files)} file(s)...")
+        ok_refresh = sum(1 for jf in json_files if refresh_json_file(jf))
+        print(f"\nDone. {ok_refresh}/{len(json_files)} file(s) refreshed.")
+        return
+
+    input_path = Path(args[0]).expanduser().resolve() if len(args) >= 1 else Path(INPUT_PATH).expanduser().resolve()
+    output_path = Path(args[1]).expanduser().resolve() if len(args) >= 2 else Path(OUTPUT_PATH).expanduser().resolve()
+
+    try:
+        run_pipeline(input_path, output_path)
+    except (FileNotFoundError, ValueError) as e:
+        sys.exit(str(e))
 
 
 if __name__ == "__main__":

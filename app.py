@@ -1,0 +1,296 @@
+"""
+Local web frontend for doc_to_json.py.
+
+Run this in the SAME folder as doc_to_json.py and your .env file:
+
+    pip install flask --break-system-packages
+    python app.py
+
+Then open http://127.0.0.1:5000 in a browser. It gives you:
+  - a folder-upload "Convert" panel that runs doc_to_json.run_pipeline()
+    on every .docx it finds, with a live log console
+  - a folder-upload "Refresh URLs" panel that runs refresh_json_file() on
+    every .json it finds (same thing as `python doc_to_json.py --refresh`)
+  - a zip download of the results when a job finishes
+
+Every existing print() statement in doc_to_json.py shows up in the
+browser's live console as-is -- nothing in doc_to_json.py needed to be
+rewritten to use a logger. This works by temporarily redirecting
+sys.stdout, per background thread, into that job's queue (see _ThreadTee
+below), so doc_to_json.py's own code never has to know it's being
+watched.
+"""
+import io
+import queue
+import shutil
+import sys
+import tempfile
+import threading
+import traceback
+import uuid
+import zipfile
+from pathlib import Path
+
+from flask import Flask, Response, jsonify, render_template, request, send_file
+
+import doc_to_json as pipeline
+
+app = Flask(__name__)
+
+
+@app.errorhandler(Exception)
+def _json_on_any_error(e):
+    """
+    Belt-and-suspenders: whatever goes wrong, anywhere, always send JSON
+    back instead of Flask's default HTML error page. The frontend's
+    resp.json() call has no way to parse HTML, so any endpoint that can
+    return non-JSON on failure turns into a silent hang in the browser.
+    The real traceback still goes to this terminal so it's not lost.
+    """
+    traceback.print_exc()
+    from werkzeug.exceptions import HTTPException
+    status = e.code if isinstance(e, HTTPException) else 500
+    return jsonify({"error": str(e) or e.__class__.__name__}), status
+
+JOBS_ROOT = Path(tempfile.gettempdir()) / "doc_to_json_webapp"
+JOBS_ROOT.mkdir(exist_ok=True)
+
+# job_id -> {"queue": Queue, "status": "running"|"done"|"error",
+#            "output_dir": Path, "summary": dict|None, "error": str|None,
+#            "kind": "convert"|"refresh"}
+_jobs = {}
+_jobs_lock = threading.Lock()
+
+
+# ----------------------------------------------------------------------
+# Captures every print() a job's background thread makes, without
+# touching doc_to_json.py at all. sys.stdout is replaced exactly once,
+# globally, at import time, with an object that looks up a *per-thread*
+# target queue -- so concurrent jobs (each in their own thread) don't
+# cross-talk, and code running outside a job (or in the main thread)
+# still prints to the real terminal untouched.
+# ----------------------------------------------------------------------
+class _ThreadTee:
+    def __init__(self, real_stdout):
+        self._real = real_stdout
+        self._local = threading.local()
+
+    def register(self, q: "queue.Queue"):
+        self._local.queue = q
+
+    def unregister(self):
+        self._local.queue = None
+
+    def write(self, text):
+        self._real.write(text)
+        q = getattr(self._local, "queue", None)
+        if q is not None and text.strip():
+            for line in text.splitlines():
+                if line.strip():
+                    q.put(line)
+
+    def flush(self):
+        self._real.flush()
+
+    def isatty(self):
+        return False
+
+
+_tee = _ThreadTee(sys.stdout)
+sys.stdout = _tee
+
+
+def _new_job(kind: str) -> str:
+    job_id = uuid.uuid4().hex[:12]  # shorter than the full 32 chars -- leaves
+    # more of Windows' 260-char MAX_PATH budget for the uploaded folder's own
+    # (sometimes long) relative paths and filenames
+    job_dir = JOBS_ROOT / job_id
+    (job_dir / "input").mkdir(parents=True)
+    (job_dir / "output").mkdir(parents=True)
+    with _jobs_lock:
+        _jobs[job_id] = {
+            "queue": queue.Queue(),
+            "status": "running",
+            "output_dir": job_dir / "output",
+            "summary": None,
+            "error": None,
+            "kind": kind,
+        }
+    return job_id
+
+
+def _safe_relpath(raw_path: str) -> Path:
+    """
+    Turns a browser-supplied relative path (from webkitRelativePath) into
+    a safe path with no ".." segments or absolute roots, so an uploaded
+    folder can never write outside its own job directory.
+    """
+    parts = [p for p in raw_path.replace("\\", "/").split("/") if p not in ("", ".", "..")]
+    if not parts:
+        parts = ["file"]
+    return Path(*parts)
+
+
+def _save_uploaded_folder(job_dir: Path) -> int:
+    """Saves every uploaded file under job_dir/input, preserving the
+    folder structure the browser sent via webkitRelativePath. Returns
+    how many files were saved."""
+    count = 0
+    for f in request.files.getlist("files"):
+        if not f.filename:
+            continue
+        rel = _safe_relpath(f.filename)
+        dest = job_dir / "input" / rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        f.save(dest)
+        count += 1
+    return count
+
+
+def _run_convert_job(job_id: str):
+    job = _jobs[job_id]
+    _tee.register(job["queue"])
+    try:
+        input_dir = JOBS_ROOT / job_id / "input"
+        summary = pipeline.run_pipeline(input_dir, job["output_dir"])
+        job["summary"] = summary
+        job["status"] = "done"
+    except Exception as e:
+        print(f"[ERROR] {e}")
+        job["error"] = str(e)
+        job["status"] = "error"
+    finally:
+        _tee.unregister()
+        job["queue"].put(None)  # sentinel: stream is over
+
+
+def _run_refresh_job(job_id: str):
+    job = _jobs[job_id]
+    _tee.register(job["queue"])
+    try:
+        input_dir = JOBS_ROOT / job_id / "input"
+        json_files = sorted(input_dir.rglob("*.json"))
+        if not json_files:
+            raise FileNotFoundError("No .json files found in the uploaded folder.")
+        print(f"Refreshing image URLs in {len(json_files)} file(s)...")
+        ok = 0
+        for jf in json_files:
+            # refresh_json_file() rewrites in place -- copy into output/
+            # first so the download reflects the refreshed version and
+            # the original upload is left alone.
+            dest = job["output_dir"] / jf.relative_to(input_dir)
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(jf, dest)
+            if pipeline.refresh_json_file(dest):
+                ok += 1
+        print(f"\nDone. {ok}/{len(json_files)} file(s) refreshed.")
+        job["summary"] = {"total": len(json_files), "refreshed": ok}
+        job["status"] = "done"
+    except Exception as e:
+        print(f"[ERROR] {e}")
+        job["error"] = str(e)
+        job["status"] = "error"
+    finally:
+        _tee.unregister()
+        job["queue"].put(None)
+
+
+@app.route("/")
+def index():
+    return render_template(
+        "index.html",
+        bearer_configured=bool(pipeline.BEARER_TOKEN),
+    )
+
+
+@app.route("/convert", methods=["POST"])
+def convert():
+    job_id = _new_job("convert")
+    job_dir = JOBS_ROOT / job_id
+    try:
+        n = _save_uploaded_folder(job_dir)
+    except OSError as e:
+        with _jobs_lock:
+            del _jobs[job_id]
+        # Common cause: Windows MAX_PATH (260 chars) exceeded once the temp
+        # dir + job id + relative folder + filename are all concatenated.
+        return jsonify({"error": f"Could not save an uploaded file ({e}). "
+                                  f"If this is a long/nested filename, try "
+                                  f"shortening it or uploading a shallower folder."}), 500
+    if n == 0:
+        with _jobs_lock:
+            del _jobs[job_id]
+        return jsonify({"error": "No files were uploaded."}), 400
+    threading.Thread(target=_run_convert_job, args=(job_id,), daemon=True).start()
+    return jsonify({"job_id": job_id, "files_received": n})
+
+
+@app.route("/refresh", methods=["POST"])
+def refresh():
+    job_id = _new_job("refresh")
+    job_dir = JOBS_ROOT / job_id
+    try:
+        n = _save_uploaded_folder(job_dir)
+    except OSError as e:
+        with _jobs_lock:
+            del _jobs[job_id]
+        return jsonify({"error": f"Could not save an uploaded file ({e}). "
+                                  f"If this is a long/nested filename, try "
+                                  f"shortening it or uploading a shallower folder."}), 500
+    if n == 0:
+        with _jobs_lock:
+            del _jobs[job_id]
+        return jsonify({"error": "No files were uploaded."}), 400
+    threading.Thread(target=_run_refresh_job, args=(job_id,), daemon=True).start()
+    return jsonify({"job_id": job_id, "files_received": n})
+
+
+@app.route("/stream/<job_id>")
+def stream(job_id):
+    job = _jobs.get(job_id)
+    if job is None:
+        return "unknown job", 404
+
+    def gen():
+        q = job["queue"]
+        while True:
+            line = q.get()
+            if line is None:  # sentinel from the job thread: it's finished
+                payload = {
+                    "status": job["status"],
+                    "summary": job["summary"],
+                    "error": job["error"],
+                }
+                yield f"event: done\ndata: {_json_dumps(payload)}\n\n"
+                return
+            yield f"data: {_json_dumps({'line': line})}\n\n"
+
+    return Response(gen(), mimetype="text/event-stream", headers={
+        "Cache-Control": "no-cache",
+        "X-Accel-Buffering": "no",
+    })
+
+
+def _json_dumps(obj):
+    import json
+    return json.dumps(obj)
+
+
+@app.route("/download/<job_id>")
+def download(job_id):
+    job = _jobs.get(job_id)
+    if job is None:
+        return "unknown job", 404
+    out_dir = job["output_dir"]
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as zf:
+        for f in out_dir.rglob("*"):
+            if f.is_file():
+                zf.write(f, f.relative_to(out_dir))
+    buf.seek(0)
+    return send_file(buf, mimetype="application/zip", as_attachment=True,
+                      download_name=f"{job['kind']}_{job_id[:8]}.zip")
+
+
+if __name__ == "__main__":
+    app.run(host="127.0.0.1", port=5000, threaded=True, debug=False)

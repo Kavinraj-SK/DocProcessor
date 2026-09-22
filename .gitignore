@@ -3,3 +3,5 @@ test/
 files/
 upload_log.csv
 res/
+EdgeCase/
+op/
