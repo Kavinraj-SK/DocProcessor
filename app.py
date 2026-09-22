@@ -20,22 +20,24 @@ sys.stdout, per background thread, into that job's queue (see _ThreadTee
 below), so doc_to_json.py's own code never has to know it's being
 watched.
 """
-import io
 import queue
-import shutil
 import sys
 import tempfile
 import threading
 import traceback
 import uuid
-import zipfile
 from pathlib import Path
 
-from flask import Flask, Response, jsonify, render_template, request, send_file
+from flask import Flask, Response, jsonify, render_template, request
 
 import doc_to_json as pipeline
 
 app = Flask(__name__)
+
+# The real, on-disk folder doc_to_json.py itself is configured to write
+# into -- results land here directly, same as running the CLI, instead
+# of behind a temp-folder + zip-download round trip.
+RESULT_PATH = Path(pipeline.OUTPUT_PATH).expanduser().resolve()
 
 
 @app.errorhandler(Exception)
@@ -56,8 +58,10 @@ JOBS_ROOT = Path(tempfile.gettempdir()) / "doc_to_json_webapp"
 JOBS_ROOT.mkdir(exist_ok=True)
 
 # job_id -> {"queue": Queue, "status": "running"|"done"|"error",
-#            "output_dir": Path, "summary": dict|None, "error": str|None,
-#            "kind": "convert"|"refresh"}
+#            "summary": dict|None, "error": str|None, "kind": "convert"|"refresh"}
+# Note: there's no per-job "output_dir" any more -- results are written
+# straight into RESULT_PATH (shared, real, on-disk), not somewhere
+# scoped to the job.
 _jobs = {}
 _jobs_lock = threading.Lock()
 
@@ -105,13 +109,12 @@ def _new_job(kind: str) -> str:
     # more of Windows' 260-char MAX_PATH budget for the uploaded folder's own
     # (sometimes long) relative paths and filenames
     job_dir = JOBS_ROOT / job_id
-    (job_dir / "input").mkdir(parents=True)
-    (job_dir / "output").mkdir(parents=True)
+    if kind == "convert":
+        (job_dir / "input").mkdir(parents=True)
     with _jobs_lock:
         _jobs[job_id] = {
             "queue": queue.Queue(),
             "status": "running",
-            "output_dir": job_dir / "output",
             "summary": None,
             "error": None,
             "kind": kind,
@@ -152,7 +155,8 @@ def _run_convert_job(job_id: str):
     _tee.register(job["queue"])
     try:
         input_dir = JOBS_ROOT / job_id / "input"
-        summary = pipeline.run_pipeline(input_dir, job["output_dir"])
+        print(f"Writing results to {RESULT_PATH}")
+        summary = pipeline.run_pipeline(input_dir, RESULT_PATH)
         job["summary"] = summary
         job["status"] = "done"
     except Exception as e:
@@ -168,21 +172,15 @@ def _run_refresh_job(job_id: str):
     job = _jobs[job_id]
     _tee.register(job["queue"])
     try:
-        input_dir = JOBS_ROOT / job_id / "input"
-        json_files = sorted(input_dir.rglob("*.json"))
+        print(f"Refreshing image URLs in {RESULT_PATH}")
+        json_files = sorted(RESULT_PATH.glob("*.json"))
         if not json_files:
-            raise FileNotFoundError("No .json files found in the uploaded folder.")
+            raise FileNotFoundError(f"No .json files found in {RESULT_PATH}.")
         print(f"Refreshing image URLs in {len(json_files)} file(s)...")
-        ok = 0
-        for jf in json_files:
-            # refresh_json_file() rewrites in place -- copy into output/
-            # first so the download reflects the refreshed version and
-            # the original upload is left alone.
-            dest = job["output_dir"] / jf.relative_to(input_dir)
-            dest.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy(jf, dest)
-            if pipeline.refresh_json_file(dest):
-                ok += 1
+        # refresh_json_file() rewrites each file in place -- this IS the
+        # "current path inside doc_to_json.py" (RESULT_PATH), so nothing
+        # needs to be copied anywhere first.
+        ok = sum(1 for jf in json_files if pipeline.refresh_json_file(jf))
         print(f"\nDone. {ok}/{len(json_files)} file(s) refreshed.")
         job["summary"] = {"total": len(json_files), "refreshed": ok}
         job["status"] = "done"
@@ -200,6 +198,7 @@ def index():
     return render_template(
         "index.html",
         bearer_configured=bool(pipeline.BEARER_TOKEN),
+        result_path=str(RESULT_PATH),
     )
 
 
@@ -228,21 +227,8 @@ def convert():
 @app.route("/refresh", methods=["POST"])
 def refresh():
     job_id = _new_job("refresh")
-    job_dir = JOBS_ROOT / job_id
-    try:
-        n = _save_uploaded_folder(job_dir)
-    except OSError as e:
-        with _jobs_lock:
-            del _jobs[job_id]
-        return jsonify({"error": f"Could not save an uploaded file ({e}). "
-                                  f"If this is a long/nested filename, try "
-                                  f"shortening it or uploading a shallower folder."}), 500
-    if n == 0:
-        with _jobs_lock:
-            del _jobs[job_id]
-        return jsonify({"error": "No files were uploaded."}), 400
     threading.Thread(target=_run_refresh_job, args=(job_id,), daemon=True).start()
-    return jsonify({"job_id": job_id, "files_received": n})
+    return jsonify({"job_id": job_id})
 
 
 @app.route("/stream/<job_id>")
@@ -274,22 +260,6 @@ def stream(job_id):
 def _json_dumps(obj):
     import json
     return json.dumps(obj)
-
-
-@app.route("/download/<job_id>")
-def download(job_id):
-    job = _jobs.get(job_id)
-    if job is None:
-        return "unknown job", 404
-    out_dir = job["output_dir"]
-    buf = io.BytesIO()
-    with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as zf:
-        for f in out_dir.rglob("*"):
-            if f.is_file():
-                zf.write(f, f.relative_to(out_dir))
-    buf.seek(0)
-    return send_file(buf, mimetype="application/zip", as_attachment=True,
-                      download_name=f"{job['kind']}_{job_id[:8]}.zip")
 
 
 if __name__ == "__main__":

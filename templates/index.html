@@ -75,11 +75,18 @@
     display:flex;
     justify-content:space-between;
     gap:16px;
-    min-width:200px;
+    min-width:220px;
+    max-width:360px;
   }
   .titleblock__meta div:last-child{border-bottom:none;}
-  .titleblock__meta .label{color:var(--ink-soft);}
-  .titleblock__meta .val{font-weight:600;}
+  .titleblock__meta .label{color:var(--ink-soft); flex-shrink:0;}
+  .titleblock__meta .val{
+    font-weight:600;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    text-align:right;
+  }
   .val.yes{color:var(--ok);}
   .val.no{color:var(--err);}
 
@@ -215,21 +222,18 @@
   .summary td{padding:3px 0; border-bottom:1px solid var(--line-soft);}
   .summary td:last-child{text-align:right; font-weight:600;}
 
-  a.download{
-    display:none;
-    font-family:"IBM Plex Mono", monospace;
-    font-size:0.82rem;
-    font-weight:600;
-    color:var(--accent-ink);
-    text-decoration:none;
-    border:1.5px solid var(--accent);
-    padding:9px 14px;
-    border-radius:var(--radius);
-    text-align:center;
-    background:#F3EBDC;
+  .pathnote{
+    margin:0;
+    font-size:0.78rem;
+    color:var(--ink-soft);
+    line-height:1.5;
   }
-  a.download.show{display:block;}
-  a.download:hover{background:#EADFC8;}
+  .pathnote code{
+    font-family:"IBM Plex Mono", monospace;
+    font-size:0.78rem;
+    color:var(--ink);
+    word-break:break-all;
+  }
 
   footer{
     max-width:1040px;
@@ -246,9 +250,10 @@
   <div class="titleblock">
     <div class="titleblock__main">
       <h1>doc_to_json pipeline</h1>
-      <p>Convert exam-paper .docx files into question-bank JSON, or refresh expired image URLs in JSON you've already generated.</p>
+      <p>Convert exam-paper .docx files into question-bank JSON, or refresh expired image URLs in JSON already there. Results are written directly to the folder below -- no download step.</p>
     </div>
     <div class="titleblock__meta">
+      <div><span class="label">output path</span><span class="val" title="{{ result_path }}">{{ result_path }}</span></div>
       <div><span class="label">BEARER_TOKEN</span><span class="val {{ 'yes' if bearer_configured else 'no' }}">{{ 'configured' if bearer_configured else 'missing' }}</span></div>
       <div><span class="label">runs on</span><span class="val">127.0.0.1:5000</span></div>
     </div>
@@ -272,33 +277,28 @@
         <span class="status idle" data-role="status">idle</span>
         <div class="console" data-role="console"></div>
         <div class="summary" data-role="summary"></div>
-        <a class="download" data-role="download">Download output (.zip)</a>
+        <p class="pathnote" data-role="pathnote">Writes into <code>{{ result_path }}</code></p>
       </div>
     </section>
 
     <!-- REFRESH PANEL -->
-    <section class="panel" data-kind="refresh" data-endpoint="/refresh">
+    <section class="panel" data-kind="refresh" data-endpoint="/refresh" data-no-upload="true">
       <div class="panel__head">
         <h2>Refresh URLs</h2>
         <span>re-sign expired image links</span>
       </div>
       <div class="panel__body">
-        <label class="dropzone" data-role="dropzone">
-          <p><strong>Choose a folder</strong> of already-generated .json<br>or drag one here</p>
-          <input type="file" webkitdirectory directory multiple data-role="input">
-        </label>
-        <div class="filelist" data-role="filelist"></div>
-        <button class="run" data-role="run" disabled>Run refresh</button>
+        <p class="pathnote">Refreshes every .json already in <code>{{ result_path }}</code> in place -- nothing to upload.</p>
+        <button class="run" data-role="run">Run refresh</button>
         <span class="status idle" data-role="status">idle</span>
         <div class="console" data-role="console"></div>
         <div class="summary" data-role="summary"></div>
-        <a class="download" data-role="download">Download refreshed (.zip)</a>
       </div>
     </section>
 
   </div>
 
-  <footer>FooterSample.</footer>
+  <footer>Runs entirely on this machine. The only outbound calls are the image uploads doc_to_json.py already makes to your configured SFM_UPLOAD_URL.</footer>
 </div>
 
 <script>
@@ -306,6 +306,7 @@ document.querySelectorAll(".panel").forEach(setupPanel);
 
 function setupPanel(panel){
   const endpoint = panel.dataset.endpoint;
+  const noUpload = panel.dataset.noUpload === "true";
   const dropzone = panel.querySelector('[data-role="dropzone"]');
   const input = panel.querySelector('[data-role="input"]');
   const filelist = panel.querySelector('[data-role="filelist"]');
@@ -313,28 +314,32 @@ function setupPanel(panel){
   const statusEl = panel.querySelector('[data-role="status"]');
   const consoleEl = panel.querySelector('[data-role="console"]');
   const summaryEl = panel.querySelector('[data-role="summary"]');
-  const downloadEl = panel.querySelector('[data-role="download"]');
 
   let chosenFiles = [];
 
-  input.addEventListener("change", () => {
-    chosenFiles = Array.from(input.files);
-    renderFileList();
-  });
+  // The refresh panel has no dropzone at all -- it operates on whatever's
+  // already in the output path, so its Run button is enabled from the
+  // start and there's nothing here to wire up.
+  if (!noUpload && dropzone) {
+    input.addEventListener("change", () => {
+      chosenFiles = Array.from(input.files);
+      renderFileList();
+    });
 
-  dropzone.addEventListener("dragover", e => { e.preventDefault(); dropzone.classList.add("drag"); });
-  dropzone.addEventListener("dragleave", () => dropzone.classList.remove("drag"));
-  dropzone.addEventListener("drop", async e => {
-    e.preventDefault();
-    dropzone.classList.remove("drag");
-    const items = e.dataTransfer.items;
-    if (items && items.length && items[0].webkitGetAsEntry) {
-      chosenFiles = await filesFromDataTransferItems(items);
-    } else {
-      chosenFiles = Array.from(e.dataTransfer.files);
-    }
-    renderFileList();
-  });
+    dropzone.addEventListener("dragover", e => { e.preventDefault(); dropzone.classList.add("drag"); });
+    dropzone.addEventListener("dragleave", () => dropzone.classList.remove("drag"));
+    dropzone.addEventListener("drop", async e => {
+      e.preventDefault();
+      dropzone.classList.remove("drag");
+      const items = e.dataTransfer.items;
+      if (items && items.length && items[0].webkitGetAsEntry) {
+        chosenFiles = await filesFromDataTransferItems(items);
+      } else {
+        chosenFiles = Array.from(e.dataTransfer.files);
+      }
+      renderFileList();
+    });
+  }
 
   function renderFileList(){
     if (!chosenFiles.length){
@@ -378,24 +383,27 @@ function setupPanel(panel){
 
   async function runJob(){
     runBtn.disabled = true;
-    setStatus("run", "uploading…");
+    setStatus("run", noUpload ? "running…" : "uploading…");
     consoleEl.textContent = "";
     consoleEl.classList.add("show");
     summaryEl.classList.remove("show");
-    downloadEl.classList.remove("show");
 
-    const form = new FormData();
-    chosenFiles.forEach(f => form.append("files", f, f.webkitRelativePath || f.name));
+    const fetchOpts = { method: "POST" };
+    if (!noUpload) {
+      const form = new FormData();
+      chosenFiles.forEach(f => form.append("files", f, f.webkitRelativePath || f.name));
+      fetchOpts.body = form;
+    }
 
     let resp, data, rawText;
     try {
-      resp = await fetch(endpoint, { method: "POST", body: form });
+      resp = await fetch(endpoint, fetchOpts);
     } catch (err) {
       // The request itself never completed (server unreachable, connection
       // dropped mid-upload, etc).
       setStatus("error", "error");
       appendLine(`[ERROR] request failed: ${err}`, "err");
-      runBtn.disabled = false;
+      runBtn.disabled = noUpload ? false : chosenFiles.length === 0;
       return;
     }
     rawText = await resp.text();
@@ -422,7 +430,7 @@ function setupPanel(panel){
     }
     if (!resp.ok){
       setStatus("error", "error");
-      appendLine(`[ERROR] ${data.error || "upload rejected"}`, "err");
+      appendLine(`[ERROR] ${data.error || "request rejected"}`, "err");
       runBtn.disabled = false;
       return;
     }
@@ -440,8 +448,6 @@ function setupPanel(panel){
       if (payload.status === "done"){
         setStatus("done", "done");
         renderSummary(payload.summary);
-        downloadEl.href = `/download/${data.job_id}`;
-        downloadEl.classList.add("show");
       } else {
         setStatus("error", "error");
         appendLine(`[ERROR] ${payload.error || "job failed"}`, "err");
