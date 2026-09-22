@@ -30,8 +30,10 @@ or right before serving the JSON to the frontend).
 import json
 import os
 import re
+import struct
 import sys
 import zipfile
+import zlib
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -51,6 +53,16 @@ try:
 except ImportError:
     _pydocx = None
 
+try:
+    from PIL import Image as _PILImage  # used to convert unsupported image formats before upload
+except ImportError:
+    _PILImage = None
+
+try:
+    import imagecodecs as _imagecodecs  # decodes JPEG XR (.wdp) - PIL alone can't read it
+except ImportError:
+    _imagecodecs = None
+
 
 # ============================================================================
 # SET THESE TWO PATHS AND RUN THE SCRIPT WITH NO ARGUMENTS
@@ -69,6 +81,12 @@ SFM_VIEW_URL = os.getenv("SFM_VIEW_URL", "https://campus.psgtech.ac.in/sfm/api/f
 # Must already exist in AWS -- FILE_SERVICE's own docs note this route
 # does not create the path, only uploads into an existing one.
 SFM_UPLOAD_PATH = os.getenv("SFM_UPLOAD_PATH", "/DOTECOE/atlas-9f3c7a1d")
+# The upload API silently rejects any file under this size -- see
+# pad_image_to_min_size() below for how small embedded images are handled.
+MIN_UPLOAD_IMAGE_BYTES = int(os.getenv("MIN_UPLOAD_IMAGE_BYTES", "2048"))
+# Extensions the upload API is known to accept as-is. Anything else gets
+# converted to PNG first -- see convert_unsupported_image_format() below.
+UPLOAD_SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp"}
 
 
 CATEGORY_HEADER_RE = re.compile(
@@ -186,6 +204,166 @@ def extract_embedded_media(docx_path: Path, out_dir: Path):
     return media_dir.name, extracted
 
 
+def _pad_jpeg(data: bytes, target_size: int) -> bytes:
+    """
+    Insert a standard JPEG COM (comment) marker segment -- spec-compliant
+    and silently skipped by every decoder -- right before the End-Of-Image
+    marker so the file's total byte size reaches target_size. Not one
+    pixel of actual image data is touched.
+    """
+    needed = target_size - len(data)
+    if needed <= 0 or not data.endswith(b"\xff\xd9"):
+        return data  # already big enough, or not a well-formed JPEG - don't risk it
+
+    overhead = 4  # FF FE marker + 2-byte length field
+    payload_len = max(needed - overhead, 0)
+    segments = b""
+    remaining = payload_len
+    while remaining > 0:
+        # COM segment length field is 2 bytes and includes itself, so max
+        # payload per segment is 65533; loop (harmless, just belt-and-braces
+        # since we're only ever padding up to a couple KB in practice).
+        chunk = min(remaining, 65533)
+        segments += b"\xff\xfe" + struct.pack(">H", chunk + 2) + (b"\x00" * chunk)
+        remaining -= chunk
+    return data[:-2] + segments + data[-2:]
+
+
+def _pad_png(data: bytes, target_size: int) -> bytes:
+    """
+    Insert a standard PNG tEXt ancillary chunk -- ignored by every PNG
+    reader -- right before IEND so the file's total byte size reaches
+    target_size. Not one pixel of actual image data is touched.
+    """
+    needed = target_size - len(data)
+    if needed <= 0 or not data.endswith(b"IEND\xae\x42\x60\x82"):
+        return data  # already big enough, or not a well-formed PNG - don't risk it
+
+    overhead = 12 + 8  # 4-byte len + 4-byte type + 4-byte CRC, plus "Padding\x00" key
+    payload_len = max(needed - overhead, 1)
+    chunk_type = b"tEXt"
+    chunk_data = b"Padding\x00" + (b"0" * payload_len)
+    chunk = (
+        struct.pack(">I", len(chunk_data)) + chunk_type + chunk_data
+        + struct.pack(">I", zlib.crc32(chunk_type + chunk_data) & 0xFFFFFFFF)
+    )
+    iend_start = len(data) - 12
+    return data[:iend_start] + chunk + data[iend_start:]
+
+
+def pad_image_to_min_size(path: Path, min_bytes: int = MIN_UPLOAD_IMAGE_BYTES) -> bool:
+    """
+    The upload API rejects any file under ~2KB outright. Some genuinely
+    tiny embedded images (small cropped screenshots, equation snapshots)
+    fall under that floor. Rather than upscaling/resampling them - which
+    would change actual pixel content for no real reason and isn't
+    guaranteed to land above the threshold predictably - this pads the
+    file with a standard, universally-ignored metadata segment/chunk so
+    its byte size clears the API's floor while every pixel stays
+    byte-for-byte identical.
+
+    Mutates the file on disk in place (safe: this only ever runs on our
+    own extracted scratch copy under the media dir, never the source
+    .docx). Returns True if the file is now >= min_bytes (either it
+    already was, or padding succeeded), False if it's a format this
+    function doesn't know how to safely pad -- the caller should warn
+    rather than upload something the API will just bounce anyway.
+    """
+    try:
+        data = path.read_bytes()
+    except Exception:
+        return False
+
+    if len(data) >= min_bytes:
+        return True
+
+    if data.startswith(b"\xff\xd8\xff"):
+        padded = _pad_jpeg(data, min_bytes)
+    elif data.startswith(b"\x89PNG\r\n\x1a\n"):
+        padded = _pad_png(data, min_bytes)
+    else:
+        return False
+
+    if len(padded) < min_bytes:
+        return False
+
+    path.write_bytes(padded)
+    return True
+
+
+def convert_unsupported_image_format(path: Path):
+    """
+    The upload API rejects some formats Word happily embeds -- most
+    commonly hdphotoN.wdp, a JPEG XR fallback bitmap Word writes
+    alongside a picture's primary format for older-Office compatibility
+    (the "type '.wdp' is not supported" error). Rather than dropping
+    these images, decode them and re-save as PNG, which the API accepts.
+
+    Tries Pillow first (covers the common raster formats it ships with),
+    then imagecodecs' generic reader as a fallback (an additional ~89
+    raster codecs, including JPEG XR/.wdp, which Pillow alone can't
+    read). Neither can help with vector formats (.emf/.wmf/.svg) --
+    those aren't pixel data to decode, they're stored drawing
+    instructions, so they'd need a rendering engine (e.g. LibreOffice
+    headless, Inkscape) rather than a codec; such files get a specific
+    warning saying so instead of a generic failure.
+
+    Returns the path to a PNG version of the image (a new file next to
+    the original; the original is left alone) on success, or None if the
+    format is already supported (no conversion needed) or couldn't be
+    decoded (caller should warn and skip rather than upload a file the
+    API will just bounce).
+    """
+    ext = path.suffix.lower()
+    if ext in UPLOAD_SUPPORTED_EXTENSIONS:
+        return None  # already fine, no conversion needed
+
+    out_path = path.with_suffix(".png")
+
+    def _save_array_as_png(arr):
+        img = _PILImage.fromarray(arr)
+        if img.mode not in ("RGB", "RGBA", "L"):
+            img = img.convert("RGB")
+        img.save(out_path, "PNG")
+        return out_path
+
+    pil_error = None
+    if _PILImage is not None:
+        try:
+            img = _PILImage.open(path)
+            img.load()
+            if img.mode not in ("RGB", "RGBA", "L"):
+                img = img.convert("RGB")
+            img.save(out_path, "PNG")
+            return out_path
+        except Exception as e:
+            pil_error = e  # fall through to imagecodecs below
+
+    if _imagecodecs is not None and _PILImage is not None:
+        try:
+            arr = _imagecodecs.imread(path.read_bytes())
+            return _save_array_as_png(arr)
+        except Exception as e:
+            if ext in (".emf", ".wmf", ".svg"):
+                print(f"    [WARN] {path.name} is a vector format ('{ext}') -- neither Pillow "
+                      f"nor imagecodecs can rasterize vector drawings (they only decode pixel "
+                      f"data); a rendering engine like LibreOffice or Inkscape would be needed "
+                      f"to convert it -- skipping")
+                return None
+            print(f"    [WARN] couldn't convert unsupported format {path.name} ({ext}): {e}")
+            return None
+
+    if _PILImage is None:
+        print(f"    [WARN] {path.name} has unsupported format '{ext}' and Pillow isn't "
+              f"installed to attempt a conversion -- install with:\n"
+              f"        pip install Pillow imagecodecs --break-system-packages")
+    else:
+        print(f"    [WARN] {path.name} has unsupported format '{ext}'; Pillow couldn't read it "
+              f"({pil_error}) and 'imagecodecs' isn't installed to try further -- install with:\n"
+              f"        pip install imagecodecs --break-system-packages")
+    return None
+
+
 def upload_images_to_s3(image_paths, docx_stem):
     """
     Uploads each local image individually via the File Service
@@ -215,6 +393,14 @@ def upload_images_to_s3(image_paths, docx_stem):
       pattern as before) -- run this script with --refresh right before
       actual use, same as with the old endpoint. The durable value that
       matters long-term is "filePath" (the S3 key).
+    - The API rejects files under ~2KB, which some genuinely tiny
+      embedded images fall under -- see pad_image_to_min_size(), called
+      per-image below, which pads such files (without touching pixel
+      data) rather than skipping them.
+    - The API also rejects formats it doesn't recognize -- most commonly
+      Word's hdphotoN.wdp fallback bitmaps (JPEG XR). See
+      convert_unsupported_image_format(), called per-image below, which
+      converts these to PNG before upload rather than skipping them.
     """
     if not image_paths or requests is None:
         return {}
@@ -225,11 +411,26 @@ def upload_images_to_s3(image_paths, docx_stem):
 
     mapping = {}
     for local_path in image_paths:
-        unique_name = f"{docx_stem}_{local_path.name}"
+        upload_path = local_path
+        if local_path.suffix.lower() not in UPLOAD_SUPPORTED_EXTENSIONS:
+            converted_path = convert_unsupported_image_format(local_path)
+            if converted_path is None:
+                # convert_unsupported_image_format() already printed a
+                # [WARN] explaining why -- don't waste a request on a
+                # format the API is guaranteed to reject.
+                continue
+            upload_path = converted_path
+
+        if not pad_image_to_min_size(upload_path):
+            print(f"    [WARN] {upload_path.name} is under {MIN_UPLOAD_IMAGE_BYTES} bytes "
+                  f"and couldn't be padded (unrecognized format) -- the upload API will "
+                  f"likely reject it")
+
+        unique_name = f"{docx_stem}_{upload_path.name}"
         params = {"Path": SFM_UPLOAD_PATH, "Filename": unique_name}
 
         try:
-            with open(local_path, "rb") as fh:
+            with open(upload_path, "rb") as fh:
                 resp = requests.post(
                     SFM_UPLOAD_URL, params=params,
                     files={"file": (unique_name, fh)},
@@ -252,23 +453,23 @@ def upload_images_to_s3(image_paths, docx_stem):
                 # overwrote it). Reconstruct the deterministic key
                 # ourselves instead of treating this as a failure.
                 key = f"{SFM_UPLOAD_PATH.strip('/')}/{unique_name}"
-                print(f"    [REUSE] {local_path.name} already exists in S3 at {key}, reusing it")
+                print(f"    [REUSE] {upload_path.name} already exists in S3 at {key}, reusing it")
             elif not resp.ok:
-                print(f"    [WARN] image upload failed for {local_path.name}: "
+                print(f"    [WARN] image upload failed for {upload_path.name}: "
                       f"{resp.status_code} -- {resp.text[:300]}")
                 continue
             else:
                 result = resp_body or {}
                 if result.get("isError"):
-                    print(f"    [WARN] image upload reported error for {local_path.name}: "
+                    print(f"    [WARN] image upload reported error for {upload_path.name}: "
                           f"{result.get('message')}")
                     continue
                 key = (result.get("result") or {}).get("key")
                 if not key:
-                    print(f"    [WARN] upload succeeded but no 'key' returned for {local_path.name}")
+                    print(f"    [WARN] upload succeeded but no 'key' returned for {upload_path.name}")
                     continue
         except Exception as e:
-            print(f"    [WARN] image upload failed for {local_path.name}: {e}")
+            print(f"    [WARN] image upload failed for {upload_path.name}: {e}")
             continue
 
         image_url = ""
@@ -279,8 +480,11 @@ def upload_images_to_s3(image_paths, docx_stem):
                 if not view_result.get("isError"):
                     image_url = (view_result.get("result") or {}).get("url", "")
         except Exception as e:
-            print(f"    [WARN] could not fetch initial view URL for {local_path.name}: {e}")
+            print(f"    [WARN] could not fetch initial view URL for {upload_path.name}: {e}")
 
+        # Keyed by the ORIGINAL filename (e.g. "hdphoto1.wdp"), not the
+        # converted one, since that's what the "----media/...----"
+        # placeholders in the extracted text reference.
         mapping[local_path.name] = {"filePath": key, "imageUrl": image_url}
 
     return mapping
