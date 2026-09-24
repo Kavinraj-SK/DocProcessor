@@ -88,7 +88,6 @@ MIN_UPLOAD_IMAGE_BYTES = int(os.getenv("MIN_UPLOAD_IMAGE_BYTES", "2048"))
 # converted to PNG first -- see convert_unsupported_image_format() below.
 UPLOAD_SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp"}
 
-
 CATEGORY_HEADER_RE = re.compile(
     r'^[A-E]\)?\.?\s*[A-Za-z][A-Za-z ]*SKILLS?\s*\(\s*\d+\s*[Mm]arks?\)?\s*$'
 )
