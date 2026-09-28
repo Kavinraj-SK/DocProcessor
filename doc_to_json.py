@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Extract QUESTION CONTENT from .docx files into nested JSON.
 
@@ -32,6 +31,8 @@ import os
 import re
 import struct
 import sys
+import tempfile
+import unicodedata
 import zipfile
 import zlib
 from pathlib import Path
@@ -67,8 +68,8 @@ except ImportError:
 # ============================================================================
 # SET THESE TWO PATHS AND RUN THE SCRIPT WITH NO ARGUMENTS
 # ============================================================================
-INPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\test"
-OUTPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\test"
+INPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\files"
+OUTPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\res"
 # ============================================================================
 
 load_dotenv()
@@ -117,6 +118,20 @@ def extract_subj_code(stem: str) -> str:
 # docx2python inserts a placeholder like "----media/image1.emf----" (or .png,
 # .jpg, etc.) into extracted text wherever an embedded image sits in a cell.
 IMAGE_MARKER_RE = re.compile(r'----media/(image\d+\.\w+)----')
+# docx2python also wraps every picture's alt text in a visible marker just
+# before the media placeholder, e.g.
+#   "----Image alt text---->C:\\Users\\x\\Parabolic Arch.jpg<----media/image1.jpeg----"
+# The alt text is a local file path from the author's machine - useless to
+# students and must never reach the frontend. Strip the whole wrapper; the
+# "----media/...----" placeholder that follows is kept (it becomes the <img>).
+IMAGE_ALT_MARKER_RE = re.compile(r'----Image alt text---->.*?<(?=----media/)', re.DOTALL)
+# Safety net for an alt-text marker that is not followed by a media placeholder.
+IMAGE_ALT_MARKER_LOOSE_RE = re.compile(r'----Image alt text---->[^<\n]*<?')
+
+
+def strip_image_alt_markers(text: str) -> str:
+    text = IMAGE_ALT_MARKER_RE.sub("", text)
+    return IMAGE_ALT_MARKER_LOOSE_RE.sub("", text)
 # A single-letter sub-answer label ("A.", "B)", etc.) as a whole table cell.
 LETTER_LABEL_RE = re.compile(r'^[A-Ea-e]\)?\.?$')
 # The marks-allocation grid's header row always starts with this cell,
@@ -139,7 +154,7 @@ def clean_cell(paragraphs):
         text = paragraphs
     else:
         text = "\n".join(str(p) for p in paragraphs if p)
-    return text.replace("\t", " ").strip()
+    return strip_image_alt_markers(text.replace("\t", " ")).strip()
 
 
 def _lineage_says_table(par):
@@ -489,23 +504,185 @@ def upload_images_to_s3(image_paths, docx_stem):
     return mapping
 
 
+# ============================================================================
+# Superscript / subscript handling
+# ----------------------------------------------------------------------------
+# Word stores "x squared" as a normal run "2" with <w:vertAlign w:val="superscript"/>.
+# docx2python's plain-text output drops that formatting, so "x^2 + y^2" came out
+# as "x2 + y2" (and H2O-style subscripts had the same problem). Before docx2python
+# reads the file, we rewrite those runs into Unicode super/subscript characters
+# (x^2 -> x², H2O -> H₂O). If a run contains characters Unicode has no
+# super/subscript form for (e.g. "(n+1)" with capital letters, or "x-1" is fine
+# but "AB" is not), it falls back to an explicit ^(...) / _(...) marker instead
+# of guessing, so the exponent is never silently lost.
+# ============================================================================
+_W_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+
+_SUPERSCRIPT_CHARS = {
+    "0": "\u2070", "1": "\u00b9", "2": "\u00b2", "3": "\u00b3", "4": "\u2074",
+    "5": "\u2075", "6": "\u2076", "7": "\u2077", "8": "\u2078", "9": "\u2079",
+    "+": "\u207a", "-": "\u207b", "\u2212": "\u207b", "=": "\u207c",
+    "(": "\u207d", ")": "\u207e",
+    "a": "\u1d43", "b": "\u1d47", "c": "\u1d9c", "d": "\u1d48", "e": "\u1d49",
+    "f": "\u1da0", "g": "\u1d4d", "h": "\u02b0", "i": "\u2071", "j": "\u02b2",
+    "k": "\u1d4f", "l": "\u02e1", "m": "\u1d50", "n": "\u207f", "o": "\u1d52",
+    "p": "\u1d56", "r": "\u02b3", "s": "\u02e2", "t": "\u1d57", "u": "\u1d58",
+    "v": "\u1d5b", "w": "\u02b7", "x": "\u02e3", "y": "\u02b8", "z": "\u1dbb",
+}
+_SUBSCRIPT_CHARS = {
+    "0": "\u2080", "1": "\u2081", "2": "\u2082", "3": "\u2083", "4": "\u2084",
+    "5": "\u2085", "6": "\u2086", "7": "\u2087", "8": "\u2088", "9": "\u2089",
+    "+": "\u208a", "-": "\u208b", "\u2212": "\u208b", "=": "\u208c",
+    "(": "\u208d", ")": "\u208e",
+    "a": "\u2090", "e": "\u2091", "h": "\u2095", "i": "\u1d62", "j": "\u2c7c",
+    "k": "\u2096", "l": "\u2097", "m": "\u2098", "n": "\u2099", "o": "\u2092",
+    "p": "\u209a", "r": "\u1d63", "s": "\u209b", "t": "\u209c", "u": "\u1d64",
+    "v": "\u1d65", "x": "\u2093",
+}
+
+
+def _to_script(text: str, table: dict, fallback_marker: str) -> str:
+    """Map `text` to super/subscript Unicode, or ^(text) / _(text) if any char has no form."""
+    if not text.strip():
+        return text
+    out = []
+    for ch in text:
+        if ch.isspace():
+            out.append(ch)
+            continue
+        # NFKC turns math-italic letters (e.g. U+1D45B) back into plain ones
+        # so they can be looked up; it never affects the table's own keys.
+        mapped = table.get(unicodedata.normalize("NFKC", ch))
+        if mapped is None:
+            return f"{fallback_marker}({text.strip()})"
+        out.append(mapped)
+    return "".join(out)
+
+
+def _rewrite_script_runs(document_xml: bytes):
+    """Returns (new_xml_bytes, changed) with every super/subscript run rewritten."""
+    from lxml import etree
+    w = lambda tag: f"{{{_W_NS}}}{tag}"
+    root = etree.fromstring(document_xml)
+    changed = False
+    for run in root.iter(w("r")):
+        va = run.find(f"{w('rPr')}/{w('vertAlign')}")
+        if va is None:
+            continue
+        kind = va.get(w("val"))
+        if kind == "superscript":
+            table, marker = _SUPERSCRIPT_CHARS, "^"
+        elif kind == "subscript":
+            table, marker = _SUBSCRIPT_CHARS, "_"
+        else:
+            continue
+        for t in run.findall(w("t")):
+            if t.text:
+                new_text = _to_script(t.text, table, marker)
+                if new_text != t.text:
+                    t.text = new_text
+                    t.set("{http://www.w3.org/XML/1998/namespace}space", "preserve")
+                    changed = True
+    if not changed:
+        return document_xml, False
+    return etree.tostring(root, xml_declaration=True, encoding="UTF-8", standalone=True), True
+
+
+def docx_with_unicode_scripts(docx_path: Path):
+    """
+    Returns (path_to_read, is_temp). If the document has superscript/subscript
+    runs, `path_to_read` is a temp copy of the .docx with those runs rewritten
+    (delete it when done); otherwise it is the original path untouched.
+    Any failure falls back to the original file so conversion never breaks
+    because of this step.
+    """
+    try:
+        with zipfile.ZipFile(docx_path) as zin:
+            new_xml, changed = _rewrite_script_runs(zin.read("word/document.xml"))
+            if not changed:
+                return docx_path, False
+            fd, tmp_name = tempfile.mkstemp(suffix=".docx")
+            os.close(fd)
+            with zipfile.ZipFile(tmp_name, "w", zipfile.ZIP_DEFLATED) as zout:
+                for item in zin.infolist():
+                    data = new_xml if item.filename == "word/document.xml" else zin.read(item.filename)
+                    zout.writestr(item, data)
+        return Path(tmp_name), True
+    except Exception as e:
+        print(f"  [WARN] Could not normalise superscripts in {docx_path.name}: {e}")
+        return docx_path, False
+
+
 def get_body_entries(docx_path: Path):
     """Returns list of (is_real, rows) for every body entry in the doc."""
-    with docx2python(str(docx_path)) as doc:
-        body = doc.body
-        try:
-            body_pars = doc.body_pars
-        except AttributeError:
-            body_pars = None
+    read_path, is_temp = docx_with_unicode_scripts(docx_path)
+    try:
+        with docx2python(str(read_path)) as doc:
+            body = doc.body
+            try:
+                body_pars = doc.body_pars
+            except AttributeError:
+                body_pars = None
 
-        entries = []
-        for idx, text_table in enumerate(body):
-            if body_pars is not None:
-                is_real = _is_real_table(body_pars[idx])
-            else:
-                is_real = not (len(text_table) == 1 and len(text_table[0]) == 1)
-            entries.append((is_real, text_table))
-        return entries
+            entries = []
+            for idx, text_table in enumerate(body):
+                if body_pars is not None:
+                    is_real = _is_real_table(body_pars[idx])
+                else:
+                    is_real = not (len(text_table) == 1 and len(text_table[0]) == 1)
+                entries.append((is_real, text_table))
+            return _split_trailing_headings(entries)
+    finally:
+        if is_temp:
+            try:
+                os.remove(read_path)
+            except OSError:
+                pass
+
+
+def _split_trailing_headings(entries):
+    """
+    Some source documents interleave a question's own marks-allocation
+    table and the NEXT question's heading inside one continuous Word
+    table, instead of starting a fresh table per question -- sometimes
+    inconsistently, in just one spot in an otherwise normal document
+    (typically because whoever typed it hit Enter inside the existing
+    table instead of after it). Since collect_digit_blocks() only
+    recognizes a heading at an entry's FIRST row, a trailing heading row
+    like this is invisible to it: the entire entry gets skipped as
+    unrecognized table content, silently dropping that question (and
+    everything under it) from the output.
+
+    This splits such a trailing row off into its own synthetic entry, in
+    either shape _digit_heading_info() already knows how to read:
+      - paired:  [..., ['3', 'Do the following activities...']]
+      - bare:    [..., ['3']]   (the description arrives via later
+                 entries instead, same as a normal standalone bare-digit
+                 heading elsewhere in the same document)
+    so the normal heading-detection logic picks it up like any other
+    question start, with no changes needed there.
+
+    "0" is deliberately never treated as a heading here (nor, elsewhere,
+    as a bare single-cell heading) -- it's a known Word list-numbering
+    artifact, never a real top-level Qno in this document family.
+    """
+    expanded = []
+    for is_real, rows in entries:
+        if is_real and len(rows) > 1:
+            last_row = rows[-1]
+            if last_row and last_row[0]:
+                cell0 = clean_cell(last_row[0]).rstrip(".").strip()
+                is_paired = (
+                    len(last_row) >= 2 and clean_cell(last_row[1]).strip()
+                    and len(clean_cell(last_row[1]).strip()) >= 15
+                )
+                is_bare = len(last_row) == 1
+                if cell0.isdigit() and cell0 != "0" and (is_paired or is_bare):
+                    expanded.append((is_real, rows[:-1]))
+                    expanded.append((is_real, [last_row]))
+                    continue
+        expanded.append((is_real, rows))
+    return expanded
 
 
 def _digit_heading_info(is_real, rows):
@@ -523,6 +700,14 @@ def _digit_heading_info(is_real, rows):
         return False, None, []
     cell0 = clean_cell(rows[0][0]).rstrip(".").strip()
     if not cell0.isdigit():
+        return False, None, []
+    if cell0 == "0":
+        # Never a real Qno in this document family -- seen as a stray
+        # leftover from Word's own list-numbering (typically a broken
+        # auto-number field on a lowercase-roman "ii)"/"iii)" continuation
+        # line), not a genuine top-level question start. Treating it as
+        # one would wrongly split that continuation off into its own
+        # bogus "Qno: 0" entry and truncate the question it belongs to.
         return False, None, []
 
     if len(rows[0]) >= 2:
@@ -605,7 +790,12 @@ def collect_digit_blocks(entries):
                     break
                 if not is_real2:
                     flat = _flatten_entry(rows2)
-                    if flat.strip():
+                    if flat.strip() and flat.strip() != "0":
+                        # A bare "0" here is the same Word list-numbering
+                        # artifact _digit_heading_info() now excludes from
+                        # being a heading -- also drop it here rather than
+                        # letting it leak into the question text as a
+                        # stray "0" line.
                         buffer_lines.append(flat)
                     i += 1
                 elif _is_lettered_subanswer_table(rows2):
@@ -835,7 +1025,8 @@ def substitute_image_placeholders(questions, url_by_filename):
 
     def process_node(node):
         if node.get("Description") is not None:
-            node["Description"] = IMAGE_MARKER_RE.sub(repl, node["Description"])
+            node["Description"] = IMAGE_MARKER_RE.sub(
+                repl, strip_image_alt_markers(node["Description"]))
         for child in node.get("SubDivisions", []) or []:
             process_node(child)
         for child in node.get("SubQuestions", []) or []:

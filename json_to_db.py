@@ -75,9 +75,18 @@ EXAM_ID_DEFAULT = int(os.getenv("EXAM_ID_DEFAULT", "1"))
 
 # Default folder containing the source .json files.
 # Change this path if you move the files, or override at runtime with --folder.
-DEFAULT_FOLDER = r"C:\Users\Administrator\Desktop\DocQues\test"
+DEFAULT_FOLDER = r"C:\Users\Administrator\Desktop\DocQues\res"
 
 QUES_TOKEN = os.getenv("ques_TOKEN")
+
+# (connect, read) timeout in seconds for SaveQuestion. The old fixed 60s read
+# timeout was too short when the server is slow. Override in .env, e.g.
+#   SAVE_CONNECT_TIMEOUT=10
+#   SAVE_READ_TIMEOUT=240
+SAVE_TIMEOUT = (
+    float(os.getenv("SAVE_CONNECT_TIMEOUT", "10")),
+    float(os.getenv("SAVE_READ_TIMEOUT", "180")),
+)
 QUESTION_IMAGE_UPLOAD_URL = os.getenv(
     "QUESTION_IMAGE_UPLOAD_URL",
     API_URL.rsplit("/", 1)[0] + "/UploadQuestionImages.handle",
@@ -249,12 +258,19 @@ def post_question(session, payload, dry_run, test_mode):
                       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     }
 
+    payload_kb = len(json.dumps(payload).encode("utf-8")) / 1024
+    if test_mode or payload_kb > 500:
+        print(f"  payload size: {payload_kb:.0f} KB")
+
     for attempt in range(3):
         try:
-            resp = session.post(API_URL, headers=headers, json=payload, timeout=60)
+            resp = session.post(API_URL, headers=headers, json=payload, timeout=SAVE_TIMEOUT)
         except requests.RequestException as e:
             if attempt == 2:
-                return False, None, f"request error: {e}"
+                # NOTE: a read timeout does not prove the save failed - the
+                # server may have stored the question and only been slow to
+                # answer. Check the DB/portal before re-running.
+                return False, None, f"request error (payload {payload_kb:.0f} KB): {e}"
             time.sleep(5 * (attempt + 1))
             continue
 
@@ -380,7 +396,33 @@ def process_node(node, subj_code, qno_path, parent_id, disp_order,
                      current_id, i, session, writer, done, dry_run, test_mode, delay, media_dir)
 
 
-def process_file(path, session, writer, done, dry_run, test_mode, delay):
+BAD_SUBJ_CACHE_PATH = "bad_subj_codes.json"
+
+
+def load_bad_subj_codes(cache_path=BAD_SUBJ_CACHE_PATH):
+    """subj_codes already confirmed missing (NULL Subj_Id) on the server,
+    across this run and any previous one. Checked BEFORE calling the API,
+    so a known-bad file is skipped in under a second instead of costing
+    another ~90s round trip to find out again."""
+    if not os.path.exists(cache_path):
+        return set()
+    try:
+        with open(cache_path, "r", encoding="utf-8") as f:
+            return set(json.load(f))
+    except (json.JSONDecodeError, OSError):
+        return set()
+
+
+def save_bad_subj_code(subj_code, cache_path=BAD_SUBJ_CACHE_PATH):
+    codes = load_bad_subj_codes(cache_path)
+    if subj_code in codes:
+        return
+    codes.add(subj_code)
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(sorted(codes), f, indent=2)
+
+
+def process_file(path, session, writer, done, dry_run, test_mode, delay, bad_subj_codes):
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -391,6 +433,19 @@ def process_file(path, session, writer, done, dry_run, test_mode, delay):
     if media_dir_name:
         media_dir = path.parent / media_dir_name
     print(f"Processing {path.name} ({len(questions)} top-level questions)")
+
+    # Already confirmed missing on the server (this run or a previous one) ->
+    # skip instantly, no API call, no ~90s wait.
+    if subj_code in bad_subj_codes:
+        print(f"  SKIPPING (known bad subj_code): {subj_code!r} -- {path.name}")
+        writer.writerow({
+            "file": path.name,
+            "qno_path": "FILE",
+            "status": "skipped-file",
+            "detail": f"subj_code {subj_code!r} previously confirmed not found (cached)",
+            "new_id": "",
+        })
+        return
 
     for i, q in enumerate(questions):
         q["_file"] = path.name
@@ -407,6 +462,8 @@ def process_file(path, session, writer, done, dry_run, test_mode, delay):
                 "detail": f"subj_code {subj_code!r} not found",
                 "new_id": "",
             })
+            bad_subj_codes.add(subj_code)
+            save_bad_subj_code(subj_code)
             break
 
 
@@ -447,9 +504,14 @@ def main():
         if not log_exists:
             writer.writeheader()
 
+        bad_subj_codes = load_bad_subj_codes()
+        if bad_subj_codes:
+            print(f"Loaded {len(bad_subj_codes)} known-bad subj_code(s) from "
+                  f"{BAD_SUBJ_CACHE_PATH} -- those files will be skipped instantly.")
+
         for path in files:
             try:
-                process_file(path, session, writer, done, args.dry_run, args.test, args.delay)
+                process_file(path, session, writer, done, args.dry_run, args.test, args.delay, bad_subj_codes)
             except Exception as e:
                 print(f"ERROR processing {path.name}: {e}", file=sys.stderr)
             logf.flush()
