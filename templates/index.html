@@ -93,7 +93,7 @@
   /* ---- two-panel layout ---- */
   .panels{
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
     gap:20px;
   }
   @media (max-width:760px){
@@ -158,6 +158,18 @@
     display:none;
   }
   .filelist.show{display:block;}
+
+  .checkrow{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:0.82rem;
+    color:var(--ink-soft);
+    cursor:pointer;
+    user-select:none;
+  }
+  .checkrow input{width:14px; height:14px; accent-color:var(--accent);}
+  .checkrow strong{color:var(--ink); font-weight:600;}
 
   button.run{
     font-family:"Space Grotesk", sans-serif;
@@ -255,6 +267,7 @@
     <div class="titleblock__meta">
       <div><span class="label">output path</span><span class="val" title="{{ result_path }}">{{ result_path }}</span></div>
       <div><span class="label">BEARER_TOKEN</span><span class="val {{ 'yes' if bearer_configured else 'no' }}">{{ 'configured' if bearer_configured else 'missing' }}</span></div>
+      <div><span class="label">ques_TOKEN</span><span class="val {{ 'yes' if ques_token_configured else 'no' }}">{{ 'configured' if ques_token_configured else 'missing' }}</span></div>
       <div><span class="label">runs on</span><span class="val">127.0.0.1:5000</span></div>
     </div>
   </div>
@@ -296,9 +309,33 @@
       </div>
     </section>
 
+    <!-- UPLOAD TO DB PANEL -->
+    <section class="panel" data-kind="upload_db" data-endpoint="/upload_db" data-accept=".json" data-extra-form="dry_run">
+      <div class="panel__head">
+        <h2>Upload to DB</h2>
+        <span>.json → SaveQuestion API</span>
+      </div>
+      <div class="panel__body">
+        <label class="dropzone" data-role="dropzone">
+          <p><strong>Choose .json files</strong><br>or drag them here</p>
+          <input type="file" accept=".json" multiple data-role="input">
+        </label>
+        <div class="filelist" data-role="filelist"></div>
+        <label class="checkrow">
+          <input type="checkbox" data-role="dry-run" checked>
+          <span><strong>Dry run</strong> -- print payloads, don't call the API</span>
+        </label>
+        <button class="run" data-role="run" disabled>Upload</button>
+        <span class="status idle" data-role="status">idle</span>
+        <div class="console" data-role="console"></div>
+        <div class="summary" data-role="summary"></div>
+        <p class="pathnote">Uncheck "Dry run" once you've confirmed the payloads look right. This calls the live QuestionBank API and writes real rows.</p>
+      </div>
+    </section>
+
   </div>
 
-  <footer>Runs entirely on this machine. The only outbound calls are the image uploads doc_to_json.py already makes to your configured SFM_UPLOAD_URL.</footer>
+  <footer>Runs entirely on this machine. Outbound calls: image uploads to your configured SFM_UPLOAD_URL, and (Upload to DB, when Dry run is off) question inserts to your configured API_BASE_URL.</footer>
 </div>
 
 <script>
@@ -307,6 +344,7 @@ document.querySelectorAll(".panel").forEach(setupPanel);
 function setupPanel(panel){
   const endpoint = panel.dataset.endpoint;
   const noUpload = panel.dataset.noUpload === "true";
+  const acceptExt = panel.dataset.accept || null; // e.g. ".json" -- restricts drag-and-drop, not just the file picker
   const dropzone = panel.querySelector('[data-role="dropzone"]');
   const input = panel.querySelector('[data-role="input"]');
   const filelist = panel.querySelector('[data-role="filelist"]');
@@ -314,6 +352,7 @@ function setupPanel(panel){
   const statusEl = panel.querySelector('[data-role="status"]');
   const consoleEl = panel.querySelector('[data-role="console"]');
   const summaryEl = panel.querySelector('[data-role="summary"]');
+  const dryRunEl = panel.querySelector('[data-role="dry-run"]');
 
   let chosenFiles = [];
 
@@ -323,6 +362,9 @@ function setupPanel(panel){
   if (!noUpload && dropzone) {
     input.addEventListener("change", () => {
       chosenFiles = Array.from(input.files);
+      if (acceptExt) {
+        chosenFiles = chosenFiles.filter(f => f.name.toLowerCase().endsWith(acceptExt));
+      }
       renderFileList();
     });
 
@@ -336,6 +378,9 @@ function setupPanel(panel){
         chosenFiles = await filesFromDataTransferItems(items);
       } else {
         chosenFiles = Array.from(e.dataTransfer.files);
+      }
+      if (acceptExt) {
+        chosenFiles = chosenFiles.filter(f => f.name.toLowerCase().endsWith(acceptExt));
       }
       renderFileList();
     });
@@ -382,6 +427,13 @@ function setupPanel(panel){
   runBtn.addEventListener("click", () => runJob());
 
   async function runJob(){
+    // Extra confirmation before a real (non-dry-run) write to the live
+    // database -- this is the one panel here that isn't easily undone.
+    if (dryRunEl && !dryRunEl.checked) {
+      const ok = confirm("Dry run is OFF. This will call the live SaveQuestion API and write real rows. Continue?");
+      if (!ok) return;
+    }
+
     runBtn.disabled = true;
     setStatus("run", noUpload ? "running…" : "uploading…");
     consoleEl.textContent = "";
@@ -392,6 +444,7 @@ function setupPanel(panel){
     if (!noUpload) {
       const form = new FormData();
       chosenFiles.forEach(f => form.append("files", f, f.webkitRelativePath || f.name));
+      if (dryRunEl) form.append("dry_run", dryRunEl.checked ? "1" : "0");
       fetchOpts.body = form;
     }
 
@@ -461,9 +514,10 @@ function setupPanel(panel){
   }
 
   function classify(line){
-    if (line.includes("[WARN]") || line.includes("[WARNING]")) return "warn";
-    if (line.includes("[ERROR]")) return "err";
-    if (line.includes("[OK]") || line.includes("[REUSE]") || line.startsWith("Done.")) return "ok";
+    if (line.includes("[WARN]") || line.includes("[WARNING]") || line.includes("WARNING:")) return "warn";
+    if (line.includes("[ERROR]") || line.includes("FAILED") || line.includes("not found on server")) return "err";
+    if (line.includes("[OK]") || line.includes("[REUSE]") || line.startsWith("Done.")
+        || line.includes("-> uploaded") || line.includes("[DRY RUN]")) return "ok";
     return "dim";
   }
 

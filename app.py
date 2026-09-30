@@ -1,25 +1,3 @@
-"""
-Local web frontend for doc_to_json.py.
-
-Run this in the SAME folder as doc_to_json.py and your .env file:
-
-    pip install flask --break-system-packages
-    python app.py
-
-Then open http://127.0.0.1:5000 in a browser. It gives you:
-  - a folder-upload "Convert" panel that runs doc_to_json.run_pipeline()
-    on every .docx it finds, with a live log console
-  - a folder-upload "Refresh URLs" panel that runs refresh_json_file() on
-    every .json it finds (same thing as `python doc_to_json.py --refresh`)
-  - a zip download of the results when a job finishes
-
-Every existing print() statement in doc_to_json.py shows up in the
-browser's live console as-is -- nothing in doc_to_json.py needed to be
-rewritten to use a logger. This works by temporarily redirecting
-sys.stdout, per background thread, into that job's queue (see _ThreadTee
-below), so doc_to_json.py's own code never has to know it's being
-watched.
-"""
 import queue
 import sys
 import tempfile
@@ -31,6 +9,7 @@ from pathlib import Path
 from flask import Flask, Response, jsonify, render_template, request
 
 import doc_to_json as pipeline
+import json_to_db as db_pipeline
 
 app = Flask(__name__)
 
@@ -109,7 +88,7 @@ def _new_job(kind: str) -> str:
     # more of Windows' 260-char MAX_PATH budget for the uploaded folder's own
     # (sometimes long) relative paths and filenames
     job_dir = JOBS_ROOT / job_id
-    if kind == "convert":
+    if kind in ("convert", "upload_db"):
         (job_dir / "input").mkdir(parents=True)
     with _jobs_lock:
         _jobs[job_id] = {
@@ -193,11 +172,45 @@ def _run_refresh_job(job_id: str):
         job["queue"].put(None)
 
 
+def _run_upload_db_job(job_id: str, dry_run: bool):
+    job = _jobs[job_id]
+    _tee.register(job["queue"])
+    try:
+        input_dir = JOBS_ROOT / job_id / "input"
+        log_path = JOBS_ROOT / job_id / "upload_log.csv"
+        # bad_subj_codes.json is shared across every upload job (not put in
+        # the per-job folder), so a subj_code found bad in one run is
+        # skipped instantly in the next, same as the CLI's behaviour when
+        # you keep re-running it against the same output folder.
+        shared_bad_subj_cache = str(JOBS_ROOT / "bad_subj_codes.json")
+        print(f"{'DRY RUN -- ' if dry_run else ''}Uploading question JSON from {input_dir}")
+        summary = db_pipeline.run_upload(
+            input_dir,
+            log=str(log_path),
+            dry_run=dry_run,
+            bad_subj_cache_path=shared_bad_subj_cache,
+        )
+        job["summary"] = summary
+        job["status"] = "done"
+    except db_pipeline.MissingTokenError as e:
+        print(f"[ERROR] {e}")
+        job["error"] = str(e)
+        job["status"] = "error"
+    except Exception as e:
+        print(f"[ERROR] {e}")
+        job["error"] = str(e)
+        job["status"] = "error"
+    finally:
+        _tee.unregister()
+        job["queue"].put(None)
+
+
 @app.route("/")
 def index():
     return render_template(
         "index.html",
         bearer_configured=bool(pipeline.BEARER_TOKEN),
+        ques_token_configured=bool(db_pipeline.QUES_TOKEN),
         result_path=str(RESULT_PATH),
     )
 
@@ -229,6 +242,48 @@ def refresh():
     job_id = _new_job("refresh")
     threading.Thread(target=_run_refresh_job, args=(job_id,), daemon=True).start()
     return jsonify({"job_id": job_id})
+
+
+@app.route("/upload_db", methods=["POST"])
+def upload_db():
+    job_id = _new_job("upload_db")
+    job_dir = JOBS_ROOT / job_id
+    try:
+        n = _save_uploaded_folder(job_dir)
+    except OSError as e:
+        with _jobs_lock:
+            del _jobs[job_id]
+        return jsonify({"error": f"Could not save an uploaded file ({e})."}), 500
+    if n == 0:
+        with _jobs_lock:
+            del _jobs[job_id]
+        return jsonify({"error": "No files were uploaded."}), 400
+    # Reject anything that isn't .json up front, so a wrong drag-and-drop
+    # (e.g. the .docx folder) fails fast with a clear reason instead of
+    # silently finding "no .json files" deep inside run_upload().
+    input_dir = job_dir / "input"
+    non_json = [str(p.relative_to(input_dir)) for p in input_dir.rglob("*")
+                if p.is_file() and p.suffix.lower() != ".json"]
+    if non_json:
+        with _jobs_lock:
+            del _jobs[job_id]
+        sample = ", ".join(non_json[:5])
+        return jsonify({"error": f"Only .json files are accepted here ({sample}...)."}), 400
+    # run_upload() only looks at the immediate top level of the folder it's
+    # given (matching the CLI's behaviour), so if a whole folder got
+    # dragged in rather than loose files, flatten everything up to
+    # input_dir's root first.
+    for p in list(input_dir.rglob("*.json")):
+        if p.parent != input_dir:
+            dest = input_dir / p.name
+            i = 1
+            while dest.exists():
+                dest = input_dir / f"{p.stem}_{i}{p.suffix}"
+                i += 1
+            p.rename(dest)
+    dry_run = request.form.get("dry_run") == "1"
+    threading.Thread(target=_run_upload_db_job, args=(job_id, dry_run), daemon=True).start()
+    return jsonify({"job_id": job_id, "files_received": n})
 
 
 @app.route("/stream/<job_id>")

@@ -1,51 +1,3 @@
-#!/usr/bin/env python3
-"""
-upload_questions.py
-
-Reads all *.json question-bank files from a folder and POSTs each question
-to the PSG Tech QuestionBank SaveQuestion API.
-
-SETUP
------
-1. pip install requests python-dotenv
-2. Create a .env file next to this script:
-       ques_TOKEN=your_token_here
-   (kept separate from doc_to_json.py's BEARER_TOKEN -- that script's token
-   is for the file/image upload service; this one is for the QuestionBank
-   SaveQuestion + UploadQuestionImages APIs, so the two no longer need to
-   share/overwrite the same .env value.)
-3. Run a test on a single file first (ALWAYS do this before a full run):
-       python upload_questions.py --folder /path/to/json_files --test
-
-   This prints the exact payload for each question AND the raw server
-   response for the first successful call, so you can confirm the
-   response actually contains the new question's ID under the key this
-   script expects (see extract_new_id() below -- edit it if the real
-   key is different).
-
-4. Dry run (no network calls, just show what would be sent):
-       python upload_questions.py --folder /path/to/json_files --dry-run
-
-5. Full run:
-       python upload_questions.py --folder /path/to/json_files
-
-   Safe to interrupt and re-run: already-successful (file, qno-path)
-   pairs are skipped based on the log file (--log, default
-   upload_log.csv).
-
-FIELD MAPPING (per your instructions)
---------------------------------------
-Only these fields are populated; everything else is sent as 0 / "" / [].
-    subj_Code    <- top-level "subj_code" in each JSON file
-    ques_Content <- "Description" of each question/sub-question node
-    parntQus_Id  <- the server-assigned ID of the nearest ancestor node
-                    that actually had a Description (0 if none)
-    quesType_Id  <- 1 (fixed, as instructed)
-    disp_Order   <- sibling index (0, 1, 2, ...)
-    hash_*/enc_*/nonce_*/orig_* fields <- "" (empty, per your instructions)
-    answers / skippedDuplicates <- [] (empty lists)
-"""
-
 import argparse
 import base64
 import csv
@@ -73,9 +25,8 @@ API_URL = os.getenv(
 # .env if this batch belongs to a different exam.
 EXAM_ID_DEFAULT = int(os.getenv("EXAM_ID_DEFAULT", "1"))
 
-# Default folder containing the source .json files.
-# Change this path if you move the files, or override at runtime with --folder.
-DEFAULT_FOLDER = r"C:\Users\Administrator\Desktop\DocQues\res"
+
+DEFAULT_FOLDER = r"C:\Users\Administrator\Downloads\DocQuesBuild\test"
 
 QUES_TOKEN = os.getenv("ques_TOKEN")
 
@@ -467,6 +418,71 @@ def process_file(path, session, writer, done, dry_run, test_mode, delay, bad_sub
             break
 
 
+class MissingTokenError(Exception):
+    """Raised by run_upload() instead of sys.exit(), so callers other than
+    the CLI (e.g. the web app) can catch this and show it in their own UI
+    rather than having the whole process killed."""
+
+
+def run_upload(folder, log="upload_log.csv", dry_run=False, test_mode=False,
+                limit=None, delay=0.6, bad_subj_cache_path=None):
+    """
+    Core upload loop, callable directly (not just via the CLI). Same
+    behaviour as main(), but takes plain arguments, returns a summary
+    dict instead of printing "Done." and exiting, and raises
+    MissingTokenError instead of sys.exit(1) on a missing token so a
+    caller like the web app can handle it gracefully.
+    """
+    if not dry_run and not QUES_TOKEN:
+        raise MissingTokenError(
+            "ques_TOKEN not found. Put it in a .env file as ques_TOKEN=..."
+        )
+
+    folder = Path(folder)
+    files = sorted(folder.glob("*.json"))
+    if not files:
+        raise FileNotFoundError(f"No .json files found in {folder}")
+
+    if test_mode:
+        files = files[:1]
+        print(f"TEST MODE: processing only {files[0].name}")
+    elif limit:
+        files = files[:limit]
+
+    done = load_processed(log)
+    log_exists = os.path.exists(log)
+
+    session = requests.Session()
+    bad_subj_cache_path = bad_subj_cache_path or BAD_SUBJ_CACHE_PATH
+
+    with open(log, "a", newline="", encoding="utf-8") as logf:
+        writer = csv.DictWriter(logf, fieldnames=["file", "qno_path", "status", "detail", "new_id"])
+        if not log_exists:
+            writer.writeheader()
+
+        bad_subj_codes = load_bad_subj_codes(bad_subj_cache_path)
+        if bad_subj_codes:
+            print(f"Loaded {len(bad_subj_codes)} known-bad subj_code(s) from "
+                  f"{bad_subj_cache_path} -- those files will be skipped instantly.")
+
+        ok = errors = 0
+        for path in files:
+            try:
+                process_file(path, session, writer, done, dry_run, test_mode, delay, bad_subj_codes)
+                ok += 1
+            except Exception as e:
+                errors += 1
+                # Deliberately stdout, not stderr: callers like the web app
+                # only capture/stream stdout, and an error that's silently
+                # invisible in the live console is worse than one on the
+                # "wrong" stream for CLI purists.
+                print(f"[ERROR] processing {path.name}: {e}")
+            logf.flush()
+
+    print(f"\nDone. See {log} for full results.")
+    return {"total_files": len(files), "processed": ok, "errors": errors, "log": str(log)}
+
+
 def main():
     parser = argparse.ArgumentParser(description="Upload question-bank JSON files to SaveQuestion API")
     parser.add_argument("--folder", default=DEFAULT_FOLDER,
@@ -478,45 +494,15 @@ def main():
     parser.add_argument("--delay", type=float, default=0.6, help="Seconds to sleep between real API calls")
     args = parser.parse_args()
 
-    if not args.dry_run and not QUES_TOKEN:
-        print("ERROR: ques_TOKEN not found. Put it in a .env file as ques_TOKEN=...", file=sys.stderr)
+    try:
+        run_upload(args.folder, log=args.log, dry_run=args.dry_run, test_mode=args.test,
+                   limit=args.limit, delay=args.delay)
+    except MissingTokenError as e:
+        print(f"ERROR: {e}", file=sys.stderr)
         sys.exit(1)
-
-    folder = Path(args.folder)
-    files = sorted(folder.glob("*.json"))
-    if not files:
-        print(f"No .json files found in {folder}", file=sys.stderr)
+    except FileNotFoundError as e:
+        print(str(e), file=sys.stderr)
         sys.exit(1)
-
-    if args.test:
-        files = files[:1]
-        print(f"TEST MODE: processing only {files[0].name}")
-    elif args.limit:
-        files = files[: args.limit]
-
-    done = load_processed(args.log)
-    log_exists = os.path.exists(args.log)
-
-    session = requests.Session()
-
-    with open(args.log, "a", newline="", encoding="utf-8") as logf:
-        writer = csv.DictWriter(logf, fieldnames=["file", "qno_path", "status", "detail", "new_id"])
-        if not log_exists:
-            writer.writeheader()
-
-        bad_subj_codes = load_bad_subj_codes()
-        if bad_subj_codes:
-            print(f"Loaded {len(bad_subj_codes)} known-bad subj_code(s) from "
-                  f"{BAD_SUBJ_CACHE_PATH} -- those files will be skipped instantly.")
-
-        for path in files:
-            try:
-                process_file(path, session, writer, done, args.dry_run, args.test, args.delay, bad_subj_codes)
-            except Exception as e:
-                print(f"ERROR processing {path.name}: {e}", file=sys.stderr)
-            logf.flush()
-
-    print(f"\nDone. See {args.log} for full results.")
 
 
 if __name__ == "__main__":

@@ -1,31 +1,3 @@
-"""
-Extract QUESTION CONTENT from .docx files into nested JSON.
-
-Handles two document shapes:
-  1. Simple: each question is its own small [Qno, Title] Word table (flat output).
-  2. Nested: a digit-level question's table cell contains a full block of text
-     with category headers (A/B/C/D/E...), Roman-numeral subsections, and
-     numbered sub-questions all mixed together as plain paragraph text.
-
-Category header lines (e.g. "A. LISTENING SKILLS (15 marks)") are dropped.
-Embedded data tables (fill-in-the-blank grids, substitution tables) are
-skipped - only their preceding instruction line is kept.
-Ambiguous Roman-numeral detections are flagged for manual review rather
-than guessed silently.
-
-Image URLs are S3 presigned links that expire ~900s (15 min) after being
-issued -- baking one into the JSON at conversion time and leaving it there
-is what causes broken images in the frontend later on. Re-run this script
-in refresh mode any time before the JSON is actually displayed:
-
-    python doc_to_json.py --refresh path/to/output.json
-    python doc_to_json.py --refresh path/to/output_dir   # refreshes every *.json in it
-
-This re-signs each image's URL from its durable S3 key ("filePath") without
-touching question text, and can be run as often as needed (e.g. on a timer,
-or right before serving the JSON to the frontend).
-"""
-
 import json
 import os
 import re
@@ -65,12 +37,9 @@ except ImportError:
     _imagecodecs = None
 
 
-# ============================================================================
-# SET THESE TWO PATHS AND RUN THE SCRIPT WITH NO ARGUMENTS
-# ============================================================================
-INPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\files"
-OUTPUT_PATH = r"C:\Users\Administrator\Desktop\DocQues\res"
-# ============================================================================
+
+INPUT_PATH = r"C:\Users\Administrator\Downloads\DocQuesBuild\test"
+OUTPUT_PATH = r"C:\Users\Administrator\Downloads\DocQuesBuild\test"
 
 load_dotenv()
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
@@ -118,12 +87,6 @@ def extract_subj_code(stem: str) -> str:
 # docx2python inserts a placeholder like "----media/image1.emf----" (or .png,
 # .jpg, etc.) into extracted text wherever an embedded image sits in a cell.
 IMAGE_MARKER_RE = re.compile(r'----media/(image\d+\.\w+)----')
-# docx2python also wraps every picture's alt text in a visible marker just
-# before the media placeholder, e.g.
-#   "----Image alt text---->C:\\Users\\x\\Parabolic Arch.jpg<----media/image1.jpeg----"
-# The alt text is a local file path from the author's machine - useless to
-# students and must never reach the frontend. Strip the whole wrapper; the
-# "----media/...----" placeholder that follows is kept (it becomes the <img>).
 IMAGE_ALT_MARKER_RE = re.compile(r'----Image alt text---->.*?<(?=----media/)', re.DOTALL)
 # Safety net for an alt-text marker that is not followed by a media placeholder.
 IMAGE_ALT_MARKER_LOOSE_RE = re.compile(r'----Image alt text---->[^<\n]*<?')
@@ -1207,9 +1170,6 @@ def process_file(docx_path: Path, out_dir: Path):
                 entry.update(url_map[fname])
             uploaded_media.append(entry)
 
-        # Bake the real uploaded URLs into each question's Description in
-        # place of the raw "----media/imageN.ext----" placeholder, so the
-        # placeholder text never lands in the database.
         url_by_filename = {fname: info["imageUrl"] for fname, info in url_map.items() if info.get("imageUrl")}
         if url_by_filename:
             substitute_image_placeholders(questions, url_by_filename)
@@ -1240,21 +1200,6 @@ def process_file(docx_path: Path, out_dir: Path):
 
 
 def run_pipeline(input_path: Path, output_path: Path) -> dict:
-    """
-    Converts every .docx under input_path (or just input_path itself, if
-    it's a single .docx file) into output_path, using process_file() for
-    each. Shared by both the CLI (main(), below) and the web frontend
-    (app.py), so the two never drift out of sync. All progress/warnings
-    go through print(), same as the rest of this script -- the web
-    frontend captures those by redirecting stdout, not by changing this
-    function's shape.
-
-    Returns a summary dict: {"total", "ok", "no_questions", "images",
-    "equations", "errors", "duplicates": [(stem, [Path, ...]), ...]}.
-    Raises FileNotFoundError / ValueError instead of calling sys.exit(),
-    so callers other than the CLI (like a web request) can turn a bad
-    path into a proper error response instead of killing the process.
-    """
     if not input_path.exists():
         raise FileNotFoundError(f"Path does not exist: {input_path}")
 
@@ -1324,11 +1269,6 @@ def run_pipeline(input_path: Path, output_path: Path) -> dict:
 def main():
     args = sys.argv[1:]
 
-    # --refresh <json_file_or_dir>: re-sign expired presigned image URLs in
-    # an already-generated output JSON (or every *.json in a directory)
-    # without re-parsing the source .docx. Run this right before the JSON
-    # is actually displayed -- the URLs baked in at conversion time expire
-    # after ~900s, which is what was causing broken images in the frontend.
     if args and args[0] == "--refresh":
         refresh_args = args[1:]
         target = (Path(refresh_args[0]).expanduser().resolve()

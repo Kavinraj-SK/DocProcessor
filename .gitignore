@@ -4,7 +4,4 @@ files/
 upload_log.csv
 res/
 EdgeCase/
-op/
-DocEdgeCase/
-JsonEdgeCase/
 bad_subj_codes.json
