@@ -45,14 +45,6 @@ _jobs = {}
 _jobs_lock = threading.Lock()
 
 
-# ----------------------------------------------------------------------
-# Captures every print() a job's background thread makes, without
-# touching doc_to_json.py at all. sys.stdout is replaced exactly once,
-# globally, at import time, with an object that looks up a *per-thread*
-# target queue -- so concurrent jobs (each in their own thread) don't
-# cross-talk, and code running outside a job (or in the main thread)
-# still prints to the real terminal untouched.
-# ----------------------------------------------------------------------
 class _ThreadTee:
     def __init__(self, real_stdout):
         self._real = real_stdout
@@ -281,7 +273,7 @@ def upload_db():
                 dest = input_dir / f"{p.stem}_{i}{p.suffix}"
                 i += 1
             p.rename(dest)
-    dry_run = request.form.get("dry_run") == "1"
+    dry_run = request.form.get("dry_run") == "0"
     threading.Thread(target=_run_upload_db_job, args=(job_id, dry_run), daemon=True).start()
     return jsonify({"job_id": job_id, "files_received": n})
 
