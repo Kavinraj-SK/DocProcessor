@@ -24,7 +24,7 @@ API_URL=os.getenv('API_BASE_URL','https://polyexam.tnedu.in/Dote/api/QuestionBan
 EXAM_ID_DEFAULT = int(os.getenv("EXAM_ID_DEFAULT", "1"))
 
 
-DEFAULT_FOLDER = r"C:\Users\Administrator\Desktop\DocProcessor-main\File"
+DEFAULT_FOLDER = r"C:\Users\Administrator\Desktop\DocProcessor-main\test"
 
 QUES_TOKEN = os.getenv("ques_TOKEN")
 
