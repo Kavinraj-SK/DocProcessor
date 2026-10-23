@@ -1,0 +1,122 @@
+import argparse
+import json
+import os
+import sys
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+try:
+    import requests
+except ImportError:
+    sys.exit("Missing dependency. Install it with:\n    pip install requests --break-system-packages")
+
+load_dotenv()
+BEARER_TOKEN = os.getenv("BEARER_TOKEN")
+SFM_VIEW_URL = os.getenv("SFM_VIEW_URL", "https://campus.psgtech.ac.in/sfm/api/files/viewfileurl")
+
+
+def refresh_urls(file_paths):
+    """s3 key (filePath) -> fresh imageUrl, one ViewFileUrl call per key."""
+    if not file_paths:
+        return {}
+
+    headers = {}
+    if BEARER_TOKEN:
+        headers["Authorization"] = f"Bearer {BEARER_TOKEN}"
+
+    url_map = {}
+    for fp in file_paths:
+        try:
+            resp = requests.get(SFM_VIEW_URL, params={"filepath": fp}, headers=headers, timeout=30)
+            if not resp.ok:
+                print(f"  [WARN] ViewFileUrl failed for {fp}: {resp.status_code} -- {resp.text[:200]}")
+                continue
+            result = resp.json()
+        except Exception as e:
+            print(f"  [WARN] ViewFileUrl request failed for {fp}: {e}")
+            continue
+
+        if result.get("isError"):
+            print(f"  [WARN] ViewFileUrl reported error for {fp}: {result.get('message')}")
+            continue
+        
+        url = (result.get("result") or {}).get("url")
+        if url:
+            url_map[fp] = url
+
+    return url_map
+
+
+def update_json_file(path: Path, url_map: dict) -> bool:
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    media = data.get("_embedded_media")
+    if not media:
+        return False
+
+    changed = False
+    for entry in media:
+        fp = entry.get("filePath")
+        if fp and fp in url_map:
+            entry["imageUrl"] = url_map[fp]
+            changed = True
+
+    if changed:
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    return changed
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Refresh expired S3 image URLs in question JSON files")
+    parser.add_argument("--folder", required=True, help="Folder containing the JSON files to refresh")
+    args = parser.parse_args()
+
+    folder = Path(args.folder)
+    json_files = sorted(folder.glob("*.json"))
+    if not json_files:
+        sys.exit(f"No .json files found in {folder}")
+
+    # Collect every filePath across every file first so this is ONE batch
+    # request, not one request per file/image.
+    all_file_paths = set()
+    file_media_map = {}
+    for jf in json_files:
+        try:
+            with open(jf, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            print(f"  [WARN] couldn't read {jf.name}: {e}")
+            continue
+        media = data.get("_embedded_media") or []
+        fps = [m.get("filePath") for m in media if m.get("filePath")]
+        if fps:
+            file_media_map[jf] = fps
+            all_file_paths.update(fps)
+
+    if not all_file_paths:
+        print("No embedded images with a filePath found -- nothing to refresh.")
+        return
+
+    print(f"Refreshing {len(all_file_paths)} image URL(s) across {len(file_media_map)} file(s)...")
+    url_map = refresh_urls(sorted(all_file_paths))
+    if not url_map:
+        sys.exit("No URLs were refreshed -- aborting without touching any files.")
+
+    updated = 0
+    for jf in file_media_map:
+        if update_json_file(jf, url_map):
+            updated += 1
+
+    print(f"Done. Updated {updated}/{len(file_media_map)} file(s).")
+    missing = all_file_paths - set(url_map.keys())
+    if missing:
+        preview = sorted(missing)[:5]
+        print(f"  [WARN] {len(missing)} filePath(s) got no fresh URL back: "
+              f"{preview}{'...' if len(missing) > 5 else ''}")
+
+
+if __name__ == "__main__":
+    main()
