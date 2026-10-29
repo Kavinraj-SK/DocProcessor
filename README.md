@@ -5,7 +5,7 @@ pip install -r requirements.txt
 
 
 ## 2. Configure your token
- `BEARER_TOKEN` & `ques_TOKEN`
+`ques_TOKEN`
 
 
 ## 3. Run it
